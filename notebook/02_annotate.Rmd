@@ -1,0 +1,938 @@
+---
+title: "02_annotate.md"
+author: "Gulnara Tagridzhanova"
+date: "04/04/2023"
+output: 
+  html_document:
+    code_folding: hide
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(stringr)
+```
+
+**Description:** Annotation of Xanthoria genomes:
+
+* new X. calcicola (GTX0491)
+* X. parietina from Ellen Cameron (SAMEA115359166)
+* X. parietina from the Aquetic Symbiosis Genomes (ASG) project (GCA964656405, SAMEA111342678)
+* The third X. parietina genome comes from our previous paper (GTX0501). Here, I will use some of the files produced for that study
+
+## 1. Preparation
+
+### 1.1. Get references for mating loci
+* [Scherrer et al. 2005](https://www.sciencedirect.com/science/article/pii/S1087184505001374?casa_token=usjx1V1_XdEAAAAA:PJ2mtsc-ctaVJwEYsTFStfKhAy5WGY3NJKKZQ7PaczKUr_s7rBoVhTk9y7hyK6UYYh_p0tQsjstZ#aep-abstract-id11) shows that different Xanthoria behave differently
+  * X. parietina is homothallic, with only MAT1-2-1 (HMG-box protein) in all isolates
+  * X. elegans is also homothallic, but has both MAT1-2-1 (HMG-box protein) and MAT1-1-1 (alpha-domain protein)
+  * X. polycarpa is heterothallic, with either MAT1-2-1 or MAT1-1-1 
+  * In the intro they mention X. calcicola as a likely heterothallic species, based on the frequency of apothecia
+* Following [Lore's paper](https://www.frontiersin.org/articles/10.3389/ffunb.2021.656386/full?ref=https://githubhelp.com), I used sequences from X. polycarpa
+  * MAT1-1-1 as [AJ884599.1](https://www.ncbi.nlm.nih.gov/nuccore/AJ884599.1/)
+  * MAT1-2-1 as [AJ884598.1](https://www.ncbi.nlm.nih.gov/nuccore/AJ884598.1/)
+  * Saved all protein fastas associated with this entries as `../analysis_and_temp_files/02_annotate/mat.faa` (this includes flanking genes SLA2 and DNA lyase) and nucleotide fastas as `../analysis_and_temp_files/02_annotate/mat.fna`
+* Will give protein fastas to funannotate as evidence
+
+## 2. X. calcicola
+### 2.1. Cleaning and sorting the assemblies
+* Ran funannotate clean and sort 
+```{r,eval=F}
+singularity run ../singularity/funannotate.sif funannotate clean -i analysis_and_temp_files/01_calcicola_genome/GTX0491_xanthoria_nuclear_mag.fa -o analysis_and_temp_files/02_annotate/GTX0491_xanthoria_nuclear_mag_clean.fa
+singularity run ../singularity/funannotate.sif funannotate sort -i analysis_and_temp_files/02_annotate/GTX0491_xanthoria_nuclear_mag_clean.fa -o analysis_and_temp_files/02_annotate/GTX0491_xanthoria_nuclear_mag_clean_sort.fa -b Xc_GTX0491
+
+16 input contigs, 16 larger than 500 bp, N50 is 2,319,243 bp
+16 input contigs; 16 larger than 500 bp; 0 duplicated; 16 written to file
+```
+
+### 2.2. Repeat annotation
+### Repeat Modeling
+* Followed instructions from [here](https://www.clementgoubert.com/post/a-simple-pipeline-for-te-annotation-in-an-assembled-genome)
+* Software versions: RepeatModeler Version 2.0.3, rmblast 2.11.0+, TRF 4.09, RECON 1.08, RepeatScout 1.0.5, RepeatMasker 4.1.2, LTR Structural Analysis: Enabled (GenomeTools 1.6.0, LTR_Retriever v2.9.0, Ninja 0.97-cluster_only, MAFFT 7.471, CD-HIT 4.8.1)
+```{r,eval=F}
+source package 85eb6fb0-3eb7-43b2-9659-49e0142481fc
+
+BuildDatabase -name analysis_and_temp_files/06_annotate_lecanoro/Xc_GTX0491 analysis_and_temp_files/06_annotate_lecanoro/GTX0491_xanthoria_nuclear_mag_clean_sort.fa
+RepeatModeler -database analysis_and_temp_files/06_annotate_lecanoro/Xc_GTX0491 -pa 20 -LTRStruct >& analysis_and_temp_files/06_annotate_lecanoro/repeatmodeler_GTX0491.out
+
+source package /tsl/software/testing/bin/repeatmasker-4.0.9 
+RepeatMasker -pa 5 -a -s -gff -xsmall -lib analysis_and_temp_files/02_annotate/Xc_GTX0491-families.fa  analysis_and_temp_files/02_annotate/GTX0491_xanthoria_nuclear_mag_clean_sort.fa  &> analysis_and_temp_files/02_annotate/repeatmasker_GTX0491.run.out
+```
+```
+==================================================
+file name: GTX0491_xanthoria_nuclear_mag_clean_sort.fa
+sequences:            16
+total length:   36282728 bp  (36282728 bp excl N/X-runs)
+GC level:         45.59 %
+bases masked:    8408540 bp ( 23.18 %)
+==================================================
+               number of      length   percentage
+               elements*    occupied  of sequence
+--------------------------------------------------
+SINEs:                0            0 bp    0.00 %
+      ALUs            0            0 bp    0.00 %
+      MIRs            0            0 bp    0.00 %
+
+LINEs:                0            0 bp    0.00 %
+      LINE1           0            0 bp    0.00 %
+      LINE2           0            0 bp    0.00 %
+      L3/CR1          0            0 bp    0.00 %
+
+LTR elements:      3014      5361173 bp   14.78 %
+      ERVL            0            0 bp    0.00 %
+      ERVL-MaLRs      0            0 bp    0.00 %
+      ERV_classI      0            0 bp    0.00 %
+      ERV_classII     0            0 bp    0.00 %
+
+DNA elements:       183       215826 bp    0.59 %
+     hAT-Charlie      0            0 bp    0.00 %
+     TcMar-Tigger     0            0 bp    0.00 %
+
+Unclassified:      5039      1835937 bp    5.06 %
+
+Total interspersed repeats:  7412936 bp   20.43 %
+
+
+Small RNA:           42       208252 bp    0.57 %
+
+Satellites:          82         7313 bp    0.02 %
+Simple repeats:    5447       238572 bp    0.66 %
+Low complexity:     820        44186 bp    0.12 %
+```
+
+
+### 2.3. Gene predictions
+#### GeneMark ab initio predictions
+* Had to run GeneMark outside of funannotate, because of dependencties issues
+* Ran as a script
+```{r,eval=F}
+#gmes_petap.pl --ES --max_intron 3000 --soft_mask 2000 --cores $thread  --fungus --sequence ../../$filename
+code/genemark.sh analysis_and_temp_files/02_annotate/GTX0491_xanthoria_nuclear_mag_clean_sort.fa.masked analysis_and_temp_files/02_annotate/GTX0491_pred 20
+
+```
+
+#### Funannotate train+predict
+* Used the same RNA-seq from X. parietina GTX0501
+```{r,eval=F}
+#!/bin/bash
+#SBATCH --time=3-0:00:00
+#SBATCH --cpus-per-task=28
+#SBATCH --job-name=funtrain2
+#SBATCH --output=analysis_and_temp_files/02_annotate/funannotate-train_GTX0491.log
+#SBATCH --mem=80G
+
+singularity run ../singularity/funannotate.sif funannotate train -i analysis_and_temp_files/02_annotate/GTX0491_xanthoria_nuclear_mag_clean_sort.fa.masked -o analysis_and_temp_files/02_annotate/GTX0491_pred --jaccard_clip --strain GTX0491 \
+    --left /tsl/data/reads/ntalbot/lichen_coculture_i_21_days/21x_bmm1_ks/s_21xb1/raw/S_21XB1_1.fq.gz /tsl/data/reads/ntalbot/lichen_coculture_i_21_days/21x_bmm2_ks/ks21xb1/raw/KS21XB1_1.fq.gz /tsl/data/reads/ntalbot/lichen_coculture_i_21_days/21x_bmm3_ks/s_21xb3/raw/S_21XB3_1.fq.gz /tsl/data/reads/ntalbot/lichen_coculture_i_42_days/42x_bmm1_ks/s_42xb1/raw/S_42XB1_1.fq.gz /tsl/data/reads/ntalbot/lichen_coculture_i_42_days/42x_bmm2_ks/s_42xb2/raw/S_42XB2_1.fq.gz /tsl/data/reads/ntalbot/lichen_coculture_i_42_days/42x_bmm3_ks/s_42xb3/raw/S_42XB3_1.fq.gz /tsl/data/reads/ntalbot/lichen_coculture_i_2_days/48x_bmm1_ks/ks48xb1/raw/KS48XB1_1.fq.gz /tsl/data/reads/ntalbot/lichen_coculture_i_2_days/48x_bmm2_ks/ks48xb2/raw/KS48XB2_1.fq.gz /tsl/data/reads/ntalbot/lichen_coculture_i_2_days/48x_bmm3_ks/ks48xb3/raw/KS48XB3_1.fq.gz /tsl/data/reads/ntalbot/lichen_coculture_i_9_days/9x_bmm1_ks/ks9xb1/raw/KS9XB1_1.fq.gz /tsl/data/reads/ntalbot/lichen_coculture_i_9_days/9x_bmm2_ks/ks9xb2/raw/KS9XB2_1.fq.gz /tsl/data/reads/ntalbot/lichen_coculture_i_9_days/9x_bmm3_ks/ks9xb3/raw/KS9XB3_1.fq.gz \
+    --right  /tsl/data/reads/ntalbot/lichen_coculture_i_21_days/21x_bmm1_ks/s_21xb1/raw/S_21XB1_2.fq.gz /tsl/data/reads/ntalbot/lichen_coculture_i_21_days/21x_bmm2_ks/ks21xb1/raw/KS21XB1_2.fq.gz /tsl/data/reads/ntalbot/lichen_coculture_i_21_days/21x_bmm3_ks/s_21xb3/raw/S_21XB3_2.fq.gz /tsl/data/reads/ntalbot/lichen_coculture_i_42_days/42x_bmm1_ks/s_42xb1/raw/S_42XB1_2.fq.gz /tsl/data/reads/ntalbot/lichen_coculture_i_42_days/42x_bmm2_ks/s_42xb2/raw/S_42XB2_2.fq.gz /tsl/data/reads/ntalbot/lichen_coculture_i_42_days/42x_bmm3_ks/s_42xb3/raw/S_42XB3_2.fq.gz /tsl/data/reads/ntalbot/lichen_coculture_i_2_days/48x_bmm1_ks/ks48xb1/raw/KS48XB1_2.fq.gz /tsl/data/reads/ntalbot/lichen_coculture_i_2_days/48x_bmm2_ks/ks48xb2/raw/KS48XB2_2.fq.gz /tsl/data/reads/ntalbot/lichen_coculture_i_2_days/48x_bmm3_ks/ks48xb3/raw/KS48XB3_2.fq.gz /tsl/data/reads/ntalbot/lichen_coculture_i_9_days/9x_bmm1_ks/ks9xb1/raw/KS9XB1_2.fq.gz /tsl/data/reads/ntalbot/lichen_coculture_i_9_days/9x_bmm2_ks/ks9xb2/raw/KS9XB2_2.fq.gz /tsl/data/reads/ntalbot/lichen_coculture_i_9_days/9x_bmm3_ks/ks9xb3/raw/KS9XB3_2.fq.gz \
+    --species "Xanthoria calcicola" \
+    --cpus 28 --memory 80G
+```
+
+* Funannotate update: corrected over a half of protein models!
+```{r,eval=F}
+#!/bin/bash
+#SBATCH --time=3-0:00:00
+#SBATCH --cpus-per-task=28
+#SBATCH --job-name=funpred2
+#SBATCH --output=analysis_and_temp_files/02_annotate/funannotate-predict_GTX0491.log
+#SBATCH --mem=80G
+
+singularity run ../singularity/funannotate.sif funannotate predict -i analysis_and_temp_files/02_annotate/GTX0491_xanthoria_nuclear_mag_clean_sort.fa.masked -o analysis_and_temp_files/02_annotate/GTX0491_pred --species "Xanthoria calcicola" \
+    --cpus 28 --strain GTX0491 --optimize_augustus --genemark_gtf analysis_and_temp_files/02_annotate/GTX0491_pred/genemark/genemark.gtf --protein_evidence ../singularity/funannotate2/opt/databases/uniprot_sprot.fasta  analysis_and_temp_files/02_annotate/mat.faa
+    
+singularity run ../singularity/funannotate.sif funannotate update -i analysis_and_temp_files/02_annotate/GTX0491_pred --cpus 28
+```
+
+#### Fixing error
+* After trying to run files on antiSMASH, I discovered a bug: gff files had CDS duplicates: one gene had two CDS that differed only in UTR elements
+* Manually changed gff, gbk, protein, and tbl files to remove duplicates
+* Put those into the `update_results` folder. kept the original files in `update_notfixed`
+* In GTX0491, removed FUN_003486-T2. In GTX0501, removed FUN_000850-T2, FUN_001971-T2, FUN_001974-T2, FUN_001975-T2, FUN_006242-T2, FUN_006694-T2, FUN_007685-T2
+* In Xp_jgi duplicates: FUN_000084-T2, FUN_001527-T2, FUN_001785-T2, FUN_002323-T2, FUN_002448-T3, FUN_002962-T2, FUN_003840-T2, FUN_004229-T2, FUN_006332-T2, FUN_006039-T2, FUN_006356-T2, FUN_007026-T2, FUN_007398-T2, FUN_007866-T2, FUN_007970-T2, FUN_007976-T2, FUN_008529-T2, FUN_009309-T2, FUN_009679-T2, FUN_010812-T2. Here, edited only the tbl file, and then I re-run `funannotate fix`
+
+### 2.4. Functional annotation, external tools
+#### For eggnog-mapper, used the webserver http://eggnog-mapper.embl.de/
+  * on 12.09.2023
+  * database v5.0
+  * emapper v2.1.12
+```{r,eval=F}
+emapper.py --cpu 20 --mp_start_method forkserver --data_dir /dev/shm/ -o out --output_dir /emapper_web_jobs/emapper_jobs/user_data/MM_ysq45n67 --temp_dir /emapper_web_jobs/emapper_jobs/user_data/MM_ysq45n67 --override -m diamond --dmnd_ignore_warnings -i /emapper_web_jobs/emapper_jobs/user_data/MM_ysq45n67/queries.fasta --evalue 0.001 --score 60 --pident 40 --query_cover 20 --subject_cover 20 --itype proteins --tax_scope auto --target_orthologs all --go_evidence non-electronic --pfam_realign none --report_orthologs --decorate_gff yes --excel > /emapper_web_jobs/emapper_jobs/user_data/MM_ysq45n67/emapper.out 2> /emapper_web_jobs/emapper_jobs/user_data/MM_ysq45n67/emapper.err
+```
+#### For InterPro, ran it outside of funannotate, locally
+```{r,eval=F}
+#!/bin/bash
+#SBATCH --time=3-0:00:00
+#SBATCH --cpus-per-task=20
+#SBATCH --job-name=funpred2
+#SBATCH --output=analysis_and_temp_files/02_annotate/GTX0491_pred/logfiles/interproscan.log
+#SBATCH --mem=80G
+
+source package 0dd71e29-8eb1-4512-b37c-42f7158718f4
+source package /tsl/software/testing/bin/gcc-5.2.0 
+source package 999eb878-6c39-444e-a291-e2e0a86660e6
+source package /tsl/software/testing/bin/java-11.0.7  
+source package 0f2514dd-8288-47ed-96cd-80905f9b0644
+source package /tsl/software/production/bin/perl-5.16.2 
+
+mkdir -p analysis_and_temp_files/02_annotate/GTX0491_pred/interpro
+rm -rf temp
+/tsl/data/interproscan/5.42/interproscan.sh -i analysis_and_temp_files/02_annotate/GTX0491_pred/update_results/Xanthoria_calcicola_GTX0491.proteins.fa -d analysis_and_temp_files/02_annotate/GTX0491_pred/interpro -dp -f XML -goterms -dra -cpu 20
+```
+
+#### For SignalP, used local version
+* At first tried v6, but it wasn't parsed by funannotate. Switched to v5
+```{r,eval=F}
+source package /tsl/software/testing/bin/signalp-5.0b
+
+signalp -fasta analysis_and_temp_files/02_annotate/GTX0491_pred/update_results/Xanthoria_calcicola_GTX0491.proteins.fa -org euk -format short -batch 50000 
+ mv Xanthoria_calcicola_GTX0491.proteins_summary.signalp5  analysis_and_temp_files/02_annotate/GTX0491_pred
+
+```
+
+#### For antiSMASH, used the webserver
+* On 2023.09.12
+* Fungal version
+* Default search, with all extra features
+
+### 2.5. Funannotate annotate
+```{r,eval=F}
+#!/bin/bash
+#SBATCH --time=6:00:00
+#SBATCH --cpus-per-task=20
+#SBATCH --job-name=annot
+#SBATCH --output=analysis_and_temp_files/02_annotate/GTX0491_pred/logfiles/annotate.log
+#SBATCH --mem=80G
+
+singularity run ../singularity/funannotate.sif funannotate annotate -i analysis_and_temp_files/02_annotate/GTX0491_pred --iprscan analysis_and_temp_files/02_annotate/GTX0491_pred/interpro/Xanthoria_calcicola_GTX0491.proteins.fa.xml --eggnog analysis_and_temp_files/02_annotate/GTX0491_pred/emapper/out.emapper.annotations --antismash analysis_and_temp_files/02_annotate/GTX0491_pred/antismash/Xanthoria_calcicola_GTX0491.gbk --signalp  analysis_and_temp_files/02_annotate/GTX0491_pred/Xanthoria_calcicola_GTX0491.proteins_summary.signalp5 --cpus 20  --sbt analysis_and_temp_files/02_annotate/template.sbt  --isolate GTX0491
+```
+
+## 3. Annotating the SAMEA111342678 genome
+* December 2024, ASG released official assembly for X. parietina. It's not clear when (and whether) they are planning to releaase the official annotation, so I will start by annotating the genome myself
+* Will refer to it by its NCBI id
+* Will follow the same strategy as before
+* Stats using BBMap 39.01   
+```{r,eval =F}
+source package cf33bb3d-b7c0-450b-ac7d-ebedff25d497 
+stats.sh in=data/GCA_964656405.1.fasta 
+
+A       C       G       T       N       IUPAC   Other   GC      GC_stdev
+0.2476  0.2522  0.2533  0.2469  0.0001  0.0000  0.0000  0.5055  0.0502
+
+Main genome scaffold total:             17
+Main genome contig total:               33
+Main genome scaffold sequence total:    30.389 MB
+Main genome contig sequence total:      30.386 MB       0.011% gap
+Main genome scaffold N/L50:             7/2.048 MB
+Main genome contig N/L50:               7/1.82 MB
+Main genome scaffold N/L90:             14/1.265 MB
+Main genome contig N/L90:               17/671 KB
+Max scaffold length:                    3.665 MB
+Max contig length:                      3.21 MB
+Number of scaffolds > 50 KB:            16
+% main genome in scaffolds > 50 KB:     99.88%
+
+
+Minimum         Number          Number          Total           Total           Scaffold
+Scaffold        of              of              Scaffold        Contig          Contig  
+Length          Scaffolds       Contigs         Length          Length          Coverage
+--------        --------------  --------------  --------------  --------------  --------
+    All                     17              33      30,389,298      30,386,098    99.99%
+  25 KB                     17              33      30,389,298      30,386,098    99.99%
+  50 KB                     16              32      30,352,552      30,349,352    99.99%
+ 100 KB                     16              32      30,352,552      30,349,352    99.99%
+ 250 KB                     16              32      30,352,552      30,349,352    99.99%
+ 500 KB                     16              32      30,352,552      30,349,352    99.99%
+   1 MB                     16              32      30,352,552      30,349,352    99.99%
+ 2.5 MB                      2               5       6,407,507       6,406,907    99.99%
+```
+
+* 17 input scaffolds with 33 contigs, total size 30.3 Mbp
+* Repeat-mask using the library made for the GTX0501 Xanthoria genome
+```{r,eval =F}
+source package /tsl/software/testing/bin/repeatmasker-4.0.9 
+sbatch --mem=100G -c 20 --wrap="RepeatMasker -pa 5 -a -s -gff -xsmall -lib analysis_and_temp_files/02_annotate/Xp_GTX0501-families.fa  data/GCA_964656405.1.fasta   &> analysis_and_temp_files/02_annotate/repeatmasker_GCA_964656405.run.out"
+```
+
+* Fix headers in the masked fasta file. The headers look like "ENA|OZ210028|OZ210028.1 Xanthoria parietina genome assembly, chromosome: 1". I want to retain only "OZ210028"
+  * First, will delete line "ENA|"
+  * Next will replace "|" with a whitespace
+  * Then, will retain only the first word
+```{r,eval =F}
+cp data/GCA_964656405.1.fasta.masked data/GCA_964656405_masked_fixed.fasta
+sed -i -e 's/ENA|//g' data/GCA_964656405_masked_fixed.fasta
+sed -i -e 's/|/ /g' data/GCA_964656405_masked_fixed.fasta
+reformat.sh in=data/GCA_964656405_masked_fixed.fasta out=data/GCA_964656405_masked_fixed2.fasta trd=t 
+```
+
+* Gene prediction with GeneMark and Funannotate
+```{r,eval =F}
+source genemark_ES_ET_EP-4.62_CBG 
+mkdir -p analysis_and_temp_files/02_annotate/GCA964656405_genemark
+cd analysis_and_temp_files/02_annotate/GCA964656405_genemark
+gmes_petap.pl --ES --max_intron 3000 --soft_mask 2000 --cores 20 --sequence ../../../data/GCA_964656405_masked_fixed2.fasta
+cd ../../../
+```
+* Funannotate predict
+```{r,eval =F}
+singularity run ../singularity/funannotate.sif funannotate predict -i data/GCA_964656405_masked_fixed2.fasta -o analysis_and_temp_files/02_annotate/GCA964656405_pred --species "Xanthoria parietina" \
+    --cpus 20 --strain SAMEA111342678 --optimize_augustus --genemark_gtf analysis_and_temp_files/02_annotate/GCA964656405_genemark/genemark.gtf --protein_evidence ../singularity/funannotate2/opt/databases/uniprot_sprot.fasta  analysis_and_temp_files/02_annotate/mat.faa
+
+Genome loaded: 17 scaffolds; 30,389,298 bp; 13.41% repeats masked
+...
+[Dec 28 09:11 PM]: Converting to GFF3 and collecting all EVM results
+[Dec 28 09:11 PM]: 9,079 total gene models from EVM
+[Dec 28 09:11 PM]: Generating protein fasta files from 9,079 EVM models
+[Dec 28 09:11 PM]: now filtering out bad gene models (< 50 aa in length, transposable elements, etc).
+[Dec 28 09:11 PM]: Found 94 gene models to remove: 0 too short; 0 span gaps; 94 transposable elements
+[Dec 28 09:11 PM]: 8,985 gene models remaining
+[Dec 28 09:11 PM]: Predicting tRNAs
+[Dec 28 09:12 PM]: 64 tRNAscan models are valid (non-overlapping)
+[Dec 28 09:12 PM]: Generating GenBank tbl annotation file
+[Dec 28 09:12 PM]: Collecting final annotation files for 9,049 total gene models
+```
+* Emapper: used [webserver](http://eggnog-mapper.embl.de/)
+  * on 28.12.2024
+  * EggNOG v5
+```{r,eval =F}
+emapper.py --cpu 20 --mp_start_method forkserver --data_dir /dev/shm/ -o out --output_dir /emapper_web_jobs/emapper_jobs/user_data/MM_odthgn1w --temp_dir /emapper_web_jobs/emapper_jobs/user_data/MM_odthgn1w --override -m diamond --dmnd_ignore_warnings -i /emapper_web_jobs/emapper_jobs/user_data/MM_odthgn1w/queries.fasta --evalue 0.001 --score 60 --pident 40 --query_cover 20 --subject_cover 20 --itype proteins --tax_scope auto --target_orthologs all --go_evidence non-electronic --pfam_realign none --report_orthologs --decorate_gff yes --excel > /emapper_web_jobs/emapper_jobs/user_data/MM_odthgn1w/emapper.out 2> /emapper_web_jobs/emapper_jobs/user_data/MM_odthgn1w/emapper.err
+```  
+  * Saved as `analysis_and_temp_files/02_annotate/GCA964656405_pred/emapper/emapper.annotations.tsv`
+* InterPro ran locally
+```{r,eval =F}
+source package 0dd71e29-8eb1-4512-b37c-42f7158718f4
+source package /tsl/software/testing/bin/gcc-5.2.0 
+source package 999eb878-6c39-444e-a291-e2e0a86660e6
+source package /tsl/software/testing/bin/java-11.0.7  
+source package 0f2514dd-8288-47ed-96cd-80905f9b0644
+source package /tsl/software/production/bin/perl-5.16.2 
+
+mkdir -p analysis_and_temp_files/02_annotate/GCA964656405_pred/interpro
+rm -rf temp
+/tsl/data/interproscan/5.42/interproscan.sh -i analysis_and_temp_files/02_annotate/GCA964656405_pred/predict_results/Xanthoria_parietina_SAMEA111342678.proteins.fa -d analysis_and_temp_files/02_annotate/GCA964656405_pred/interpro -dp -f XML -goterms -dra -cpu 20
+#got error, seems to relate to dependencies
+
+#tried newer version InterProScan-5.52-86.0
+#CDD-3.18,Coils-2.2.1,Gene3D-4.3.0,Hamap-2020_05,MobiDBLite-2.0,PANTHER-15.0,Pfam-33.1,PIRSF-3.10,PIRSR-2021_02,PRINTS-42.0,ProSitePatterns-2021_01,ProSiteProfiles-2021_01,SFLD-4,SMART-7.1,SUPERFAMILY-1.75,TIGRFAM-15.0
+source package 0dd71e29-8eb1-4512-b37c-42f7158718f4 
+interproscan.sh -i analysis_and_temp_files/02_annotate/GCA964656405_pred/predict_results/Xanthoria_parietina_SAMEA111342678.proteins.fa -d analysis_and_temp_files/02_annotate/GCA964656405_pred/interpro -dp -f XML -goterms -dra -cpu 20
+
+```
+* SignalP
+```{r,eval =F}
+source package /tsl/software/testing/bin/signalp-5.0b
+signalp -fasta analysis_and_temp_files/02_annotate/GCA964656405_pred/predict_results/Xanthoria_parietina_SAMEA111342678.proteins.fa -org euk -format short -batch 50000 
+
+mv Xanthoria_parietina_SAMEA111342678.proteins_summary.signalp5 analysis_and_temp_files/02_annotate/GCA964656405_pred/
+```
+* antiSMASH run on the server
+* Funannotate annotate
+```{r,eval =F}
+singularity run ../singularity/funannotate.sif funannotate annotate -i analysis_and_temp_files/02_annotate/GCA964656405_pred --iprscan analysis_and_temp_files/02_annotate/GCA964656405_pred/interpro/Xanthoria_parietina_SAMEA111342678.proteins.fa.xml --eggnog analysis_and_temp_files/02_annotate/GCA964656405_pred/emapper/emapper.annotations.tsv --antismash  analysis_and_temp_files/02_annotate/GCA964656405_pred/antismash/Xanthoria_parietina_SAMEA111342678.gbk --signalp  analysis_and_temp_files/02_annotate/GCA964656405_pred/Xanthoria_parietina_SAMEA111342678.proteins_summary.signalp5 --cpus 20  --sbt analysis_and_temp_files/02_annotate/template.sbt  --isolate SAMEA111342678
+
+[Jan 09 02:54 PM]: 8,985 protein records loaded
+[Jan 09 02:54 PM]: Running HMMer search of PFAM version 35.0
+[Jan 09 02:55 PM]: 9,624 annotations added
+[Jan 09 02:55 PM]: Running Diamond blastp search of UniProt DB version 2023_01
+[Jan 09 02:56 PM]: 549 valid gene/product annotations from 828 total
+[Jan 09 02:56 PM]: Existing Eggnog-mapper results found: analysis_and_temp_files/02_annotate/GCA964656405_pred/annotate_misc/eggnog.emapper.annotations
+[Jan 09 02:56 PM]: Parsing EggNog Annotations
+[Jan 09 02:56 PM]: EggNog version parsed as 2.1.12
+[Jan 09 02:56 PM]: 14,224  COG and EggNog annotations added
+[Jan 09 02:56 PM]: Combining UniProt/EggNog gene and product names using Gene2Product version 1.88
+[Jan 09 02:56 PM]: 2,429 gene name and product description annotations added
+[Jan 09 02:56 PM]: Running Diamond blastp search of MEROPS version 12.0
+[Jan 09 02:56 PM]: 252 annotations added
+[Jan 09 02:56 PM]: Annotating CAZYmes using HMMer search of dbCAN version 11.0
+[Jan 09 02:56 PM]: 250 annotations added
+[Jan 09 02:56 PM]: Annotating proteins with BUSCO dikarya models
+[Jan 09 02:57 PM]: 1,183 annotations added
+[Jan 09 02:57 PM]: Skipping phobius predictions, try funannotate remote -m phobius
+[Jan 09 02:57 PM]: Existing SignalP results found: analysis_and_temp_files/02_annotate/GCA964656405_pred/annotate_misc/signalp.results.txt
+[Jan 09 02:57 PM]: 682 secretome and 0 transmembane annotations added
+[Jan 09 02:57 PM]: Parsing InterProScan5 XML file
+[Jan 09 02:59 PM]: Now parsing antiSMASH v7 results, finding SM clusters
+[Jan 09 02:59 PM]: Found 57 clusters, 55 biosynthetic enyzmes, and 190 smCOGs predicted by antiSMASH
+[Jan 09 02:59 PM]: Found 0 duplicated annotations, adding 65,922 valid annotations
+```
+
+## 4. SAMEA115359166
+* Ellen Cameron provided her X. parietina genome as a fasta
+* Will label it as SAMEA115359166
+```{r,eval =F}
+source package cf33bb3d-b7c0-450b-ac7d-ebedff25d497 
+stats.sh in=data/SAMEA115359166.fasta
+
+Main genome scaffold total:             15
+Main genome contig total:               25
+Main genome scaffold sequence total:    30.166 MB
+Main genome contig sequence total:      30.165 MB       0.003% gap
+Main genome scaffold N/L50:             4/3.027 MB
+Main genome contig N/L50:               7/1.861 MB
+Main genome scaffold N/L90:             11/1.135 MB
+Main genome contig N/L90:               16/812.811 KB
+Max scaffold length:                    5.709 MB
+Max contig length:                      3.399 MB
+Number of scaffolds > 50 KB:            14
+% main genome in scaffolds > 50 KB:     100.00%
+```
+
+* Only very slightly smaller than the SAMEA111342678 genome and with fewer scaffolds and contigs
+* Repeat-mask using the library made for the GTX0501 Xanthoria genome
+```{r,eval =F}
+source package /tsl/software/testing/bin/repeatmasker-4.0.9 
+RepeatMasker -pa 5 -a -s -gff -xsmall -lib analysis_and_temp_files/02_annotate/Xp_GTX0501-families.fa  data/SAMEA115359166.fasta   &> analysis_and_temp_files/02_annotate/repeatmasker_SAMEA115359166.run.out
+```
+
+* Gene prediction with GeneMark and Funannotate
+```{r,eval =F}
+source genemark_ES_ET_EP-4.62_CBG 
+mkdir -p analysis_and_temp_files/02_annotate/SAMEA115359166_genemark
+cd analysis_and_temp_files/02_annotate/SAMEA115359166_genemark
+gmes_petap.pl --ES --max_intron 3000 --soft_mask 2000 --cores 20 --sequence ../../../data/SAMEA115359166.fasta.masked
+cd ../../../
+```
+* Funannotate predict
+```{r,eval =F}
+singularity run ../singularity/funannotate.sif funannotate predict -i data/SAMEA115359166.fasta.masked -o analysis_and_temp_files/02_annotate/SAMEA115359166_pred --species "Xanthoria parietina" \
+    --cpus 20 --strain SAMEA115359166 --optimize_augustus --genemark_gtf analysis_and_temp_files/02_annotate/SAMEA115359166_genemark/genemark.gtf --protein_evidence ../singularity/funannotate2/opt/databases/uniprot_sprot.fasta  analysis_and_temp_files/02_annotate/mat.faa
+
+[Jan 09 02:55 PM]: Genome loaded: 15 scaffolds; 30,165,939 bp; 12.92% repeats masked
+```
+* InterPro ran locally
+```{r,eval =F}
+mkdir -p analysis_and_temp_files/02_annotate/SAMEA115359166_pred/interpro
+rm -rf temp
+source package 0dd71e29-8eb1-4512-b37c-42f7158718f4 
+interproscan.sh -i analysis_and_temp_files/02_annotate/SAMEA115359166_pred/predict_results/Xanthoria_parietina_SAMEA115359166.proteins.fa -d analysis_and_temp_files/02_annotate/SAMEA115359166_pred/interpro -dp -f XML -goterms -dra -cpu 20
+```
+
+* SignalP
+```{r,eval =F}
+source package /tsl/software/testing/bin/signalp-5.0b
+signalp -fasta analysis_and_temp_files/02_annotate/SAMEA115359166_pred/predict_results/Xanthoria_parietina_SAMEA115359166.proteins.fa -org euk -format short -batch 50000 
+
+mv Xanthoria_parietina_SAMEA115359166.proteins_summary.signalp5 analysis_and_temp_files/02_annotate/SAMEA115359166_pred/
+```
+* Emapper using the same webserver
+```{r,eval =F}
+emapper.py --cpu 20 --mp_start_method forkserver --data_dir /dev/shm/ -o out --output_dir /emapper_web_jobs/emapper_jobs/user_data/MM_j62c27ez --temp_dir /emapper_web_jobs/emapper_jobs/user_data/MM_j62c27ez --override -m diamond --dmnd_ignore_warnings -i /emapper_web_jobs/emapper_jobs/user_data/MM_j62c27ez/queries.fasta --evalue 0.001 --score 60 --pident 40 --query_cover 20 --subject_cover 20 --itype proteins --tax_scope auto --target_orthologs all --go_evidence non-electronic --pfam_realign none --report_orthologs --decorate_gff yes --excel > /emapper_web_jobs/emapper_jobs/user_data/MM_j62c27ez/emapper.out 2> /emapper_web_jobs/emapper_jobs/user_data/MM_j62c27ez/emapper.err
+```
+* Funannotate annotate
+```{r,eval =F}
+singularity run ../singularity/funannotate.sif funannotate annotate -i analysis_and_temp_files/02_annotate/SAMEA115359166_pred --iprscan analysis_and_temp_files/02_annotate/SAMEA115359166_pred/interpro/Xanthoria_parietina_SAMEA115359166.proteins.fa.xml --eggnog analysis_and_temp_files/02_annotate/SAMEA115359166_pred/emapper/emapper.annotations.tsv --antismash  analysis_and_temp_files/02_annotate/SAMEA115359166_pred/antismash/Xanthoria_parietina_SAMEA115359166.gbk --signalp  analysis_and_temp_files/02_annotate/SAMEA115359166_pred/Xanthoria_parietina_SAMEA115359166.proteins_summary.signalp5 --cpus 20  --sbt analysis_and_temp_files/02_annotate/template.sbt  --isolate SAMEA115359166isolate
+
+[Jan 10 02:04 PM]: Annotation consists of: 9,230 gene models
+[Jan 10 02:04 PM]: 9,181 protein records loaded
+[Jan 10 02:04 PM]: Existing Pfam-A results found: analysis_and_temp_files/02_annotate/SAMEA115359166_pred/annotate_misc/annotations.pfam.txt
+[Jan 10 02:04 PM]: 9,814 annotations added
+[Jan 10 02:04 PM]: Running Diamond blastp search of UniProt DB version 2023_01
+[Jan 10 02:04 PM]: 554 valid gene/product annotations from 831 total
+[Jan 10 02:04 PM]: Existing Eggnog-mapper results found: analysis_and_temp_files/02_annotate/SAMEA115359166_pred/annotate_misc/eggnog.emapper.annotations
+[Jan 10 02:04 PM]: Parsing EggNog Annotations
+[Jan 10 02:04 PM]: EggNog version parsed as 2.1.12
+[Jan 10 02:04 PM]: 14,301  COG and EggNog annotations added
+[Jan 10 02:04 PM]: Combining UniProt/EggNog gene and product names using Gene2Product version 1.88
+[Jan 10 02:04 PM]: 2,428 gene name and product description annotations added
+[Jan 10 02:04 PM]: Running Diamond blastp search of MEROPS version 12.0
+[Jan 10 02:04 PM]: 260 annotations added
+[Jan 10 02:04 PM]: Annotating CAZYmes using HMMer search of dbCAN version 11.0
+[Jan 10 02:05 PM]: 256 annotations added
+[Jan 10 02:05 PM]: Annotating proteins with BUSCO dikarya models
+[Jan 10 02:05 PM]: 1,203 annotations added
+[Jan 10 02:05 PM]: Skipping phobius predictions, try funannotate remote -m phobius
+[Jan 10 02:05 PM]: Existing SignalP results found: analysis_and_temp_files/02_annotate/SAMEA115359166_pred/annotate_misc/signalp.results.txt
+[Jan 10 02:05 PM]: 788 secretome and 0 transmembane annotations added
+[Jan 10 02:06 PM]: Parsing InterProScan5 XML file
+[Jan 10 02:07 PM]: Now parsing antiSMASH v7 results, finding SM clusters
+[Jan 10 02:07 PM]: Found 61 clusters, 59 biosynthetic enyzmes, and 182 smCOGs predicted by antiSMASH
+[Jan 10 02:07 PM]: Found 0 duplicated annotations, adding 66,898 valid annotations
+```
+
+
+
+## 5. Visualize genome assemblies and repeat contents
+
+### RIP
+* Used [RIPper webserver](https://theripper.hawk.rocks/) on the four genomes
+  * Results for RIP profiles are in  `analysis_and_temp_files/02_annotate/Xanthoria_*_*.scaffolds.fa_profile.csv`
+  * Saved LRAR (Large RIP Affected Genomic Regions) coordinates as `analysis_and_temp_files/06_annotate_lecanoro/X*_*_LRAR.csv`
+* **NB:** RIPper throws an erro at Ns in the genome! This was only a problem for SAMEA115359166. Since it only contained stretches of N at most 100 bp long, I just removed them, which will not affect plotting by much. Saved the file as `02_annotate/Xanthoria_parietina_SAMEA115359166.scaffolds_removeN.fa`
+* Plot the profiles
+```{r,fig.width=12,fig.height=8}
+#install.packages("ggh4x")
+library(RColorBrewer)
+#library(patchwork)
+library(cowplot)
+#RIPPer output
+rip_Xp_GTX0501<-read.csv2("../analysis_and_temp_files/02_annotate/Xanthoria_parietina_GTX0501.scaffolds.fa_profile.csv",sep=",")
+rip_Xc<-read.csv2("../analysis_and_temp_files/02_annotate/Xanthoria_calcicola_GTX0491.scaffolds.fa_profile.csv",sep=",")
+rip_SAMEA115359166<-read.csv2("../analysis_and_temp_files/02_annotate/Xanthoria_parietina_SAMEA115359166.scaffolds_removeN.fa_profile.csv",sep=",")
+rip_Xp_SAMEA111342678<-read.csv2("../analysis_and_temp_files/02_annotate/Xanthoria_parietina_SAMEA111342678.scaffolds.fa_profile.csv",sep=",")
+
+rip<-rip_Xp_GTX0501 %>% left_join(rip_Xc) %>% left_join(rip_SAMEA115359166) %>% left_join(rip_Xp_SAMEA111342678) %>%
+  pivot_longer(-Name,names_to = "Genome",values_to = "value") %>% 
+  mutate(value=as.numeric(value)) %>%
+  pivot_wider(names_from = Name,values_from = value) %>%
+  mutate(`Genomic Proportion of LRARs (%)`=(100* `Genomic Proportion of LRARs (bp)` )/`Genome Size (bp)`) %>% 
+  pivot_longer(-Genome,names_to = "Stat",values_to = "value") %>%
+  filter(Stat %in% c("RIP Affected Genomic Proportion (%)","GC Content of Genome Assembly (%)","Count of LRARs","Average Size of LRARs (bp)","Average GC Content of LRARs (%)","Genome Size (bp)")) %>%
+  mutate(species = ifelse(grepl("parietina",Genome),"X.parietina","X.calcicola"))
+rip$Genome<-plyr::revalue(rip$Genome, c("Xanthoria_parietina_GTX0501.scaffolds.fa"="X.parietina GTX0501", "Xanthoria_calcicola_GTX0491.scaffolds.fa"="X.calcicola GTX0491",
+      "Xanthoria_parietina_SAMEA115359166.scaffolds_removeN.fa"="X.parietina SAMEA115359166",
+      "Xanthoria_parietina_SAMEA111342678.scaffolds.fa"="X. parietina SAMEA111342678"))
+  
+
+#add gene number
+genenumber <- data.frame("Genome"=c("X.calcicola GTX0491","X.parietina GTX0501",
+                               "X.parietina SAMEA115359166", "X. parietina SAMEA111342678"),
+"Stat" = rep("Number of genes",4),
+"species"=c("X.calcicola",rep("X.parietina",3)),
+"value"=c(10027,10743,9230,9049)
+)
+
+rip<-rbind(genenumber,rip)
+rip$Genome<-factor(rip$Genome,levels=c("X.calcicola GTX0491","X.parietina GTX0501",
+                               "X.parietina SAMEA115359166", "X. parietina SAMEA111342678"))
+                      
+rip$Stat<-factor(rip$Stat,levels=c("Genome Size (bp)","Number of genes","RIP Affected Genomic Proportion (%)","Count of LRARs","Average Size of LRARs (bp)","GC Content of Genome Assembly (%)","Average GC Content of LRARs (%)"))  
+  
+  
+g1<-ggplot(rip,aes(y=Genome,x=value,fill=species))+geom_bar(position="dodge",stat = "identity")+
+  facet_wrap(~Stat,scales = "free",ncol=1)+
+  xlab("")+ylab("")+theme_bw()+
+  ggh4x::facetted_pos_scales(x = list(
+    Stat == "Genome Size (bp)" ~ scale_x_continuous(limits = c(0, 40000000),
+            breaks = c(10000000,20000000,30000000) ,
+            labels = c("10 Mbp","20 Mbp","30 Mbp")),
+    Stat == "Number of genes" ~ scale_x_continuous(limits = c(0, 11000)),
+  Stat == "RIP Affected Genomic Proportion (%)" ~ scale_x_continuous(limits = c(0, 100)),
+  Stat == "GC Content of Genome Assembly (%)" ~ scale_x_continuous(limits = c(0, 100)),
+  Stat == "Average GC Content of LRARs (%)" ~ scale_x_continuous(limits = c(0, 100)),
+  Stat == "Average Size of LRARs (bp)" ~ scale_x_continuous(limits = c(0, 35000)),
+  Stat == "Count of LRARs" ~ scale_x_continuous(limits = c(0, 300))
+))+
+  theme(axis.text.y = element_text(size=7),
+        axis.text.x = element_text(size=6),
+        legend.text = element_text(size=7),
+        legend.title = element_text(size=6),
+        strip.text.x= element_text(size=7)
+        )
+```
+
+
+### Repeat content
+* Annotated genome assemblies using EarlGrey
+* Plot the profiles
+```{r,fig.width=12,fig.height=8}
+#read in high-level summaries
+earlgrey_SAMEA115359166 <- read.delim2("../analysis_and_temp_files/02_annotate/earlgrey_data/Xp_SAMEA115359166_summaryFiles/Xp_SAMEA115359166.highLevelCount.txt",sep="\t") %>% mutate(Genome = "X.parietina SAMEA115359166")
+earlgrey_SAMEA111342678 <- read.delim2("../analysis_and_temp_files/02_annotate/earlgrey_data/Xp_SAMEA111342678_summaryFiles/Xp_SAMEA111342678.highLevelCount.txt",sep="\t") %>% mutate(Genome = "X.parietina SAMEA111342678")
+earlgrey_gtx501 <- read.delim2("../analysis_and_temp_files/02_annotate/earlgrey_data/Xp_GTX0501_summaryFiles/Xp_GTX0501.highLevelCount.txt",sep="\t") %>% mutate(Genome = "X.parietina GTX0501")
+earlgrey_gtx491 <- read.delim2("../analysis_and_temp_files/02_annotate/earlgrey_data/Xc_GTX0491_summaryFiles/Xc_GTX0491.highLevelCount.txt",sep="\t") %>% mutate(Genome = "X.calcicola GTX0491")
+
+earlgrey <- rbind(earlgrey_SAMEA115359166,earlgrey_SAMEA111342678,earlgrey_gtx501,earlgrey_gtx491) %>%
+  filter(TE.Classification!="Non-Repeat")
+earlgrey$TE.Classification[earlgrey$TE.Classification=="DNA"]<- "DNA transposon"
+earlgrey$TE.Classification[earlgrey$TE.Classification=="Other (Simple Repeat, Microsatellite, RNA)"]<- "Other"
+
+earlgrey$Genome<-factor(earlgrey$Genome,levels=c("X.calcicola GTX0491","X.parietina GTX0501",
+                               "X.parietina SAMEA115359166", "X.parietina SAMEA111342678"))
+earlgrey$TE.Classificatione<-factor(earlgrey$TE.Classification)
+earlgrey$X..Genome.Coverage<-as.numeric(earlgrey$X..Genome.Coverage)
+                        
+g2<-ggplot(earlgrey,aes(y=Genome,x=X..Genome.Coverage,fill=TE.Classification))+geom_bar(position="stack",stat = "identity")+xlab("")+ylab("")+theme_bw()+
+  scale_fill_brewer(palette = "Paired")+
+  theme(axis.text.y = element_text(size=7),
+        axis.text.x = element_text(size=6),
+        legend.text = element_text(size=5),
+        legend.title = element_text(size=6),
+        strip.text.x= element_text(size=7) )
+
+  
+plot_grid(g1,g2, ncol=1, rel_heights = c(7/8,1/8))
+ggsave('../results/genome_stats.pdf', width = 5, height = 9)
+```
+
+* Look into family-level annotations and show the total bp per superfamily
+  * Note: here and in all analyses for this project, I use the name LTR/Ty3, instead of an offensive ethnic name that was originally given to that TE
+```{r,fig.width=12,fig.height=8}
+#read in high-level summaries
+earlgrey_SAMEA115359166 <- read.delim2("../analysis_and_temp_files/02_annotate/earlgrey_data/Xp_SAMEA115359166_summaryFiles/Xp_SAMEA115359166.familyLevelCount.txt",sep="\t") %>% mutate(Genome = "X.parietina SAMEA115359166")
+earlgrey_SAMEA115359166$TE.Family <- str_replace_all(earlgrey_SAMEA115359166$TE.Family,"Gypsy","Ty3")
+
+earlgrey_SAMEA111342678 <- read.delim2("../analysis_and_temp_files/02_annotate/earlgrey_data/Xp_SAMEA111342678_summaryFiles/Xp_SAMEA111342678.familyLevelCount.txt",sep="\t") %>% mutate(Genome = "X.parietina SAMEA111342678")
+earlgrey_SAMEA111342678$TE.Family <- str_replace_all(earlgrey_SAMEA111342678$TE.Family,"Gypsy","Ty3")
+
+earlgrey_gtx501 <- read.delim2("../analysis_and_temp_files/02_annotate/earlgrey_data/Xp_GTX0501_summaryFiles/Xp_GTX0501.familyLevelCount.txt",sep="\t") %>% mutate(Genome = "X.parietina GTX0501")
+earlgrey_gtx501$TE.Family <- str_replace_all(earlgrey_gtx501$TE.Family,"Gypsy","Ty3")
+
+earlgrey_gtx491 <- read.delim2("../analysis_and_temp_files/02_annotate/earlgrey_data/Xc_GTX0491_summaryFiles/Xc_GTX0491.familyLevelCount.txt",sep="\t") %>% mutate(Genome = "X.calcicola GTX0491")
+earlgrey_gtx491$TE.Family <- str_replace_all(earlgrey_gtx491$TE.Family,"Gypsy","Ty3")
+
+earlgrey <- rbind(earlgrey_SAMEA115359166,earlgrey_SAMEA111342678,earlgrey_gtx501,earlgrey_gtx491) 
+earlgrey$type <- sub(".*#", "", earlgrey$TE.Family)
+
+earlgrey$Genome<-factor(earlgrey$Genome,levels=c("X.calcicola GTX0491","X.parietina GTX0501",
+                               "X.parietina SAMEA115359166", "X.parietina SAMEA111342678"))
+earlgrey$Coverage..bp.<-as.numeric(earlgrey$Coverage..bp.)
+
+earlgrey_summary <- earlgrey %>% group_by(Genome,type) %>% summarize(total_bp = sum(Coverage..bp.)) %>%
+  pivot_wider(names_from = Genome, values_from = total_bp, values_fill = 0) %>%
+  pivot_longer(-type,names_to="Genome",values_to="total_bp") %>%
+  ungroup() %>%
+  mutate(label = case_when(total_bp>1000000 ~ paste0(as.character(round(total_bp/1000000,1))," Mbp"),
+               total_bp<=1000000 & total_bp>1000 ~ paste0(as.character(round(total_bp/1000,1))," Kbp"),
+                total_bp<=1000 & total_bp!=0~ paste0(as.character(round(total_bp/1000,))," bp"),
+               total_bp==0~""))
+
+g1<-ggplot(earlgrey_summary,aes(x=Genome,y=type,fill=total_bp))+
+  geom_tile()+xlab("")+ylab("")+theme_bw() +
+  geom_text(aes(label=label),size=2)+
+  scale_fill_gradientn(colours = c("white", "orange", "red"),
+                       breaks = c(0,1000000,2000000,3000000,4000000),
+                       labels = c(0, "1 Mbp","2 Mbp","3 Mbp","4 Mbp"))+
+  guides(fill=guide_legend(title="Total bp"))+
+  theme(axis.text.y = element_text(size=7),
+        axis.text.x = element_blank(),
+        legend.text = element_text(size=6),
+        legend.title = element_text(size=6))
+                        
+ggplot(earlgrey_summary,aes(x=Genome,y=type,fill=total_bp))+
+  geom_tile()+xlab("")+ylab("")+theme_bw() +
+  geom_text(aes(label=label),size=2)+
+  scale_fill_gradientn(colours = c("white", "orange", "red"),
+                       breaks = c(0,1000000,2000000,3000000,4000000),
+                       labels = c(0, "1 Mbp","2 Mbp","3 Mbp","4 Mbp"))+
+  guides(fill=guide_legend(title="Total bp"))+
+  theme(axis.text.y = element_text(size=7),
+        axis.text.x = element_text(size=6),
+        legend.text = element_text(size=6),
+        legend.title = element_text(size=6))
+
+  
+```
+* Now check the number of elements distribution
+* Look into family-level annotations
+```{r,fig.width=12,fig.height=8}
+library(patchwork)
+earlgrey_summary2 <- earlgrey %>% group_by(Genome,type) %>% summarize(total_number = sum(Copy.Number)) %>%
+  pivot_wider(names_from = Genome, values_from = total_number, values_fill = 0) %>%
+  pivot_longer(-type,names_to="Genome",values_to="total_number") 
+                        
+g2<-ggplot(earlgrey_summary2,aes(x=Genome,y=type,fill=total_number))+
+  geom_tile()+xlab("")+ylab("")+theme_bw() +
+  geom_text(aes(label=total_number),size=2)+
+  scale_fill_gradientn(colours = c("white", "orange", "red"))+
+  guides(fill=guide_legend(title="Total copy number"))+
+  theme(axis.text.y = element_text(size=7),
+        axis.text.x = element_text(size=6,angle=45,hjust=1),
+        legend.text = element_text(size=6),
+        legend.title = element_text(size=6))
+
+g1/g2
+ggsave('../results/repeats_heatmap.pdf', width = 6, height = 6)
+ggsave('../results/repeats_heatmap.png', width = 6, height = 6)
+```
+
+* Save table with all family-level annotations
+```{r}
+write.table(earlgrey,"../results/earlgrey_family_summary.txt",sep="\t",quote = F, row.names = F)
+```
+
+
+#### Assembly plot showing GC%, repeats, and LRARs
+* Will do only for X. calcicola and X.parietina SAMEA111342678
+* Calculated repeat density with BEDtools
+```{r,eval=F}
+#first, create bed files with windows of 10,000 bp
+source package b0ed0698-358b-4c9b-9d21-603ea8d6e478
+bedtools makewindows -g  analysis_and_temp_files/02_annotate/GTX0491_xanthoria_nuclear_mag_clean_sort.fa.fai  -w 10000 > analysis_and_temp_files/02_annotate/GTX0491_xanthoria_nuclear_mag_clean_sort.bed
+
+source package c92263ec-95e5-43eb-a527-8f1496d56f1a 
+samtools faidx data/GCA_964656405.1.fasta
+bedtools makewindows -g  data/GCA_964656405.1.fasta.fai  -w 10000 > analysis_and_temp_files/02_annotate/GCA_964656405.1.bed
+
+#overlap them with the repeatmasker gff
+bedtools coverage -a analysis_and_temp_files/02_annotate/GCA_964656405.1.bed -b data/GCA_964656405.1.fasta.out.gff   > analysis_and_temp_files/02_annotate/GCA_964656405.1_repeatcov.txt
+
+bedtools coverage -a analysis_and_temp_files/02_annotate/GTX0491_xanthoria_nuclear_mag_clean_sort.bed -b analysis_and_temp_files/02_annotate/GTX0491_xanthoria_nuclear_mag_clean_sort.fa.out.gff > analysis_and_temp_files/02_annotate/GTX0491_xanthoria_nuclear_mag_clean_sort_repeatcov.txt
+```
+
+* GC% 
+```{r,eval=F}
+bedtools nuc -fi data/GCA_964656405.1.fasta -bed analysis_and_temp_files/02_annotate/GCA_964656405.1.bed  > analysis_and_temp_files/02_annotate/GCA_964656405.1_GC.txt
+
+bedtools nuc -fi analysis_and_temp_files/02_annotate/GTX0491_xanthoria_nuclear_mag_clean_sort.fa -bed analysis_and_temp_files/02_annotate/GTX0491_xanthoria_nuclear_mag_clean_sort.bed > analysis_and_temp_files/02_annotate/GTX0491_xanthoria_nuclear_mag_clean_sort_GC.txt
+
+bedtools makewindows -g  analysis_and_temp_files/02_annotate/GTX0501_xanthoria_nuclear_mag_clean_sort.fa.fai  -w 10000 > analysis_and_temp_files/02_annotate/GTX0501_xanthoria_nuclear_mag_clean_sort.bed
+bedtools nuc -fi analysis_and_temp_files/02_annotate/GTX0501_xanthoria_nuclear_mag_clean_sort.fa -bed analysis_and_temp_files/02_annotate/GTX0501_xanthoria_nuclear_mag_clean_sort.bed > analysis_and_temp_files/02_annotate/GTX0501_xanthoria_nuclear_mag_clean_sort_GC.txt
+
+bedtools makewindows -g  data/SAMEA115359166.fasta.fai  -w 10000 > analysis_and_temp_files/02_annotate/SAMEA115359166.bed
+bedtools nuc -fi data/SAMEA115359166.fasta -bed analysis_and_temp_files/02_annotate/SAMEA115359166.bed > analysis_and_temp_files/02_annotate/SAMEA115359166_GC.txt
+```
+
+* Translate LRAR coordinates into bed format, so it is easier to visualize
+```{r,eval=F}
+#First, save LRAR table in a bed format
+lrar_Xp<-read.delim2("../analysis_and_temp_files/02_annotate/Xp_GCA964656405_LRAR.csv",sep=",")
+lrar_Xp$Name <- gsub("\\s.*$","",lrar_Xp$Name)
+write.table(lrar_Xp[,1:3],"../analysis_and_temp_files/02_annotate/Xp_GCA964656405_LRAR.bed",col.names = F,row.names = F,quote = F,sep="\t")
+lrar_Xc<-read.delim2("../analysis_and_temp_files/02_annotate/Xc_GTX0491_LRAR.csv",sep=",")
+write.table(lrar_Xc[,1:3],"../analysis_and_temp_files/02_annotate/Xc_GTX0491_LRAR.bed",col.names = F,row.names = F,quote = F,sep="\t")
+
+#intersec LRAR file with the bed file
+bedtools coverage -a analysis_and_temp_files/02_annotate/GCA_964656405.1.bed  -b analysis_and_temp_files/02_annotate/Xp_GCA964656405_LRAR.bed > analysis_and_temp_files/02_annotate/GCA_964656405.1_LRAR_bedtools.txt
+
+bedtools coverage -a analysis_and_temp_files/02_annotate/GTX0491_xanthoria_nuclear_mag_clean_sort.bed -b analysis_and_temp_files/02_annotate/Xc_GTX0491_LRAR.bed > analysis_and_temp_files/02_annotate/GTX0491_xanthoria_nuclear_mag_clean_sort_LRAR_bedtools.txt"
+```
+* Detect telomers
+```{r,eval=F}
+python code/detect_telomers.py data/GCA_964656405.1.fasta > analysis_and_temp_files/02_annotate/GCA_964656405.1_telomer.txt
+
+python code/detect_telomers.py analysis_and_temp_files/02_annotate/GTX0491_xanthoria_nuclear_mag_clean_sort.fa > analysis_and_temp_files/02_annotate/GTX0491_xanthoria_nuclear_mag_clean_sort_telomer.txt
+```
+* Visualize X. calcicola
+```{r,fig.width=8,fig.height=8}
+library(viridis)
+library(ggnewscale)
+library(patchwork)
+#GC%
+gc<-read.delim2("../analysis_and_temp_files/02_annotate/GTX0491_xanthoria_nuclear_mag_clean_sort_GC.txt")[,c(1,2,5)]
+colnames(gc)<-c("contig","window_start","gc_content")
+gc$gc_content<-gc$gc_content %>% as.numeric()
+
+#Repeats
+rep<-read.delim2("../analysis_and_temp_files/02_annotate/GTX0491_xanthoria_nuclear_mag_clean_sort_repeatcov.txt",header=F)[,c(1,2,7)]
+colnames(rep)<-c("contig","window_start","repeat_content")
+rep$repeat_content<- rep$repeat_content %>% as.numeric()
+
+##add telomers
+tel<-read.delim2("../analysis_and_temp_files/02_annotate/GTX0491_xanthoria_nuclear_mag_clean_sort_telomer.txt",header=F)[,c(1,2)]
+colnames(tel)<-c("contig","position")
+tel_start_contig_list<-tel[tel$position=="forward",1] #list all contigs that have telomer at the contig start (corresponds to 'forward')
+tel_end_contig_list<-tel[tel$position=="reverse",1] #list all contigs that have telomer at the contig start (corresponds to 'forward')
+tel_start<-gc %>% dplyr::select(contig,window_start) %>% mutate(telomere=0) %>% group_by(contig) %>% arrange(window_start) %>% filter(row_number()<3 & contig %in% tel_start_contig_list) %>% mutate(telomere=1) %>% ungroup()
+tel_end<-gc %>% dplyr::select(contig,window_start) %>% mutate(telomere=0) %>% group_by(contig) %>% arrange(window_start) %>% 
+  dplyr::slice(tail(row_number(), 3)) %>% filter(contig %in% tel_end_contig_list) %>% mutate(telomere=1) %>% ungroup()
+gc<-gc %>% left_join(rbind(tel_start,tel_end))
+gc$telomere[is.na(gc$telomere)]<-0
+
+#RIP
+lrar<-read.delim2("../analysis_and_temp_files/02_annotate/GTX0491_xanthoria_nuclear_mag_clean_sort_LRAR_bedtools.txt",header=F)[,c(1,2,7)]
+colnames(lrar)<-c("contig","window_start","LRAR")
+lrar <- lrar %>% mutate(LRAR_binary = ifelse( as.numeric(LRAR)>0.3,1,0))
+
+df<-rep %>% left_join(gc) %>% left_join(lrar) %>% dplyr::select(-LRAR) %>%
+  pivot_longer(-c(contig, window_start,telomere),names_to = "parameter",values_to = "value") 
+df$parameter<-plyr::revalue(df$parameter, c("gc_content"="CGC%", "repeat_content"="BRepeate%","LRAR_binary"="ARIP-affected"))
+df$contig<-reorder(df$contig,df$contig,FUN=function(x) -length(x))
+
+df<-df %>% mutate(panel=case_when(
+  contig %in% c("Xc_GTX0491_1","Xc_GTX0491_2","Xc_GTX0491_3",  "Xc_GTX0491_4", 
+"Xc_GTX0491_5",  "Xc_GTX0491_6",  "Xc_GTX0491_7",  "Xc_GTX0491_8") ~ 1,
+contig %in% c("Xc_GTX0491_9", "Xc_GTX0491_10","Xc_GTX0491_11", "Xc_GTX0491_12", "Xc_GTX0491_13", "Xc_GTX0491_14","Xc_GTX0491_15", "Xc_GTX0491_16") ~ 2, T ~3))
+
+df |> 
+  ggplot() +
+  # apply the gradient to group 1
+  geom_tile(aes(y=parameter,x=window_start,fill=value,height=value*2), 
+    filter(df, parameter == "CGC%")) +
+  geom_tile(aes(y=parameter,x=window_start,alpha=telomere),fill="red")+
+ scale_fill_viridis(begin = 1,end = 0)+
+  labs(fill = "GC%") +
+  # start a new scale
+  new_scale_fill() +
+  geom_tile(aes(y=parameter,x=window_start,fill=value), 
+    filter(df, parameter == "BRepeate%")) +
+ scale_fill_gradientn(colours = c("purple", "orange"))+
+  labs(fill = "Repeat%") +
+  # start a new scale
+  new_scale_fill() +
+  geom_tile(aes(y=parameter,x=window_start,fill=value,alpha=value), filter(df, parameter == "ARIP-affected"))+
+  geom_tile(aes(y=parameter,x=window_start,height=0.1),fill="black", filter(df, parameter == "ARIP-affected"))+
+  scale_alpha_continuous(range=c(0,1),guide = 'none')+
+  scale_fill_gradientn(colours = c("white","black"),guide = 'none')+
+  scale_x_continuous(breaks = c(0,1000000,2000000,3000000,4000000),
+                     labels = c("0","1 Mbp","2 Mbp","3 Mbp","4 Mbp"),expand = c(0, 0))+
+  labs(fill = "RIP-affected") +  xlab("")+ylab("Contigs")+
+  facet_wrap(~contig,ncol=1)+
+  theme_classic()+
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+        strip.background = element_blank(),strip.text.x = element_blank(),
+        axis.text.y = element_blank(),legend.position="bottom",
+        axis.line.y = element_blank(),axis.ticks.y = element_blank())
+ggsave('../results/contigs_Xc_GTX0491.pdf', width = 5, height = 5)
+```
+
+* Visualize GCA964656405
+```{r,fig.width=8,fig.height=8}
+#GC%
+gc<-read.delim2("../analysis_and_temp_files/02_annotate/GCA_964656405.1_GC.txt")[,c(1,2,5)]
+colnames(gc)<-c("contig","window_start","gc_content")
+gc$gc_content<-gc$gc_content %>% as.numeric()
+
+#Repeats
+rep<-read.delim2("../analysis_and_temp_files/02_annotate/GCA_964656405.1_repeatcov.txt",header=F)[,c(1,2,7)]
+colnames(rep)<-c("contig","window_start","repeat_content")
+rep$repeat_content<- rep$repeat_content %>% as.numeric()
+
+##add telomers
+tel<-read.delim2("../analysis_and_temp_files/02_annotate/GCA_964656405.1_telomer.txt",header=F)[,c(1,2)]
+colnames(tel)<-c("contig","position")
+tel$contig <- gsub("\\s.*$","",tel$contig)
+tel_start_contig_list<-tel[tel$position=="forward",1] #list all contigs that have telomer at the contig start (corresponds to 'forward')
+tel_end_contig_list<-tel[tel$position=="reverse",1] #list all contigs that have telomer at the contig start (corresponds to 'forward')
+tel_start<-gc %>% dplyr::select(contig,window_start) %>% mutate(telomere=0) %>% group_by(contig) %>% arrange(window_start) %>% filter(row_number()<3 & contig %in% tel_start_contig_list) %>% mutate(telomere=1) %>% ungroup()
+tel_end<-gc %>% dplyr::select(contig,window_start) %>% mutate(telomere=0) %>% group_by(contig) %>% arrange(window_start) %>% 
+  dplyr::slice(tail(row_number(), 3)) %>% filter(contig %in% tel_end_contig_list) %>% mutate(telomere=1) %>% ungroup()
+gc<-gc %>% left_join(rbind(tel_start,tel_end))
+gc$telomere[is.na(gc$telomere)]<-0
+
+#RIP
+lrar<-read.delim2("../analysis_and_temp_files/02_annotate/GCA_964656405.1_LRAR_bedtools.txt",header=F)[,c(1,2,7)]
+colnames(lrar)<-c("contig","window_start","LRAR")
+lrar <- lrar %>% mutate(LRAR_binary = ifelse( as.numeric(LRAR)>0.3,1,0))
+
+df<-rep %>% left_join(gc) %>% left_join(lrar) %>% dplyr::select(-LRAR) %>%
+  pivot_longer(-c(contig, window_start,telomere),names_to = "parameter",values_to = "value") 
+df$parameter<-plyr::revalue(df$parameter, c("gc_content"="CGC%", "repeat_content"="BRepeate%","LRAR_binary"="ARIP-affected"))
+df$contig<-reorder(df$contig,df$contig,FUN=function(x) -length(x))
+
+df |> 
+  ggplot() +
+  # apply the gradient to group 1
+  geom_tile(aes(y=parameter,x=window_start,fill=value,height=value*2), 
+    filter(df, parameter == "CGC%")) +
+  geom_tile(aes(y=parameter,x=window_start,alpha=telomere),fill="red")+
+ scale_fill_viridis(begin = 1,end = 0)+
+  labs(fill = "GC%") +
+  # start a new scale
+  new_scale_fill() +
+  geom_tile(aes(y=parameter,x=window_start,fill=value), 
+    filter(df, parameter == "BRepeate%")) +
+ scale_fill_gradientn(colours = c("purple", "orange"))+
+  labs(fill = "Repeat%") +
+  # start a new scale
+  new_scale_fill() +
+  geom_tile(aes(y=parameter,x=window_start,fill=value,alpha=value), filter(df, parameter == "ARIP-affected"))+
+  geom_tile(aes(y=parameter,x=window_start,height=0.1),fill="black", filter(df, parameter == "ARIP-affected"))+
+  scale_alpha_continuous(range=c(0,1),guide = 'none')+
+  scale_fill_gradientn(colours = c("white","black"),guide = 'none')+
+  scale_x_continuous(breaks = c(0,1000000,2000000,3000000,4000000),
+                     labels = c("0","1 Mbp","2 Mbp","3 Mbp","4 Mbp"),expand = c(0, 0))+
+  labs(fill = "RIP-affected") +  xlab("")+ylab("Contigs")+
+  facet_wrap(~contig,ncol=1)+
+  theme_classic()+
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+        strip.background = element_blank(),strip.text.x = element_blank(),
+        axis.text.y = element_blank(),legend.position="bottom",
+        axis.line.y = element_blank(),axis.ticks.y = element_blank())
+ggsave('../results/contigs_Xp_GCA964656405.pdf', width = 5, height = 5)
+```
+
+#### Visualize GC% histogram
+```{r,fig.width=8,fig.height=8}
+gc1<-read.delim2("../analysis_and_temp_files/02_annotate/GCA_964656405.1_GC.txt")[,c(1,2,5)]
+gc1$genome <- "X. parietina SAMEA111342678"
+
+gc2<-read.delim2("../analysis_and_temp_files/02_annotate/SAMEA115359166_GC.txt")[,c(1,2,5)]
+gc2$genome <- "X. parietina SAMEA115359166"
+
+gc3<-read.delim2("../analysis_and_temp_files/02_annotate/GTX0501_xanthoria_nuclear_mag_clean_sort_GC.txt")[,c(1,2,5)]
+gc3$genome <- "X. parietina GTX0501"
+
+gc4<-read.delim2("../analysis_and_temp_files/02_annotate/GTX0491_xanthoria_nuclear_mag_clean_sort_GC.txt")[,c(1,2,5)]
+gc4$genome <- "X.calcicola GTX0491"
+
+gc<- rbind(gc1,gc2,gc3,gc4)
+colnames(gc)<-c("contig","window_start","gc_content","genome")
+gc$gc_content <- as.numeric(gc$gc_content)
+gc$gc_content <- gc$gc_content*100
+gc<- gc %>% mutate(species = ifelse(grepl("parietina",genome),"X.parietina","X.calcicola"))
+
+
+ggplot(gc)+geom_histogram(aes(x=gc_content,fill=species),binwidth =0.5)+facet_wrap(.~genome,nrow=2)+theme_bw()+xlab("GC%")+
+  theme(axis.text = element_text(size=6),
+        legend.text = element_text(size=7),
+        legend.title = element_text(size=6),
+        strip.text.x= element_text(size=8),
+        axis.title = element_text(size=6)
+        )
+
+ggsave('../results/gc_hist.pdf', width = 5.5, height = 2.5)
+```
+
+
+## 6. ITS tree
+* Used JF831902.1 Xanthoria parietina ITS as a bait against assemblies
+```{r,eval=F}
+source package d6092385-3a81-49d9-b044-8ffb85d0c446 
+blastn -query analysis_and_temp_files/02_annotate/its_query.fa -subject analysis_and_temp_files/02_annotate/GTX0501_xanthoria_nuclear_mag_clean_sort.fa  -outfmt 6 -evalue 1e-40 
+JF831902.1      Xp_GTX0501_57   100.000 509     0       0       1       509     4674    4166    0.0     941
+JF831902.1      Xp_GTX0501_57   100.000 509     0       0       1       509     13230   12722   0.0     941
+JF831902.1      Xp_GTX0501_58   99.804  509     1       0       1       509     1746    1238    0.0     935
+JF831902.1      Xp_GTX0501_50   99.804  509     1       0       1       509     5809    6317    0.0     935
+
+blastn -query analysis_and_temp_files/02_annotate/its_query.fa -subject analysis_and_temp_files/02_annotate/GTX0491_xanthoria_nuclear_mag_clean_sort.fa  -outfmt 6 -evalue 1e-40 
+JF831902.1      Xc_GTX0491_16   93.605  516     24      7       1       509     1511    2024    0.0     761
+JF831902.1      Xc_GTX0491_16   93.605  516     24      7       1       509     10164   10677   0.0     761
+JF831902.1      Xc_GTX0491_16   93.605  516     24      7       1       509     18817   19330   0.0     761
+JF831902.1      Xc_GTX0491_16   93.605  516     24      7       1       509     27470   27983   0.0     761
+JF831902.1      Xc_GTX0491_16   93.605  516     24      7       1       509     36123   36636   0.0     761
+JF831902.1      Xc_GTX0491_16   93.605  516     24      7       1       509     44776   45289   0.0     761
+
+
+blastn -query analysis_and_temp_files/02_annotate/its_query.fa -subject data/SAMEA115359166.fasta -outfmt 6 -evalue 1e-40 
+JF831902.1      scaffold_4      99.804  509     1       0       1       509     3660    4168    0.0     935
+JF831902.1      scaffold_4      99.804  509     1       0       1       509     12767   13275   0.0     935
+JF831902.1      scaffold_5      99.607  509     2       0       1       509     2188698 2188190 0.0     929
+JF831902.1      scaffold_5      99.607  509     2       0       1       509     2197108 2196600 0.0     929
+
+blastn -query analysis_and_temp_files/02_annotate/its_query.fa -subject data/GCA_964656405.1.fasta -outfmt 6 -evalue 1e-40 
+JF831902.1      ENA|OZ210035|OZ210035.1 99.804  509     1       0       1       509     1765311 1764803 0.0     935
+JF831902.1      ENA|OZ210035|OZ210035.1 99.804  509     1       0       1       509     1774425 1773917 0.0     935
+JF831902.1      ENA|OZ210032|OZ210032.1 100.000 268     0       0       242     509     2085523 2085256 7.09e-140       496
+
+```
+
+* Isolated ITS sequences (best hit from each assembly) and added tot he genbank sequences
+```{r,eval=F}
+source package c92263ec-95e5-43eb-a527-8f1496d56f1a 
+
+samtools faidx analysis_and_temp_files/02_annotate/GTX0501_xanthoria_nuclear_mag_clean_sort.fa Xp_GTX0501_57:4166-4674 -i
+
+samtools faidx analysis_and_temp_files/02_annotate/GTX0491_xanthoria_nuclear_mag_clean_sort.fa Xc_GTX0491_16:1511-2024
+
+samtools faidx data/SAMEA115359166.fasta scaffold_4:3660-4168
+
+samtools faidx data/GCA_964656405.1.fasta "ENA|OZ210035|OZ210035.1":1764803-1765311 -i
+```
+
+* Aligned, trimmed, and made a tree
+```{r,eval=F}
+source package  05bafab5-380c-4fe6-b5b6-3df70db09722
+source package /tsl/software/testing/bin/trimal-latest 
+source package /tgac/software/testing/bin/gcc-4.9.1 
+source package /tgac/software/testing/bin/iqtree-2.2.2.2
+
+mafft --maxiterate 1000 --genafpair --thread 10  analysis_and_temp_files/02_annotate/genbank_its_ours.fasta  > analysis_and_temp_files/02_annotate/genbank_its_ours_aligned.fa
+
+trimal -in analysis_and_temp_files/02_annotate/genbank_its_ours_aligned.fa -out analysis_and_temp_files/02_annotate/genbank_its_ours_aligned.phyl -gt 0.1 -phylip  -keepheader
+
+iqtree2 -s analysis_and_temp_files/02_annotate/genbank_its_ours_aligned.phyl -B 10000 -T AUTO --threads-max 20
+```
+
+* Process the tree
+```{r,fig.height=50}
+library(ape)
+tree2<-read.tree("../analysis_and_temp_files/02_annotate/genbank_its_ours_aligned.phyl.contree")
+tree2 <- root(tree2, outgroup = "JQ301685.1", resolve.root = TRUE)
+tree2 <- ladderize(tree2)
+
+##rename
+names<-read.delim2("../analysis_and_temp_files/02_annotate/its.txt",header = T)
+names$NCBI[grepl("Xanthoria_",names$Sequence_description)]<-str_extract(names$Sequence_description[grepl("Xanthoria_",names$Sequence_description)], ".*(?=\\:)")
+
+tree2$tip.label<-names[[1]][match(tree2$tip.label, names[[2]])]
+ape::write.tree(tree2,"../analysis_and_temp_files/02_annotate/genbank_its_ours_aligned.phyl.renamed.contree")
+plot(tree2)
+```

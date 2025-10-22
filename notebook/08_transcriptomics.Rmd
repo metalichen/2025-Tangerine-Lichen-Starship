@@ -1,0 +1,98 @@
+---
+title: "08_transcriptomics"
+author: "Gulnara Tagridzhanova"
+date: "18/07/2025"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(patchwork)
+```
+ 
+**Goal:** look at the gene expression of the starship genes in data from the Curr. Biol. paper
+
+* Read in the normalized counts and transform
+```{r,fig.width=8,fig.height=10,message=F,warning=F}
+#get the matrix for all samples, including culture
+tabd_df<-read.delim2("../../03_transcriptomic_analysis/analysis_and_temp_files/08_dge_culture_lichen/norm_counts_sleuth.txt")
+rownames(tabd_df) <- tabd_df$target_id
+tabd_df$target_id <- NULL
+tabd_df <- mutate_all(tabd_df, function(x) as.numeric(as.character(x)))
+trans_mat <- as.matrix(log(tabd_df + 1))
+```
+* get sample info
+```{r}
+metadata <- read.delim2("../analysis_and_temp_files/08_transcriptomics/metadata.txt")
+
+selected_genes<- paste0("XANPAGTX0501_00",1714:1730,"-T1")
+filt_mat_selected_thalli<-subset(trans_mat, rownames(trans_mat) %in% selected_genes)
+
+df_thalli<-data.frame(filt_mat_selected_thalli) %>% mutate(target_id=rownames(filt_mat_selected_thalli)) %>%
+  pivot_longer(-target_id,names_to="sample",values_to="expression") %>%
+  left_join(metadata, by=c("sample"="ID"))
+df_thalli$thallus[is.na(df_thalli$thallus)] <- "culture"
+```
+* Split into two halves since there're too many genes for one figure
+```{r}
+df_thalli1 <-df_thalli %>% filter(target_id %in% paste0("XANPAGTX0501_00",1714:1722,"-T1"))
+df_thalli2 <-df_thalli %>% filter(target_id %in% paste0("XANPAGTX0501_00",1723:1730,"-T1"))
+```
+* Visualize
+```{r,fig.width=8,fig.height=10,message=F,warning=F}
+library(RColorBrewer)
+color_scheme<-c("Apothecia"=brewer.pal(3,"Dark2")[1],
+                "Center"=brewer.pal(3,"Dark2")[2], 
+               "Edge" =brewer.pal(3,"Dark2")[3] )
+
+thalli1<-ggplot(df_thalli1 %>% filter(thallus !="culture"), aes(color=part,y=expression,x=part))+
+  geom_segment( aes(x=part, xend=part, y=0, yend=expression))+
+  geom_point(stat = "identity",position=position_dodge(width = .5))+
+  facet_grid(target_id~thallus,scales = "free")+
+  xlab("")+ylab("Expression: log(TPM)")+
+  theme_bw()+ scale_x_discrete(guide = guide_axis(angle = 45)) +
+  scale_color_manual( values = color_scheme)+
+  theme(text=element_text(size=6),legend.position = "bottom")
+
+culture1<-ggplot(df_thalli1 %>% filter(thallus =="culture"), aes(y=expression,x=sample))+
+  geom_segment( aes(x=sample, xend=sample, y=0, yend=expression))+
+  geom_point(stat = "identity",position=position_dodge(width = .5))+
+  facet_grid(target_id~.)+
+  xlab("")+ylab("")+
+  theme_bw()+ scale_x_discrete(guide = guide_axis(angle = 45)) + theme(text=element_text(size=6),axis.text.y = element_blank(),
+                              axis.ticks.y = element_blank(),
+                              axis.title.y = element_blank() )
+
+both1<-thalli1 + culture1 + plot_layout(widths = c(0.6,0.4),nrow = 1) & scale_y_continuous(limits = c(0, 5))
+
+ggsave('../results/expression1.pdf',both1, width = 7, height = 10)
+both1
+```
+
+
+```{r,fig.width=8,fig.height=10,message=F,warning=F}
+thalli2<-ggplot(df_thalli2 %>% filter(thallus !="culture"), aes(color=part,y=expression,x=part))+
+  geom_segment( aes(x=part, xend=part, y=0, yend=expression))+
+  geom_point(stat = "identity",position=position_dodge(width = .5))+
+  facet_grid(target_id~thallus,scales = "free")+
+  xlab("")+ylab("Expression: log(TPM)")+
+  theme_bw()+ scale_x_discrete(guide = guide_axis(angle = 45)) +
+  scale_color_manual( values = color_scheme)+
+  theme(text=element_text(size=6),legend.position = "bottom")
+
+culture2<-ggplot(df_thalli2 %>% filter(thallus =="culture"), aes(y=expression,x=sample))+
+  geom_segment( aes(x=sample, xend=sample, y=0, yend=expression))+
+  geom_point(stat = "identity",position=position_dodge(width = .5))+
+  facet_grid(target_id~.)+
+  xlab("")+ylab("")+
+  theme_bw()+ scale_x_discrete(guide = guide_axis(angle = 45)) + theme(text=element_text(size=6),axis.text.y = element_blank(),
+                              axis.ticks.y = element_blank(),
+                              axis.title.y = element_blank() )
+
+both2<-thalli2 + culture2 + plot_layout(widths = c(0.6,0.4),nrow = 1) & scale_y_continuous(limits = c(0, 5))
+
+ggsave('../results/expression2.pdf',both2, width = 7, height = 10)
+both2
+```
+

@@ -1,0 +1,106 @@
+position	superfamily	family	total_bp
+Tangerine, X. parietina SAMEA115359166	LINE/Tad1	RND-1_FAMILY-1	17153
+Tangerine, X. parietina SAMEA115359166	LTR/Ty3	RND-2_FAMILY-14	10444
+Tangerine, X. parietina SAMEA115359166	LTR/Ty3	RND-1_FAMILY-57	6688
+Tangerine, X. parietina SAMEA115359166	LTR/Ty3	RND-1_FAMILY-24	6629
+Tangerine, X. parietina SAMEA115359166	LINE/Tad1	RND-1_FAMILY-82	1998
+Tangerine, X. parietina SAMEA115359166	LINE/Tad1	RND-1_FAMILY-2	1645
+Tangerine, X. parietina SAMEA115359166	Unknown	RND-1_FAMILY-63	565
+Tangerine, X. parietina SAMEA115359166	LTR/Ty3	RND-3_FAMILY-123	168
+Tangerine, X. parietina SAMEA115359166	Unknown	RND-1_FAMILY-8	93
+Tangerine, X. parietina SAMEA115359166	Simple_repeat	(CCTCT)N	39
+Tangerine, X. parietina SAMEA115359166	Simple_repeat	(AATTATC)N	37
+Tangerine, X. parietina SAMEA115359166	Simple_repeat	(CAAC)N	35
+Tangerine, X. parietina SAMEA115359166	Simple_repeat	(GAT)N	35
+Tangerine, X. parietina SAMEA115359166	Simple_repeat	(ATCAA)N	27
+Tangerine, X. parietina SAMEA115359166	Simple_repeat	(GGT)N	23
+Tangerine, X. parietina SAMEA111342678	LINE/Tad1	RND-1_FAMILY-1	22490
+Tangerine, X. parietina SAMEA111342678	LTR/Ty3	RND-3_FAMILY-139	8323
+Tangerine, X. parietina SAMEA111342678	LTR/Ty3	RND-1_FAMILY-66	6902
+Tangerine, X. parietina SAMEA111342678	LTR/Ty3	RND-1_FAMILY-67	6684
+Tangerine, X. parietina SAMEA111342678	LTR/Ty3	RND-1_FAMILY-7	6631
+Tangerine, X. parietina SAMEA111342678	LTR/Ty3	RND-1_FAMILY-29	5952
+Tangerine, X. parietina SAMEA111342678	LINE/I	RND-1_FAMILY-32	1998
+Tangerine, X. parietina SAMEA111342678	Unknown	RND-1_FAMILY-20	1644
+Tangerine, X. parietina SAMEA111342678	LTR/Ty3	RND-2_FAMILY-34	1238
+Tangerine, X. parietina SAMEA111342678	LTR/Ty3	RND-3_FAMILY-138	879
+Tangerine, X. parietina SAMEA111342678	Unknown	RND-1_FAMILY-64	494
+Tangerine, X. parietina SAMEA111342678	LTR/Copia	RND-1_FAMILY-36	217
+Tangerine, X. parietina SAMEA111342678	Unknown	RND-1_FAMILY-60	69
+Tangerine, X. parietina SAMEA111342678	Low_complexity	GA-RICH	39
+Tangerine, X. parietina SAMEA111342678	Simple_repeat	(ATTGATA)N	37
+Tangerine, X. parietina SAMEA111342678	Unknown	RND-3_FAMILY-840	37
+Tangerine, X. parietina SAMEA111342678	Simple_repeat	(ATC)N	35
+Tangerine, X. parietina SAMEA111342678	Simple_repeat	(GTTG)N	35
+Tangerine, X. parietina SAMEA111342678	Simple_repeat	(TTGAT)N	27
+Tangerine, X. parietina SAMEA111342678	Simple_repeat	(CCA)N	23
+LRAR downstream of the empty site, X. calcicola GTX0491	LTR/Ty3	RND-1_FAMILY-203	11773
+LRAR downstream of the empty site, X. calcicola GTX0491	LTR/Copia	RND-1_FAMILY-109	8023
+LRAR downstream of the empty site, X. calcicola GTX0491	LTR/Ty3	RND-1_FAMILY-147	7284
+LRAR downstream of the empty site, X. calcicola GTX0491	Unknown	RND-1_FAMILY-55	6749
+LRAR downstream of the empty site, X. calcicola GTX0491	LTR/Ty3	RND-1_FAMILY-104	6667
+LRAR downstream of the empty site, X. calcicola GTX0491	LTR/Ty3	RND-1_FAMILY-155	6646
+LRAR downstream of the empty site, X. calcicola GTX0491	LTR/Ty3	RND-2_FAMILY-17	6084
+LRAR downstream of the empty site, X. calcicola GTX0491	Unknown	RND-1_FAMILY-119	4180
+LRAR downstream of the empty site, X. calcicola GTX0491	Unknown	RND-1_FAMILY-118	3528
+LRAR downstream of the empty site, X. calcicola GTX0491	Unknown	RND-1_FAMILY-29	2882
+LRAR downstream of the empty site, X. calcicola GTX0491	SINE/B2	RND-1_FAMILY-121	2505
+LRAR downstream of the empty site, X. calcicola GTX0491	DNA/TcMar-Fot1	RND-1_FAMILY-106	2341
+LRAR downstream of the empty site, X. calcicola GTX0491	Unknown	RND-1_FAMILY-11	1682
+LRAR downstream of the empty site, X. calcicola GTX0491	Unknown	RND-1_FAMILY-150	1377
+LRAR downstream of the empty site, X. calcicola GTX0491	LTR/Ty3	RND-1_FAMILY-185	1209
+LRAR downstream of the empty site, X. calcicola GTX0491	LTR/Copia	RND-3_FAMILY-138	1205
+LRAR downstream of the empty site, X. calcicola GTX0491	Unknown	RND-1_FAMILY-184	1115
+LRAR downstream of the empty site, X. calcicola GTX0491	Unknown	RND-1_FAMILY-165	895
+LRAR downstream of the empty site, X. calcicola GTX0491	Unknown	RND-1_FAMILY-194	791
+LRAR downstream of the empty site, X. calcicola GTX0491	Unknown	RND-1_FAMILY-17	734
+LRAR downstream of the empty site, X. calcicola GTX0491	Unknown	RND-1_FAMILY-158	717
+LRAR downstream of the empty site, X. calcicola GTX0491	Unknown	RND-1_FAMILY-70	701
+LRAR downstream of the empty site, X. calcicola GTX0491	LTR/Ty3	RND-1_FAMILY-45	610
+LRAR downstream of the empty site, X. calcicola GTX0491	Unknown	RND-1_FAMILY-174	486
+LRAR downstream of the empty site, X. calcicola GTX0491	Unknown	RND-1_FAMILY-141	249
+LRAR downstream of the empty site, X. calcicola GTX0491	Unknown	RND-1_FAMILY-115	232
+LRAR downstream of the empty site, X. calcicola GTX0491	LTR/Ty3	RND-1_FAMILY-100	218
+LRAR downstream of the empty site, X. calcicola GTX0491	Unknown	RND-1_FAMILY-130	143
+LRAR downstream of the empty site, X. calcicola GTX0491	Unknown	RND-1_FAMILY-133	135
+LRAR downstream of the empty site, X. calcicola GTX0491	Simple_repeat	(TA)N	129
+LRAR downstream of the empty site, X. calcicola GTX0491	Simple_repeat	(TTAT)N	115
+LRAR downstream of the empty site, X. calcicola GTX0491	Simple_repeat	(ATTT)N	81
+LRAR downstream of the empty site, X. calcicola GTX0491	Simple_repeat	(TAAT)N	75
+LRAR downstream of the empty site, X. calcicola GTX0491	Unknown	RND-1_FAMILY-50	66
+LRAR downstream of the empty site, X. calcicola GTX0491	Simple_repeat	(TTA)N	65
+LRAR downstream of the empty site, X. calcicola GTX0491	Simple_repeat	(ATTTAT)N	55
+LRAR downstream of the empty site, X. calcicola GTX0491	Simple_repeat	(CTTTAT)N	45
+LRAR downstream of the empty site, X. calcicola GTX0491	Simple_repeat	(TACTCT)N	43
+LRAR downstream of the empty site, X. calcicola GTX0491	Simple_repeat	(ATTTA)N	41
+LRAR downstream of the empty site, X. calcicola GTX0491	Simple_repeat	(TATTATATAT)N	41
+LRAR downstream of the empty site, X. calcicola GTX0491	Simple_repeat	(CTAATATAT)N	39
+LRAR downstream of the empty site, X. calcicola GTX0491	Simple_repeat	(TTTAC)N	37
+LRAR downstream of the empty site, X. calcicola GTX0491	Simple_repeat	(CTTATC)N	36
+LRAR downstream of the empty site, X. calcicola GTX0491	Simple_repeat	(TAA)N	33
+LRAR downstream of Tangerine, X. parietina SAMEA115359166	LTR/Ty3	RND-1_FAMILY-60	6752
+LRAR downstream of Tangerine, X. parietina SAMEA115359166	LTR/Ty3	RND-1_FAMILY-57	6504
+LRAR downstream of Tangerine, X. parietina SAMEA115359166	LINE/Tad1	RND-1_FAMILY-1	5896
+LRAR downstream of Tangerine, X. parietina SAMEA115359166	LINE/Tad1	RND-1_FAMILY-43	5714
+LRAR downstream of Tangerine, X. parietina SAMEA115359166	LINE/Tad1	RND-1_FAMILY-75	5361
+LRAR downstream of Tangerine, X. parietina SAMEA115359166	LINE/Tad1	RND-1_FAMILY-2	3050
+LRAR downstream of Tangerine, X. parietina SAMEA115359166	LTR/Ty3	RND-1_FAMILY-97	1385
+LRAR downstream of Tangerine, X. parietina SAMEA115359166	LTR/Ty3	RND-1_FAMILY-92	169
+LRAR downstream of Tangerine, X. parietina SAMEA115359166	Simple_repeat	(TAAATC)N	34
+LRAR downstream of Tangerine, X. parietina SAMEA115359166	Simple_repeat	(AATATT)N	33
+LRAR downstream of Tangerine, X. parietina SAMEA115359166	Simple_repeat	(TTA)N	21
+LRAR downstream of Tangerine, X. parietina SAMEA111342678	LINE/Tad1	RND-1_FAMILY-48	17197
+LRAR downstream of Tangerine, X. parietina SAMEA111342678	LINE/Tad1	RND-1_FAMILY-1	9137
+LRAR downstream of Tangerine, X. parietina SAMEA111342678	LTR/Ty3	RND-1_FAMILY-7	6730
+LRAR downstream of Tangerine, X. parietina SAMEA111342678	LTR/Ty3	RND-1_FAMILY-22	6555
+LRAR downstream of Tangerine, X. parietina SAMEA111342678	LINE/Tad1	RND-1_FAMILY-57	5403
+LRAR downstream of Tangerine, X. parietina SAMEA111342678	LTR/Copia	RND-1_FAMILY-37	2413
+LRAR downstream of Tangerine, X. parietina SAMEA111342678	LTR/Ty3	RND-1_FAMILY-58	666
+LRAR downstream of Tangerine, X. parietina SAMEA111342678	LTR/Ty3	RND-1_FAMILY-67	399
+LRAR downstream of Tangerine, X. parietina SAMEA111342678	LTR/Ty3	RND-2_FAMILY-86	174
+LRAR downstream of Tangerine, X. parietina SAMEA111342678	Unknown	RND-1_FAMILY-46	171
+LRAR downstream of Tangerine, X. parietina SAMEA111342678	LTR/Ty3	RND-1_FAMILY-29	85
+LRAR downstream of Tangerine, X. parietina SAMEA111342678	Simple_repeat	(TTTATA)N	77
+LRAR downstream of Tangerine, X. parietina SAMEA111342678	LTR/Ty3	RND-1_FAMILY-66	56
+LRAR downstream of Tangerine, X. parietina SAMEA111342678	Simple_repeat	(ATTAAG)N	34
+LRAR downstream of Tangerine, X. parietina SAMEA111342678	Simple_repeat	(TAG)N	22

@@ -1,0 +1,21 @@
+geneID	Genome	contig	Start	End	Strand	navis	family_hit	evalue
+XANPAOZ2100_003971-T1	Xanthoria parietina isolate SAMEA111342678	OZ2100_32	1910251	1912801	-	navis0001	phoenixFam	1.1e-85
+XANCAGTX0491_009866-T1	Xanthoria calcicola isolate GTX0491	XcGTX0491_15	853712	856255	+	navis0001	phoenixFam	4.8e-85
+XANPAGTX0501_002936-T1	Xanthoria parietina isolate GTX0501	XpGTX0501_4	1205340	1208010	-	navis0001	phoenixFam	1.9e-73
+XANPAGTX0501_007307-T1	Xanthoria parietina isolate GTX0501	XpGTX0501_12	129424	131974	+	navis0001	phoenixFam	1.1e-85
+XANPARI20_005633-T1	Xanthoria parietina isolate SAMEA115359166	scaffold_5	2024608	2027212	-	navis0001	phoenixFam	3.7e-86
+XANPAOZ2100_002162-T1	Xanthoria parietina isolate SAMEA111342678	OZ2100_30	305825	307015	+	navis0002	clade1	2.3e-65
+XANPAGTX0501_001716-T1	Xanthoria parietina isolate GTX0501	XpGTX0501_3	6660	7805	+	navis0002	clade1	6.1e-59
+XANPAGTX0501_010272-T1	Xanthoria parietina isolate GTX0501	XpGTX0501_31	125644	126848	+	navis0002	clade1	4.8e-43
+XANPARI20_008752-T1	Xanthoria parietina isolate SAMEA115359166	scaffold_12	744949	746139	-	navis0002	clade1	2.3e-65
+XANPAOZ2100_008954-T1	Xanthoria parietina isolate SAMEA111342678	OZ2100_43	931278	932679	-	navis0003	galacticaFam	6.6e-62
+XANPAGTX0501_010485-T1	Xanthoria parietina isolate GTX0501	XpGTX0501_37	760	1759	+	navis0003	galacticaFam	8.5e-90
+XANPARI20_007362-T1	Xanthoria parietina isolate SAMEA115359166	scaffold_8	1503178	1505738	-	navis0003	galacticaFam	1.3e-144
+XANPAGTX0501_tyr12	Xanthoria parietina isolate GTX0501	XpGTX0501_5	1670285	1672933	-	navis0004	prometheusFam	4.1e-61
+XANPAGTX0501_010572-T1	Xanthoria parietina isolate GTX0501	XpGTX0501_39	70667	72714	-	navis0004	prometheusFam	1.2e-82
+XANCAGTX0491_tyr8	Xanthoria calcicola isolate GTX0491	XcGTX0491_12	23500	23784	+	navis0005	arwingFam	4.4e-11
+XANCAGTX0491_008785-T1	Xanthoria calcicola isolate GTX0491	XcGTX0491_12	1478908	1481335	-	navis0006	phoenixFam	5e-128
+XANPARI20_tyr17	Xanthoria parietina isolate SAMEA115359166	scaffold_4	1310219	1310743	-	navis0007	phoenixFam	2e-17
+XANPAOZ2100_tyr3	Xanthoria parietina isolate SAMEA111342678	OZ2100_35	359121	359324	-	navis0008	moyaFam	1.4e-06
+XANPAOZ2100_tyr4	Xanthoria parietina isolate SAMEA111342678	OZ2100_35	359761	360277	-	navis0009	clade2	1.4e-34
+XANCAGTX0491_002172-T1	Xanthoria calcicola isolate GTX0491	XcGTX0491_2	2632559	2633446	+	navis0010	clade3	1.7e-44

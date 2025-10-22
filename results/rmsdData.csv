@@ -1,0 +1,16 @@
+﻿name,label,pairs,rmsd,rmsd100,tree
+grascr1 687,Grascr1,266,8.525,5.724692091,foldseek
+dibbae1 5584 5585,Dibbae1,271,4.185,2.792840659,foldseek
+umbpus1 103454,Umbpus1,274,8.091,5.379729514,foldseek
+hirrho1_KAH0968669.1,Hirrho1,262,8.632,5.826184405,lddt
+psesp.14 KFY31966.1,Psesp14,273,5.657,3.765933475,lddt
+artunc1 KAF3492431.1,Artunc1,276,3.669,2.433644646,alntmscore
+diaamp1_10693,Diaamp1,251,16.549,11.33383401,alntmscore
+ emmcre2_KKZ67376.1,Emmcre2,262,4.922,3.322113026,alntmscore
+ aspind3_tyr1556,Aspind3,240,13.462,9.363342974,alntmscore
+ botacl1_KAF7955521.1,Botacl1,241,3.839,2.666317781,alntmscore
+ psesp.4_tyr9585,Psesp4,276,12.423,8.240165559,alntmscore
+ lepsp.1_674126,Lepsp1,250,9.48,6.501409408,alntmscore
+5HXY,XerA,140,12.685,10.85825014,manual
+3C29,P1 Cre,147,12.599,10.56403689,manual
+,,,,,

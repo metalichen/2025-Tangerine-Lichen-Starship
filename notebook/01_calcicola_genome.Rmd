@@ -1,0 +1,252 @@
+---
+title: "01_calcicola_genome"
+author: "Gulnara Tagridzhanova"
+date: "15/03/2023"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(kableExtra)
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+**Description:** notes from lab work and bioinformatic analysis done to get the genomic assembly f X. calcicola
+
+## 1. DNA extraction
+* Used Nucleobond HWM kit
+* 19.12.2022
+
+#### Extraction protocol
+* Extracted from a lichen thallus
+* Used GT0242 (concrete 3). Prepped 5 tubes, total of 120 mg 
+* Snap frozen and ground 1 min at 1,000 rpm
+* To each tube added 1ml of H1 buffer and 40 uL of proteinase K
+* Vortexed
+* Incubated 30 min at 65C
+* Centrifuget at 11,000 g for 2 min
+* Transferred supernatants (~4.8 mL) to a 50 mL tube, topped to 5 mL with H1 buffer
+* Proceeded with the protocol (mortar & pestel lysis)
+
+#### Results 
+* Nanodrop (before full resuspension): 109 ng/uL 260/280 = 1.87, 260/230 = 2.02
+* Qubit: 130 ng/uL
+* Gel showed single band, >15,000 bp, with minimal smear
+
+#### Sequencing
+* Illumina sequencing for polishing
+  * done by Novogene
+  * 24 Gbp
+* Nanopore
+  * done by Future Genomics
+  
+## 2. Metagenomic binning
+#### Align reads against the assembly (70.77% overall alignment rate); sort the alignment
+```{r,eval=F}
+source package 29a74b59-88fc-4453-a30b-1310b34910b9
+source package aeee87c4-1923-4732-aca2-f2aff23580cc
+bowtie2-build data/FG23004_02_flye-medaka_2xpilon.fasta data/GTX0491_index
+bowtie2 -q -x data/GTX0491_index -1 /tsl/data/reads/ntalbot/metagenomes_of_xanthoria_parietina_lichens/gtx0491/gtx0491/raw/GTX0491dilut_EKDN230002741-1A_HNW2JDSX5_L2_1.fq.gz,/tsl/data/reads/ntalbot/metagenomes_of_xanthoria_parietina_lichens/gtx0491/gtx0491/raw/GTX0491dilut_EKDN230002741-1A_HNW2NDSX5_L2_1.fq.gz -2 /tsl/data/reads/ntalbot/metagenomes_of_xanthoria_parietina_lichens/gtx0491/gtx0491/raw/GTX0491dilut_EKDN230002741-1A_HNW2JDSX5_L2_2.fq.gz,/tsl/data/reads/ntalbot/metagenomes_of_xanthoria_parietina_lichens/gtx0491/gtx0491/raw/GTX0491dilut_EKDN230002741-1A_HNW2NDSX5_L2_2.fq.gz > analysis_and_temp_files/01_calcicola_genome/GTX0491.sam
+samtools sort analysis_and_temp_files/01_calcicola_genome/GTX0491.sam -o analysis_and_temp_files/01_calcicola_genome/GTX0491.bam -@ 20
+rm analysis_and_temp_files/01_calcicola_genome/GTX0491.sam
+samtools index  analysis_and_temp_files/01_calcicola_genome/GTX0491.bam 
+```
+* Alignment results
+```
+  95161336 (100.00%) were paired; of these:
+    28990150 (30.46%) aligned concordantly 0 times
+    59450900 (62.47%) aligned concordantly exactly 1 time
+    6720286 (7.06%) aligned concordantly >1 times
+    ----
+    28990150 pairs aligned concordantly 0 times; of these:
+      580173 (2.00%) aligned discordantly 1 time
+    ----
+    28409977 pairs aligned 0 times concordantly or discordantly; of these:
+      56819954 mates make up the pairs; of these:
+        55636066 (97.92%) aligned 0 times
+        862918 (1.52%) aligned exactly 1 time
+        320970 (0.56%) aligned >1 times
+70.77% overall alignment rate
+```
+#### Use metaBAT to bin 
+```{r,eval=F}
+source package 0a2dffce-c151-4379-abe9-866414c91cd7
+cp data/FG23004_02_flye-medaka_2xpilon.fasta analysis_and_temp_files/01_calcicola_genome/GTX0491.fasta
+runMetaBat.sh -t 20 analysis_and_temp_files/01_calcicola_genome/GTX0491.fasta analysis_and_temp_files/01_calcicola_genome/GTX0491.bam
+rm  analysis_and_temp_files/01_calcicola_genome/GTX0491.fasta
+mv  GTX0491.fasta.metabat* analysis_and_temp_files/01_calcicola_genome/
+```
+* Identify prokaryotic MAGs with CheckM (plus calculate coverage depth and gc% for each contig): no MAGs identifies
+```{r,eval=F}
+source package  5a1c6a9a-f666-4eaa-9409-3e7435d86406
+checkm coverage analysis_and_temp_files/01_calcicola_genome/GTX0491.fasta.metabat* analysis_and_temp_files/01_calcicola_genome/GTX0491.cov analysis_and_temp_files/01_calcicola_genome/GTX0491.bam -x fa
+checkm  lineage_wf analysis_and_temp_files/01_calcicola_genome/GTX0491.fasta.metabat* analysis_and_temp_files/01_calcicola_genome/GTX0491_checkm -x fa
+
+source package /tsl/software/testing/bin/bbmap-37.90 
+stats.sh in=data/FG23004_02_flye-medaka_2xpilon.fasta gc=analysis_and_temp_files/01_calcicola_genome/GTX0491.gc gcformat=4
+
+```
+#### Blast contigs against NCBI 
+```{r,eval=F}
+source package /tsl/software/testing/bin/blast+-2.9.0  
+blastn \
+ -query data/FG23004_02_flye-medaka_2xpilon.fasta \
+ -db /tsl/data/ncbi_database/blast/nt_20220819/nt \
+ -outfmt '6 qseqid staxids bitscore std' \
+ -max_target_seqs 1 \
+ -max_hsps 1 \
+ -evalue 1e-25 \
+ -out analysis_and_temp_files/01_calcicola_genome/GTX0491.blast.out -num_threads 8
+
+source package 102a6af9-7422-4e1a-9e42-d43a2bcd3d1f
+```
+* All contigs from bin.2 have ascomycete hits consistent with it being the Xanthoria "core" genome 
+* One small inconsistency is contig_9_pilon_pilon that has best blast hit to KP445975.1, a sequence from a lichen metagenome, which was labelled as bacterial. However, all other hits to the same sequence are from ascomycete genomes. Thus, I kept this sequence
+```{r,eval=F}
+samtools faidx analysis_and_temp_files/01_calcicola_genome/Xanthoria_MAG.fa contig_9_pilon_pilon:952306-955137 > analysis_and_temp_files/01_calcicola_genome/contig_9_bacterial_hit.fa
+blastn -query analysis_and_temp_files/01_calcicola_genome/contig_9_bacterial_hit.fa -db /tsl/data/ncbi_database/blast/nt_20220819/nt -outfmt '6 qseqid staxids bitscore std' -evalue 1e-25 -num_threads 8
+#contig_9_pilon_pilon:952306-955137   KP445975.1   0.0
+#contig_9_pilon_pilon:952306-955137      XM_022545240.1   0.0
+#contig_9_pilon_pilon:952306-955137      CP084947.1   0.0
+#contig_9_pilon_pilon:952306-955137      AP024444.1   0.0
+#contig_9_pilon_pilon:952306-955137      XM_024904721.1      0.0
+#contig_9_pilon_pilon:952306-955137      CP055901.1    0.0
+#contig_9_pilon_pilon:952306-955137      XM_038873623.1    0.0
+```
+* In addition, two more contigs are annotated as ascomycete:
+  * contig_7_pilon_pilon (bin.3): mostly hits to ascomycete rDNA. When blasting Xanthoria ITS from the genbank (JF831902.1), against the contig, I got six hits, all 93.6% identical. When I blasted it against NCBI, I got hits to Xanthoria species, including one 99% hit to X. parietina
+```{r,eval=F}
+  source package aeee87c4-1923-4732-aca2-f2aff23580cc
+  source package /tsl/software/testing/bin/blast+-2.9.0 
+  blastn -query analysis_and_temp_files/01_calcicola_genome/Xanthoria_genbank_ITS.fa -subject analysis_and_temp_files/01_calcicola_genome/GTX0491.fasta.metabat-bins20-20230321_131447/bin.3.fa -outfmt 6 -out analysis_and_temp_files/01_calcicola_genome/Xanthoria_genbank_ITS.blast
+```
+  * contig_21_pilon_pilon (unbinned): mostly hits to ascomycete mitochondria. When blasting Xanthoria mtSSU from the genbank (EU680867.1), against the contig, I got two hits, 99.7% and 98
+```{r,eval=F}
+  samtools faidx data/FG23004_02_flye-medaka_2xpilon.fasta contig_21_pilon_pilon >      analysis_and_temp_files/01_calcicola_genome/contig_21_putative_mitochondrion.fa
+  blastn -query analysis_and_temp_files/01_calcicola_genome/Xanthoria_genbank_mtSSU.fa -subject analysis_and_temp_files/01_calcicola_genome/contig_21_putative_mitochondrion.fa -outfmt 6 -out analysis_and_temp_files/01_calcicola_genome/Xanthoria_genbank_mtSSU.blast
+```
+* In addition, got three contigs blasting to Trebouxia (chloroplast, rDNA and mitochondrion), and one blasting to both algae and plants
+* Finally, 6 contigs among the unbinned can't be asigned. They all are <10,000 bp, so I can safely disregard them 
+
+#### Visualize binning result
+```{r, message = FALSE,fig.width=14,fig.height=10}
+library(tidyverse)
+gc2<-read.delim2("../analysis_and_temp_files/01_calcicola_genome/GTX0491.gc",header=T)
+colnames(gc2)[1]<-"contig"
+gc2$GC<-as.numeric(gc2$GC)
+cov2<-read.delim2("../analysis_and_temp_files/01_calcicola_genome/GTX0491.cov")
+colnames(cov2)[1]<-"contig"
+cov2$Coverage<-as.numeric(cov2$Coverage)
+df2<-left_join(gc2,cov2)
+ggplot(df2,aes(x=GC,y=Coverage,color=Bin.Id))+ coord_trans(y = "log10")+
+  #geom_point()+
+   geom_text(aes(label=contig))+
+  coord_trans(y = "log10")
+```
+
+## 3. Finalize Xanthoria calcicola MAG
+* Put in a single fasta file all contigs asigned to Xanthoria:
+  * bin.2: "core" genome
+  * contig_7_pilon_pilon (a.k.a. bin.3): rDNA
+  * contig_21_pilon_pilon: mitochondrion 
+```{r,eval=F}
+cat analysis_and_temp_files/01_calcicola_genome/GTX0491.fasta.metabat-bins20-20230321_131447/bin.2.fa analysis_and_temp_files/01_calcicola_genome/GTX0491.fasta.metabat-bins20-20230321_131447/bin.3.fa analysis_and_temp_files/01_calcicola_genome/contig_21_putative_mitochondrion.fa > analysis_and_temp_files/01_calcicola_genome/Xanthoria_MAG.fa
+```
+* This resulted in 17 contigs and 36.38 Mbp
+```{r,eval=F}
+source package /tsl/software/testing/bin/bbmap-37.90 
+stats.sh in=analysis_and_temp_files/01_calcicola_genome/Xanthoria_MAG.fa
+```
+* Confirm completeness with BUSCO
+```{r,eval=F}
+source package ca890cd7-f81d-4c22-9f4a-5b40ab671c79
+mkdir analysis_and_temp_files/01_calcicola_genome/GTX0491_fungal_MAG_busco
+source package 85f2de80-4bd0-48dc-9303-bba1a19206e4
+copyAugustusCfg.sh analysis_and_temp_files/01_calcicola_genome/tmp_augustus/
+export AUGUSTUS_CONFIG_PATH=analysis_and_temp_files/01_calcicola_genome/tmp_augustus/config
+busco -i analysis_and_temp_files/01_calcicola_genome/Xanthoria_MAG.fa -o GTX0491_Xanthoria --out_path analysis_and_temp_files/01_calcicola_genome/GTX0491_fungal_MAG_busco  -m  genome -l  /tsl/data/busco_lineages/ascomycota_odb10 --offline -f -c 20
+```
+* Results look good: C:97.3%[S:97.2%,D:0.1%],F:0.2%,M:2.5%,n:1706  
+
+* Saved nuclear genome separately for annotation
+```{r,eval=F}
+cat analysis_and_temp_files/01_calcicola_genome/GTX0491.fasta.metabat-bins20-20230321_131447/bin.2.fa analysis_and_temp_files/01_calcicola_genome/GTX0491.fasta.metabat-bins20-20230321_131447/bin.3.fa > analysis_and_temp_files/01_calcicola_genome/GTX0491_xanthoria_nuclear_mag.fa
+```
+
+## 4. Visualize GC% content across the genome
+* Used SEQtk and got GC% for non-overlapping windows of 1000 bp
+```{r,eval=F}
+source package 46a62eca-4f8f-45aa-8cc2-d4efc99dd9c6
+seqkit sliding  analysis_and_temp_files/02_binning/Xanthoria_MAG.fa -s 1000 -W 1000  | seqkit fx2tab -n -g > analysis_and_temp_files/01_calcicola_genome/GC_sliding.txt
+```
+* Visualize
+```{r, message = FALSE}
+library(tidyverse)
+library(stringr)
+library(viridis)
+gc<-read.delim2("../analysis_and_temp_files/01_calcicola_genome/GC_sliding.txt",header=F)[,c(1,4)]
+colnames(gc)<-c("window","gc_content")
+##get contig name and start of the window
+gc$contig<-sub("_sliding.*", "", gc$window)  
+gc$window<-sub(".*:", "", gc$window)
+gc$window_start<-sub("-.*", "", gc$window) %>% as.numeric()
+gc$gc_content<-gc$gc_content %>% as.numeric()
+
+##add data for telomere annotation
+tel<-read.delim2("../analysis_and_temp_files/01_calcicola_genome/telomer_detection.txt",header=F)[,c(1,2)]
+colnames(tel)<-c("contig","position")
+tel_start_contig_list<-tel[tel$position=="forward",1] #list all contigs that have telomer at the contig start (corresponds to 'forward')
+tel_end_contig_list<-tel[tel$position=="reverse",1] #list all contigs that have telomer at the contig start (corresponds to 'forward')
+
+## get 
+tel_start<-gc %>% select(contig,window_start) %>% mutate(telomere="absent") %>% group_by(contig) %>% arrange(window_start) %>% filter(row_number()<25 & contig %in% tel_start_contig_list) %>% mutate(telomere="present") %>% ungroup()
+
+tel_end<-gc %>% select(contig,window_start) %>% mutate(telomere="absent") %>% group_by(contig) %>% arrange(window_start) %>% 
+  slice(tail(row_number(), 25)) %>% filter(contig %in% tel_end_contig_list) %>% mutate(telomere="present") %>% ungroup()
+
+gc<-gc %>% left_join(rbind(tel_start,tel_end))
+gc$telomere[is.na(gc$telomere)]<-"absent"
+
+##visualize
+ggplot(gc)+
+  geom_tile(aes(y=fct_reorder(contig,window_start),x=window_start,color=gc_content))+
+  geom_tile(aes(y=fct_reorder(contig,window_start),x=window_start,alpha=telomere),fill="red")+
+  xlab("")+ylab("")+
+   scale_alpha_discrete(range=c(0,1))+
+  scale_color_viridis(begin = 1,end = 0)+
+   scale_x_continuous(breaks = c(0,1000000,2000000,3000000,4000000),
+                     labels = c("0","1 Mbp","2 Mbp","3 Mbp","4 Mbp"))+
+  theme_minimal()
+```
+
+## 5. Phylogenetic tree based on ITS
+* To clarify the taxonomy of the new genome, I extracted and treed its ITS. As reference, I used all Xanthoria species with ITS from NCBI, plus Teloschistes as an outgroup
+```{r,eval=F}
+source package aeee87c4-1923-4732-aca2-f2aff23580cc
+source package /tgac/software/testing/bin/mafft-7.271
+source package /tsl/software/testing/bin/trimal-1.2
+source package /tgac/software/testing/bin/raxml-8.2.12
+
+samtools faidx data/FG23004_02_flye-medaka_2xpilon.fasta contig_7_pilon_pilon:1511-2024 > analysis_and_temp_files/01_calcicola_genome/GTX0491_its.fa
+
+cat analysis_and_temp_files/01_calcicola_genome/genbank_its.fasta analysis_and_temp_files/01_calcicola_genome/GTX0491_its.fa > analysis_and_temp_files/01_calcicola_genome/combined_its.fa
+mafft --maxiterate 1000 --genafpair analysis_and_temp_files/01_calcicola_genome/combined_its.fa > analysis_and_temp_files/01_calcicola_genome/combined_its_aligned.fa
+trimal -in analysis_and_temp_files/01_calcicola_genome/combined_its_aligned.fa -out analysis_and_temp_files/01_calcicola_genome/combined_its_aligned.phyl -gt 0.3 -phylip
+
+raxmlHPC-PTHREADS -T 20 -f a -m GTRGAMMAI -p 12345 -x 12345 -# 1000 -s analysis_and_temp_files/01_calcicola_genome/combined_its_aligned.phyl -n its
+mv RAxML_* analysis_and_temp_files/01_calcicola_genome/
+```
+* Visualized the tree. The ITS from MAG is within a big clade that includes X. parietina and many other species. Most closely related sequences is from X. calcicola (a saxicolous species very similar to X. parietina). However, the speceis do not separate well, and X. parietina is present thoughout the clade, including the branch close to our sequence.
+
+```{r, message = FALSE,fig.width=14,fig.height=50}
+library(ape)
+tree2<-read.tree("../analysis_and_temp_files/01_calcicola_genome/RAxML_bestTree.its")
+tree2 <- root(tree2, outgroup = "JQ301685.1", resolve.root = TRUE)
+tree2 <- ladderize(tree2)
+
+##rename
+names<-read.delim2("../analysis_and_temp_files/01_calcicola_genome/its_id.txt",header = F)
+tree2$tip.label<-names[[1]][match(tree2$tip.label, names[[2]])]
+
+plot(tree2)
+```

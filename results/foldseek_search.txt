@@ -1,0 +1,8 @@
+query	target	prob	eval	score	seqId	description
+XANPAOZ2100_002162-T1	5hxy-assembly4_D	1.00	2.81e-1	91	31.3	Crystal structure of XerA recombinase
+XANPAOZ2100_002162-T1	5hxy-assembly3_C	0.99	4.67e-1	84	31.8	Crystal structure of XerA recombinase
+XANPAOZ2100_002162-T1	5u91-assembly1_F	0.97	3.14e-1	77	18.2	Crystal structure of Tre/loxLTR complex
+XANPAOZ2100_002162-T1	5j0i-assembly1_A	0.07	8.82e+0	27	16.6	De novo design of protein homo-oligomers with modular hydrogen bond network-mediated specificity
+XANPAOZ2100_002162-T1	8cok-assembly1_B	0.07	4.23e+0	27	13.5	Structural analysis of ING3 protein and its binding to histone H3
+XANPAOZ2100_002162-T1	2pih-assembly1_B	0.06	9.33e+0	26	14.1	Crystal structure of Protein ymcA from Bacillus subtilis, NorthEast Structural Genomics target SR375
+XANPAOZ2100_002162-T1	8btk-assembly1_TC	0.05	8.82e+0	24	9.7	Structure of the TRAP complex with the Sec translocon and a translating ribosome

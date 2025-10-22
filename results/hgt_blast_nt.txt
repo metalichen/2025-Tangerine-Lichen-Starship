@@ -1,0 +1,307 @@
+Query	Subject 	Description	Scientific Name	Max Score	Total Score	Query Cover	E value	Per. ident	Acc. Len	Accession  
+XANPAOZ2100_002166-T1	core_nt	"Cladophialophora yegresii CBS 114405 uncharacterized protein (A1O7_06482), partial mRNA"	Cladophialophora yegresii CBS 114405	360	360	96%	3e-123	75.68	726	XM_007760484.1
+XANPAOZ2100_002166-T1	core_nt	"Fonsecaea erecta hypothetical protein (AYL99_06618), partial mRNA"	Fonsecaea erecta	358	358	97%	6e-123	74.11	675	XM_018838127.1
+XANPAOZ2100_002166-T1	core_nt	"Cladophialophora psammophila CBS 110553 uncharacterized protein (A1O5_08129), partial mRNA"	Cladophialophora psammophila CBS 110553	358	358	99%	1e-122	73.68	699	XM_007748713.1
+XANPAOZ2100_002166-T1	core_nt	"Endocarpon pusillum Z07020 uncharacterized protein (EPUS_08988), partial mRNA"	Endocarpon pusillum Z07020	355	355	98%	3e-121	73.45	693	XM_007805357.1
+XANPAOZ2100_002166-T1	core_nt	"Fonsecaea multimorphosa CBS 102226 uncharacterized protein (Z520_07803), partial mRNA"	Fonsecaea multimorphosa CBS 102226	352	352	98%	3e-120	73.45	687	XM_016778300.1
+XANPAOZ2100_002166-T1	core_nt	"Exophiala xenobiotica uncharacterized protein (PV05_08005), mRNA"	Exophiala xenobiotica	353	353	92%	3e-119	76.78	975	XM_013457493.1
+XANPAOZ2100_002166-T1	core_nt	"Cladophialophora carrionii CBS 160.54 uncharacterized protein (G647_04799), partial mRNA"	Cladophialophora carrionii CBS 160.54	346	346	100%	7e-118	69.87	690	XM_008729136.1
+XANPAOZ2100_002166-T1	core_nt	"Exophiala mesophila uncharacterized protein (PV10_02689), partial mRNA"	Exophiala mesophila	348	348	100%	8e-118	70.87	872	XM_016367035.1
+XANPAOZ2100_002166-T1	core_nt	"Cyphellophora europaea CBS 101466 uncharacterized protein (HMPREF1541_09139), partial mRNA"	Cyphellophora europaea CBS 101466	344	344	91%	3e-117	72.73	672	XM_008713814.1
+XANPAOZ2100_002166-T1	core_nt	"Exophiala oligosperma uncharacterized protein (PV06_08307), partial mRNA"	Exophiala oligosperma	352	352	95%	7e-117	73.64	1401	XM_016409626.1
+XANPAOZ2100_002166-T1	core_nt	"Exophiala aquamarina CBS 119918 uncharacterized protein (A1O9_03817), partial mRNA"	Exophiala aquamarina CBS 119918	337	337	100%	4e-114	69	774	XM_013406110.1
+XANPAOZ2100_002166-T1	core_nt	"Cladophialophora yegresii CBS 114405 uncharacterized protein (A1O7_03580), partial mRNA"	Cladophialophora yegresii CBS 114405	331	331	100%	8e-112	67.53	699	XM_007757599.1
+XANPAOZ2100_002166-T1	core_nt	"Hypoxylon trugodes S-adenosyl-L-methionine-dependent methyltransferase (F4822DRAFT_430822), partial mRNA"	Hypoxylon trugodes	296	296	92%	3e-98	63.68	648	XM_051461370.1
+XANPAOZ2100_002166-T1	core_nt	"Annulohypoxylon truncatum S-adenosyl-L-methionine-dependent methyltransferase (F4807DRAFT_144987), mRNA"	Annulohypoxylon truncatum	296	296	92%	7e-97	62.09	947	XM_047993147.1
+XANPAOZ2100_002166-T1	core_nt	"Annulohypoxylon maeteangense S-adenosyl-L-methionine-dependent methyltransferase (GGS22DRAFT_156084), mRNA"	Annulohypoxylon maeteangense	292	292	91%	1e-95	64.76	900	XM_047960313.1
+XANPAOZ2100_002166-T1	core_nt	"Daldinia vernicosa S-adenosyl-L-methionine-dependent methyltransferase (F5Y00DRAFT_208395), mRNA"	Daldinia vernicosa	293	293	93%	3e-95	62.44	1047	XM_048005468.1
+XANPAOZ2100_002166-T1	core_nt	"Daldinia loculata S-adenosyl-L-methionine-dependent methyltransferase (F4817DRAFT_205109), mRNA"	Daldinia loculata	291	291	93%	5e-95	62.44	937	XM_049298629.1
+XANPAOZ2100_002166-T1	core_nt	"Daldinia childiae Endothelin-converting enzyme 2 (GL218_01013), partial mRNA"	Daldinia childiae	287	287	93%	8e-95	61.97	648	XM_033577459.1
+XANPAOZ2100_002166-T1	core_nt	"Daldinia decipiens S-adenosyl-L-methionine-dependent methyltransferase (F4813DRAFT_368903), mRNA"	Daldinia decipiens	291	291	93%	7e-94	61.5	1152	XM_049244375.1
+XANPAOZ2100_002166-T1	core_nt	"Thyridium curvatum uncharacterized protein (E0L32_004868), partial mRNA"	Thyridium curvatum	283	283	93%	4e-93	60.83	666	XM_031139326.1
+XANPAOZ2100_002166-T1	core_nt	"Verticillium nonalfalfae uncharacterized protein (D7B24_005222), partial mRNA"	Verticillium nonalfalfae	281	281	97%	8e-92	59.19	744	XM_028639381.1
+XANPAOZ2100_002166-T1	core_nt	Verticillium alfalfae VaMs.102 conserved hypothetical protein mRNA	Verticillium alfalfae VaMs.102	281	281	97%	1e-91	59.19	817	XM_003001469.1
+XANPAOZ2100_002166-T1	core_nt	"Verticillium dahliae VdLs.17 uncharacterized protein (VDAG_08232), mRNA"	Verticillium dahliae VdLs.17	279	279	93%	1e-90	60.75	817	XM_009657609.1
+XANPAOZ2100_002166-T1	core_nt	"Daldinia caldariorum S-adenosyl-L-methionine-dependent methyltransferase (F4812DRAFT_353580), mRNA"	Daldinia caldariorum	282	282	93%	1e-90	59.62	1086	XM_047931756.1
+XANPAOZ2100_002166-T1	core_nt	"Colletotrichum truncatum methyltransferase type 11 (CTRU02_207930), partial mRNA"	Colletotrichum truncatum	275	275	90%	3e-90	58.85	654	XM_070204993.1
+XANPAOZ2100_002166-T1	core_nt	"Colletotrichum chrysophilum uncharacterized protein (COL26b_011736), partial mRNA"	Colletotrichum chrysophilum	275	275	90%	6e-90	59.81	654	XM_053184397.1
+XANPAOZ2100_002166-T1	core_nt	"Colletotrichum aenigma EEF1A lysine methyltransferase 4 (Eef1akmt4), partial mRNA"	Colletotrichum aenigma	275	275	90%	6e-90	59.81	654	XM_037327971.1
+XANPAOZ2100_002166-T1	core_nt	"Colletotrichum siamense EEF1A lysine methyltransferase 4 (Eef1akmt4), partial mRNA"	Colletotrichum siamense	273	273	90%	3e-89	59.81	654	XM_036644624.1
+XANPAOZ2100_002166-T1	core_nt	"Colletotrichum gloeosporioides uncharacterized protein (GCG54_00013103), partial mRNA"	Colletotrichum gloeosporioides	273	273	90%	3e-89	59.81	654	XM_045412963.1
+XANPAOZ2100_002166-T1	core_nt	"Colletotrichum fructicola Nara gc5 EEF1A lysine methyltransferase 4 (CGGC5_v011631), partial mRNA"	Colletotrichum fructicola Nara gc5	272	272	90%	6e-89	59.33	654	XM_032027884.1
+XANPAOZ2100_002166-T1	core_nt	"Colletotrichum higginsianum IMI 349063 uncharacterized protein (CH63R_09706), partial mRNA"	Colletotrichum higginsianum IMI 349063	272	272	92%	8e-89	56.81	684	XM_018304680.1
+XANPAOZ2100_002166-T1	core_nt	"Colletotrichum karsti uncharacterized protein (CkaCkLH20_13122), partial mRNA"	Colletotrichum karsti	270	270	92%	8e-88	57.28	654	XM_038895833.1
+XANPAOZ2100_002166-T1	core_nt	"Colletotrichum spaethianum EEF1A lysine methyltransferase 4 (ColSpa_12423), partial mRNA"	Colletotrichum spaethianum	268	268	92%	2e-87	57.75	654	XM_049278635.1
+XANPAOZ2100_002166-T1	core_nt	"Purpureocillium lilacinum uncharacterized protein (PLICBS_004226), partial mRNA"	Purpureocillium lilacinum	268	268	95%	2e-87	57.8	657	XM_018327050.1
+XANPAOZ2100_002166-T1	core_nt	"Boeremia exigua S-adenosyl-L-methionine-dependent methyltransferase (C7974DRAFT_394160), partial mRNA"	Boeremia exigua	269	269	93%	6e-87	57.94	819	XM_046141850.1
+XANPAOZ2100_002166-T1	core_nt	"Colletotrichum graminicola M1.001 uncharacterized protein (GLRG_11413), partial mRNA"	Colletotrichum graminicola M1.001	266	266	90%	1e-86	57.89	660	XM_008102097.1
+XANPAOZ2100_002166-T1	core_nt	"Macroventuria anomochaeta uncharacterized protein (BU25DRAFT_345099), partial mRNA"	Macroventuria anomochaeta	266	266	90%	2e-86	59.13	645	XM_033703025.1
+XANPAOZ2100_002166-T1	core_nt	"Colletotrichum destructivum Putative methyltransferase type 11, S-adenosyl-L-methionine-dependent methyltransferase superfamily (CDEST_14275), mRNA"	Colletotrichum destructivum	273	273	92%	3e-86	56.81	1269	XM_062930431.1
+XANPAOZ2100_002166-T1	core_nt	"Didymella exigua CBS 183.55 uncharacterized protein (M421DRAFT_73186), partial mRNA"	Didymella exigua CBS 183.55	265	265	91%	5e-86	59.24	654	XM_033596943.1
+XANPAOZ2100_002166-T1	core_nt	"Colletotrichum paranaense uncharacterized protein (CPAR01_14215), partial mRNA"	Colletotrichum paranaense	264	264	90%	2e-85	57.89	660	XM_060498466.1
+XANPAOZ2100_002166-T1	core_nt	"Ascochyta rabiei uncharacterized protein (EKO05_0004562), partial mRNA"	Ascochyta rabiei	263	263	90%	2e-85	58.65	645	XM_038938776.1
+XANPAOZ2100_002166-T1	core_nt	"Colletotrichum fioriniae uncharacterized protein (N0V96_010881), partial mRNA"	Colletotrichum fioriniae	261	261	90%	2e-84	56.94	654	XM_053195826.1
+XANPAOZ2100_002166-T1	core_nt	"Fulvia fulva EEF1A lysine methyltransferase 4 (CLAFUR5_05086), partial mRNA"	Fulvia fulva	261	261	94%	2e-84	57.14	657	XM_047904234.1
+XANPAOZ2100_002166-T1	core_nt	"Colletotrichum costaricense uncharacterized protein (CCOS01_11420), partial mRNA"	Colletotrichum costaricense	260	260	90%	4e-84	56.46	660	XM_060459573.1
+XANPAOZ2100_002166-T1	core_nt	"Colletotrichum tamarilloi uncharacterized protein (CTAM01_09877), partial mRNA"	Colletotrichum tamarilloi	260	260	90%	4e-84	57.21	660	XM_060525893.1
+XANPAOZ2100_002166-T1	core_nt	"Lasiodiplodia theobromae Methyltransferase type 11 (LTHEOB_7030), partial mRNA"	Lasiodiplodia theobromae	260	260	90%	5e-84	59.9	669	XM_035516352.1
+XANPAOZ2100_002166-T1	core_nt	"Colletotrichum lupini uncharacterized protein (CLUP02_13032), partial mRNA"	Colletotrichum lupini	259	259	90%	8e-84	56.73	660	XM_049291990.1
+XANPAOZ2100_002166-T1	core_nt	"Alternaria arborescens hypothetical protein (AA0111_g2457), partial mRNA"	Alternaria arborescens	258	258	91%	3e-83	57.82	657	XM_028648230.1
+XANPAOZ2100_002166-T1	core_nt	"Alternaria postmessia uncharacterized protein (J4E82_001247), partial mRNA"	Alternaria postmessia	258	258	91%	3e-83	57.82	657	XM_051727562.1
+XANPAOZ2100_002166-T1	core_nt	"Alternaria atra uncharacterized protein (ALTATR162_LOCUS11096), partial mRNA"	Alternaria atra	258	258	91%	3e-83	58.29	657	XM_043318738.1
+XANPAOZ2100_002166-T1	core_nt	"Purpureocillium takamizusanense uncharacterized protein (JDV02_009070), mRNA"	Purpureocillium takamizusanense	264	264	91%	5e-83	58.37	1212	XM_047990709.1
+XANPAOZ2100_002166-T1	core_nt	"Exserohilum turcica Et28A uncharacterized protein (SETTUDRAFT_137107), partial mRNA"	Exserohilum turcica Et28A	257	257	91%	6e-83	55.45	677	XM_008029235.1
+XANPAOZ2100_002166-T1	core_nt	"Cercospora beticola uncharacterized protein (RHO25_008349), partial mRNA"	Cercospora beticola	256	256	91%	1e-82	55.98	645	XM_023600481.2
+XANPAOZ2100_002166-T1	core_nt	"Alternaria metachromatica uncharacterized protein (J4E83_008044), partial mRNA"	Alternaria metachromatica	256	256	92%	1e-82	56.81	657	XM_049334941.1
+XANPAOZ2100_002166-T1	core_nt	"Alternaria ethzedia uncharacterized protein (J4E87_001333), partial mRNA"	Alternaria ethzedia	256	256	92%	1e-82	57.28	657	XM_049372979.1
+XANPAOZ2100_002166-T1	core_nt	"Alternaria conjuncta uncharacterized protein (J4E85_004224), partial mRNA"	Alternaria conjuncta	256	256	92%	2e-82	56.81	657	XM_051468485.1
+XANPAOZ2100_002166-T1	core_nt	"Alternaria hordeiaustralica uncharacterized protein (J4E84_007788), partial mRNA"	Alternaria hordeiaustralica	256	256	92%	2e-82	56.81	657	XM_049390368.1
+XANPAOZ2100_002166-T1	core_nt	"Dothidotthia symphoricarpi CBS 119687 uncharacterized protein (P153DRAFT_364327), mRNA"	Dothidotthia symphoricarpi CBS 119687	262	262	96%	2e-82	54.5	1200	XM_033667573.1
+XANPAOZ2100_002166-T1	core_nt	"Alternaria infectoria uncharacterized protein (J4E92_003793), partial mRNA"	Alternaria infectoria	256	256	92%	2e-82	56.81	657	XM_051495187.1
+XANPAOZ2100_002166-T1	core_nt	"Parastagonospora nodorum SN15 hypothetical protein (SNOG_02149), partial mRNA"	Parastagonospora nodorum SN15	266	266	96%	3e-82	56.11	1632	XM_001792715.1
+XANPAOZ2100_002166-T1	core_nt	"Diplodia corticola endothelin-converting enzyme 2 (BKCO1_4000160), partial mRNA"	Diplodia corticola	255	255	90%	3e-82	57.97	651	XM_020275583.1
+XANPAOZ2100_002166-T1	core_nt	"Colletotrichum scovillei uncharacterized protein (HER10_EVM0005217), mRNA"	Colletotrichum scovillei	259	259	90%	4e-82	56.94	1026	XM_035474839.1
+XANPAOZ2100_002166-T1	core_nt	"Colletotrichum navitas S-adenosyl-L-methionine-dependent methyltransferase (LY79DRAFT_618709), mRNA"	Colletotrichum navitas	261	261	90%	6e-82	56.6	1187	XM_060562026.1
+XANPAOZ2100_002166-T1	core_nt	"Colletotrichum phormii S-adenosyl-L-methionine-dependent methyltransferase (BDP81DRAFT_328824), partial mRNA"	Colletotrichum phormii	254	254	90%	8e-82	55.02	669	XM_060585252.1
+XANPAOZ2100_002166-T1	core_nt	"Alternaria novae-zelandiae uncharacterized protein (J4E88_008233), partial mRNA"	Alternaria novae-zelandiae	254	254	92%	9e-82	56.81	657	XM_049401844.1
+XANPAOZ2100_002166-T1	core_nt	"Alternaria triticimaculans uncharacterized protein (J4E78_005415), partial mRNA"	Alternaria triticimaculans	254	254	92%	9e-82	56.34	657	XM_049366035.1
+XANPAOZ2100_002166-T1	core_nt	"Diplodia seriata uncharacterized protein (SLS55_004925), partial mRNA"	Diplodia seriata	254	254	90%	1e-81	58.65	663	XM_066776377.1
+XANPAOZ2100_002166-T1	core_nt	Alternaria alternata hypothetical protein mRNA	Alternaria alternata	258	258	91%	2e-81	57.82	1041	XM_018525700.1
+XANPAOZ2100_002166-T1	core_nt	"Alternaria ventricosa uncharacterized protein (J4E93_006292), partial mRNA"	Alternaria ventricosa	253	253	92%	2e-81	56.81	657	XM_049344209.1
+XANPAOZ2100_002166-T1	core_nt	"Colletotrichum acutatum S-adenosyl-L-methionine-dependent methyltransferase (BDZ83DRAFT_626511), mRNA"	Colletotrichum acutatum	256	256	90%	2e-81	56.73	907	XM_060508568.1
+XANPAOZ2100_002166-T1	core_nt	"Cercospora kikuchii uncharacterized protein (CKM354_000597400), partial mRNA"	Cercospora kikuchii	253	253	91%	3e-81	55.98	645	XM_044801267.1
+XANPAOZ2100_002166-T1	core_nt	"Alternaria burnsii methyltransferase type 11 (GT037_008621), partial mRNA"	Alternaria burnsii	262	262	91%	6e-81	58.29	1572	XM_038933668.1
+XANPAOZ2100_002166-T1	core_nt	"Alternaria rosae S-adenosyl-L-methionine-dependent methyltransferase (BKA58DRAFT_234400), mRNA"	Alternaria rosae	254	254	96%	7e-80	54.3	1091	XM_046166554.1
+XANPAOZ2100_002166-T1	core_nt	"Ramularia collo-cygni uncharacterized protein (RCC_03825), partial mRNA"	Ramularia collo-cygni	249	249	97%	1e-79	52.21	684	XM_023769108.1
+XANPAOZ2100_002166-T1	core_nt	"Microdochium trichocladiopsis uncharacterized protein (B0I36DRAFT_319463), mRNA"	Microdochium trichocladiopsis	254	254	90%	1e-79	55.26	1080	XM_046153421.1
+XANPAOZ2100_002166-T1	core_nt	"Madurella fahalii uncharacterized protein (MFIFM68171_03679), partial mRNA"	Madurella fahalii	246	246	92%	1e-78	55.61	657	XM_071059100.1
+XANPAOZ2100_002166-T1	core_nt	"Aureobasidium melanogenum CBS 110374 uncharacterized protein (M437DRAFT_68118), partial mRNA"	Aureobasidium melanogenum CBS 110374	246	246	88%	1e-78	56.65	675	XM_041025059.1
+XANPAOZ2100_002166-T1	core_nt	"Trichoderma aggressivum f. europaeum uncharacterized protein (Triagg1_10803), partial mRNA"	Trichoderma aggressivum f. europaeum	247	247	92%	1e-78	55.4	771	XM_062894915.1
+XANPAOZ2100_002166-T1	core_nt	"Trichoderma gamsii hypothetical protein (TGAM01_v200291), partial mRNA"	Trichoderma gamsii	245	245	92%	4e-78	55.87	669	XM_024548531.1
+XANPAOZ2100_002166-T1	core_nt	"Aureobasidium namibiae CBS 147.97 uncharacterized protein (M436DRAFT_55093), partial mRNA"	Aureobasidium namibiae CBS 147.97	244	244	88%	6e-78	57.14	672	XM_013568370.1
+XANPAOZ2100_002166-T1	core_nt	"Grosmannia clavigera kw1407 uncharacterized protein (CMQ_7880), partial mRNA"	Grosmannia clavigera kw1407	244	244	88%	7e-78	55.61	642	XM_014313520.1
+XANPAOZ2100_002166-T1	core_nt	"Phyllosticta capitalensis S-adenosyl-L-methionine-dependent methyltransferase (BKA78DRAFT_239229), partial mRNA"	Phyllosticta capitalensis	243	243	91%	7e-78	58.37	597	XM_066883896.1
+XANPAOZ2100_002166-T1	core_nt	"Colletotrichum abscissum uncharacterized protein (CABS01_07642), partial mRNA"	Colletotrichum abscissum	250	250	90%	2e-77	53.92	1245	XM_060541004.1
+XANPAOZ2100_002166-T1	core_nt	"Alternaria dauci uncharacterized protein (ACET3X_007311), partial mRNA"	Alternaria dauci	243	243	91%	3e-77	54.98	669	XM_069454196.1
+XANPAOZ2100_002166-T1	core_nt	"Fusarium graminearum PH-1 uncharacterized protein (FGSG_11344), partial mRNA"	Fusarium graminearum PH-1	242	242	93%	4e-77	51.39	648	XM_011327594.1
+XANPAOZ2100_002166-T1	core_nt	"Trichoderma atroviride uncharacterized protein (TrAtP1_006181), mRNA"	Trichoderma atroviride	248	248	92%	2e-76	56.34	1353	XM_014082818.2
+XANPAOZ2100_002166-T1	core_nt	"Fusarium flagelliforme S-adenosyl-L-methionine-dependent methyltransferase (B0J16DRAFT_290150), mRNA"	Fusarium flagelliforme	238	238	93%	3e-75	51.85	707	XM_046124238.1
+XANPAOZ2100_002166-T1	core_nt	"Fusarium poae uncharacterized protein (FPOAC1_007521), partial mRNA"	Fusarium poae	237	237	93%	3e-75	51.39	648	XM_044851977.1
+XANPAOZ2100_002166-T1	core_nt	"Fusarium coffeatum uncharacterized protein (FIESC28_07298), partial mRNA"	Fusarium coffeatum	237	237	93%	5e-75	51.39	648	XM_031161439.1
+XANPAOZ2100_002166-T1	core_nt	Colletotrichum jinshuiense isolate EsH8 chromosome 8	Colletotrichum jinshuiense	258	258	92%	7e-75	51.39	4210165	CP150811.1
+XANPAOZ2100_002166-T1	core_nt	"Exophiala viscosa endothelin-converting enzyme (EDD37DRAFT_644373), partial mRNA"	Exophiala viscosa	236	236	88%	1e-74	52.71	636	XM_062817505.1
+XANPAOZ2100_002166-T1	core_nt	"Pseudocercospora fijiensis CIRAD86 uncharacterized protein (MYCFIDRAFT_86729), partial mRNA"	Pseudocercospora fijiensis CIRAD86	236	236	90%	9e-74	55.24	882	XM_007930874.1
+XANPAOZ2100_002166-T1	core_nt	"Alternaria viburni uncharacterized protein (J4E79_002089), partial mRNA"	Alternaria viburni	233	233	90%	2e-73	51.21	651	XM_049350992.1
+XANPAOZ2100_002166-T1	core_nt	"Fusarium subglutinans endothelin-converting enzyme 2 (FSUBG_12914), partial mRNA"	Fusarium subglutinans	232	232	92%	4e-73	52.58	642	XM_036677750.1
+XANPAOZ2100_002166-T1	core_nt	"Alternaria arbusti uncharacterized protein (J4E86_006517), partial mRNA"	Alternaria arbusti	231	231	89%	8e-73	50.73	651	XM_051447045.1
+XANPAOZ2100_002166-T1	core_nt	"Sporothrix brasiliensis 5110 uncharacterized protein (SPBR_05262), partial mRNA"	Sporothrix brasiliensis 5110	232	232	88%	1e-72	49.56	717	XM_040763539.1
+XANPAOZ2100_002166-T1	core_nt	"Trichoderma virens Gv29-8 uncharacterized protein (TRIVIDRAFT_194210), partial mRNA"	Trichoderma virens Gv29-8	231	231	96%	1e-72	51.79	672	XM_014097172.1
+XANPAOZ2100_002166-T1	core_nt	"Neohortaea acidophila S-adenosyl-L-methionine-dependent methyltransferase (BDY17DRAFT_288441), mRNA"	Neohortaea acidophila	237	237	91%	2e-72	51.43	1249	XM_033732194.1
+XANPAOZ2100_002166-T1	core_nt	"Saxophila tyrrhenica uncharacterized protein (LTR77_005914), partial mRNA"	Saxophila tyrrhenica	229	229	91%	3e-72	51.43	633	XM_064803156.1
+XANPAOZ2100_002166-T1	core_nt	"Sporothrix schenckii 1099-18 S-adenosyl-L-methionine-dependent methyltransferase-like protein (SPSK_06566), partial mRNA"	Sporothrix schenckii 1099-18	229	229	88%	8e-72	48.89	717	XM_016733268.1
+XANPAOZ2100_002167-T1	core_nt	"Cladophialophora psammophila CBS 110553 uncharacterized protein (A1O5_08130), partial mRNA"	Cladophialophora psammophila CBS 110553	1428	1428	79%	0	61.77	3636	XM_007748714.1
+XANPAOZ2100_002167-T1	core_nt	"Fonsecaea multimorphosa CBS 102226 uncharacterized protein (Z520_11930), partial mRNA"	Fonsecaea multimorphosa CBS 102226	1409	1409	76%	0	61.87	3636	XM_016782417.1
+XANPAOZ2100_002167-T1	core_nt	"Fonsecaea erecta hypothetical protein (AYL99_06617), partial mRNA"	Fonsecaea erecta	1395	1395	79%	0	59.54	3627	XM_018838126.1
+XANPAOZ2100_002167-T1	core_nt	"Cladophialophora yegresii CBS 114405 uncharacterized protein (A1O7_06481), partial mRNA"	Cladophialophora yegresii CBS 114405	1182	1182	75%	0	54.04	3378	XM_007760483.1
+XANPAOZ2100_002167-T1	core_nt	"Scedosporium apiospermum uncharacterized protein (SAPIO_CDS1618), partial mRNA"	Scedosporium apiospermum	867	867	75%	0	43.14	3552	XM_016784845.1
+XANPAOZ2100_002167-T1	core_nt	"Botrytis porri uncharacterized protein (EAF01_003706), mRNA"	Botrytis porri	793	793	77%	0	40.71	4097	XM_038911960.1
+XANPAOZ2100_002167-T1	core_nt	"Talaromyces rugulosus uncharacterized protein (TRUGW13939_03858), partial mRNA"	Talaromyces rugulosus	790	790	76%	0	39.43	3657	XM_035487036.1
+XANPAOZ2100_002167-T1	core_nt	"Botrytis fragariae putative ankyrin repeat protein (Bfra_005064), partial mRNA"	Botrytis fragariae	789	789	77%	0	40.57	3723	XM_037335451.1
+XANPAOZ2100_002167-T1	core_nt	"Talaromyces atroroseus hypothetical protein (UA08_06898), partial mRNA"	Talaromyces atroroseus	786	786	76%	0	40.16	3543	XM_020261979.1
+XANPAOZ2100_002167-T1	core_nt	"Sporothrix schenckii 1099-18 uncharacterized protein (SPSK_01385), partial mRNA"	Sporothrix schenckii 1099-18	772	772	73%	0	41.25	3666	XM_016728300.1
+XANPAOZ2100_002167-T1	core_nt	"Lindgomyces ingoldianus uncharacterized protein (BDR25DRAFT_341809), partial mRNA"	Lindgomyces ingoldianus	768	768	75%	0	39.98	3501	XM_033693645.1
+XANPAOZ2100_002167-T1	core_nt	"Capronia epimyces CBS 606.96 uncharacterized protein (A1O3_03008), partial mRNA"	Capronia epimyces CBS 606.96	759	759	73%	0	40.44	3504	XM_007733148.1
+XANPAOZ2100_002167-T1	core_nt	"Rhinocladiella mackenziei CBS 650.93 uncharacterized protein (Z518_07228), partial mRNA"	Rhinocladiella mackenziei CBS 650.93	749	749	75%	0	39.42	3489	XM_013415357.1
+XANPAOZ2100_002167-T1	core_nt	"Thyridium curvatum uncharacterized protein (E0L32_005475), partial mRNA"	Thyridium curvatum	746	746	74%	0	39.47	3528	XM_031140000.1
+XANPAOZ2100_002167-T1	core_nt	"Botrytis byssoidea uncharacterized protein (EAE97_003805), partial mRNA"	Botrytis byssoidea	741	741	74%	0	39.86	3492	XM_038874317.1
+XANPAOZ2100_002167-T1	core_nt	"Aspergillus lucknowensis uncharacterized protein (BJX67DRAFT_367453), mRNA"	Aspergillus lucknowensis	728	728	76%	0	39.72	4026	XM_071030526.1
+XANPAOZ2100_002167-T1	core_nt	"Penicillium psychrosexuale uncharacterized protein (N7518_001079), partial mRNA"	Penicillium psychrosexuale	728	728	73%	0	38.47	3750	XM_057182007.1
+XANPAOZ2100_002167-T1	core_nt	"Fusarium mangiferae uncharacterized protein (FMAN_02144), partial mRNA"	Fusarium mangiferae	726	726	73%	0	39.58	3516	XM_041835464.1
+XANPAOZ2100_002167-T1	core_nt	"Lithohypha guttulata uncharacterized protein (LTR64_008794), partial mRNA"	Lithohypha guttulata	722	722	74%	0	38.65	3258	XM_064903099.1
+XANPAOZ2100_002167-T1	core_nt	"Fusarium verticillioides 7600 hypothetical protein (FVEG_16082), partial mRNA"	Fusarium verticillioides 7600	713	713	72%	0	38.22	3570	XM_018905323.1
+XANPAOZ2100_002167-T1	core_nt	"Truncatella angustata uncharacterized protein (BKA67DRAFT_525676), partial mRNA"	Truncatella angustata	706	706	72%	0	37.35	3300	XM_046098685.1
+XANPAOZ2100_002167-T1	core_nt	"Penicillium brevicompactum uncharacterized protein (N7506_001908), partial mRNA"	Penicillium brevicompactum	704	704	74%	0	38.3	3576	XM_056951204.1
+XANPAOZ2100_002167-T1	core_nt	"Talaromyces amestolkiae uncharacterized protein (BHQ10_001440), partial mRNA"	Talaromyces amestolkiae	703	703	77%	0	37.28	3498	XM_040873477.1
+XANPAOZ2100_002167-T1	core_nt	"Byssochlamys spectabilis hypothetical protein (C8Q69DRAFT_150824), mRNA"	Paecilomyces variotii	702	702	66%	0	39.72	3604	XM_028625542.1
+XANPAOZ2100_002167-T1	core_nt	"Emericellopsis atlantica wd-repeat protein (F5Z01DRAFT_621309), partial mRNA"	Emericellopsis atlantica	692	692	75%	0	36.79	3630	XM_046261198.1
+XANPAOZ2100_002167-T1	core_nt	"Fusarium musae uncharacterized protein (J7337_010619), partial mRNA"	Fusarium musae	676	676	73%	0	36.82	3441	XM_044828194.1
+XANPAOZ2100_002167-T1	core_nt	"Penicillium diatomitis uncharacterized protein (N7539_009350), partial mRNA"	Penicillium diatomitis	672	672	70%	0	37.5	3501	XM_056938945.1
+XANPAOZ2100_002167-T1	core_nt	"Geosmithia morbida NACHT domain (GMORB2_5051), partial mRNA"	Geosmithia morbida	670	670	65%	0	39.88	2913	XM_035467025.1
+XANPAOZ2100_002167-T1	core_nt	"Emericellopsis cladophorae Vegetative incompatibility protein HET-E-like protein (J7T54_002603), partial mRNA"	Emericellopsis cladophorae	667	667	72%	0	37.43	3408	XM_051509131.1
+XANPAOZ2100_002167-T1	core_nt	"Penicillium lagena uncharacterized protein (N7510_005905), partial mRNA"	Penicillium lagena	662	662	66%	0	39.37	3213	XM_056977831.1
+XANPAOZ2100_002167-T1	core_nt	"Penicillium atrosanguineum Protein of unknown function DUF3468 (N7443_010211), partial mRNA"	Penicillium atrosanguineum	660	660	75%	0	36.5	3753	XM_056890267.1
+XANPAOZ2100_002167-T1	core_nt	"Aspergillus karnatakaensis uncharacterized protein (BJY04DRAFT_218660), partial mRNA"	Aspergillus karnatakaensis	653	653	74%	0	36.19	3429	XM_073716366.1
+XANPAOZ2100_002167-T1	core_nt	"Aspergillus welwitschiae uncharacterized protein (BDQ94DRAFT_139360), mRNA"	Aspergillus welwitschiae	650	650	62%	0	39.83	3331	XM_026765410.1
+XANPAOZ2100_002167-T1	core_nt	"Aspergillus vadensis CBS 113365 uncharacterized protein (BO88DRAFT_440435), mRNA"	Aspergillus vadensis CBS 113365	647	647	62%	0	39.83	3318	XM_025709785.1
+XANPAOZ2100_002167-T1	core_nt	"Alternaria dauci uncharacterized protein (ACET3X_006422), partial mRNA"	Alternaria dauci	647	647	66%	0	38.13	3247	XM_069453077.1
+XANPAOZ2100_002167-T1	core_nt	Parastagonospora nodorum strain Sn79 chromosome 3	Parastagonospora nodorum	637	637	73%	0	35.32	2251062	CP039671.1
+XANPAOZ2100_002167-T1	core_nt	"Bipolaris sorokiniana ND90Pr uncharacterized protein (COCSADRAFT_34948), mRNA"	Bipolaris sorokiniana ND90Pr	636	636	70%	0	37.14	3611	XM_007699348.1
+XANPAOZ2100_002167-T1	core_nt	"Exophiala xenobiotica uncharacterized protein (PV05_08003), partial mRNA"	Exophiala xenobiotica	633	633	42%	0	53.14	1881	XM_013457491.1
+XANPAOZ2100_002167-T1	core_nt	"Talaromyces proteolyticus uncharacterized protein (BGW36DRAFT_429550), partial mRNA"	Talaromyces proteolyticus	630	630	61%	0	39.78	3048	XM_046220711.1
+XANPAOZ2100_002167-T1	core_nt	"Cordyceps militaris CM01 wd-repeat protein (CCM_00812), partial mRNA"	Cordyceps militaris CM01	624	624	74%	0	35.23	3582	XM_006665971.1
+XANPAOZ2100_002167-T1	core_nt	"Penicillium verhagenii uncharacterized protein (N7466_003935), partial mRNA"	Penicillium verhagenii	622	622	69%	0	36.92	3264	XM_057163332.1
+XANPAOZ2100_002167-T1	core_nt	"Penicillium cinerascens uncharacterized protein (N7498_004301), partial mRNA"	Penicillium cinerascens	618	618	64%	0	39.25	3057	XM_058451363.1
+XANPAOZ2100_002167-T1	core_nt	"Microdochium trichocladiopsis uncharacterized protein (B0I36DRAFT_265433), mRNA"	Microdochium trichocladiopsis	612	612	72%	0	35.48	3561	XM_046151198.1
+XANPAOZ2100_002167-T1	core_nt	"Dichotomopilus funicola uncharacterized protein (C8A04DRAFT_32311), partial mRNA"	Dichotomopilus funicola	605	605	63%	0	38.93	3102	XM_062782051.1
+XANPAOZ2100_002167-T1	core_nt	"Apiospora marii NACHT domain (PG985_002975), partial mRNA"	Apiospora marii	601	601	75%	0	33.73	3825	XM_066822744.1
+XANPAOZ2100_002167-T1	core_nt	"Thyridium curvatum uncharacterized protein (E0L32_004870), partial mRNA"	Thyridium curvatum	596	596	66%	0	34.97	3012	XM_031139328.1
+XANPAOZ2100_002167-T1	core_nt	"Cladophialophora bantiana CBS 173.52 uncharacterized protein (Z519_09352), partial mRNA"	Cladophialophora bantiana CBS 173.52	590	590	34%	0	60.04	1422	XM_016767075.1
+XANPAOZ2100_002167-T1	core_nt	"Apiospora phragmitis NACHT domain (PG994_006603), partial mRNA"	Apiospora phragmitis	590	590	71%	0	34.08	3645	XM_066858012.1
+XANPAOZ2100_002167-T1	core_nt	"Scedosporium apiospermum NACHT nucleoside triphosphatase (SAPIO_CDS1428), partial mRNA"	Scedosporium apiospermum	588	588	63%	0	36.74	3159	XM_016784704.1
+XANPAOZ2100_002167-T1	core_nt	"Ramularia collo-cygni uncharacterized protein (RCC_06734), partial mRNA"	Ramularia collo-cygni	587	587	62%	0	37.01	3180	XM_023771995.1
+XANPAOZ2100_002167-T1	core_nt	"Isaria fumosorosea ARSEF 2679 NACHT domain protein (ISF_04581), partial mRNA"	Cordyceps fumosorosea ARSEF 2679	585	585	68%	0	34.91	3357	XM_018848187.1
+XANPAOZ2100_002167-T1	core_nt	"Hypoxylon trugodes uncharacterized protein (F4822DRAFT_445871), partial mRNA"	Hypoxylon trugodes	585	649	69%	0	38.12	3091	XM_051463437.1
+XANPAOZ2100_002167-T1	core_nt	"Penicillium vulpinum uncharacterized protein (N7479_007329), partial mRNA"	Penicillium vulpinum	583	583	58%	0	37.36	2805	XM_057255023.1
+XANPAOZ2100_002167-T1	core_nt	"Aspergillus piperis CBS 112811 NACHT domain protein (BO85DRAFT_452962), mRNA"	Aspergillus piperis CBS 112811	577	577	55%	0	39.73	2831	XM_025660956.1
+XANPAOZ2100_002167-T1	core_nt	"Metarhizium brunneum Transporter mfs1 (mfs1_2), partial mRNA"	Metarhizium brunneum	580	580	66%	3e-177	35.72	4362	XM_066129971.1
+XANPAOZ2100_002167-T1	core_nt	"Metarhizium robertsii ARSEF 23 NACHT domain protein (MAA_05266), partial mRNA"	Metarhizium robertsii ARSEF 23	572	572	63%	5e-177	36.28	3540	XM_007823264.2
+XANPAOZ2100_002167-T1	core_nt	"Trichoderma atroviride uncharacterized protein (TrAtP1_006182), mRNA"	Trichoderma atroviride	549	549	75%	4e-166	32.02	4154	XM_014082819.2
+XANPAOZ2100_002167-T1	core_nt	"Penicillium coprophilum uncharacterized protein (N7500_006598), partial mRNA"	Penicillium coprophilum	528	528	53%	4e-165	38.25	2355	XM_056677742.1
+XANPAOZ2100_002167-T1	core_nt	"Trichoderma citrinoviride hypothetical protein (BBK36DRAFT_146201), partial mRNA"	Trichoderma citrinoviride	527	527	75%	9e-160	32.21	3678	XM_024897535.1
+XANPAOZ2100_002167-T1	core_nt	"Trichoderma ghanense uncharacterized protein (CCMA1212_006451), partial mRNA"	Trichoderma ghanense	526	526	75%	3e-159	32.51	3618	XM_073703672.1
+XANPAOZ2100_002167-T1	core_nt	"Talaromyces marneffei uncharacterized protein (EYB26_007038), partial mRNA"	Talaromyces marneffei	539	539	63%	4e-159	36.61	5484	XM_054266310.1
+XANPAOZ2100_002167-T1	core_nt	"Fusarium vanettenii 77-13-4 uncharacterized protein (NECHADRAFT_97420), partial mRNA"	Fusarium vanettenii 77-13-4	500	500	48%	2e-155	37.95	2121	XM_003041991.1
+XANPAOZ2100_002167-T1	core_nt	"Aspergillus novofumigatus IBT 16806 NACHT domain protein (P174DRAFT_464308), partial mRNA"	Aspergillus novofumigatus IBT 16806	495	495	49%	2e-153	37.57	2226	XM_024830374.1
+XANPAOZ2100_002167-T1	core_nt	Aspergillus fumigatus CEA10 chromosome 4	Aspergillus fumigatus	529	610	58%	2e-152	37.96	3820116	CP097566.1
+XANPAOZ2100_002167-T1	core_nt	"Trichoderma reesei QM6a uncharacterized protein (TRIREDRAFT_109341), partial mRNA"	Trichoderma reesei QM6a	505	505	75%	2e-151	32.13	3633	XM_006967044.1
+XANPAOZ2100_002167-T1	core_nt	"Thermothielavioides terrestris NRRL 8126 uncharacterized protein (THITE_2037841), partial mRNA"	Thermothielavioides terrestris NRRL 8126	488	488	46%	6e-151	39.94	2127	XM_003649575.1
+XANPAOZ2100_002167-T1	core_nt	"Aspergillus steynii IBT 23096 uncharacterized protein (P170DRAFT_443267), partial mRNA"	Aspergillus steynii IBT 23096	484	484	61%	2e-148	34.68	2430	XM_024850524.1
+XANPAOZ2100_002167-T1	core_nt	"Madurella fahalii uncharacterized protein (MFIFM68171_03680), partial mRNA"	Madurella fahalii	477	477	74%	8e-142	30.84	3438	XM_071059101.1
+XANPAOZ2100_002167-T1	core_nt	"Bipolaris maydis clone FNFP21-O24, complete sequence"	Bipolaris maydis	494	494	63%	9e-141	34.29	32167	AC277308.1
+XANPAOZ2100_002167-T1	core_nt	"Bipolaris maydis clone FNFP197-D01, complete sequence"	Bipolaris maydis	494	494	63%	9e-141	34.29	37257	AC277180.1
+XANPAOZ2100_002167-T1	core_nt	"Bipolaris maydis clone FNFP161-D18, complete sequence"	Bipolaris maydis	494	494	63%	9e-141	34.29	41372	AC277363.1
+XANPAOZ2100_002167-T1	core_nt	Aspergillus fumigatus CEA10 chromosome 3	Aspergillus fumigatus	479	613	58%	3e-139	38.14	4270437	CP097565.1
+XANPAOZ2100_002167-T1	core_nt	"Penicillium daleae uncharacterized protein (N7458_007455), partial mRNA"	Penicillium daleae	450	450	42%	9e-138	40.48	1908	XM_056910837.1
+XANPAOZ2100_002167-T1	core_nt	"Fusarium graminearum PH-1 uncharacterized protein (FGSG_10428), partial mRNA"	Fusarium graminearum PH-1	443	443	49%	4e-134	35.92	2139	XM_011321101.1
+XANPAOZ2100_002167-T1	core_nt	"Penicillium brevicompactum uncharacterized protein (N7506_012228), partial mRNA"	Penicillium brevicompactum	445	445	51%	4e-134	36.89	2331	XM_056961519.1
+XANPAOZ2100_002167-T1	core_nt	"Alternaria rosae uncharacterized protein (BKA58DRAFT_442933), partial mRNA"	Alternaria rosae	456	456	75%	5e-134	29.72	3513	XM_046173942.1
+XANPAOZ2100_002167-T1	core_nt	"Didymella exigua CBS 183.55 uncharacterized protein (M421DRAFT_403724), partial mRNA"	Didymella exigua CBS 183.55	448	448	75%	3e-131	28.92	3459	XM_033590267.1
+XANPAOZ2100_002167-T1	core_nt	"Verticillium nonalfalfae uncharacterized protein (D7B24_005221), partial mRNA"	Verticillium nonalfalfae	449	449	77%	4e-131	29.29	3606	XM_028639380.1
+XANPAOZ2100_002167-T1	core_nt	"Cercospora kikuchii uncharacterized protein (CKM354_000780200), partial mRNA"	Cercospora kikuchii	434	434	56%	9e-130	34.19	2466	XM_044803160.1
+XANPAOZ2100_002167-T1	core_nt	"Parastagonospora nodorum SN15 hypothetical protein (SNOG_05529), partial mRNA"	Parastagonospora nodorum SN15	427	427	47%	5e-129	37.9	1995	XM_001795882.1
+XANPAOZ2100_002167-T1	core_nt	"Chaetomium strumarium uncharacterized protein (B0T15DRAFT_490017), partial mRNA"	Chaetomium strumarium	443	443	75%	8e-129	30.04	3702	XM_062866645.1
+XANPAOZ2100_002167-T1	core_nt	"Chaetomium fimeti uncharacterized protein (B0H64DRAFT_80083), mRNA"	Chaetomium fimeti	443	443	73%	4e-128	30.26	3964	XM_062808787.1
+XANPAOZ2100_002167-T1	core_nt	"Thermothielavioides terrestris NRRL 8126 uncharacterized protein (THITE_2149928), partial mRNA"	Thermothielavioides terrestris NRRL 8126	437	437	75%	1e-126	31.79	3660	XM_003651804.1
+XANPAOZ2100_002167-T1	core_nt	"Cercospora beticola uncharacterized protein (RHO25_007085), partial mRNA"	Cercospora beticola	420	420	55%	3e-124	33.21	2490	XM_023597864.2
+XANPAOZ2100_002167-T1	core_nt	"Exophiala xenobiotica uncharacterized protein (PV05_08004), partial mRNA"	Exophiala xenobiotica	408	408	30%	6e-124	49.89	1566	XM_013457492.1
+XANPAOZ2100_002167-T1	core_nt	"Wardomyces moseri uncharacterized protein (JN550_007857), partial mRNA"	Neoarthrinium moseri	422	592	68%	1e-122	35.11	3183	XM_049319753.1
+XANPAOZ2100_002167-T1	core_nt	"Trichoderma atroviride strain CBMAI-0020 clone BAC ta20_023 genomic sequence, complete sequence"	Trichoderma atroviride	439	439	59%	2e-122	32.99	112507	OR643402.1
+XANPAOZ2100_002167-T1	core_nt	"Cladophialophora carrionii CBS 160.54 uncharacterized protein (G647_10274), partial mRNA"	Cladophialophora carrionii CBS 160.54	412	412	55%	4e-122	33.58	2292	XM_008726265.1
+XANPAOZ2100_002167-T1	core_nt	"Fusarium pseudograminearum CS3096 uncharacterized protein (FPSE_07444), partial mRNA"	Fusarium pseudograminearum CS3096	411	411	42%	2e-120	40.06	2649	XM_009260562.1
+XANPAOZ2100_002167-T1	core_nt	"Boeremia exigua uncharacterized protein (C7974DRAFT_464511), partial mRNA"	Boeremia exigua	399	399	47%	8e-119	35.58	1975	XM_046146266.1
+XANPAOZ2100_002167-T1	core_nt	"Aspergillus glaucus CBS 516.65 uncharacterized protein (ASPGLDRAFT_77654), partial mRNA"	Aspergillus glaucus CBS 516.65	385	385	45%	9e-114	35.49	1937	XM_022549907.1
+XANPAOZ2100_002167-T1	core_nt	"Trichoderma aggressivum f. europaeum uncharacterized protein (Triagg1_10804), partial mRNA"	Trichoderma aggressivum f. europaeum	394	491	68%	2e-112	32.6	3222	XM_062894916.1
+XANPAOZ2100_002167-T1	core_nt	"Aspergillus sydowii CBS 593.65 uncharacterized protein (ASPSYDRAFT_91102), partial mRNA"	Aspergillus sydowii CBS 593.65	379	379	38%	5e-112	39.86	1854	XM_040852434.1
+XANPAOZ2100_002167-T1	core_nt	"Pochonia chlamydosporia 170 NACHT domain-containing protein (VFPPC_06580), partial mRNA"	Pochonia chlamydosporia 170	367	367	43%	4e-107	34.58	1944	XM_018285591.1
+XANPAOZ2100_002167-T1	core_nt	"Isaria fumosorosea ARSEF 2679 Ankyrin repeat-containing domain protein (ISF_05692), partial mRNA"	Cordyceps fumosorosea ARSEF 2679	330	330	70%	5e-89	24.34	3714	XM_018849297.1
+XANPAOZ2100_002167-T1	core_nt	"Akanthomyces muscarius uncharacterized protein (LMH87_002791), partial mRNA"	Akanthomyces muscarius	324	324	75%	1e-87	26.3	3438	XM_056194305.1
+XANPAOZ2100_002167-T1	core_nt	"Zymoseptoria tritici IPO323 uncharacterized protein (MYCGRDRAFT_50673), partial mRNA"	Zymoseptoria tritici IPO323	310	310	42%	3e-87	32.75	1821	XM_003847902.1
+XANPAOZ2100_002167-T1	core_nt	"Lasiosphaeria miniovina uncharacterized protein (B0T26DRAFT_803888), partial mRNA"	Lasiosphaeria miniovina	310	395	39%	3e-87	39.13	1804	XM_060447107.1
+XANPAOZ2100_002167-T1	core_nt	Zymoseptoria tritici isolate M4_8 chromosome 6_12.03	Zymoseptoria tritici	312	312	41%	2e-81	33.01	2980394	CP062565.1
+XANPAOZ2100_002167-T1	core_nt	"Penicillium subrubescens uncharacterized protein (N7473_004961), partial mRNA"	Penicillium subrubescens	296	409	52%	1e-80	33.21	2334	XM_057150901.1
+XANPAOZ2100_002166-T1	nt/nr limited to Lecanoromycetes	"Flavoplaca marina genome assembly, chromosome: 1"	Flavoplaca marina	400	400	100%	2e-127	74.81	3868129	OZ245337.1
+XANPAOZ2100_002166-T1	nt/nr limited to Lecanoromycetes	"Xanthoria parietina genome assembly, chromosome: 3"	Xanthoria parietina	329	471	100%	1e-125	90.61	2273945	OZ210030.1
+XANPAOZ2100_002166-T1	nt/nr limited to Lecanoromycetes	"Letharia columbiana uncharacterized protein (HO173_000994), partial mRNA"	Letharia columbiana	165	165	89%	8e-50	43.41	705	XM_037302941.1
+XANPAOZ2100_002166-T1	nt/nr limited to Lecanoromycetes	"Letharia lupina uncharacterized protein (HO133_005206), partial mRNA"	Letharia lupina	164	164	89%	1e-49	43.41	705	XM_037296117.1
+XANPAOZ2100_002166-T1	nt/nr limited to Lecanoromycetes	"Ramalina siliquosa genome assembly, chromosome: 7"	Ramalina siliquosa	164	203	96%	3e-45	45.26	2028249	OZ244603.1
+XANPAOZ2100_002166-T1	nt/nr limited to Lecanoromycetes	"Cladonia portentosa genome assembly, chromosome: 1"	Cladonia portentosa	95.9	156	70%	2e-21	50	2177238	OZ232336.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Xanthoria parietina genome assembly, chromosome: 3"	Xanthoria parietina	1743	2900	100%	0	94.33	2273945	OZ210030.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Flavoplaca marina genome assembly, chromosome: 1"	Flavoplaca marina	1451	1883	79%	0	79.09	3868129	OZ245337.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Platismatia glauca genome assembly, chromosome: 5"	Platismatia glauca	718	860	74%	0	40.83	1872535	OY745767.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Platismatia glauca genome assembly, chromosome: 4"	Platismatia glauca	541	723	59%	8e-160	43.48	2095241	OY745766.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Cladonia norvegica genome assembly, chromosome: 19"	Cladonia norvegica	89.4	138	28%	2e-16	21.93	1115434	OZ020218.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Letharia lupina uncharacterized protein (HO133_010583), partial mRNA"	Letharia lupina	87.8	137	34%	5e-16	25.78	4236	XM_037301435.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Letharia lupina uncharacterized protein (HO133_008519), partial mRNA"	Letharia lupina	87.4	87.4	30%	7e-16	23.05	3942	XM_037299385.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Umbilicaria deusta genome assembly, chromosome: 11"	Umbilicaria deusta	87	87	32%	1e-15	25.15	1688060	OZ203553.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Letharia columbiana uncharacterized protein (HO173_003772), partial mRNA"	Letharia columbiana	84.3	84.3	21%	2e-15	26.13	1284	XM_037305697.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Cladonia squamosa genome assembly, chromosome: 21"	Cladonia squamosa	86.3	86.3	27%	2e-15	22.61	1102328	OX392392.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Letharia columbiana uncharacterized protein (HO173_009837), partial mRNA"	Letharia columbiana	85.1	85.1	28%	2e-15	22.39	1932	XM_037311725.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Bacidia gigantensis uncharacterized protein (KY384_003575), partial mRNA"	Bacidia gigantensis	85.5	85.5	20%	2e-15	24.56	4158	XM_044812089.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Flavoplaca marina genome assembly, chromosome: 15"	Flavoplaca marina	85.9	85.9	28%	3e-15	22.9	1338266	OZ245351.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Cladonia diversa genome assembly, chromosome: 21"	Cladonia diversa	64.7	105	26%	3e-15	25.36	1008410	OZ208693.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Xanthoria parietina genome assembly, chromosome: 10"	Xanthoria parietina	80.5	80.5	21%	1e-13	24.54	1600061	OZ210037.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Flavoplaca marina genome assembly, chromosome: 2"	Flavoplaca marina	79.7	134	34%	2e-13	23.58	3435219	OZ245338.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Platismatia glauca genome assembly, chromosome: 1"	Platismatia glauca	79	79	29%	4e-13	21.38	2237538	OY745763.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Cladonia diversa genome assembly, chromosome: 8"	Cladonia diversa	76.6	76.6	28%	2e-12	23.61	1729717	OZ208680.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Bacidia gigantensis uncharacterized protein (KY384_008400), partial mRNA"	Bacidia gigantensis	75.5	75.5	35%	2e-12	21.32	3648	XM_044816889.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Platismatia glauca genome assembly, chromosome: 7"	Platismatia glauca	75.1	75.1	25%	5e-12	21.37	1844907	OY745769.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Xanthoria parietina genome assembly, chromosome: 2"	Xanthoria parietina	74.3	119	30%	8e-12	23.58	2742845	OZ210029.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Platismatia glauca genome assembly, chromosome: 2"	Platismatia glauca	70.9	137	28%	9e-11	24.94	2216080	OY745764.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Cladonia diversa genome assembly, chromosome: 23"	Cladonia diversa	69.3	69.3	20%	3e-10	26.73	508859	OZ208695.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Cladonia squamosa genome assembly, chromosome: 3"	Cladonia squamosa	68.9	68.9	28%	4e-10	21.06	2074597	OX392374.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Cladonia portentosa genome assembly, chromosome: 6"	Cladonia portentosa	68.6	68.6	28%	5e-10	21.41	1766384	OZ232341.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Cladonia squamosa genome assembly, chromosome: 8"	Cladonia squamosa	68.6	111	27%	5e-10	22.89	1658534	OX392379.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Bacidia gigantensis uncharacterized protein (KY384_001203), partial mRNA"	Bacidia gigantensis	65.5	65.5	29%	3e-09	22.98	2694	XM_044809735.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Letharia lupina uncharacterized protein (HO133_010247), partial mRNA"	Letharia lupina	65.1	65.1	16%	4e-09	26.05	3909	XM_037301102.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Ramalina siliquosa genome assembly, chromosome: 13"	Ramalina siliquosa	65.1	65.1	23%	6e-09	23.12	1832005	OZ244609.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Bacidia gigantensis uncharacterized protein (KY384_000134), partial mRNA"	Bacidia gigantensis	64.3	64.3	25%	6e-09	22.42	2904	XM_044808671.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Cladonia squamosa genome assembly, chromosome: 26"	Cladonia squamosa	64.7	64.7	28%	7e-09	23.61	465332	OX392397.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Bacidia gigantensis uncharacterized protein (KY384_000400), partial mRNA"	Bacidia gigantensis	63.9	63.9	19%	9e-09	22.65	3042	XM_044808936.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Bacidia gigantensis uncharacterized protein (KY384_008049), partial mRNA"	Bacidia gigantensis	62.8	62.8	25%	2e-08	23.54	2547	XM_044816538.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Letharia lupina uncharacterized protein (HO133_002611), partial mRNA"	Letharia lupina	62	62	22%	4e-08	24.7	5097	XM_037293536.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Letharia lupina uncharacterized protein (HO133_002473), partial mRNA"	Letharia lupina	61.6	61.6	26%	4e-08	22.76	2949	XM_037293399.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Ramalina siliquosa genome assembly, chromosome: 11"	Ramalina siliquosa	61.2	61.2	28%	8e-08	23.46	1889834	OZ244607.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Cladonia norvegica genome assembly, chromosome: 16"	Cladonia norvegica	60.8	60.8	26%	1e-07	23.65	1243380	OZ020215.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Bacidia gigantensis uncharacterized protein (KY384_001241), partial mRNA"	Bacidia gigantensis	60.1	60.1	21%	1e-07	24.61	3408	XM_044809772.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Umbilicaria deusta genome assembly, chromosome: 6"	Umbilicaria deusta	60.1	60.1	28%	2e-07	19.08	1917118	OZ203548.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Letharia lupina uncharacterized protein (HO133_007644), partial mRNA"	Letharia lupina	59.3	59.3	22%	2e-07	20.71	5001	XM_037298514.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Bacidia gigantensis uncharacterized protein (KY384_008222), partial mRNA"	Bacidia gigantensis	59.3	59.3	25%	3e-07	22.19	3996	XM_044816711.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Bacidia gigantensis uncharacterized protein (KY384_001774), partial mRNA"	Bacidia gigantensis	58.5	58.5	22%	4e-07	21.87	3834	XM_044810301.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Letharia lupina uncharacterized protein (HO133_006078), partial mRNA"	Letharia lupina	58.2	58.2	29%	5e-07	22.39	4959	XM_037296981.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Cladonia squamosa genome assembly, chromosome: 16"	Cladonia squamosa	58.2	58.2	26%	7e-07	22.85	1302476	OX392387.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Bacidia gigantensis uncharacterized protein (KY384_007485), partial mRNA"	Bacidia gigantensis	57.4	57.4	19%	8e-07	21.93	4473	XM_044815976.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Cladonia diversa genome assembly, chromosome: 6"	Cladonia diversa	57	143	28%	1e-06	22.18	1817240	OZ208678.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Cladonia portentosa genome assembly, chromosome: 8"	Cladonia portentosa	56.6	147	27%	2e-06	20.95	1590851	OZ232343.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Ramalina siliquosa genome assembly, chromosome: 7"	Ramalina siliquosa	56.6	56.6	38%	2e-06	21.05	2028249	OZ244603.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Cladonia portentosa genome assembly, chromosome: 15"	Cladonia portentosa	56.2	56.2	28%	3e-06	20.24	1391848	OZ232350.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Letharia columbiana uncharacterized protein (HO173_005047), partial mRNA"	Letharia columbiana	55.8	55.8	19%	3e-06	23.87	6495	XM_037306965.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Letharia columbiana uncharacterized protein (HO173_005442), partial mRNA"	Letharia columbiana	55.1	55.1	29%	4e-06	21.76	1758	XM_037307359.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Bacidia gigantensis uncharacterized protein (KY384_002428), partial mRNA"	Bacidia gigantensis	55.5	55.5	28%	4e-06	22.57	4638	XM_044810951.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	Cladonia uncialis subsp. uncialis clone SPAdes15 genomic sequence	Cladonia uncialis subsp. uncialis	55.5	55.5	24%	5e-06	21.63	106278	MG777483.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Letharia columbiana uncharacterized protein (HO173_010921), partial mRNA"	Letharia columbiana	54.7	54.7	22%	5e-06	22.22	2403	XM_037312806.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Cladonia squamosa genome assembly, chromosome: 6"	Cladonia squamosa	54.3	100	21%	1e-05	21.82	1732432	OX392377.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Letharia lupina uncharacterized protein (HO133_005708), partial mRNA"	Letharia lupina	53.5	53.5	17%	1e-05	18.96	3714	XM_037296615.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Ramalina siliquosa genome assembly, chromosome: 1"	Ramalina siliquosa	53.5	106	21%	2e-05	27.75	2850942	OZ244597.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Cladonia norvegica genome assembly, chromosome: 9"	Cladonia norvegica	53.1	150	27%	2e-05	22.81	1590203	OZ020208.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Cladonia squamosa genome assembly, chromosome: 24"	Cladonia squamosa	52.4	97	15%	4e-05	24.02	589747	OX392395.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Cladonia squamosa genome assembly, chromosome: 18"	Cladonia squamosa	52	145	33%	5e-05	20.79	1210831	OX392389.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Xanthoria parietina genome assembly, chromosome: 16"	Xanthoria parietina	51.6	51.6	12%	7e-05	27.6	1172400	OZ210043.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Cladonia diversa genome assembly, chromosome: 16"	Cladonia diversa	50.8	92.8	29%	9e-05	24.56	1433162	OZ208688.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Letharia columbiana uncharacterized protein (HO173_007601), partial mRNA"	Letharia columbiana	50.1	50.1	13%	1e-04	22.06	1521	XM_037309503.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Letharia columbiana uncharacterized protein (HO173_012760), partial mRNA"	Letharia columbiana	49.7	49.7	14%	1e-04	24.42	1479	XM_037314594.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Cladonia norvegica genome assembly, chromosome: 1"	Cladonia norvegica	50.4	96.7	27%	1e-04	25.67	2477012	OZ020200.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Cladonia norvegica genome assembly, chromosome: 4"	Cladonia norvegica	50.1	50.1	14%	2e-04	23.85	2120184	OZ020203.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	Cladonia uncialis subsp. uncialis clone DNAstar32 genomic sequence	Cladonia uncialis subsp. uncialis	49.7	49.7	21%	2e-04	23.36	73373	KX264279.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	Cladonia uncialis subsp. uncialis clone SPAdes3 genomic sequence	Cladonia uncialis subsp. uncialis	49.7	49.7	21%	2e-04	23.36	113581	MG777471.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Cladonia portentosa genome assembly, chromosome: 25"	Cladonia portentosa	49.7	49.7	12%	3e-04	23.66	486778	OZ232360.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Letharia columbiana uncharacterized protein (HO173_008429), partial mRNA"	Letharia columbiana	48.1	48.1	17%	3e-04	24.9	990	XM_037310329.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Cladonia diversa genome assembly, chromosome: 3"	Cladonia diversa	49.3	49.3	12%	3e-04	21.43	2064425	OZ208675.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Bacidia gigantensis uncharacterized protein (KY384_002258), partial mRNA"	Bacidia gigantensis	48.9	48.9	24%	3e-04	23.24	4167	XM_044810784.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Cladonia squamosa genome assembly, chromosome: 20"	Cladonia squamosa	48.9	48.9	10%	5e-04	29.56	1117100	OX392391.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Letharia lupina uncharacterized protein (HO133_002603), partial mRNA"	Letharia lupina	48.5	48.5	17%	5e-04	22.91	6093	XM_037293529.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Cladonia diversa genome assembly, chromosome: 20"	Cladonia diversa	48.5	48.5	11%	5e-04	25.29	1120590	OZ208692.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Cladonia norvegica genome assembly, chromosome: 17"	Cladonia norvegica	48.5	48.5	10%	5e-04	29.75	1237962	OZ020216.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Cladonia portentosa genome assembly, chromosome: 19"	Cladonia portentosa	48.5	48.5	3%	5e-04	48.94	1134964	OZ232354.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Flavoplaca marina genome assembly, chromosome: 14"	Flavoplaca marina	48.5	48.5	28%	6e-04	22.49	1440631	OZ245350.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Letharia columbiana uncharacterized protein (HO173_003771), partial mRNA"	Letharia columbiana	47.8	47.8	9%	6e-04	32.14	2295	XM_037305696.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Umbilicaria deusta genome assembly, chromosome: 2"	Umbilicaria deusta	48.1	48.1	7%	6e-04	35.58	2353275	OZ203544.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Cladonia squamosa genome assembly, chromosome: 17"	Cladonia squamosa	47.8	90.5	31%	0.001	25.97	1275953	OX392388.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Bacidia gigantensis uncharacterized protein (KY384_008477), partial mRNA"	Bacidia gigantensis	47	47	31%	0.001	17.72	3474	XM_044816966.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Cladonia diversa genome assembly, chromosome: 5"	Cladonia diversa	46.6	46.6	18%	0.002	20.98	1889133	OZ208677.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Cladonia norvegica genome assembly, chromosome: 7"	Cladonia norvegica	46.6	46.6	18%	0.002	21.53	1646023	OZ020206.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Letharia lupina uncharacterized protein (HO133_004309), partial mRNA"	Letharia lupina	45.8	45.8	13%	0.003	27.23	2202	XM_037295227.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Cladonia squamosa genome assembly, chromosome: 2"	Cladonia squamosa	46.2	91.6	23%	0.003	21.59	2120710	OX392373.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Cladonia portentosa genome assembly, chromosome: 9"	Cladonia portentosa	45.8	45.8	12%	0.004	23.78	1560360	OZ232344.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Cladonia norvegica genome assembly, chromosome: 18"	Cladonia norvegica	45.8	90.9	29%	0.004	20.62	1188953	OZ020217.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Cladonia portentosa genome assembly, chromosome: 10"	Cladonia portentosa	45.4	45.4	19%	0.005	22.05	1541362	OZ232345.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Letharia lupina uncharacterized protein (HO133_003854), partial mRNA"	Letharia lupina	45.1	45.1	12%	0.005	23.5	4377	XM_037294776.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Cladonia portentosa genome assembly, chromosome: 13"	Cladonia portentosa	45.1	45.1	13%	0.005	21.03	1430520	OZ232348.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Cladonia squamosa genome assembly, chromosome: 1"	Cladonia squamosa	45.1	45.1	5%	0.006	34.78	2218899	OX392372.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Platismatia glauca genome assembly, chromosome: 3"	Platismatia glauca	45.1	45.1	10%	0.006	23.45	2152978	OY745765.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Cladonia diversa genome assembly, chromosome: 18"	Cladonia diversa	44.7	44.7	13%	0.008	25.98	1334447	OZ208690.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Cladonia norvegica genome assembly, chromosome: 8"	Cladonia norvegica	44.7	44.7	5%	0.008	30.26	1590646	OZ020207.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Cladonia diversa genome assembly, chromosome: 22"	Cladonia diversa	44.7	44.7	21%	0.008	22.7	861413	OZ208694.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Bacidia gigantensis uncharacterized protein (KY384_000509), partial mRNA"	Bacidia gigantensis	44.3	44.3	27%	0.009	20.63	3426	XM_044809045.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Platismatia glauca genome assembly, chromosome: 16"	Platismatia glauca	43.9	43.9	3%	0.014	48.89	1246429	OY745778.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Bacidia gigantensis uncharacterized protein (KY384_004765), partial mRNA"	Bacidia gigantensis	43.5	43.5	10%	0.016	31.17	2826	XM_044813269.1
+XANPAOZ2100_002167-T1	nt/nr limited to Lecanoromycetes	"Flavoplaca marina genome assembly, chromosome: 8"	Flavoplaca marina	43.5	43.5	13%	0.017	21.84	1788174	OZ245344.1

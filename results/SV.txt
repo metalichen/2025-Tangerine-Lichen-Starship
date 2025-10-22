@@ -1,0 +1,17 @@
+ID	Position	Position_relative_Starship	Filter	Quality	SV_type	SV_length	Supporting_reads	Variant_Allele_Frequency
+Sniffles2.DEL.32S2	101361	Upstream	GT: low number of supporting reads	60	DEL (deletion)	-106	79	0.081
+Sniffles2.DEL.34S2	104064	Upstream	GT: low number of supporting reads	60	DEL (deletion)	-67	123	0.077
+Sniffles2.DEL.36S2	120861	Upstream	GT: low number of supporting reads	60	DEL (deletion)	-99	135	0.074
+Sniffles2.DEL.5AS2	124896	Upstream	GT: low number of supporting reads	60	DEL (deletion)	-55297	122	0.088
+Sniffles2.INS.12S2	307925	Inside the element	PASS	52	INS (insertion)	5836	70	0.950
+Sniffles2.DEL.65S2	314828	Inside the element	PASS	59	DEL (deletion)	-227	1344	0.484
+Sniffles2.INS.15S2	316279	Inside the element	PASS	56	INS (insertion)	444	711	0.290
+Sniffles2.BND.29BS2	318563	Inside the element	PASS	59	BND (break point)	NA	1249	0.973
+Sniffles2.DEL.6FS2	322802	Inside the element	PASS	57	DEL (deletion)	-6905	625	0.480
+Sniffles2.DEL.76S2	335206	Inside the element	PASS	58	DEL (deletion)	-5361	809	0.501
+Sniffles2.INS.2BS2	362686	Inside the element	PASS	59	INS (insertion)	1282	1068	0.926
+Sniffles2.DEL.89S2	399016	Inside the element	PASS	60	DEL (deletion)	-252	1335	0.478
+Sniffles2.DEL.8BS2	399686	Inside the element	PASS	59	DEL (deletion)	-5787	1417	0.419
+Sniffles2.INS.2CS2	405201	Inside the element	PASS	58	INS (insertion)	50	1266	0.984
+Sniffles2.INS.2DS2	426834	Downstream	PASS	58	INS (insertion)	2987	562	1.000
+Sniffles2.BND.38AS2	426846	Downstream	PASS	60	BND (break point)	NA	322	0.363
