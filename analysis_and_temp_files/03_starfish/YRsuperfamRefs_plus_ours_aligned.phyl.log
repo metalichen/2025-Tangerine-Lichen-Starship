@@ -1,0 +1,1942 @@
+IQ-TREE multicore version 2.2.2.2 COVID-edition for Linux 64-bit built Nov 16 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    n512n11 (AVX2, FMA3, 503 GB RAM)
+Command: iqtree2 -s analysis_and_temp_files/03_starfish/YRsuperfamRefs_plus_ours_aligned.phyl -m MFP -alrt 1000 -B 1000 --threads-max 20
+Seed:    581543 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Jun 26 18:08:11 2025
+Kernel:  AVX+FMA - 1 threads (20 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 20 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file analysis_and_temp_files/03_starfish/YRsuperfamRefs_plus_ours_aligned.phyl ... Phylip format detected
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.012049 secs using 72.05% CPU
+Alignment has 1227 sequences with 929 columns, 929 distinct patterns
+929 parsimony-informative, 0 singleton sites, 0 constant sites
+                                                   Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.00243946 secs using 91.74% CPU
+   1  KAE8209120.1                                        48.55%    failed      0.00%
+   2  AAO92638.2                                          48.65%    failed      3.01%
+   3  HEPHAESTUS_Pvar-Captain                             26.37%    passed     54.05%
+   4  Phoenix_Mpha_mp053-Captain                          46.82%    passed     32.97%
+   5  Starship-1_Afel-Captain                             25.94%    passed     72.54%
+   6  Starship-1_Afum-Captain                             26.37%    passed     37.57%
+   7  Starship-1_Foxy_Fo5176-Captain                      36.71%    passed     56.77%
+   8  Starship-1_Mimp-Captain                             36.81%    passed     94.32%
+   9  Starship-1_Ooli-Captain                             31.75%    passed     90.94%
+  10  Starship-1_Tmar-Captain                             26.26%    passed     52.10%
+  11  Starship-2_Afla-Captain                             24.11%    passed     62.13%
+  12  acemac1_707798                                      52.85%    failed      0.00%
+  13  aciric2_130832                                      45.86%    passed     38.48%
+  14  acisp.1_KXL50416.1                                  43.60%    passed     19.98%
+  15  altarb7_tyr109                                      67.60%    failed      0.01%
+  16  altatr1_CAG5179564.1                                26.37%    passed     41.11%
+  17  altgai1_tyr158                                      45.53%    passed     27.97%
+  18  altgai1_tyr159                                      27.02%    passed     84.16%
+  19  altlon1_tyr172                                      27.56%    passed     41.79%
+  20  amnlig1_424037                                      63.40%    failed      0.00%
+  21  amores1_PSS18287.1                                  43.49%    passed     78.96%
+  22  amores1_PSS18505.1                                  45.96%    passed     62.12%
+  23  amyenc1_547861                                      56.84%    passed     10.59%
+  24  artoli1_7049                                        26.37%    passed     33.22%
+  25  artunc1_KAF3484272.1                                35.52%    failed      0.06%
+  26  artunc1_KAF3492095.1                                55.44%    passed     11.08%
+  27  artunc1_KAF3492431.1                                27.45%    passed     16.75%
+  28  ascnig1_307582                                      36.49%    passed     75.32%
+  29  ascnig1_383553                                      67.81%    passed     43.32%
+  30  ascrab1_tyr338                                      46.39%    passed     74.15%
+  31  ascrab1_tyr340                                      43.16%    passed     29.44%
+  32  aspaff1_tyr364                                      65.88%    passed     13.66%
+  33  aspara2_tyr470                                      44.13%    passed     61.79%
+  34  aspasp12_tyr525                                     48.44%    passed     42.34%
+  35  aspasp13_tyr531                                     71.58%    passed     94.48%
+  36  aspasp2_tyr552                                      61.89%    passed      9.01%
+  37  aspasp2_tyr555                                      50.38%    passed      9.93%
+  38  aspasp3_tyr574                                      48.65%    failed      0.03%
+  39  aspasp7_tyr611                                      26.37%    passed     50.61%
+  40  aspasp7_tyr613                                      74.49%    passed      9.28%
+  41  aspasp7_tyr614                                      41.01%    failed      1.30%
+  42  aspawa1_tyr652                                      74.60%    passed     11.61%
+  43  aspber2_KAE8379024.1                                53.50%    failed      0.34%
+  44  aspbru4_tyr759                                      58.13%    passed     83.21%
+  45  aspche2_tyr890                                      27.99%    passed     61.99%
+  46  aspcos3_tyr926                                      66.85%    failed      0.00%
+  47  aspcri1_2283                                        30.03%    passed     75.13%
+  48  aspcro1_tyr1048                                     54.68%    passed     65.46%
+  49  aspell2_tyr1084                                     56.62%    passed     50.84%
+  50  aspell2_tyr1085                                     63.19%    failed      4.19%
+  51  aspell2_tyr1091                                     31.00%    passed     93.70%
+  52  aspfis5_tyr1169                                     46.18%    passed     51.63%
+  53  aspfis5_tyr1178                                     47.04%    passed     41.46%
+  54  aspfla13_tyr1195                                    23.14%    passed     84.65%
+  55  aspflo1_tyr1229                                     44.67%    passed     66.68%
+  56  aspfum12_tyr1266                                    24.76%    passed     46.00%
+  57  aspfum15_tyr1314                                    44.35%    passed     89.98%
+  58  aspfum16_tyr1326                                    60.93%    failed      0.59%
+  59  aspfum4_KMK55507.1                                  37.14%    passed      8.95%
+  60  aspgla1_OJJ83717.1                                  39.50%    passed     68.98%
+  61  aspgla1_OJJ87743.1                                  53.61%    passed     82.98%
+  62  asphan1_tyr1478                                     58.88%    passed     64.76%
+  63  asphir2_tyr1511                                     48.22%    passed     33.54%
+  64  asphir2_tyr1512                                     66.31%    passed     19.90%
+  65  aspind3_tyr1556                                     51.99%    passed     32.21%
+  66  asplat1_tyr1608                                     53.07%    passed     83.96%
+  67  asplat4_tyr1663                                     76.86%    failed      0.37%
+  68  asplat5_tyr1682                                     72.87%    passed     20.32%
+  69  asplat6_tyr1695                                     57.80%    passed     11.54%
+  70  asplen4_tyr1745                                     71.80%    failed      0.88%
+  71  asplen8_tyr1771                                     53.71%    failed      0.01%
+  72  asplep2_tyr1807                                     49.30%    passed      5.71%
+  73  asplep2_tyr1824                                     59.96%    failed      0.55%
+  74  asplep2_tyr1825                                     68.57%    passed     20.44%
+  75  aspluc3_tyr1878                                     44.67%    passed     44.26%
+  76  aspnid3_tyr2023                                     32.83%    passed     44.50%
+  77  aspnid4_tyr2028                                     36.71%    passed     85.68%
+  78  aspnig10_tyr2036                                    50.16%    passed     32.31%
+  79  aspnig13_tyr2056                                    55.33%    failed      0.06%
+  80  aspnom1_125579_139535                               56.30%    passed     34.44%
+  81  aspnom1_155723                                      44.35%    failed      1.78%
+  82  aspnov3_tyr2189                                     58.67%    failed      0.01%
+  83  aspoer1_tyr2236                                     33.37%    passed     12.53%
+  84  aspory2_EIT83020.1_EIT83023.1                       30.14%    passed     38.89%
+  85  aspory7_tyr2325                                     56.94%    passed     17.04%
+  86  aspory7_tyr2327                                     64.91%    failed      4.48%
+  87  asppar13_tyr2371                                    37.78%    passed     50.72%
+  88  asppar5_tyr2394                                     56.19%    passed     90.69%
+  89  asppho1_RDK41012.1                                  48.55%    passed     92.77%
+  90  asppho1_RDK41021.1                                  58.99%    passed     67.14%
+  91  asppse7_288767_264632                               49.95%    failed      0.00%
+  92  aspqua1_tyr2553                                     51.56%    passed     34.56%
+  93  aspqua1_tyr2555                                     49.62%    failed      4.76%
+  94  aspscl4_RJE24476.1                                  30.25%    passed     62.52%
+  95  aspscl6_tyr2635                                     42.30%    passed      6.57%
+  96  aspsoj2_tyr2667                                     31.00%    passed     46.37%
+  97  aspsp.1_RMJ24447.1                                  50.05%    passed     98.57%
+  98  aspsyd2_tyr2767                                     60.71%    passed     75.08%
+  99  asptam2_tyr2823                                     52.31%    failed      0.00%
+ 100  asptam4_tyr2840                                     53.07%    failed      0.09%
+ 101  asptan1_tyr2858                                     67.92%    passed     84.00%
+ 102  asptan1_tyr2879                                     65.77%    passed     17.78%
+ 103  aspter9_tyr2936                                     50.81%    failed      0.00%
+ 104  aspter9_tyr2940                                     42.95%    passed      6.15%
+ 105  asptra3_tyr2982                                     63.62%    failed      0.00%
+ 106  aspuda6_tyr3046                                     55.54%    passed      5.53%
+ 107  aspuda6_tyr3047                                     38.64%    failed      1.34%
+ 108  aspust1_tyr3098                                     36.38%    passed     10.02%
+ 109  aspwen1_OJJ29631.1                                  35.63%    failed      1.53%
+ 110  aspwes1_tyr3212                                     63.19%    passed     16.09%
+ 111  aulhed1_KAF1980648.1                                30.68%    passed     92.92%
+ 112  bacgig1_KAG8531634.1                                66.09%    passed     24.24%
+ 113  baupan1_EMC97231.1                                  40.04%    failed      2.91%
+ 114  beabas1_10225                                       63.83%    failed      0.11%
+ 115  beabas1_7480                                        24.33%    passed     27.34%
+ 116  beabas2_KGQ12276.1                                  23.25%    passed     54.97%
+ 117  bimnov1_554665_388559                               59.85%    passed     38.57%
+ 118  bimnov1_585611                                      68.25%    failed      1.06%
+ 119  bimnov1_60159_363215                                47.15%    passed     70.06%
+ 120  bimnov1_tyr3321                                     60.50%    failed      0.01%
+ 121  bipmay1_ENH98990.1                                  53.93%    passed      8.98%
+ 122  bipmay2_EMD88483.1                                  58.88%    passed     49.82%
+ 123  blader3_11177                                       51.02%    passed     56.85%
+ 124  blader3_6950_6951                                   51.88%    passed     48.40%
+ 125  blader3_7891_7892                                   31.43%    passed     17.78%
+ 126  blader3_tyr3427                                     41.98%    failed      1.35%
+ 127  blader5_EQL29727.1                                  27.66%    failed      1.86%
+ 128  blader5_EQL32851.1                                  48.65%    passed     75.69%
+ 129  blagil1_OAT05240.1_OAT05241.1_OAT05242.1            51.35%    passed     72.44%
+ 130  blagil1_OAT07656.1                                  24.97%    passed     53.61%
+ 131  blagil1_tyr3501                                     61.89%    failed      0.00%
+ 132  blaper1_1788                                        39.83%    passed     56.23%
+ 133  blaper1_2381                                        43.92%    failed      4.53%
+ 134  blaper1_3160_3159                                   54.04%    passed     32.84%
+ 135  blaper1_3236                                        28.42%    passed     33.53%
+ 136  blaper1_3581                                        53.18%    passed     53.27%
+ 137  blaper1_3939                                        43.38%    passed     99.42%
+ 138  blaper1_4139_4140_4141                              38.54%    passed     66.52%
+ 139  blaper1_4528                                        53.50%    passed     54.85%
+ 140  blaper1_4705                                        50.05%    passed     53.49%
+ 141  blaper1_5625                                        62.54%    passed     65.00%
+ 142  blaper1_5882                                        33.48%    passed     82.80%
+ 143  blaper1_5932                                        52.85%    passed     73.52%
+ 144  blaper1_6736                                        65.34%    passed     76.82%
+ 145  blaper1_675                                         54.90%    passed     19.98%
+ 146  blaper1_6779                                        52.42%    passed     75.12%
+ 147  blaper1_9954                                        48.87%    passed     87.76%
+ 148  botacl1_KAF7955521.1                                50.59%    failed      0.00%
+ 149  botcon1_TGO45211.1_TGO45212.1                       48.76%    failed      0.01%
+ 150  botdot1_290492                                      57.80%    passed     66.46%
+ 151  bothya1_tyr3649                                     60.06%    failed      0.00%
+ 152  botpae1_TGO22912.1                                  36.06%    passed     37.29%
+ 153  botpor2_tyr3657                                     65.45%    failed      0.11%
+ 154  byscir1_tyr3672                                     73.74%    failed      0.02%
+ 155  cadmal1_KAG4411212.1                                33.26%    passed      9.57%
+ 156  cadsp.1_437647_620720_620728                        44.99%    failed      0.02%
+ 157  cadsp.1_440977_440967_440971_440978                 46.18%    failed      0.00%
+ 158  cadsp.1_443130                                      53.71%    failed      0.00%
+ 159  cadsp.1_471581                                      63.94%    passed      6.76%
+ 160  cadsp.2_KAG4439199.1                                35.41%    passed     96.01%
+ 161  cadsp.2_tyr3757                                     55.22%    failed      0.00%
+ 162  calmar1_178488                                      71.47%    passed     50.63%
+ 163  calmar1_577054                                      54.57%    passed     36.81%
+ 164  capepi1_1814                                        57.27%    passed     23.06%
+ 165  cengeo1_542205                                      56.51%    failed      0.01%
+ 166  cengeo1_566735                                      69.21%    failed      0.00%
+ 167  cengeo1_589484_589527_521781                        70.51%    failed      0.01%
+ 168  cengeo1_591310                                      71.80%    failed      0.00%
+ 169  cengeo1_tyr3807                                     68.14%    failed      0.00%
+ 170  cengeo1_tyr3818                                     67.06%    failed      0.00%
+ 171  cengeo1_tyr3819                                     66.95%    failed      0.00%
+ 172  cengeo1_tyr3834                                     55.44%    failed      0.00%
+ 173  cengeo1_tyr3835                                     75.89%    failed      0.01%
+ 174  cengeo1_tyr3876                                     71.80%    failed      0.00%
+ 175  cerber1_6038                                        35.74%    failed      0.61%
+ 176  cerber1_tyr3938                                     63.94%    failed      0.05%
+ 177  chasp.7_RMZ87469.1                                  48.98%    failed      1.57%
+ 178  choven1_786032                                      62.33%    passed     30.17%
+ 179  claban1_134700                                      26.70%    failed      2.97%
+ 180  clagra1_11292                                       56.84%    passed     15.08%
+ 181  cloaqu1_495597                                      73.84%    failed      0.02%
+ 182  cloaqu1_tyr4081                                     76.00%    passed     10.09%
+ 183  cloaqu1_tyr4087                                     67.06%    failed      1.76%
+ 184  clorhi1_VUC06060.1                                  24.43%    passed     21.52%
+ 185  cocimm1_4716                                        52.31%    failed      0.01%
+ 186  cocimm1_628                                         57.91%    failed      1.13%
+ 187  cocimm1_tyr4120                                     77.72%    passed     64.33%
+ 188  cocimm1_tyr4125                                     71.91%    failed      0.00%
+ 189  cocimm2_KMU76246.1_KMU76247.1                       39.72%    failed      3.59%
+ 190  cocimm2_KMU79836.1_KMU79837.1                       29.60%    passed     94.68%
+ 191  cocimm3_KMU92327.1_KMU92328.1                       53.28%    failed      0.00%
+ 192  cocmiy1_41658                                       53.50%    failed      3.73%
+ 193  cocpos2_6003                                        44.67%    failed      0.03%
+ 194  cocpos5_KMM68959.1                                  63.08%    failed      0.02%
+ 195  cocpos5_KMM73308.1                                  35.95%    passed     47.31%
+ 196  colcam1_tyr4276                                     52.42%    failed      0.76%
+ 197  colsoj1_KAF6812414.1                                30.03%    failed      0.66%
+ 198  colspi1_tyr4386                                     69.54%    passed     37.78%
+ 199  coltof2_11826_11827                                 41.55%    passed     84.93%
+ 200  coltof2_tyr4412                                     63.51%    passed     46.71%
+ 201  consp.1_1039156                                     24.54%    passed     18.04%
+ 202  consp.1_662629                                      28.31%    failed      1.56%
+ 203  crydep1_ODN97795.1                                  30.89%    passed     20.79%
+ 204  crypar1_KAF3763489.1                                57.59%    passed     33.30%
+ 205  crypar1_KAF3763523.1                                67.28%    passed     87.67%
+ 206  crypar1_KAF3768443.1                                35.09%    passed     52.40%
+ 207  cudaci1_KAF4625152.1                                44.24%    passed     89.84%
+ 208  cudaci1_KAF4633412.1                                63.51%    failed      0.81%
+ 209  cyloli1_552812                                      43.81%    passed     12.41%
+ 210  daccio1_otherdc0103420                              41.98%    passed     44.69%
+ 211  dacest1_591128_591130                               27.45%    passed     58.69%
+ 212  dacmac1_34260                                       65.66%    passed     43.81%
+ 213  dacmac1_659788                                      56.40%    passed     76.28%
+ 214  dalgra1_438190                                      55.44%    passed     60.28%
+ 215  dalgra1_449726                                      66.85%    passed     58.67%
+ 216  dalsp.1_361367                                      29.82%    failed      2.88%
+ 217  delstr1_295949                                      34.34%    passed     29.89%
+ 218  diaamp1_10693                                       56.40%    passed     40.20%
+ 219  diaamp1_tyr4650                                     67.17%    passed      6.66%
+ 220  diabat1_KAG8157681.1_KAG8157653.1                   27.45%    passed     98.72%
+ 221  diacit1_KAG6358485.1                                29.28%    passed     89.24%
+ 222  dibbae1_5584_5585                                   42.73%    passed     56.30%
+ 223  didker1_KAF3049100.1                                45.64%    passed     15.88%
+ 224  durrog1_292270                                      65.12%    passed     55.51%
+ 225  elagra2_2112                                        44.03%    passed     21.24%
+ 226  elagra2_5163_5164                                   63.08%    passed     29.51%
+ 227  elagra2_6724                                        54.79%    passed     87.04%
+ 228  elagra2_tyr4808                                     77.83%    passed     66.35%
+ 229  elagra2_tyr4880                                     66.63%    passed     15.00%
+ 230  emeafr1_OAX78725.1_OAX78726.1                       67.06%    failed      1.57%
+ 231  emeafr1_OAX85254.1                                  53.61%    passed     30.20%
+ 232  emepas2_OJD09711.1                                  53.61%    failed      1.78%
+ 233  emepas2_OJD09878.1_OJD09879.1                       42.52%    failed      0.18%
+ 234  emepas2_OJD10625.1                                  72.66%    failed      0.00%
+ 235  emmcre2_KKZ60871.1                                  68.46%    passed     71.85%
+ 236  emmcre2_KKZ61489.1                                  50.59%    passed     45.85%
+ 237  emmcre2_KKZ61922.1                                  32.83%    failed      0.36%
+ 238  emmcre2_KKZ63868.1_KKZ63869.1                       77.40%    passed     67.63%
+ 239  emmcre2_KKZ67376.1                                  56.30%    passed     61.48%
+ 240  endpal1_11393_11394                                 58.88%    passed     16.39%
+ 241  endpus1_4215                                        59.31%    passed     56.99%
+ 242  endpus1_7577                                        45.32%    passed     20.65%
+ 243  erebil1_192051                                      32.51%    passed     52.15%
+ 244  erebil1_462223_462224_210623                        56.30%    failed      2.83%
+ 245  erebil1_463208                                      38.21%    passed     75.29%
+ 246  erebil1_472933_308236                               49.09%    passed     49.98%
+ 247  eurrub1_405644_415988                               69.32%    passed     59.62%
+ 248  eurrub1_525771                                      63.40%    passed     93.74%
+ 249  exooli1_134015                                      26.37%    passed     17.57%
+ 250  exooli1_139439_139440_139441_139442_139443          52.74%    passed     52.45%
+ 251  exooli1_139457_139458_139459_139460                 29.60%    passed     36.09%
+ 252  exosid1_tyr5117                                     56.30%    passed     11.25%
+ 253  exoxen1_tyr5127                                     67.06%    failed      0.00%
+ 254  friend1_TKA26544.1                                  38.64%    passed     27.99%
+ 255  frisim1_TKA68777.1                                  55.01%    passed     33.09%
+ 256  frisim1_TKA79242.1                                  43.60%    failed      0.35%
+ 257  funsp.2_GAW15977.1                                  56.30%    passed     36.16%
+ 258  fusalb2_tyr5195                                     64.16%    passed     50.41%
+ 259  fusasi4_tyr5247                                     46.82%    passed     90.79%
+ 260  fusave8_tyr5272                                     65.34%    failed      0.00%
+ 261  fusbra1_tyr5309                                     76.75%    passed     44.41%
+ 262  fusbur1_tyr5341                                     47.26%    passed      5.03%
+ 263  fusbur1_tyr5345                                     58.67%    passed     81.67%
+ 264  fuscer2_tyr5355                                     60.06%    passed     37.12%
+ 265  fuscir3_tyr5363                                     55.11%    passed     27.88%
+ 266  fuscir3_tyr5364                                     44.89%    passed     92.75%
+ 267  fuscom2_tyr5400                                     54.36%    failed      1.40%
+ 268  fusequ4_tyr5487                                     58.99%    passed     10.49%
+ 269  fusequ5_tyr5495                                     73.41%    passed      5.27%
+ 270  fusfal1_tyr5526                                     26.91%    passed     23.03%
+ 271  fusfus24_tyr5659                                    31.32%    failed      0.64%
+ 272  fusfus28_tyr5695                                    52.31%    passed     52.39%
+ 273  fusfus29_tyr5699                                    65.66%    passed     20.22%
+ 274  fusfus31_tyr5721                                    61.79%    failed      1.88%
+ 275  fusfus31_tyr5729                                    67.17%    passed     17.22%
+ 276  fusfus38_tyr5754                                    71.80%    passed     38.83%
+ 277  fusfus39_tyr5762                                    63.19%    passed     36.65%
+ 278  fusfus65_tyr5881                                    77.83%    failed      0.00%
+ 279  fusgad1_KAF4947046.1                                44.03%    passed     43.32%
+ 280  fushae3_tyr5936                                     49.19%    passed     59.27%
+ 281  fusinc2_tyr6003                                     70.94%    failed      0.00%
+ 282  fuskur1_RMI94325.1                                  54.47%    passed     72.21%
+ 283  fusman2_tyr6048                                     39.18%    passed      8.32%
+ 284  fusmus1_tyr6092                                     76.53%    failed      0.00%
+ 285  fusoxy29_474803                                     55.01%    failed      0.00%
+ 286  fusoxy42_ENH71189.1                                 24.97%    passed     63.48%
+ 287  fusoxy45_KAG7413195.1                               48.12%    passed     34.30%
+ 288  fuspro7_tyr6510                                     76.64%    failed      1.34%
+ 289  fusrus1_tyr6576                                     31.11%    passed     90.70%
+ 290  fussol2_tyr6622                                     22.60%    passed     34.54%
+ 291  fussp.5_KAF5611984.1                                30.03%    passed     69.40%
+ 292  fussp.6_KAF5007163.1                                67.06%    passed     89.30%
+ 293  fusste1_tyr6701                                     28.63%    passed     85.89%
+ 294  fussub5_tyr6719                                     65.12%    passed     42.62%
+ 295  fustan1_tyr6732                                     58.77%    passed      8.91%
+ 296  fustri4_tyr6766                                     72.34%    passed     75.62%
+ 297  fustuc1_tyr6790                                     56.84%    failed      0.00%
+ 298  fustup1_tyr6815                                     28.85%    passed     83.23%
+ 299  fususs4_tyr6846                                     43.16%    passed     23.29%
+ 300  fusvan1_EEU40131.1                                  47.69%    passed     49.67%
+ 301  fusven3_tyr6863                                     39.40%    passed     69.93%
+ 302  fusver6_tyr6875                                     48.22%    passed     14.52%
+ 303  fusxyl4_KAG5801712.1                                51.45%    passed     58.48%
+ 304  fusxyl9_tyr7052                                     47.15%    passed     80.53%
+ 305  gloste1_222527                                      43.06%    passed     25.91%
+ 306  gluame1_KAH0542861.1                                74.17%    passed     84.70%
+ 307  golmag1_tyr7146                                     76.10%    passed     28.85%
+ 308  grascr1_10188                                       63.19%    passed     27.87%
+ 309  grascr1_687                                         49.09%    passed     28.70%
+ 310  guynec1_997316_937336                               76.00%    passed     81.66%
+ 311  helsp.4_KAE8442194.1                                39.94%    passed     49.49%
+ 312  hetspe1_CAF9941352.1                                35.74%    passed     61.13%
+ 313  hetspe1_CAF9942110.1                                34.23%    passed     16.94%
+ 314  hirmin1_5623                                        50.91%    passed     15.52%
+ 315  hirmin1_tyr7282                                     31.11%    passed     90.81%
+ 316  hirrho1_KAH0961187.1                                61.79%    passed     34.92%
+ 317  hirrho1_KAH0968669.1                                55.76%    passed     60.97%
+ 318  hirrho1_KAH0968736.1                                40.26%    passed     85.36%
+ 319  hiscap10_KAG5292110.1_KAG5292111.1_KAG5292112.1     62.86%    passed     64.69%
+ 320  hiscap10_KAG5294641.1                               45.64%    failed      0.97%
+ 321  hiscap1_5846                                        35.95%    passed     74.35%
+ 322  hiscap1_tyr7335                                     25.62%    passed     57.77%
+ 323  hiscap1_tyr7371                                     41.55%    passed     63.44%
+ 324  hiscap1_tyr7384                                     35.74%    passed     13.53%
+ 325  hiscap3_QSS69343.1_ncRNA10612                       73.20%    failed      0.00%
+ 326  hiscap4_QSS56076.1                                  60.82%    passed     68.10%
+ 327  hiscap4_ncRNA10775_ncRNA10776                       58.67%    failed      0.00%
+ 328  hiscap4_tyr7429                                     76.21%    failed      0.00%
+ 329  hiscap5_EER37235.1                                  64.05%    failed      0.00%
+ 330  hymalb1_CAG8977711.1                                42.20%    passed     97.01%
+ 331  hypsp.2_644004                                      50.91%    failed      2.52%
+ 332  ilysp.2_681009                                      57.59%    passed     41.04%
+ 333  imsale1_tyr7676                                     75.57%    failed      0.00%
+ 334  isafum1_tyr7682                                     22.93%    passed     58.73%
+ 335  kredeu1_621827                                      41.44%    passed     26.33%
+ 336  kredeu2_484721                                      59.20%    passed     47.98%
+ 337  kredeu2_517727                                      39.83%    passed     28.26%
+ 338  kredeu2_tyr7716                                     23.79%    failed      3.86%
+ 339  lacari1_TVY12806.1                                  24.22%    passed     59.74%
+ 340  lacari1_TVY13717.1                                  39.29%    failed      2.10%
+ 341  lacari1_TVY17613.1_TVY17612.1                       56.19%    passed     38.99%
+ 342  lachya1_TVY22339.1                                  42.52%    passed     35.60%
+ 343  lachya1_TVY25215.1                                  77.93%    failed      0.23%
+ 344  lachya1_TVY29336.1                                  71.91%    passed     35.14%
+ 345  laspus1_KAA6408389.1_KAA6408390.1                   54.68%    passed     93.22%
+ 346  lasthe1_tyr7811                                     47.47%    failed      2.39%
+ 347  lasthe3_KAB2568541.1                                27.56%    passed     18.49%
+ 348  leclec1_6727                                        28.20%    passed     12.58%
+ 349  leclec1_6749                                        25.40%    passed     50.72%
+ 350  leisp.1_1338902                                     49.62%    passed     17.46%
+ 351  lenflu1_KAF2676861.1                                25.83%    passed     30.84%
+ 352  lenflu1_KAF2679993.1_KAF2679994.1                   53.50%    passed     99.39%
+ 353  leosp.1_206943_730274                               40.37%    passed     14.37%
+ 354  leppal1_OCK73338.1                                  62.54%    passed     26.64%
+ 355  leppal1_OCK79459.1                                  44.46%    passed     39.39%
+ 356  leppal1_tyr7885                                     63.19%    failed      0.00%
+ 357  lepsp.1_451448                                      70.08%    failed      0.00%
+ 358  lepsp.1_529980_636753                               56.62%    passed     17.27%
+ 359  lepsp.1_550109_673825                               69.86%    passed     32.39%
+ 360  lepsp.1_560113_646570                               62.97%    failed      1.95%
+ 361  lepsp.1_674126                                      70.51%    passed     23.67%
+ 362  lepsp.1_734986                                      39.94%    passed     76.42%
+ 363  lepsp.1_739939                                      63.08%    failed      2.33%
+ 364  lepsp.1_tyr7902                                     68.78%    failed      0.00%
+ 365  linrhi1_396397                                      46.93%    passed     35.22%
+ 366  linrhi1_417195                                      53.28%    passed     33.85%
+ 367  lizemp1_160652                                      74.17%    passed     67.27%
+ 368  lizemp1_168641                                      24.87%    passed     70.95%
+ 369  lizemp1_186564                                      50.05%    passed     85.51%
+ 370  lopmac1_KAF2650664.1                                24.22%    passed     72.24%
+ 371  lopnuc1_509612_608368_655764                        38.86%    passed     10.22%
+ 372  macpha2_4023                                        26.70%    passed     28.42%
+ 373  madmyc1_9294                                        35.09%    passed     84.69%
+ 374  madmyc1_955                                         61.46%    passed      6.69%
+ 375  madmyc1_9889                                        50.81%    passed     48.49%
+ 376  melbic1_634125                                      26.91%    passed     13.19%
+ 377  melbic1_tyr8098                                     72.44%    failed      0.00%
+ 378  metacr1_8233                                        55.97%    passed     46.97%
+ 379  metacr1_9181                                        38.75%    failed      1.97%
+ 380  metacr1_9370                                        45.64%    passed     76.03%
+ 381  metani1_5588                                        50.81%    passed     79.58%
+ 382  metbru1_tyr8161                                     56.08%    passed     68.01%
+ 383  metgui1_4539                                        70.18%    passed     71.24%
+ 384  metgui1_tyr8174                                     47.15%    passed     45.53%
+ 385  metmaj1_10173                                       40.58%    passed     89.95%
+ 386  metmaj1_1405                                        54.04%    passed     83.34%
+ 387  metmaj1_2504_2505                                   48.87%    passed     17.40%
+ 388  metrob3_EFY94016.1                                  22.60%    passed      8.89%
+ 389  metrob3_EFZ00634.1                                  50.70%    passed     74.53%
+ 390  metrob3_EFZ04323.1                                  59.31%    passed     23.48%
+ 391  metrob3_tyr8212                                     54.36%    passed     42.67%
+ 392  micbol1_109359                                      36.06%    passed     40.32%
+ 393  micbol1_226188                                      51.35%    passed     31.26%
+ 394  mictri1_300110                                      26.37%    passed     65.26%
+ 395  mictri1_377759                                      39.18%    passed      6.91%
+ 396  mictri1_377953                                      33.69%    passed     85.69%
+ 397  mictri1_425164                                      39.40%    passed     27.53%
+ 398  moelib1_2937_2938                                   73.30%    passed     87.84%
+ 399  moncan1_RYO82366.1                                  64.05%    passed     78.46%
+ 400  moncan1_RYO85021.1                                  68.78%    passed     11.33%
+ 401  moncan1_tyr8276                                     53.39%    passed     26.44%
+ 402  monfru1_KAA8565543.1                                33.37%    passed     53.31%
+ 403  monfru1_KAA8574662.1                                61.79%    passed     23.61%
+ 404  monfru3_KAG4027417.1                                39.07%    passed     19.05%
+ 405  monibe1_RYO96122.1                                  51.88%    passed     45.65%
+ 406  monlax1_KAB8302114.1                                56.30%    passed      5.97%
+ 407  monsp.2_RYP22820.1                                  48.22%    passed     16.99%
+ 408  monsp.2_RYP32009.1                                  59.42%    passed     19.31%
+ 409  monsp.2_RYP34851.1                                  41.55%    failed      0.11%
+ 410  monsp.3_RYP20312.1                                  54.57%    passed      8.24%
+ 411  monsp.3_tyr8335                                     66.95%    passed      9.88%
+ 412  monsp.4_RYP58605.1                                  45.75%    passed     49.80%
+ 413  monsp.8_RYP61190.1                                  21.74%    passed     73.96%
+ 414  monsp.8_tyr8373                                     69.86%    passed     10.50%
+ 415  morimp1_601763                                      39.83%    failed      3.81%
+ 416  morimp1_644698                                      45.86%    passed     39.82%
+ 417  mytres1_375477                                      76.53%    failed      0.00%
+ 418  mytres1_384697                                      63.72%    failed      0.00%
+ 419  mytres1_388358_388424                               61.89%    failed      0.00%
+ 420  mytres1_491224                                      43.16%    failed      0.01%
+ 421  neoaci1_KAF2478441.1_KAF2478442.1                   64.16%    passed     12.54%
+ 422  neoaci1_KAF2486406.1                                72.01%    passed      8.78%
+ 423  neocla1_KAF7521542.1                                50.05%    passed     73.38%
+ 424  neodit1_2170                                        60.17%    passed     19.58%
+ 425  neopar1_6999                                        80.09%    passed     40.18%
+ 426  oidmai1_137687                                      37.57%    passed     57.08%
+ 427  oidmai1_62373_62374                                 46.72%    passed     11.32%
+ 428  oidmai1_93661                                       34.88%    passed     60.37%
+ 429  orboli10_KAF3190727.1                               68.03%    passed     24.82%
+ 430  orboli11_KAF3077820.1                               31.75%    passed     96.19%
+ 431  orboli20_KAF3221117.1                               59.63%    failed      1.52%
+ 432  orboli2_TGJ70084.1                                  30.36%    passed     46.16%
+ 433  orboli2_tyr8545                                     66.42%    failed      0.00%
+ 434  orboli7_KAF3157311.1                                49.95%    passed      5.17%
+ 435  paeniv1_60818                                       30.25%    passed      6.02%
+ 436  paeniv1_62125                                       24.97%    failed      4.61%
+ 437  paeniv1_69520                                       42.95%    passed     22.91%
+ 438  parbra1_2719                                        50.16%    passed     55.22%
+ 439  parbra1_3446                                        59.10%    passed     84.21%
+ 440  parbra1_581_582                                     50.70%    passed     15.71%
+ 441  parbra1_6508                                        68.78%    failed      0.00%
+ 442  parbra2_EEH47566.2                                  75.03%    failed      2.16%
+ 443  parbra2_EEH48327.2                                  70.83%    passed     30.95%
+ 444  parbra2_KGM92451.1_KGM92452.1                       60.93%    passed     93.22%
+ 445  parlut1_3075_3076                                   67.06%    passed     83.34%
+ 446  parlut1_5348                                        57.37%    passed     83.69%
+ 447  parlut1_5370                                        27.88%    passed     77.56%
+ 448  parlut1_7852                                        49.95%    passed     29.78%
+ 449  parmin1_KAF9728395.1                                44.99%    passed     27.44%
+ 450  parpol1_3559                                        42.30%    passed     35.66%
+ 451  parpol1_tyr8651                                     44.46%    passed      7.92%
+ 452  parpol1_tyr8652                                     53.93%    passed     70.26%
+ 453  pasful1_KAH3646784.1                                30.89%    passed     15.42%
+ 454  penant1_1867_1868                                   48.12%    passed     64.75%
+ 455  penbra1_tyr8704                                     54.57%    failed      0.07%
+ 456  penbra1_tyr8712                                     71.04%    failed      0.00%
+ 457  pencam1_5738                                        21.64%    passed     43.86%
+ 458  pencam1_9182_9183                                   55.44%    passed     15.22%
+ 459  penchr2_30653                                       59.42%    passed     72.16%
+ 460  penfla1_2705                                        47.69%    passed     95.12%
+ 461  penfla1_tyr8805                                     69.21%    failed      0.00%
+ 462  pennal1_11775                                       71.26%    failed      2.86%
+ 463  pennor1_tyr8865                                     51.35%    passed     41.16%
+ 464  penoxa1_6225                                        53.18%    failed      0.01%
+ 465  penoxa1_tyr8890                                     57.91%    failed      0.00%
+ 466  penroq1_3856                                        63.19%    passed      7.91%
+ 467  penroq1_4089                                        37.57%    passed     30.38%
+ 468  penrub1_CAP94151.1                                  35.20%    passed     46.14%
+ 469  penrub2_KAF3021169.1                                26.80%    passed     63.38%
+ 470  pensol2_2141_2142                                   52.53%    passed     16.53%
+ 471  pensp.11_PCG88942.1                                 23.25%    passed     89.07%
+ 472  pensp.11_tyr8960                                    52.85%    passed      5.14%
+ 473  pensp.9_tyr8981                                     60.28%    passed     23.94%
+ 474  penste1_6620_6621                                   34.45%    passed     81.13%
+ 475  pensub1_OKP09913.1_OKP09914.1                       38.64%    passed     20.53%
+ 476  pensub1_tyr9007                                     64.69%    passed     92.03%
+ 477  penthy1_208992                                      56.40%    failed      0.03%
+ 478  penzon1_tyr9052                                     74.92%    failed      0.39%
+ 479  permac1_395901                                      26.59%    passed     95.00%
+ 480  permac1_607348_577860                               58.56%    passed     68.71%
+ 481  pesfic1_5930                                        28.42%    passed     18.91%
+ 482  pesfic1_tyr9064                                     40.26%    passed     54.67%
+ 483  phachl1_4396                                        25.73%    passed     33.86%
+ 484  phachl1_tyr9076                                     55.22%    passed     99.58%
+ 485  phamin1_EOO01307.1                                  47.69%    passed     24.06%
+ 486  phicur1_TPX11403.1                                  27.23%    passed     93.66%
+ 487  phisco1_133811                                      53.39%    passed     54.67%
+ 488  phisub1_tyr9118                                     59.42%    failed      0.00%
+ 489  plecuc2_353822                                      43.38%    passed     40.62%
+ 490  pletra1_KAF2844130.1                                52.64%    passed     95.78%
+ 491  pocchl2_RZR61296.1                                  68.68%    failed      3.33%
+ 492  pocchl3_OAQ60539.2                                  46.39%    passed      6.24%
+ 493  podcom1_tyr9194                                     50.05%    passed      6.58%
+ 494  polfus1_527418                                      52.96%    passed      5.99%
+ 495  polfus1_599705                                      54.90%    passed     65.02%
+ 496  polfus1_606100                                      37.24%    passed     59.65%
+ 497  polhys1_6343                                        49.41%    failed      0.01%
+ 498  polsqu1_536378                                      53.28%    passed     92.44%
+ 499  psedes1_5938                                        68.46%    passed     21.91%
+ 500  psedes1_tyr9258                                     47.79%    passed     60.25%
+ 501  psehyp1_505659                                      28.63%    passed     34.52%
+ 502  psesp.11_OBT51882.1_OBT51880.1                      54.25%    failed      0.01%
+ 503  psesp.11_OBT54041.1                                 41.87%    failed      4.61%
+ 504  psesp.13_KFX93134.1                                 71.15%    passed     13.36%
+ 505  psesp.13_tyr9350                                    64.05%    passed     30.92%
+ 506  psesp.14_KFY31966.1                                 51.67%    passed     53.41%
+ 507  psesp.14_tyr9380                                    68.89%    passed     72.81%
+ 508  psesp.15_KFY65136.1                                 22.71%    passed     94.38%
+ 509  psesp.16_tyr9418                                    63.08%    passed     24.12%
+ 510  psesp.18_KFY46141.1_KFY46142.1                      27.45%    passed     49.61%
+ 511  psesp.4_tyr9585                                     31.11%    passed     20.38%
+ 512  psesp.5_10301                                       27.23%    passed     26.22%
+ 513  psevol1_tyr9670                                     58.56%    passed     63.19%
+ 514  psevol1_tyr9689                                     65.02%    passed     32.80%
+ 515  pyrtri10_PZD03750.1                                 26.05%    failed      1.50%
+ 516  pyrtri1_EDU47821.1                                  32.40%    passed     12.84%
+ 517  pyrtri5_tyr9846                                     53.18%    passed     37.14%
+ 518  pyrtri9_PZD23847.1                                  24.97%    passed     97.33%
+ 519  racant1_OQN95408.1                                  59.31%    failed      4.59%
+ 520  racant1_OQN95439.1                                  45.75%    failed      3.12%
+ 521  racsp.1_tyr9896                                     35.95%    failed      0.66%
+ 522  raseme1_KKA16204.1                                  51.24%    passed     55.16%
+ 523  rhesp.1_14923                                       48.12%    passed     16.80%
+ 524  rhesp.1_195900                                      58.13%    passed     96.53%
+ 525  rhesp.1_201867_520848_520851                        62.22%    passed      8.58%
+ 526  rhesp.1_375297                                      58.56%    failed      0.00%
+ 527  rhesp.1_414138_414213                               75.46%    failed      0.00%
+ 528  rhieri1_750159                                      65.55%    passed     33.74%
+ 529  rhilig1_72239                                       31.86%    passed     63.39%
+ 530  rhimac1_8905                                        48.12%    passed     67.88%
+ 531  rhysec1_tyr10005                                    30.57%    passed     61.75%
+ 532  rhysec1_tyr10006                                    50.81%    failed      0.00%
+ 533  rusear1_1273445                                     64.91%    passed     38.90%
+ 534  rutsp.1_PQE11730.1                                  25.62%    passed     68.56%
+ 535  rutsp.1_PQE27284.1                                  64.37%    passed     41.67%
+ 536  rutsp.1_PQE28656.1                                  21.53%    passed     83.39%
+ 537  rutsp.2_PQE07086.1                                  23.04%    passed     84.93%
+ 538  rutsp.2_PQE09269.1                                  46.93%    failed      0.00%
+ 539  rutsp.2_PQE27491.1                                  51.02%    failed      0.00%
+ 540  sclcep1_KAF7865656.1                                46.39%    failed      0.03%
+ 541  sclcep1_KAF7866863.1                                59.63%    failed      0.00%
+ 542  sclcep1_KAF7870603.1                                56.40%    failed      0.00%
+ 543  scylig1_RFU28318.1                                  40.58%    failed      2.39%
+ 544  spobra1_10170_10169                                 37.67%    passed     36.53%
+ 545  spoins1_661                                         41.87%    passed     26.02%
+ 546  spoins1_7186                                        41.33%    passed     44.78%
+ 547  spoins1_7220                                        28.96%    passed     77.92%
+ 548  stacha1_2942                                        73.41%    passed     23.21%
+ 549  stacha2_KFA51963.1                                  73.63%    passed      8.61%
+ 550  stacha2_KFA55155.1                                  39.07%    failed      0.50%
+ 551  stacha3_KEY73861.1                                  42.30%    passed     49.63%
+ 552  stachl1_3593                                        71.26%    passed     72.08%
+ 553  staele1_490642                                      36.38%    passed     72.63%
+ 554  staele1_500552                                      30.68%    passed     84.92%
+ 555  suisub3_tyr10267                                    36.28%    passed     65.50%
+ 556  talatr1_4403                                        75.46%    passed     15.05%
+ 557  talcel1_GAM41794.1                                  28.53%    failed      1.90%
+ 558  talisl1_2669                                        49.95%    failed      0.00%
+ 559  talmar2_KFX41117.1_lncRNA0700070                    64.91%    passed     11.05%
+ 560  talmar2_KFX41220.1                                  29.92%    passed     59.17%
+ 561  talmar2_KFX47975.1                                  50.16%    passed     78.68%
+ 562  talpin1_KAF3392106.1                                55.76%    failed      0.00%
+ 563  talpin1_KAF3401258.1                                75.67%    failed      0.00%
+ 564  talrug1_QKX60769.1                                  56.51%    failed      0.05%
+ 565  talrug1_tyr10331                                    53.82%    failed      0.31%
+ 566  talsti1_3815_3816                                   61.25%    passed     21.57%
+ 567  talsti1_4534                                        24.97%    passed     26.88%
+ 568  talsti1_5901                                        53.18%    passed     12.97%
+ 569  talver1_KUL81284.1                                  50.91%    passed     74.45%
+ 570  talver1_KUL81733.1                                  31.22%    failed      0.47%
+ 571  tepsp.1_KAG6829646.1_KAG6829647.1                   40.58%    passed     36.24%
+ 572  terbou1_tyr10393                                    77.93%    passed     20.27%
+ 573  tercla1_1272127                                     66.74%    passed     49.94%
+ 574  tercla1_tyr10405                                    64.80%    passed     41.99%
+ 575  tercla1_tyr10408                                    55.76%    passed     68.04%
+ 576  tirniv1_708397                                      75.03%    passed     63.42%
+ 577  toloph1_1610                                        50.91%    passed     84.01%
+ 578  toloph1_3948                                        67.28%    passed     68.55%
+ 579  toloph1_tyr10453                                    59.63%    passed     79.03%
+ 580  torhem1_1768                                        44.46%    passed     24.87%
+ 581  totfus1_729837_333907_645645                        48.65%    passed     21.25%
+ 582  treper1_542511                                      28.42%    passed     16.51%
+ 583  triaru1_7814                                        57.05%    passed     85.12%
+ 584  triasp2_28945                                       55.87%    passed     44.96%
+ 585  tribis1_522931                                      69.11%    passed     14.40%
+ 586  tribis1_534205_534208                               52.96%    passed     42.42%
+ 587  triequ1_7282                                        36.92%    passed     97.83%
+ 588  triham1_3351                                        24.87%    failed      0.00%
+ 589  trihar4_48485_396645                                49.52%    passed     59.21%
+ 590  trihir1_KAH0563021.1                                56.62%    passed     42.75%
+ 591  trihir1_KAH0563164.1_KAH0563163.1                   42.09%    passed     22.90%
+ 592  trihyb1_897299                                      36.60%    passed     60.91%
+ 593  trimen1_4445                                        45.75%    failed      0.22%
+ 594  triton1_5425                                        54.90%    passed     50.76%
+ 595  triton1_666                                         54.79%    failed      0.05%
+ 596  tubmag1_tyr10581                                    77.93%    passed     27.57%
+ 597  tubmag1_tyr10586                                    66.42%    failed      0.03%
+ 598  tubmel2_tyr10605                                    74.60%    failed      0.04%
+ 599  umbpus1_102502                                      50.38%    passed     29.39%
+ 600  umbpus1_103234                                      53.50%    failed      4.49%
+ 601  umbpus1_103454                                      24.76%    failed      2.10%
+ 602  umbpus1_107339                                      43.70%    passed     56.23%
+ 603  umbpus1_tyr10627                                    34.77%    passed     47.82%
+ 604  uncree2_EEP82143.1                                  37.78%    passed     24.09%
+ 605  uncree2_tyr10647                                    78.15%    failed      0.00%
+ 606  valmal3_tyr10655                                    63.94%    passed     25.82%
+ 607  venech1_RDL30427.1_RDL30426.1                       29.82%    passed     53.44%
+ 608  verdah2_tyr10676                                    34.77%    passed     55.34%
+ 609  verena1_584247                                      45.96%    passed     67.18%
+ 610  verlon1_20430                                       58.88%    failed      2.50%
+ 611  virvir1_581593                                      26.91%    passed     54.30%
+ 612  virvir1_tyr10748                                    76.00%    failed      0.03%
+ 613  wilmik1_113864                                      27.23%    passed     94.81%
+ 614  xylacu1_521853                                      60.28%    passed     88.29%
+ 615  xylarb1_430476_471988                               41.98%    passed     71.70%
+ 616  xylcf.1_507826                                      37.35%    passed     68.85%
+ 617  xylcf.1_526122                                      37.89%    passed     67.39%
+ 618  xylcf.2_534528_534527                               49.73%    passed     60.14%
+ 619  xylcf.2_551827                                      59.96%    passed     31.10%
+ 620  xylcub1_494674                                      28.09%    passed     65.06%
+ 621  xylcur2_595032                                      36.38%    passed     81.08%
+ 622  xylgra1_359715                                      31.43%    passed     92.46%
+ 623  xylhev1_246969_246970                               32.40%    passed     27.62%
+ 624  xyllon1_530278                                      33.91%    passed     47.40%
+ 625  xylpal1_601133                                      40.47%    passed     77.48%
+ 626  xylsp.11_322789                                     31.65%    passed     55.06%
+ 627  xylsp.14_291070_291074                              34.98%    passed     19.69%
+ 628  xylsp.15_427122                                     28.42%    passed     48.23%
+ 629  xylsp.15_432324                                     33.69%    passed     32.93%
+ 630  xylsp.18_tyr10859                                   73.84%    failed      0.00%
+ 631  xylsp.19_237375                                     59.53%    passed     15.26%
+ 632  xylsp.2_355315                                      69.21%    failed      1.86%
+ 633  xylsp.2_523567_536667                               65.23%    passed     51.70%
+ 634  xylsp.9_38763_718660                                38.75%    passed     55.65%
+ 635  xyltel1_567555                                      48.76%    passed     57.43%
+ 636  zalvar1_538602                                      27.66%    passed     11.18%
+ 637  zalvar1_685428                                      39.18%    passed     13.42%
+ 638  zalvar1_689006                                      49.30%    failed      0.50%
+ 639  zascel1_30718                                       26.91%    passed     17.41%
+ 640  zascel1_66988                                       36.17%    failed      0.54%
+ 641  zascel1_tyr10949                                    52.53%    failed      0.62%
+ 642  zoprhi1_KAF2174473.1                                56.40%    passed      9.97%
+ 643  zoprhi1_KAF2179529.1                                27.02%    passed     16.82%
+ 644  zoprhi1_KAF2184180.1_KAF2184181.1                   44.56%    passed     25.39%
+ 645  zoprhi1_KAF2184210.1                                53.50%    passed     74.43%
+ 646  zoprhi1_tyr10970                                    62.00%    passed     37.57%
+ 647  zoprhi1_tyr11022                                    65.12%    passed     72.56%
+ 648  zymtri5_SMR62249.1                                  40.04%    failed      2.71%
+ 649  Enterprise_Pans-Captain                             27.34%    passed     72.15%
+ 650  Galactica_Afla-Captain                              20.13%    passed     50.78%
+ 651  Starship-1_Asoj-Captain                             21.10%    passed     16.57%
+ 652  Starship-1_Cpsa-Captain                             20.24%    passed     17.93%
+ 653  Starship-1_Fnub-Captain                             20.99%    passed     66.18%
+ 654  Starship-1_Llup-Captain                             22.82%    passed     15.87%
+ 655  Starship-2_Cpsa-Captain                             23.25%    passed     17.88%
+ 656  Starship-2_Pvar-Captain                             20.13%    passed     10.38%
+ 657  acemac1_478033                                      21.53%    passed     46.27%
+ 658  acemac1_585016                                      25.62%    passed     61.73%
+ 659  acemac1_681948                                      33.05%    passed     83.45%
+ 660  alefal1_CAF9915422.1                                34.23%    passed     11.54%
+ 661  altgan2_tyr166                                      73.30%    passed     95.33%
+ 662  amores1_PSS18507.1                                  22.28%    passed     73.01%
+ 663  amyenc1_389645                                      53.39%    passed     86.28%
+ 664  amyenc1_432340_521054                               26.26%    passed     93.14%
+ 665  ascsar1_9624                                        38.64%    passed     37.78%
+ 666  aspacu4_tyr350                                      41.12%    failed      0.00%
+ 667  aspaff1_tyr365                                      67.28%    passed     25.00%
+ 668  aspamo1_tyr433                                      20.34%    passed      8.16%
+ 669  aspara2_tyr467                                      20.88%    passed     85.07%
+ 670  aspasp11_tyr514                                     60.60%    passed     28.08%
+ 671  aspasp2_tyr558                                      45.75%    passed     62.12%
+ 672  aspasp3_tyr578                                      29.06%    passed     92.52%
+ 673  aspasp6_tyr598                                      43.60%    passed     15.10%
+ 674  aspasp6_tyr601                                      59.85%    failed      0.00%
+ 675  aspasp7_tyr618                                      27.23%    passed     29.62%
+ 676  aspawa2_tyr663                                      33.15%    passed     21.87%
+ 677  aspcar1_tyr828                                      21.74%    passed     22.37%
+ 678  aspcej1_tyr842                                      51.88%    passed     25.54%
+ 679  aspche2_tyr868                                      44.35%    passed     62.03%
+ 680  aspche2_tyr882                                      21.74%    passed     95.02%
+ 681  aspche2_tyr892                                      32.51%    passed     28.75%
+ 682  aspcla3_EAW09702.1                                  38.32%    passed     81.03%
+ 683  aspcor3_tyr920                                      60.39%    passed     68.66%
+ 684  aspcri1_6849                                        37.24%    failed      3.61%
+ 685  aspcri5_tyr1036                                     50.27%    passed     56.10%
+ 686  aspell2_tyr1081                                     28.20%    passed      7.12%
+ 687  aspfis5_tyr1170                                     46.07%    failed      3.40%
+ 688  aspfum5_EAL87801.2                                  20.34%    passed     23.90%
+ 689  aspfum5_EAL87819.1_EAL87820.1_EAL87821.1            31.22%    passed     11.99%
+ 690  aspfum5_tyr1395                                     56.40%    failed      4.84%
+ 691  aspgla1_OJJ81546.1                                  75.24%    passed     26.25%
+ 692  aspgla1_OJJ85450.1_OJJ85451.1                       50.59%    passed     22.64%
+ 693  asphir2_tyr1515                                     19.91%    passed     46.87%
+ 694  aspibe2_tyr1544                                     36.81%    passed     45.98%
+ 695  asplat6_tyr1698                                     33.58%    passed     35.34%
+ 696  asplat7_tyr1723                                     74.38%    passed     43.57%
+ 697  asplen8_tyr1773                                     40.90%    passed     81.65%
+ 698  asplen8_tyr1775                                     55.22%    passed     67.93%
+ 699  asplep2_tyr1813                                     34.02%    passed     24.72%
+ 700  aspmel1_tyr1930                                     33.69%    passed     21.05%
+ 701  aspnan1_KAF9885275.1                                32.94%    failed      0.00%
+ 702  aspnan1_KAF9890711.1                                42.95%    failed      0.18%
+ 703  aspnid1_CBF75942.1_CBF75944.1_CBF75946.1            49.73%    passed     11.99%
+ 704  aspnid1_CBF82971.1                                  36.49%    passed     88.49%
+ 705  aspnig5_tyr2095                                     63.29%    failed      0.00%
+ 706  aspoch5_tyr2231                                     36.28%    passed     21.80%
+ 707  aspoli1_tyr2253                                     20.24%    passed     42.50%
+ 708  asppse8_278758                                      70.40%    passed     78.47%
+ 709  asppse8_286872                                      48.01%    passed     22.18%
+ 710  asppuu1_tyr2548                                     43.70%    passed     66.37%
+ 711  aspqua1_tyr2559                                     41.33%    passed     94.06%
+ 712  aspscl4_tyr2611                                     64.16%    failed      2.71%
+ 713  aspscl5_tyr2626                                     59.85%    passed     36.62%
+ 714  aspscl6_tyr2634                                     29.28%    passed     25.67%
+ 715  aspspi1_tyr2725                                     58.13%    passed     98.78%
+ 716  aspsyd4_tyr2794                                     41.77%    passed      5.67%
+ 717  aspsyd4_tyr2807                                     43.92%    passed     18.77%
+ 718  aspter10_tyr2883                                    22.07%    failed      1.15%
+ 719  aspter10_tyr2885                                    41.33%    passed     31.10%
+ 720  aspter10_tyr2888                                    57.37%    passed     64.79%
+ 721  aspthe1_tyr2953                                     40.15%    passed     54.53%
+ 722  aspthe1_tyr2958                                     21.96%    passed     24.14%
+ 723  aspthe1_tyr2959                                     29.39%    passed     93.04%
+ 724  aspuda4_tyr3016                                     63.29%    passed     95.88%
+ 725  aspust1_tyr3097                                     68.25%    failed      3.20%
+ 726  aspver1_OJI99576.1                                  37.78%    failed      4.60%
+ 727  beabas1_10106                                       27.77%    failed      2.19%
+ 728  bipmay2_EMD97612.1                                  47.47%    passed     15.46%
+ 729  bismed2_654338                                      37.78%    failed      3.56%
+ 730  blaper1_810                                         24.00%    failed      3.75%
+ 731  botcal1_tyr3614                                     52.96%    failed      0.00%
+ 732  botcal1_tyr3618                                     59.31%    failed      0.00%
+ 733  botpor2_TGO90359.1                                  38.97%    passed     26.52%
+ 734  chaglo1_574115                                      34.12%    passed     23.77%
+ 735  chasp.4_RMD40828.1                                  23.68%    passed      9.88%
+ 736  chasp.7_RMZ90284.1                                  53.07%    passed     90.28%
+ 737  chasp.7_RMZ91819.1                                  29.49%    failed      0.43%
+ 738  chlaer1_TAQ83756.1                                  27.34%    passed     34.12%
+ 739  choven1_1052954                                     71.69%    passed     18.14%
+ 740  claimm1_tyr4064                                     31.75%    failed      1.08%
+ 741  clapsa1_10577                                       20.34%    passed     16.02%
+ 742  clorhi1_VUC09346.1                                  34.98%    passed     28.89%
+ 743  colaen1_KAF5522205.1                                72.34%    passed     39.54%
+ 744  colfru5_tyr4312                                     42.41%    passed     68.70%
+ 745  colnym1_1013311                                     45.96%    passed     41.33%
+ 746  colnym1_1020188                                     19.59%    passed     90.45%
+ 747  colsco1_tyr4368                                     41.23%    passed     45.35%
+ 748  coltof2_2047                                        44.89%    passed     20.69%
+ 749  coltof2_tyr4402                                     34.23%    passed     58.54%
+ 750  coltof2_tyr4409                                     21.53%    passed     50.47%
+ 751  coltri1_tyr4416                                     23.68%    passed     78.89%
+ 752  coltru1_KAF6782444.1                                52.96%    passed     80.21%
+ 753  consp.1_1014526                                     22.93%    passed     46.35%
+ 754  corcas2_PSN61909.1                                  24.65%    passed     47.22%
+ 755  crycur1_tyr4496                                     72.12%    passed     19.44%
+ 756  cudaci1_KAF4627340.1                                50.70%    passed     28.16%
+ 757  cudaci1_KAF4629989.1                                52.53%    passed     11.87%
+ 758  cypeur1_111219                                      41.55%    failed      0.75%
+ 759  cypeur1_114146                                      44.67%    passed     20.32%
+ 760  cypeur1_118335                                      55.33%    passed     92.36%
+ 761  dacest1_679540                                      25.30%    failed      0.53%
+ 762  dacmac1_17988                                       29.82%    passed      5.81%
+ 763  elagra2_tyr4812                                     47.58%    passed     32.75%
+ 764  elagra2_tyr4827                                     69.75%    passed     55.53%
+ 765  elagra2_tyr4830                                     44.99%    passed     17.09%
+ 766  elagra2_tyr4839                                     42.30%    passed     49.49%
+ 767  emeafr1_OAX79438.1                                  42.73%    passed     20.30%
+ 768  emmcre2_KKZ61741.1                                  48.87%    passed      5.46%
+ 769  endpus1_8492                                        20.99%    failed      4.89%
+ 770  exomes1_113733_113734_113735_113736_113737_113738   29.28%    passed     18.54%
+ 771  exooli1_137898                                      26.91%    passed      7.99%
+ 772  exooli1_137943_137944                               28.53%    passed     12.29%
+ 773  exooli1_142270_142271                               23.36%    passed     17.83%
+ 774  exospi1_9399                                        20.78%    passed      8.62%
+ 775  fonere1_5544_5545                                   37.89%    passed     13.20%
+ 776  fonmon1_2411_2412                                   27.88%    passed     66.93%
+ 777  fusalb1_KAF4458660.1                                27.56%    passed     13.26%
+ 778  fuscor2_tyr5423                                     42.41%    passed     57.34%
+ 779  fuscor2_tyr5424                                     48.65%    passed     37.95%
+ 780  fusequ9_tyr5516                                     58.88%    passed     40.04%
+ 781  fusfus25_tyr5667                                    51.78%    failed      4.80%
+ 782  fusfus35_tyr5744                                    56.73%    passed     10.40%
+ 783  fusfus37_tyr5753                                    39.50%    passed     17.71%
+ 784  fusfus45_tyr5792                                    24.65%    failed      4.47%
+ 785  fusfus45_tyr5796                                    24.76%    failed      3.23%
+ 786  fusfus65_tyr5879                                    43.70%    passed     20.08%
+ 787  fushos2_tyr5966                                     23.47%    passed     13.96%
+ 788  fusman3_tyr6063                                     43.81%    passed     10.39%
+ 789  fusmet1_tyr6076                                     21.64%    failed      4.26%
+ 790  fusnem1_tyr6108                                     65.77%    passed     10.91%
+ 791  fusneo1_tyr6117                                     26.05%    passed      5.58%
+ 792  fusoxy36_RKK64490.1                                 40.80%    passed      7.94%
+ 793  fusoxy44_KAG7415401.1_KAG7415409.1                  55.22%    failed      4.24%
+ 794  fussp.4_KAF9773401.1_KAF9773402.1                   33.37%    passed     12.69%
+ 795  fussp.8_RSL81990.1                                  54.25%    passed     50.43%
+ 796  fustri7_tyr6779                                     27.13%    passed     23.07%
+ 797  fusver2_EWG46573.1                                  34.12%    passed      6.30%
+ 798  gaetri1_EJT68898.1                                  22.39%    failed      4.46%
+ 799  gaetri1_EJT69642.1                                  30.46%    passed     61.93%
+ 800  gloste1_228597                                      25.30%    passed      9.15%
+ 801  gluame1_KAH0541585.1                                27.34%    passed     35.86%
+ 802  gluame1_KAH0542452.1                                39.18%    failed      0.54%
+ 803  gluame1_KAH0543790.1                                33.58%    passed     92.64%
+ 804  gluame1_KAH0547751.1                                33.58%    passed     17.60%
+ 805  gluame1_tyr7131                                     53.07%    failed      0.03%
+ 806  gomame1_CAF9912407.1                                67.71%    passed     53.42%
+ 807  gomame1_CAF9914209.1                                44.56%    passed     29.91%
+ 808  gomame1_CAF9918205.1                                30.36%    passed     31.25%
+ 809  grascr1_10749_10750                                 46.50%    passed     21.17%
+ 810  grascr1_11513                                       50.05%    passed     63.33%
+ 811  grascr1_5194_5195                                   45.43%    passed     48.43%
+ 812  helgri1_1499                                        21.42%    passed     10.08%
+ 813  helsp.4_KAE8441678.1                                39.18%    passed     23.12%
+ 814  hiscap1_5913                                        29.60%    passed     30.83%
+ 815  hiscap1_5928                                        58.56%    passed     34.87%
+ 816  hymalb1_CAG8976161.1_CAG8976162.1                   39.18%    passed     33.67%
+ 817  hyphym1_tyr7592                                     52.42%    passed     95.20%
+ 818  ilysp.1_592848_824996                               43.27%    passed     44.18%
+ 819  ilysp.1_683701                                      31.43%    passed     41.00%
+ 820  lacari1_tyr7736                                     37.78%    passed     43.47%
+ 821  lacari1_tyr7740                                     55.22%    passed     39.92%
+ 822  lacari1_tyr7741                                     55.76%    passed     49.00%
+ 823  laccf.1_1280066                                     51.02%    passed     34.20%
+ 824  lachya1_TVY25302.1                                  20.02%    passed     68.35%
+ 825  lacwil1_tyr7768                                     43.60%    passed     11.41%
+ 826  leosp.1_712301                                      65.88%    passed     23.47%
+ 827  lepsp.1_482229                                      50.59%    passed      9.23%
+ 828  lepsp.1_707367                                      61.25%    passed     72.43%
+ 829  letlup1_KAF6222261.1                                41.66%    passed     41.81%
+ 830  lining1_19457                                       58.77%    passed     93.37%
+ 831  magory1_2081_2080                                   36.60%    passed     36.23%
+ 832  metacr1_2241                                        35.41%    passed     69.42%
+ 833  metmaj1_tyr8185                                     29.71%    passed      8.89%
+ 834  micmic1_140246                                      21.42%    passed     11.40%
+ 835  mictri1_249983                                      40.37%    failed      3.15%
+ 836  mictri1_252258                                      59.20%    passed     85.78%
+ 837  mictri1_288833                                      35.31%    passed     22.34%
+ 838  monfru2_RAL60102.1                                  54.68%    passed     56.37%
+ 839  monfru2_RAL66735.1                                  77.40%    failed      0.07%
+ 840  monlax1_tyr8314                                     66.42%    failed      0.00%
+ 841  mytres1_479663                                      45.32%    passed     63.16%
+ 842  ophpic1_tyr8517                                     58.99%    passed     52.59%
+ 843  orboli10_KAF3191570.1                               69.43%    passed      9.02%
+ 844  orboli15_KAF3089738.1                               58.67%    passed     24.61%
+ 845  orboli16_KAF3107618.1                               54.36%    passed      6.29%
+ 846  orboli19_KAF3231896.1                               65.34%    passed     83.13%
+ 847  paeniv1_tyr8569                                     54.90%    passed      5.20%
+ 848  paevar1_289487                                      25.40%    passed     87.10%
+ 849  penant1_11477                                       59.53%    passed     93.70%
+ 850  penari1_5287                                        41.01%    passed     27.91%
+ 851  penbra1_3631                                        21.31%    passed     68.23%
+ 852  penbra1_9248                                        30.25%    passed     26.95%
+ 853  pencam1_3517                                        20.24%    passed     57.50%
+ 854  penexp2_2586                                        29.39%    failed      0.04%
+ 855  penfre1_tyr8819                                     45.10%    passed     18.07%
+ 856  penroq1_7137_7138                                   44.46%    failed      0.01%
+ 857  penrub1_CAP95304.1_CAP95306.1                       51.02%    passed     82.88%
+ 858  penrub2_KAF3027235.1                                31.22%    passed     57.36%
+ 859  pensp.9_KAF4765341.1                                19.70%    passed     15.71%
+ 860  penthy1_174382                                      27.77%    passed     30.44%
+ 861  penthy1_187711                                      28.20%    passed     47.83%
+ 862  pesfic1_1296                                        53.50%    passed     34.86%
+ 863  phachl1_4316                                        23.14%    passed     94.59%
+ 864  phachl1_5955                                        32.08%    passed     62.39%
+ 865  phamin1_tyr9087                                     23.57%    passed     14.70%
+ 866  phisco1_737160_737161                               58.34%    passed     33.58%
+ 867  phisub1_17707                                       32.29%    passed     24.64%
+ 868  phisub1_17749                                       62.22%    passed     61.28%
+ 869  phlsp.1_1968385                                     65.12%    passed     17.02%
+ 870  phlsp.1_tyr9122                                     52.96%    passed     21.59%
+ 871  pocchl2_RZR64022.1                                  31.32%    passed     27.18%
+ 872  pocchl3_OAQ57905.2                                  30.14%    passed     66.61%
+ 873  polfus1_563474                                      67.92%    passed     53.60%
+ 874  polhys1_3689                                        23.68%    passed     14.27%
+ 875  psedes1_tyr9230                                     74.49%    passed     54.79%
+ 876  psesp.11_tyr9301                                    43.16%    passed     17.64%
+ 877  psesp.12_tyr9318                                    46.39%    failed      0.14%
+ 878  psesp.14_KFY20107.1                                 65.34%    passed     44.70%
+ 879  psesp.14_KFY31799.1                                 67.49%    passed     73.12%
+ 880  psesp.15_KFY57135.1_KFY57136.1                      45.64%    passed     12.85%
+ 881  psesp.15_tyr9392                                    52.96%    passed     97.59%
+ 882  psesp.16_KFY89749.1                                 34.02%    passed     30.96%
+ 883  psesp.17_KFZ02619.1                                 26.37%    failed      0.06%
+ 884  psesp.20_KFY66944.1                                 80.52%    passed     70.74%
+ 885  psesp.22_KFZ20555.1                                 75.03%    passed     25.49%
+ 886  psesp.2_9155                                        22.28%    passed      7.75%
+ 887  psesp.3_1735                                        60.06%    passed     48.74%
+ 888  psesp.4_1253_1254                                   28.53%    passed     34.17%
+ 889  psesp.4_1827_1828                                   33.80%    passed     42.60%
+ 890  psesp.4_4487_4488                                   25.83%    failed      2.96%
+ 891  psesp.4_6788_6789                                   38.54%    passed     30.74%
+ 892  psesp.4_tyr9579                                     37.89%    passed     34.57%
+ 893  psesp.4_tyr9584                                     26.16%    passed     32.31%
+ 894  psesp.5_10696                                       37.46%    failed      1.11%
+ 895  psesp.5_187                                         44.03%    passed     15.06%
+ 896  psesp.5_1992                                        74.38%    passed      5.17%
+ 897  psesp.5_712                                         71.58%    passed     44.42%
+ 898  psesp.8_7699                                        22.50%    passed     36.17%
+ 899  psever1_8338                                        42.73%    passed     25.15%
+ 900  psever1_9422                                        49.62%    passed     14.56%
+ 901  psevex1_489986                                      41.12%    passed     21.45%
+ 902  psevol1_tyr9664                                     52.42%    passed     15.85%
+ 903  purlil1_tyr9695                                     26.05%    passed     10.12%
+ 904  pyrory1_EHA47044.1                                  52.53%    passed     83.75%
+ 905  pyrory1_EHA55112.1_EHA55113.1                       27.34%    passed     92.28%
+ 906  pyrory3_ELQ32919.1                                  65.77%    passed     63.20%
+ 907  pyrpen1_TLS25962.1                                  28.85%    passed     35.81%
+ 908  pyrsp.2_TLD09608.1_TLD09609.1                       45.32%    passed     57.60%
+ 909  raseme1_KKA23990.1                                  59.63%    failed      0.73%
+ 910  rhesp.1_tyr9923                                     48.55%    passed     37.06%
+ 911  rhieri1_658879                                      38.75%    failed      0.00%
+ 912  rhimac1_11078                                       19.70%    passed     37.08%
+ 913  rhoros1_675464_701269                               31.00%    passed     15.95%
+ 914  rutsp.2_tyr10042                                    49.95%    passed      5.94%
+ 915  rutsp.3_PQE10464.1_PQE10450.1                       38.00%    passed     23.38%
+ 916  sceapi1_tyr10060                                    37.03%    passed     11.93%
+ 917  sclbor1_tyr10062                                    72.98%    failed      0.00%
+ 918  sclcep1_KAF7877687.1                                51.13%    failed      0.00%
+ 919  sclscl1_APA09337.1                                  51.67%    passed     58.52%
+ 920  stacha1_4873                                        34.12%    passed     21.88%
+ 921  stalon1_KAG7284893.1                                25.73%    passed     13.74%
+ 922  talmar2_KFX50176.1                                  30.89%    passed     93.41%
+ 923  talrug1_QKX60504.1                                  21.96%    failed      0.31%
+ 924  talrug1_QKX61611.1                                  34.45%    failed      0.31%
+ 925  talsti1_4992                                        27.45%    passed     47.37%
+ 926  tersp.5_KAG6901097.1                                48.12%    passed     21.28%
+ 927  tolpar1_tyr10471                                    48.55%    failed      0.80%
+ 928  torhem1_9920                                        35.41%    passed     27.64%
+ 929  trihyb1_905659                                      28.85%    passed     71.59%
+ 930  trimen1_4468                                        41.23%    passed     42.17%
+ 931  trisou1_9405                                        25.30%    passed     10.32%
+ 932  tubaes1_5336                                        53.71%    passed     16.97%
+ 933  tubmag1_343032                                      58.45%    passed     40.55%
+ 934  tubmag1_tyr10602                                    67.38%    passed     53.84%
+ 935  tulsp.7_KAG8994973.1                                41.66%    failed      1.67%
+ 936  uncree2_EEP83037.1                                  38.21%    passed     86.42%
+ 937  venech1_RDL41173.1                                  30.79%    passed     73.95%
+ 938  vergal1_120558_120559                               31.43%    passed     82.11%
+ 939  verlon1_10996_10997                                 52.10%    passed     35.38%
+ 940  wilmik1_644492                                      54.90%    passed     57.89%
+ 941  xylbam1_587822                                      27.34%    passed     10.49%
+ 942  xylcf.1_280771_507006                               45.21%    passed     51.42%
+ 943  xyldig1_515723                                      30.14%    passed     31.22%
+ 944  xylpal1_613315                                      44.24%    passed     12.73%
+ 945  xyltel1_515037_515045                               28.63%    passed     94.08%
+ 946  zalvar1_678354                                      27.13%    failed      2.55%
+ 947  zoprhi1_KAF2195618.1                                53.39%    passed      7.36%
+ 948  Starship-1_Aalt-Captain                             25.40%    passed     23.76%
+ 949  Starship-1_Agai-Captain                             27.66%    failed      0.13%
+ 950  Starship-1_Aten-Captain                             27.13%    failed      0.00%
+ 951  Starship-1_Foxy_Fol4287-Captain                     28.85%    passed     79.75%
+ 952  Starship-1_Tasp-Captain                             35.84%    passed     40.61%
+ 953  Starship-2_Aten-Captain                             25.51%    passed     56.31%
+ 954  Starship-2_Pans-Captain                             29.39%    passed     90.10%
+ 955  Voyager_Mpha_mp102-Captain                          30.03%    passed     74.68%
+ 956  aaoarx1_319010                                      35.20%    passed     13.68%
+ 957  altatr1_tyr121                                      42.73%    passed      5.89%
+ 958  altatr2_tyr125                                      62.97%    passed     27.19%
+ 959  altgai1_tyr155                                      52.85%    failed      0.26%
+ 960  altgai1_tyr157                                      71.91%    passed     37.39%
+ 961  altgan2_tyr165                                      73.09%    passed     89.46%
+ 962  altsol2_tyr198                                      64.05%    passed     61.14%
+ 963  amapse1_tyr227                                      72.44%    failed      0.03%
+ 964  annsty1_339604_401957                               56.08%    passed     18.67%
+ 965  annsty1_404214                                      58.99%    passed     14.98%
+ 966  annsty1_427123                                      72.55%    passed      7.64%
+ 967  antflo1_EPQ28709.1                                  70.40%    failed      1.95%
+ 968  ascsar1_3734                                        31.43%    passed     10.31%
+ 969  ascsar1_7037                                        24.87%    passed     23.41%
+ 970  aspasp1_tyr547                                      65.88%    passed     82.73%
+ 971  aspcal3_tyr819                                      66.20%    passed     11.32%
+ 972  astsub1_437548                                      76.53%    passed     26.79%
+ 973  astsub1_465646                                      72.23%    passed      5.66%
+ 974  aurpul1_15872                                       70.72%    passed     32.73%
+ 975  aurpul2_36615                                       73.74%    passed     24.63%
+ 976  aurpul6_KEQ79301.1                                  72.77%    passed     30.61%
+ 977  aurpul6_KEQ83187.1_KEQ83188.1                       65.88%    passed     19.35%
+ 978  aursub2_KEQ98213.1                                  75.13%    failed      4.22%
+ 979  aursub3_EJD38325.1                                  64.80%    passed      6.99%
+ 980  bacgig1_KAG8533760.1                                62.54%    passed      5.37%
+ 981  baupan1_EMC98256.1                                  75.35%    passed     70.73%
+ 982  beabas2_KGQ02280.1                                  31.86%    passed     39.76%
+ 983  bimnov1_564002                                      63.83%    passed     21.07%
+ 984  botdew1_KAF7921612.1                                73.09%    passed     59.93%
+ 985  cadsp.2_KAG4436364.1                                64.48%    passed     39.97%
+ 986  cerber1_4073                                        28.63%    passed     24.22%
+ 987  cerbet1_PIA90313.1                                  69.00%    passed     17.73%
+ 988  cerbet1_PIA93163.1                                  44.46%    passed     35.00%
+ 989  cergua1_330854                                      63.72%    failed      1.20%
+ 990  cerkik1_GIZ36574.1                                  45.75%    failed      2.85%
+ 991  cerkik1_GIZ46179.1                                  60.93%    passed     18.46%
+ 992  chaglo1_159177                                      62.43%    passed      5.32%
+ 993  chasp.2_300927                                      72.23%    passed      7.78%
+ 994  chasp.2_354242                                      54.04%    passed     62.44%
+ 995  chlaer1_TAQ83553.1                                  23.14%    passed     76.53%
+ 996  chlaer1_TAQ85415.1                                  26.48%    passed      8.37%
+ 997  claely1_437966                                      62.22%    passed     92.54%
+ 998  claely1_463329                                      69.32%    passed     38.46%
+ 999  cloaqu1_482612                                      63.40%    passed     67.59%
+1000  coccar1_81378                                       22.17%    failed      2.93%
+1001  coccar1_9885_111421                                 39.83%    passed     55.65%
+1002  cocmiy1_41893_111066                                24.43%    passed     16.35%
+1003  colasi1_KAF0330480.1                                33.58%    passed     63.88%
+1004  colcam1_KAH0438924.1                                76.00%    passed     26.92%
+1005  colfru1_KAE9565890.1                                38.00%    passed     77.88%
+1006  colglo1_5357                                        70.72%    passed     54.77%
+1007  colplu1_KAF6806911.1                                50.38%    passed     10.43%
+1008  colplu1_KAF6808160.1                                35.09%    passed     37.51%
+1009  colplu1_KAF6821138.1                                56.30%    passed     63.65%
+1010  colsal1_941573                                      64.80%    passed     82.33%
+1011  colsia5_tyr4375                                     76.43%    passed     37.13%
+1012  colsid1_tyr4377                                     69.64%    passed     90.39%
+1013  colsid1_tyr4379                                     42.20%    passed     73.27%
+1014  colsub1_6891                                        42.52%    passed     41.48%
+1015  coltof2_1585                                        36.71%    passed     66.26%
+1016  coltri1_tyr4417                                     71.58%    passed     76.70%
+1017  colvin1_tyr4425                                     41.01%    passed     65.03%
+1018  conlig1_643740                                      21.31%    passed     40.87%
+1019  consp.1_1239454                                     73.74%    passed     12.16%
+1020  corcas2_PSN65677.1                                  28.96%    passed     92.31%
+1021  crypar1_KAF3763129.1                                40.69%    failed      1.99%
+1022  crypar1_tyr4503                                     65.02%    passed     71.13%
+1023  cyloli1_548470                                      35.09%    passed     58.88%
+1024  cytleu1_ROW05950.1                                  26.70%    passed     91.81%
+1025  dacest1_612184                                      36.28%    passed     80.59%
+1026  delcon1_29688_29730_486811                          52.85%    passed     46.69%
+1027  delcon1_470772                                      43.92%    passed     17.25%
+1028  delstr1_204501                                      26.80%    passed     77.13%
+1029  delstr1_282815                                      67.28%    passed     83.22%
+1030  delstr1_369760                                      72.77%    passed     65.59%
+1031  diaamp1_tyr4647                                     66.95%    passed     77.48%
+1032  diabat1_KAG8161438.1                                24.00%    passed     22.83%
+1033  diabat1_KAG8162722.1                                34.77%    passed     79.83%
+1034  diacit1_KAG6354360.1                                28.20%    failed      0.92%
+1035  diacit1_KAG6354864.1                                33.26%    passed     13.48%
+1036  diacit1_KAG6368733.1                                45.21%    passed     54.94%
+1037  diahel1_9225                                        42.52%    passed      6.29%
+1038  didexi1_10501                                       35.52%    passed     11.04%
+1039  disaci1_KAF1825875.1                                35.84%    passed     15.45%
+1040  dotsep1_32084                                       19.91%    failed      0.00%
+1041  elsamp1_256687                                      38.00%    passed     30.66%
+1042  elsamp1_316789                                      29.28%    failed      4.25%
+1043  elsaus1_tyr4897                                     76.32%    passed     35.46%
+1044  elsaus2_TKX19097.1                                  64.59%    passed     15.14%
+1045  elsbat1_KAG8623403.1_KAG8623701.1                   37.24%    passed     49.81%
+1046  elsbat1_KAG8628150.1                                59.10%    passed      5.89%
+1047  elsfaw1_KAF4547791.1                                74.60%    passed     24.54%
+1048  elsfaw1_KAF4556065.1                                55.44%    passed     57.43%
+1049  elsfaw1_KAF4556931.1                                68.46%    passed     23.82%
+1050  emepas2_OJD15817.1_OJD15818.1                       50.81%    failed      1.72%
+1051  erebil1_455447                                      69.00%    passed     50.85%
+1052  erebil1_510855                                      45.10%    passed      5.82%
+1053  exomes1_110667                                      69.21%    passed     25.40%
+1054  exospi1_6301                                        66.42%    passed      7.06%
+1055  fusbeo1_KAF4342966.1                                31.22%    passed     48.98%
+1056  fusbux1_tyr5352                                     78.69%    passed     59.58%
+1057  fuscon1_tyr5412                                     37.14%    passed     89.22%
+1058  fusdom1_tyr5472                                     47.15%    passed     80.65%
+1059  fusfra1_tyr5556                                     75.67%    passed     12.61%
+1060  fusfus16_tyr5625                                    43.06%    failed      0.24%
+1061  fusfus29_tyr5704                                    59.20%    failed      1.10%
+1062  fusfus30_tyr5713                                    75.03%    failed      2.11%
+1063  fusfus31_tyr5727                                    32.08%    passed     42.53%
+1064  fusfus39_tyr5763                                    51.24%    passed     10.41%
+1065  fusfus39_tyr5764                                    38.75%    passed      7.88%
+1066  fusfus45_tyr5795                                    72.87%    passed     32.19%
+1067  fusill1_tyr5996                                     66.20%    failed      0.00%
+1068  fusman2_tyr6057                                     69.00%    passed     51.47%
+1069  fusnan1_tyr6095                                     24.76%    passed     65.14%
+1070  fusnem1_tyr6103                                     47.04%    passed     74.95%
+1071  fusnem1_tyr6106                                     31.86%    passed     95.40%
+1072  fuspen1_tyr6433                                     71.80%    passed     27.91%
+1073  fuspen1_tyr6438                                     37.03%    passed     57.57%
+1074  fussp.4_KAF9770092.1                                34.77%    passed     95.41%
+1075  fussp.6_tyr6673                                     46.50%    failed      0.05%
+1076  fustha1_tyr6742                                     77.29%    passed     91.71%
+1077  fustja1_KAF5616136.1                                64.05%    passed     68.18%
+1078  fusvan1_EEU46504.1                                  38.00%    failed      2.23%
+1079  fusxyl1_KAG5773589.1                                66.42%    passed     33.44%
+1080  fusxyl9_tyr7051                                     52.74%    passed     79.05%
+1081  fusxyr1_tyr7062                                     45.53%    passed     84.66%
+1082  geomor1_KAF4119892.1                                31.11%    failed      1.43%
+1083  glaloz2_EHL01589.1                                  36.38%    passed     29.84%
+1084  gloste1_250357_290901                               36.81%    passed     39.22%
+1085  helsp.4_KAE8441012.1                                35.41%    passed     20.66%
+1086  hirmin1_9210                                        27.77%    passed     10.75%
+1087  hypsp.2_326193_642931                               54.04%    passed     12.68%
+1088  hyptru1_435293                                      53.07%    passed     10.44%
+1089  hyspul1_112804                                      73.30%    passed     83.80%
+1090  hyspul1_118805                                      51.56%    passed      6.46%
+1091  hyspul1_120259                                      57.37%    passed     60.18%
+1092  ilydes1_KAH6980527.1                                69.54%    passed     31.98%
+1093  isafum1_tyr7678                                     65.02%    passed     73.49%
+1094  jamsp.1_185530                                      69.54%    failed      1.13%
+1095  jimfla1_476449                                      74.38%    passed     13.71%
+1096  jimfla2_143193                                      67.06%    failed      0.54%
+1097  kredeu2_220161_512558                               55.44%    failed      3.11%
+1098  kredeu2_498028                                      66.31%    passed     63.15%
+1099  lacari1_TVY14354.1                                  27.99%    passed     13.68%
+1100  lachya1_TVY26861.1                                  30.03%    passed     58.38%
+1101  lacwil1_tyr7764                                     35.09%    passed     49.11%
+1102  leclec1_10286                                       32.29%    passed     34.86%
+1103  lenflu1_KAF2680563.1                                70.94%    passed     58.97%
+1104  lenflu1_KAF2680670.1                                35.84%    passed     47.00%
+1105  leosp.1_718556                                      21.31%    passed     40.77%
+1106  leosp.1_775379                                      40.47%    passed      6.64%
+1107  lepsp.1_603043_720900_734108                        60.82%    passed     13.27%
+1108  lining1_125901_125887                               52.10%    failed      2.90%
+1109  lizemp1_103933                                      47.04%    passed     89.39%
+1110  lizemp1_118025                                      25.83%    passed     40.17%
+1111  lizemp1_143644                                      39.61%    passed     37.86%
+1112  lizemp1_148783                                      58.45%    passed     95.00%
+1113  lopnuc1_601207                                      39.40%    passed     33.44%
+1114  macano1_413805_348491                               31.86%    passed     70.82%
+1115  macano1_420158                                      37.89%    passed     69.32%
+1116  macpha1_756324                                      29.82%    passed     75.38%
+1117  maspha1_203713                                      66.09%    passed     31.30%
+1118  maspha1_259090_259074                               51.45%    passed      5.18%
+1119  meimil1_154462                                      75.89%    passed     15.77%
+1120  melbic1_394156                                      21.64%    passed      7.74%
+1121  mellar1_EGG09125.1                                  71.80%    failed      3.83%
+1122  micbol1_140131                                      34.88%    passed     33.75%
+1123  micbol1_176150                                      72.44%    failed      4.90%
+1124  mictri1_387286                                      75.89%    passed     12.19%
+1125  mictri1_388981                                      30.14%    passed     68.89%
+1126  mictri1_436685                                      48.55%    passed     17.32%
+1127  moelib1_tyr8263                                     73.84%    failed      3.32%
+1128  monsp.3_tyr8334                                     58.77%    failed      0.00%
+1129  monsp.5_RYP50627.1_RYP50628.1                       48.12%    failed      0.00%
+1130  monsp.6_tyr8358                                     49.09%    failed      0.38%
+1131  mycchl1_tyr8389                                     59.20%    passed     16.35%
+1132  mytres1_483318                                      57.37%    passed     11.99%
+1133  mytres1_516471_225833                               61.79%    passed     44.87%
+1134  mytres1_569544                                      53.50%    passed     55.93%
+1135  nemser2_436945                                      41.12%    passed     12.17%
+1136  neodit1_1586                                        38.75%    passed     46.33%
+1137  neodit1_181                                         49.95%    passed     52.08%
+1138  neodit1_6628                                        53.71%    passed     94.12%
+1139  neopar1_tyr8483                                     58.88%    passed     36.86%
+1140  neopar1_tyr8484                                     36.71%    passed     11.06%
+1141  neucra4_2977                                        67.92%    passed     15.02%
+1142  oidmai1_53117                                       38.54%    passed     26.79%
+1143  parmin1_KAF9733691.1                                50.70%    passed     89.37%
+1144  parnod1_QRC96480.1                                  70.51%    passed     36.88%
+1145  pasful1_KAH3649967.1_KAH3649832.1                   61.68%    passed     65.84%
+1146  patatr1_KAF2840256.1_KAF2840257.1                   71.91%    passed     92.25%
+1147  patatr1_tyr8666                                     70.40%    passed     86.68%
+1148  permac1_700065                                      54.36%    passed     43.11%
+1149  phicur1_TPX13777.1                                  64.69%    failed      1.58%
+1150  phisub1_19656                                       68.35%    failed      3.15%
+1151  phlbre1_15608                                       74.17%    failed      0.36%
+1152  pletra1_KAF2849805.1                                49.52%    passed     78.33%
+1153  pocchl2_RZR69165.1                                  32.83%    passed     36.57%
+1154  pocchl2_RZR70293.1                                  31.11%    passed     63.86%
+1155  podans1_209680                                      29.39%    passed     88.03%
+1156  podcom1_tyr9195                                     43.49%    passed     79.07%
+1157  podcom1_tyr9196                                     50.81%    passed     55.94%
+1158  polfus1_16250                                       34.55%    passed     11.69%
+1159  polfus1_408015                                      61.14%    passed     91.85%
+1160  polfus1_594435_594441                               55.33%    passed     46.43%
+1161  polfus1_595134                                      58.67%    passed     59.85%
+1162  psefij1_EME77334.1                                  73.74%    passed     68.70%
+1163  pseflo1_6738                                        66.63%    failed      0.75%
+1164  psesp.10_OBT66236.1                                 61.46%    failed      0.11%
+1165  psesp.13_KFX99979.1                                 23.57%    passed     34.78%
+1166  psesp.14_KFY24325.1                                 62.86%    passed     21.87%
+1167  psesp.14_KFY24906.1                                 23.57%    passed     20.75%
+1168  psesp.16_KFY82747.1                                 67.49%    passed     33.35%
+1169  psesp.4_4572                                        77.18%    passed     11.20%
+1170  psesp.4_703                                         25.62%    passed      9.65%
+1171  pucgra2_10909                                       73.95%    passed     66.76%
+1172  pyrgri1_TLD03770.1                                  27.99%    passed     27.25%
+1173  pyrgri1_TLD05862.1                                  28.53%    passed     46.83%
+1174  pyrory2_QBZ54310.1                                  54.14%    passed     28.30%
+1175  pyrory4_ELQ69711.1                                  38.86%    passed     82.83%
+1176  pyrsp.2_TLD25447.1                                  34.66%    passed     88.08%
+1177  pyrter2_CAA9956742.1                                61.46%    failed      4.19%
+1178  pyrter3_EFQ88401.1                                  54.47%    failed      3.33%
+1179  pyrter3_EFQ93944.1                                  48.98%    passed     26.00%
+1180  pyrtri10_tyr9789                                    64.48%    failed      0.60%
+1181  pyrtri11_KAG9375895.1                               38.86%    passed     40.13%
+1182  pyrtri6_tyr9856                                     71.58%    failed      0.03%
+1183  racsp.1_tyr9894                                     72.23%    passed     34.71%
+1184  racsp.1_tyr9897                                     45.21%    failed      1.84%
+1185  rhyagr1_1870_1869                                   39.72%    passed      8.69%
+1186  rhyruf1_112818                                      64.48%    passed     30.72%
+1187  rhyruf1_tyr9994                                     52.42%    passed     42.77%
+1188  rhyruf1_tyr9997                                     64.05%    passed     17.04%
+1189  rutsp.1_tyr10026                                    61.36%    failed      2.45%
+1190  sethol1_15133                                       42.52%    passed     62.45%
+1191  sorsp.1_KAH7633559.1                                48.65%    passed     65.50%
+1192  sorsp.1_KAH7633844.1                                36.71%    passed     79.92%
+1193  spobra1_10745                                       69.43%    passed     18.39%
+1194  stalon1_KAG7293987.1                                49.84%    passed     27.93%
+1195  stasp.1_299864                                      42.63%    passed     30.61%
+1196  stasp.1_382781                                      68.03%    passed     22.46%
+1197  tolinf1_199956                                      46.07%    failed      0.29%
+1198  tolpar1_tyr10469                                    69.86%    failed      4.44%
+1199  treper1_499963_134336                               41.66%    passed     28.97%
+1200  triasp2_43980                                       38.32%    passed     42.44%
+1201  triatr4_tyr10505                                    40.80%    passed     18.77%
+1202  truang1_417612                                      37.03%    passed     37.82%
+1203  truang1_533773                                      48.33%    failed      2.93%
+1204  tulsp.13_KAG8978541.1_KAG8978542.1                  39.50%    failed      3.77%
+1205  valmal3_664                                         27.77%    passed     74.76%
+1206  verdah3_tyr10695                                    52.53%    passed     84.73%
+1207  verlon1_1636                                        39.29%    passed     61.81%
+1208  viopal1_370908                                      72.55%    passed     20.92%
+1209  volvol2_KAF8645791.1                                55.65%    passed     71.04%
+1210  wesorn1_504387                                      44.35%    passed     97.35%
+1211  wesorn1_tyr10759                                    60.17%    passed     17.42%
+1212  xylarb1_416827                                      36.60%    passed     16.47%
+1213  xylarb1_485319                                      47.04%    passed     75.13%
+1214  xylbam1_657765                                      26.37%    passed     64.14%
+1215  xylsp.19_30440                                      35.84%    passed     96.19%
+1216  xylsp.4_304735                                      53.82%    passed      8.45%
+1217  xylsp.5_451751                                      60.93%    passed     45.50%
+1218  xylsp.8_760567                                      67.17%    passed     48.74%
+1219  zascel1_17254                                       37.78%    passed     49.80%
+1220  zoprhi1_KAF2178190.1                                55.11%    passed     32.93%
+1221  zoprhi1_KAF2186083.1                                38.21%    passed     34.46%
+1222  zymtri1_EGP85669.1                                  57.70%    passed     28.59%
+1223  zymtri3_SMQ45618.1                                  71.47%    passed     69.70%
+1224  zymtri4_SMY26934.1                                  78.58%    passed     56.90%
+1225  XANPAGTX0501_001716-T1                              70.18%    passed     41.06%
+1226  XANPAOZ2100_002162-T1                               82.24%    passed     11.62%
+1227  XANPARI20_008752-T1                                74.17%    passed     41.17%
+WARNING: 580 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                               48.19%  265 sequences failed composition chi2 test (p-value<5%; df=19)
+Checking for duplicate sequences: done in 0.00595744 secs using 80.07% CPU
+
+NOTE: Restoring information from model checkpoint file analysis_and_temp_files/03_starfish/YRsuperfamRefs_plus_ours_aligned.phyl.model.gz
+
+CHECKPOINT: Initial tree restored
+Perform fast likelihood tree search using LG+G model...
+CHECKPOINT: Tree restored, LogL: -864638.627
+NOTE: ModelFinder requires 1808 MB RAM!
+ModelFinder will test up to 616 protein models (sample size: 929) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            880357.577   2451 1765617.155  13785321.155 1777465.555
+  2  LG+G4         864404.575   2452 1733713.150  13763225.150 1745566.384
+  3  LG+R2         868003.831   2453 1740913.663  13780237.663 1752771.732
+  4  LG+R3         865442.595   2455 1735795.191  13794755.191 1747662.928
+  5  LG+R4         864215.018   2457 1733344.035  13811956.035 1745221.440
+  6  LG+R5         863715.927   2459 1732349.854  13830629.854 1744236.928
+  7  LG+R6         863423.756   2461 1731769.512  13849733.512 1743666.254
+  8  LG+R7         863207.170   2463 1731340.339  13869004.339 1743246.749
+  9  LG+R8         863151.562   2465 1731233.125  13888613.125 1743149.203
+ 10  LG+R9         863078.830   2467 1731091.660  13908203.660 1743017.406
+ 11  LG+R10        863051.707   2469 1731041.414  13927901.414 1742976.829
+ 22  LG+F+R10      862465.979   2488 1729907.959  14115171.959 1741935.221
+ 33  WAG+R10       861923.108   2469 1728784.216  13925644.216 1740719.630
+ 44  WAG+F+R10     860456.761   2488 1725889.522  14111153.522 1737916.785
+ 55  JTT+R10       862765.109   2469 1730468.219  13927328.219 1742403.633
+ 66  JTT+F+R10     861158.116   2488 1727292.232  14112556.232 1739319.495
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 77  Q.pfam+R10    861601.490   2469 1728140.981  13925000.981 1740076.395
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 88  Q.pfam+F+R10  860632.392   2488 1726240.785  14111504.785 1738268.047
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 99  Q.bird+R10    875099.850   2469 1755137.700  13951997.700 1767073.114
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+110  Q.bird+F+R10  872904.087   2488 1750784.174  14136048.174 1762811.437
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+121  Q.mammal+R10  869532.360   2469 1744002.720  13940862.720 1755938.134
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+132  Q.mammal+F+R10 866854.083   2488 1738684.166  14123948.166 1750711.428
+143  Q.insect+R10  866895.011   2469 1738728.022  13935588.022 1750663.436
+154  Q.insect+F+R10 865241.426   2488 1735458.852  14120722.852 1747486.114
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+165  Q.plant+R10   868468.702   2469 1741875.404  13938735.404 1753810.818
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+176  Q.plant+F+R10 867587.450   2488 1740150.899  14125414.899 1752178.162
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+187  Q.yeast+R10   869383.173   2469 1743704.346  13940564.346 1755639.761
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+198  Q.yeast+F+R10 864999.330   2488 1734974.660  14120238.660 1747001.922
+209  JTTDCMut+R10  862833.209   2469 1730604.418  13927464.418 1742539.832
+220  JTTDCMut+F+R10 861255.726   2488 1727487.452  14112751.452 1739514.715
+231  DCMut+R10     880471.707   2469 1765881.415  13962741.415 1777816.829
+242  DCMut+F+R10   874612.327   2488 1754200.653  14139464.653 1766227.916
+253  VT+R10        861176.619   2469 1727291.237  13924151.237 1739226.652
+264  VT+F+R10      860296.002   2488 1725568.004  14110832.004 1737595.267
+275  PMB+R10       867309.333   2469 1739556.666  13936416.666 1751492.080
+286  PMB+F+R10     867356.897   2488 1739689.793  14124953.793 1751717.056
+297  Blosum62+R10  868048.900   2469 1741035.801  13937895.801 1752971.215
+308  Blosum62+F+R10 867907.902   2488 1740791.804  14126055.804 1752819.067
+319  Dayhoff+R10   880501.447   2469 1765940.895  13962800.895 1777876.309
+330  Dayhoff+F+R10 874655.853   2488 1754287.707  14139551.707 1766314.970
+341  mtREV+R10     911111.100   2469 1827160.201  14024020.201 1839095.615
+352  mtREV+F+R10   875552.718   2488 1756081.436  14141345.436 1768108.699
+363  mtART+R10     942887.325   2469 1890712.650  14087572.650 1902648.064
+374  mtART+F+R10   900924.412   2488 1806824.824  14192088.824 1818852.086
+385  mtZOA+R10     910792.184   2469 1826522.368  14023382.368 1838457.782
+396  mtZOA+F+R10   883282.036   2488 1771540.073  14156804.073 1783567.335
+407  mtMet+R10     909944.720   2469 1824827.439  14021687.439 1836762.853
+418  mtMet+F+R10   873386.701   2488 1751749.402  14137013.402 1763776.665
+429  mtVer+R10     913816.695   2469 1832571.390  14029431.390 1844506.804
+440  mtVer+F+R10   881493.508   2488 1767963.017  14153227.017 1779990.279
+451  mtInv+R10     916421.637   2469 1837781.274  14034641.274 1849716.688
+462  mtInv+F+R10   870963.247   2488 1746902.494  14132166.494 1758929.757
+473  mtMAM+R10     932139.266   2469 1869216.532  14066076.532 1881151.946
+484  mtMAM+F+R10   894309.529   2488 1793595.057  14178859.057 1805622.320
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+495  FLAVI+R10     898928.955   2469 1802795.910  13999655.910 1814731.324
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+506  FLAVI+F+R10   894401.445   2488 1793778.890  14179042.890 1805806.152
+517  HIVb+R10      878380.469   2469 1761698.937  13958558.937 1773634.352
+528  HIVb+F+R10    877666.481   2488 1760308.961  14145572.961 1772336.224
+539  HIVw+R10      910134.651   2469 1825207.301  14022067.301 1837142.716
+550  HIVw+F+R10    893444.410   2488 1791864.819  14177128.819 1803892.082
+561  FLU+R10       879673.357   2469 1764284.713  13961144.713 1776220.128
+572  FLU+F+R10     874866.246   2488 1754708.493  14139972.493 1766735.755
+583  rtREV+R10     872106.246   2469 1749150.492  13946010.492 1761085.906
+594  rtREV+F+R10   868463.023   2488 1741902.045  14127166.045 1753929.308
+605  cpREV+R10     864396.099   2469 1733730.197  13930590.197 1745665.612
+616  cpREV+F+R10   865671.675   2488 1736319.351  14121583.351 1748346.613
+Akaike Information Criterion:           VT+F+R10
+Corrected Akaike Information Criterion: LG+G4
+Bayesian Information Criterion:         VT+F+R10
+Best-fit model: VT+F+R10 chosen according to BIC
+
+All model information printed to analysis_and_temp_files/03_starfish/YRsuperfamRefs_plus_ours_aligned.phyl.model.gz
+CPU time for ModelFinder: 31004.713 seconds (8h:36m:44s)
+Wall-clock time for ModelFinder: 31171.932 seconds (8h:39m:31s)
+Generating 1000 samples for ultrafast bootstrap (seed: 581543)...
+
+NOTE: 1808 MB RAM (1 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -860296.002
+Optimal log-likelihood: -860295.989
+Site proportion and rates:  (0.012,0.136) (0.019,0.264) (0.043,0.386) (0.072,0.529) (0.142,0.650) (0.159,0.818) (0.185,1.009) (0.195,1.257) (0.124,1.536) (0.048,1.939)
+Parameters optimization took 1 rounds (41.100 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 433.268 secs using 99.6% CPU
+Computing ML distances took 433.274767 sec (of wall-clock time) 431.560457 sec (of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Setting up auxiliary I and S matrices: done in 0.0380593 secs using 177.4% CPU
+Constructing RapidNJ tree: done in 0.0769722 secs using 189% CPU
+Computing RapidNJ tree took 0.115067 sec (of wall-clock time) 0.213005 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -866211.318
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 273.222 second
+Computing log-likelihood of 98 initial trees ... 868.906 seconds
+Current best score: -860295.989
+
+Do NNI search on 20 best initial trees
+Optimizing NNI: done in 85.6034 secs using 99.53% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -860214.563
+Optimizing NNI: done in 268.377 secs using 99.52% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -860130.751
+Optimizing NNI: done in 275.928 secs using 99.51% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -860115.772
+Optimizing NNI: done in 261.959 secs using 99.44% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -860114.513
+Optimizing NNI: done in 268.938 secs using 99.41% CPU
+Optimizing NNI: done in 274.207 secs using 99.51% CPU
+Optimizing NNI: done in 274.517 secs using 99.51% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 7: -860108.795
+Optimizing NNI: done in 265.282 secs using 99.48% CPU
+Optimizing NNI: done in 256.662 secs using 99.51% CPU
+Optimizing NNI: done in 287.162 secs using 99.52% CPU
+Iteration 10 / LogL: -860109.268 / Time: 1h:28m:10s
+Optimizing NNI: done in 261.345 secs using 99.51% CPU
+Optimizing NNI: done in 270.831 secs using 99.42% CPU
+Optimizing NNI: done in 280.645 secs using 99.51% CPU
+Optimizing NNI: done in 277.942 secs using 99.49% CPU
+Optimizing NNI: done in 277.558 secs using 99.41% CPU
+Optimizing NNI: done in 269.404 secs using 99.41% CPU
+Optimizing NNI: done in 274.321 secs using 99.51% CPU
+Optimizing NNI: done in 274.453 secs using 99.5% CPU
+Optimizing NNI: done in 266.244 secs using 99.5% CPU
+Optimizing NNI: done in 273.343 secs using 99.52% CPU
+Iteration 20 / LogL: -860338.098 / Time: 2h:13m:53s
+Finish initializing candidate tree set (20)
+Current best tree score: -860108.795 / CPU time: 7334.474
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 224.941 secs using 99.51% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 21: -860066.455
+Optimizing NNI: done in 207.419 secs using 99.51% CPU
+Optimizing NNI: done in 199.151 secs using 99.51% CPU
+Optimizing NNI: done in 189.599 secs using 99.5% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 24: -860027.099
+Optimizing NNI: done in 194.611 secs using 99.42% CPU
+Optimizing NNI: done in 223.548 secs using 99.51% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 26: -859998.001
+Optimizing NNI: done in 189.152 secs using 99.5% CPU
+Optimizing NNI: done in 192.598 secs using 99.5% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 28: -859984.394
+Optimizing NNI: done in 205.07 secs using 99.51% CPU
+Optimizing NNI: done in 191.528 secs using 99.52% CPU
+Iteration 30 / LogL: -860012.400 / Time: 2h:57m:5s (9h:58m:27s left)
+Optimizing NNI: done in 218.464 secs using 99.42% CPU
+Optimizing NNI: done in 195.485 secs using 99.51% CPU
+Optimizing NNI: done in 196.085 secs using 99.51% CPU
+Optimizing NNI: done in 183.783 secs using 99.53% CPU
+Optimizing NNI: done in 186.882 secs using 99.51% CPU
+Optimizing NNI: done in 193.01 secs using 99.5% CPU
+Optimizing NNI: done in 185.471 secs using 99.47% CPU
+Optimizing NNI: done in 190.255 secs using 99.49% CPU
+Optimizing NNI: done in 215.299 secs using 99.51% CPU
+Optimizing NNI: done in 192.276 secs using 99.5% CPU
+Iteration 40 / LogL: -860017.406 / Time: 3h:30m:1s (7h:53m:54s left)
+Optimizing NNI: done in 187.71 secs using 99.51% CPU
+Optimizing NNI: done in 192.39 secs using 99.5% CPU
+Optimizing NNI: done in 181.847 secs using 99.51% CPU
+Optimizing NNI: done in 197.147 secs using 99.51% CPU
+Optimizing NNI: done in 199.789 secs using 99.51% CPU
+Optimizing NNI: done in 176.451 secs using 99.53% CPU
+Optimizing NNI: done in 202.008 secs using 99.51% CPU
+Optimizing NNI: done in 208.467 secs using 99.42% CPU
+Optimizing NNI: done in 190.796 secs using 99.52% CPU
+Optimizing NNI: done in 201.317 secs using 99.51% CPU
+Iteration 50 / LogL: -860018.035 / Time: 4h:2m:38s (6h:26m:14s left)
+Log-likelihood cutoff on original alignment: -860251.447
+Optimizing NNI: done in 194.432 secs using 99.53% CPU
+Optimizing NNI: done in 185.277 secs using 99.44% CPU
+Optimizing NNI: done in 235.152 secs using 99.44% CPU
+Optimizing NNI: done in 193.426 secs using 99.52% CPU
+Optimizing NNI: done in 197.099 secs using 99.54% CPU
+Optimizing NNI: done in 188.561 secs using 99.53% CPU
+Optimizing NNI: done in 212.505 secs using 99.54% CPU
+Optimizing NNI: done in 179.263 secs using 99.46% CPU
+Optimizing NNI: done in 201.536 secs using 99.45% CPU
+Optimizing NNI: done in 191.129 secs using 99.42% CPU
+Iteration 60 / LogL: -860028.170 / Time: 4h:36m:2s (5h:18m:9s left)
+Optimizing NNI: done in 191.968 secs using 99.53% CPU
+Optimizing NNI: done in 188.456 secs using 99.46% CPU
+Optimizing NNI: done in 186.58 secs using 99.52% CPU
+Optimizing NNI: done in 191.932 secs using 99.46% CPU
+Optimizing NNI: done in 226.814 secs using 99.46% CPU
+Optimizing NNI: done in 187.684 secs using 99.5% CPU
+Optimizing NNI: done in 185.952 secs using 99.53% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 67: -859979.116
+Optimizing NNI: done in 198.415 secs using 99.52% CPU
+Optimizing NNI: done in 196.652 secs using 99.46% CPU
+Optimizing NNI: done in 208.845 secs using 99.43% CPU
+Iteration 70 / LogL: -860003.029 / Time: 5h:11m:4s (7h:17m:18s left)
+Optimizing NNI: done in 198.148 secs using 99.52% CPU
+Optimizing NNI: done in 187.111 secs using 99.51% CPU
+Optimizing NNI: done in 184.908 secs using 99.49% CPU
+Optimizing NNI: done in 188.013 secs using 99.52% CPU
+Optimizing NNI: done in 209.342 secs using 99.48% CPU
+Optimizing NNI: done in 189.316 secs using 99.53% CPU
+Optimizing NNI: done in 184.643 secs using 99.51% CPU
+Optimizing NNI: done in 190.284 secs using 99.53% CPU
+Optimizing NNI: done in 193.509 secs using 99.49% CPU
+Optimizing NNI: done in 197.36 secs using 99.54% CPU
+Iteration 80 / LogL: -860015.160 / Time: 5h:43m:26s (6h:18m:13s left)
+Optimizing NNI: done in 190.586 secs using 99.53% CPU
+Optimizing NNI: done in 192.983 secs using 99.47% CPU
+Optimizing NNI: done in 188.702 secs using 99.52% CPU
+Optimizing NNI: done in 185.136 secs using 99.53% CPU
+Optimizing NNI: done in 197.279 secs using 99.44% CPU
+Optimizing NNI: done in 189.968 secs using 99.48% CPU
+Optimizing NNI: done in 197.379 secs using 99.51% CPU
+Optimizing NNI: done in 187.677 secs using 99.45% CPU
+Optimizing NNI: done in 197.002 secs using 99.52% CPU
+Optimizing NNI: done in 236.304 secs using 99.53% CPU
+Iteration 90 / LogL: -860008.165 / Time: 6h:16m:28s (5h:25m:43s left)
+Optimizing NNI: done in 186.545 secs using 99.47% CPU
+Optimizing NNI: done in 197.555 secs using 99.45% CPU
+Optimizing NNI: done in 195.725 secs using 99.52% CPU
+Optimizing NNI: done in 189.182 secs using 99.53% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 94: -859976.122
+Optimizing NNI: done in 186.158 secs using 99.45% CPU
+Optimizing NNI: done in 192.387 secs using 99.52% CPU
+Optimizing NNI: done in 197.015 secs using 99.46% CPU
+Optimizing NNI: done in 199.549 secs using 99.54% CPU
+Optimizing NNI: done in 194.489 secs using 99.52% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 99: -859963.499
+Optimizing NNI: done in 183.551 secs using 99.46% CPU
+Iteration 100 / LogL: -860019.299 / Time: 6h:51m:55s (6h:51m:55s left)
+Log-likelihood cutoff on original alignment: -860251.447
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.987
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Optimizing NNI: done in 191.142 secs using 99.45% CPU
+Optimizing NNI: done in 198.292 secs using 99.51% CPU
+Optimizing NNI: done in 197.212 secs using 99.53% CPU
+Optimizing NNI: done in 199.922 secs using 99.52% CPU
+Optimizing NNI: done in 187.938 secs using 99.51% CPU
+Optimizing NNI: done in 183.737 secs using 99.51% CPU
+Optimizing NNI: done in 204.703 secs using 99.52% CPU
+Optimizing NNI: done in 189.237 secs using 99.43% CPU
+Optimizing NNI: done in 188.934 secs using 99.46% CPU
+Optimizing NNI: done in 189.153 secs using 99.51% CPU
+Iteration 110 / LogL: -860021.348 / Time: 7h:24m:31s (6h:7m:2s left)
+Optimizing NNI: done in 208.072 secs using 99.46% CPU
+Optimizing NNI: done in 181.724 secs using 99.53% CPU
+Optimizing NNI: done in 180.784 secs using 99.53% CPU
+Optimizing NNI: done in 185.245 secs using 99.52% CPU
+Optimizing NNI: done in 219.328 secs using 99.48% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 115: -859947.583
+Optimizing NNI: done in 232.504 secs using 99.52% CPU
+Optimizing NNI: done in 231.858 secs using 99.52% CPU
+Optimizing NNI: done in 179.741 secs using 99.48% CPU
+Optimizing NNI: done in 174.75 secs using 99.42% CPU
+Optimizing NNI: done in 182.954 secs using 99.52% CPU
+Iteration 120 / LogL: -859981.664 / Time: 7h:59m:7s (6h:22m:30s left)
+Optimizing NNI: done in 220.149 secs using 99.46% CPU
+Optimizing NNI: done in 223.151 secs using 99.46% CPU
+Optimizing NNI: done in 209.851 secs using 99.52% CPU
+Optimizing NNI: done in 192.419 secs using 99.42% CPU
+Optimizing NNI: done in 180.623 secs using 99.51% CPU
+Optimizing NNI: done in 191.477 secs using 99.52% CPU
+Optimizing NNI: done in 197.553 secs using 99.47% CPU
+Optimizing NNI: done in 188.457 secs using 99.5% CPU
+Optimizing NNI: done in 195.6 secs using 99.51% CPU
+Optimizing NNI: done in 203.691 secs using 99.43% CPU
+Iteration 130 / LogL: -860033.948 / Time: 8h:32m:50s (5h:37m:55s left)
+Optimizing NNI: done in 196.145 secs using 99.53% CPU
+Optimizing NNI: done in 198.934 secs using 99.47% CPU
+Optimizing NNI: done in 289.194 secs using 99.45% CPU
+Optimizing NNI: done in 210.611 secs using 99.44% CPU
+Optimizing NNI: done in 241.128 secs using 99.43% CPU
+Optimizing NNI: done in 208.864 secs using 99.44% CPU
+Optimizing NNI: done in 229.163 secs using 99.42% CPU
+Optimizing NNI: done in 224.456 secs using 99.44% CPU
+Optimizing NNI: done in 227.53 secs using 99.45% CPU
+Optimizing NNI: done in 192.45 secs using 99.45% CPU
+Iteration 140 / LogL: -859972.722 / Time: 9h:10m:8s (4h:56m:50s left)
+Optimizing NNI: done in 209.222 secs using 99.43% CPU
+Optimizing NNI: done in 210.141 secs using 99.44% CPU
+Optimizing NNI: done in 241.619 secs using 99.44% CPU
+Optimizing NNI: done in 191.185 secs using 99.43% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 144: -859944.164
+Optimizing NNI: done in 229.246 secs using 99.44% CPU
+Optimizing NNI: done in 225.497 secs using 99.42% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 146: -859943.649
+Optimizing NNI: done in 223.24 secs using 99.41% CPU
+Optimizing NNI: done in 248.107 secs using 99.42% CPU
+Optimizing NNI: done in 198.914 secs using 99.42% CPU
+Optimizing NNI: done in 232.552 secs using 99.42% CPU
+Iteration 150 / LogL: -859968.498 / Time: 9h:51m:45s (6h:21m:16s left)
+Log-likelihood cutoff on original alignment: -860251.447
+Optimizing NNI: done in 211.673 secs using 99.41% CPU
+Optimizing NNI: done in 222.445 secs using 99.41% CPU
+Optimizing NNI: done in 206.227 secs using 99.44% CPU
+Optimizing NNI: done in 231.825 secs using 99.42% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 154: -859942.845
+Optimizing NNI: done in 227.963 secs using 99.42% CPU
+Optimizing NNI: done in 221.646 secs using 99.43% CPU
+Optimizing NNI: done in 186.287 secs using 99.42% CPU
+Optimizing NNI: done in 225.691 secs using 99.42% CPU
+Optimizing NNI: done in 212.044 secs using 99.43% CPU
+Optimizing NNI: done in 216.313 secs using 99.45% CPU
+Iteration 160 / LogL: -859949.834 / Time: 10h:29m:19s (6h:12m:3s left)
+Optimizing NNI: done in 199.66 secs using 99.46% CPU
+Optimizing NNI: done in 212.669 secs using 99.47% CPU
+Optimizing NNI: done in 195.719 secs using 99.46% CPU
+Optimizing NNI: done in 192.135 secs using 99.46% CPU
+Optimizing NNI: done in 175.373 secs using 99.48% CPU
+Optimizing NNI: done in 185.331 secs using 99.47% CPU
+Optimizing NNI: done in 209.748 secs using 99.47% CPU
+Optimizing NNI: done in 190.882 secs using 99.47% CPU
+Optimizing NNI: done in 186.171 secs using 99.47% CPU
+Optimizing NNI: done in 202.08 secs using 99.48% CPU
+Iteration 170 / LogL: -859963.668 / Time: 11h:2m:7s (5h:29m:6s left)
+Optimizing NNI: done in 196.404 secs using 99.47% CPU
+Optimizing NNI: done in 206.713 secs using 99.48% CPU
+Optimizing NNI: done in 188.57 secs using 99.48% CPU
+Optimizing NNI: done in 193.175 secs using 99.48% CPU
+Optimizing NNI: done in 183.957 secs using 99.47% CPU
+Optimizing NNI: done in 194.928 secs using 99.48% CPU
+Optimizing NNI: done in 197.436 secs using 99.46% CPU
+Optimizing NNI: done in 195.912 secs using 99.44% CPU
+Optimizing NNI: done in 210.676 secs using 99.43% CPU
+Optimizing NNI: done in 196.642 secs using 99.42% CPU
+Iteration 180 / LogL: -860054.989 / Time: 11h:35m:9s (4h:47m:23s left)
+Optimizing NNI: done in 221.738 secs using 99.43% CPU
+Optimizing NNI: done in 195.868 secs using 99.42% CPU
+Optimizing NNI: done in 216.435 secs using 99.43% CPU
+Optimizing NNI: done in 220.18 secs using 99.43% CPU
+Optimizing NNI: done in 214.181 secs using 99.45% CPU
+Optimizing NNI: done in 211.526 secs using 99.43% CPU
+Optimizing NNI: done in 201.436 secs using 99.44% CPU
+Optimizing NNI: done in 201.056 secs using 99.44% CPU
+Optimizing NNI: done in 199.765 secs using 99.44% CPU
+Optimizing NNI: done in 184.644 secs using 99.44% CPU
+Iteration 190 / LogL: -859960.979 / Time: 12h:9m:55s (4h:7m:10s left)
+Optimizing NNI: done in 198.974 secs using 99.45% CPU
+Optimizing NNI: done in 193.289 secs using 99.44% CPU
+Optimizing NNI: done in 219.14 secs using 99.43% CPU
+Optimizing NNI: done in 211.364 secs using 99.43% CPU
+Optimizing NNI: done in 206.975 secs using 99.43% CPU
+Optimizing NNI: done in 215.306 secs using 99.43% CPU
+Optimizing NNI: done in 220.479 secs using 99.43% CPU
+Optimizing NNI: done in 184.196 secs using 99.43% CPU
+Optimizing NNI: done in 230.555 secs using 99.43% CPU
+Optimizing NNI: done in 202.892 secs using 99.44% CPU
+Iteration 200 / LogL: -859980.900 / Time: 12h:44m:57s (3h:27m:34s left)
+Log-likelihood cutoff on original alignment: -860251.447
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.986
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Optimizing NNI: done in 227.042 secs using 99.43% CPU
+Optimizing NNI: done in 199.63 secs using 99.44% CPU
+Optimizing NNI: done in 239.506 secs using 99.44% CPU
+Optimizing NNI: done in 183.398 secs using 99.43% CPU
+Optimizing NNI: done in 218.893 secs using 99.43% CPU
+Optimizing NNI: done in 194.306 secs using 99.43% CPU
+Optimizing NNI: done in 191.553 secs using 99.45% CPU
+Optimizing NNI: done in 192.769 secs using 99.44% CPU
+Optimizing NNI: done in 221.286 secs using 99.43% CPU
+Optimizing NNI: done in 196.708 secs using 99.44% CPU
+Iteration 210 / LogL: -859946.938 / Time: 13h:19m:47s (5h:44m:24s left)
+Optimizing NNI: done in 224.75 secs using 99.42% CPU
+Optimizing NNI: done in 200.301 secs using 99.43% CPU
+Optimizing NNI: done in 204.602 secs using 99.45% CPU
+Optimizing NNI: done in 240.266 secs using 99.43% CPU
+Optimizing NNI: done in 220.554 secs using 99.43% CPU
+Optimizing NNI: done in 237.452 secs using 99.43% CPU
+Optimizing NNI: done in 219.602 secs using 99.43% CPU
+Optimizing NNI: done in 232.05 secs using 99.43% CPU
+Optimizing NNI: done in 188.715 secs using 99.48% CPU
+Optimizing NNI: done in 184.558 secs using 99.44% CPU
+Iteration 220 / LogL: -860023.047 / Time: 13h:55m:59s (5h:5m:23s left)
+Optimizing NNI: done in 214.521 secs using 99.41% CPU
+Optimizing NNI: done in 216.534 secs using 99.42% CPU
+Optimizing NNI: done in 248.103 secs using 99.42% CPU
+Optimizing NNI: done in 209.377 secs using 99.43% CPU
+Optimizing NNI: done in 226.219 secs using 99.41% CPU
+Optimizing NNI: done in 191.941 secs using 99.43% CPU
+Optimizing NNI: done in 216.766 secs using 99.42% CPU
+Optimizing NNI: done in 230.1 secs using 99.44% CPU
+Optimizing NNI: done in 200.662 secs using 99.41% CPU
+Optimizing NNI: done in 200.815 secs using 99.42% CPU
+Iteration 230 / LogL: -859954.883 / Time: 14h:32m:14s (4h:26m:37s left)
+Optimizing NNI: done in 213.589 secs using 99.45% CPU
+Optimizing NNI: done in 214.094 secs using 99.46% CPU
+Optimizing NNI: done in 180.28 secs using 99.46% CPU
+Optimizing NNI: done in 184.842 secs using 99.46% CPU
+Optimizing NNI: done in 226.685 secs using 99.45% CPU
+Optimizing NNI: done in 205.554 secs using 99.48% CPU
+Optimizing NNI: done in 220.934 secs using 99.47% CPU
+Optimizing NNI: done in 199.874 secs using 99.46% CPU
+Optimizing NNI: done in 206.929 secs using 99.44% CPU
+Optimizing NNI: done in 222.599 secs using 99.49% CPU
+Iteration 240 / LogL: -859986.936 / Time: 15h:7m:8s (3h:47m:44s left)
+Optimizing NNI: done in 222.684 secs using 99.48% CPU
+Optimizing NNI: done in 207.05 secs using 99.43% CPU
+Optimizing NNI: done in 226.89 secs using 99.44% CPU
+Optimizing NNI: done in 247.325 secs using 99.44% CPU
+Optimizing NNI: done in 191.97 secs using 99.42% CPU
+Optimizing NNI: done in 214.307 secs using 99.51% CPU
+Optimizing NNI: done in 205.189 secs using 99.45% CPU
+Optimizing NNI: done in 215.542 secs using 99.47% CPU
+Optimizing NNI: done in 187.738 secs using 99.43% CPU
+Optimizing NNI: done in 189.782 secs using 99.44% CPU
+Iteration 250 / LogL: -859967.763 / Time: 15h:42m:36s (3h:9m:16s left)
+Log-likelihood cutoff on original alignment: -860251.447
+Optimizing NNI: done in 230.687 secs using 99.44% CPU
+Optimizing NNI: done in 245.974 secs using 99.43% CPU
+Optimizing NNI: done in 208.511 secs using 99.46% CPU
+Optimizing NNI: done in 217.886 secs using 99.43% CPU
+Optimizing NNI: done in 224.543 secs using 99.42% CPU
+Optimizing NNI: done in 205.213 secs using 99.42% CPU
+Optimizing NNI: done in 225.148 secs using 99.44% CPU
+Optimizing NNI: done in 218.89 secs using 99.43% CPU
+Optimizing NNI: done in 222.812 secs using 99.42% CPU
+Optimizing NNI: done in 200.867 secs using 99.44% CPU
+Iteration 260 / LogL: -859949.066 / Time: 16h:19m:42s (2h:31m:18s left)
+Optimizing NNI: done in 220.188 secs using 99.45% CPU
+Optimizing NNI: done in 222.884 secs using 99.42% CPU
+Optimizing NNI: done in 183.036 secs using 99.43% CPU
+Optimizing NNI: done in 207.324 secs using 99.43% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 264: -859937.937
+Optimizing NNI: done in 190.639 secs using 99.45% CPU
+Optimizing NNI: done in 181.304 secs using 99.45% CPU
+Optimizing NNI: done in 225.307 secs using 99.48% CPU
+Optimizing NNI: done in 215.094 secs using 99.47% CPU
+Optimizing NNI: done in 213.081 secs using 99.42% CPU
+Optimizing NNI: done in 203.565 secs using 99.43% CPU
+Iteration 270 / LogL: -859953.882 / Time: 16h:56m:8s (5h:55m:4s left)
+Optimizing NNI: done in 207.068 secs using 99.49% CPU
+Optimizing NNI: done in 186.929 secs using 99.49% CPU
+Optimizing NNI: done in 189.677 secs using 99.52% CPU
+Optimizing NNI: done in 193.678 secs using 99.52% CPU
+Optimizing NNI: done in 206.023 secs using 99.48% CPU
+Optimizing NNI: done in 193.588 secs using 99.5% CPU
+Optimizing NNI: done in 202.03 secs using 99.5% CPU
+Optimizing NNI: done in 200.9 secs using 99.52% CPU
+Optimizing NNI: done in 207.892 secs using 99.51% CPU
+Optimizing NNI: done in 169.969 secs using 99.48% CPU
+Iteration 280 / LogL: -859983.891 / Time: 17h:29m:5s (5h:15m:51s left)
+Optimizing NNI: done in 181.627 secs using 99.49% CPU
+Optimizing NNI: done in 195.688 secs using 99.53% CPU
+Optimizing NNI: done in 204.676 secs using 99.51% CPU
+Optimizing NNI: done in 207.605 secs using 99.56% CPU
+Optimizing NNI: done in 192.222 secs using 99.55% CPU
+Optimizing NNI: done in 216.381 secs using 99.48% CPU
+Optimizing NNI: done in 197.989 secs using 99.49% CPU
+Optimizing NNI: done in 197.821 secs using 99.5% CPU
+Optimizing NNI: done in 193.614 secs using 99.48% CPU
+Optimizing NNI: done in 204.785 secs using 99.49% CPU
+Iteration 290 / LogL: -859958.626 / Time: 18h:2m:36s (4h:37m:12s left)
+Optimizing NNI: done in 208.643 secs using 99.48% CPU
+Optimizing NNI: done in 202.337 secs using 99.51% CPU
+Optimizing NNI: done in 218.349 secs using 99.57% CPU
+Optimizing NNI: done in 192.558 secs using 99.49% CPU
+Optimizing NNI: done in 180.949 secs using 99.54% CPU
+Optimizing NNI: done in 198.318 secs using 99.55% CPU
+Optimizing NNI: done in 176.835 secs using 99.57% CPU
+Optimizing NNI: done in 210.742 secs using 99.53% CPU
+Optimizing NNI: done in 179.098 secs using 99.49% CPU
+Optimizing NNI: done in 163.9 secs using 99.47% CPU
+Iteration 300 / LogL: -860096.926 / Time: 18h:35m:6s (3h:58m:41s left)
+Log-likelihood cutoff on original alignment: -860251.447
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.997
+Optimizing NNI: done in 183.254 secs using 99.55% CPU
+Optimizing NNI: done in 208.925 secs using 99.52% CPU
+Optimizing NNI: done in 221.251 secs using 99.56% CPU
+Optimizing NNI: done in 204.871 secs using 99.47% CPU
+Optimizing NNI: done in 195.922 secs using 99.48% CPU
+Optimizing NNI: done in 240.214 secs using 99.47% CPU
+Optimizing NNI: done in 225.842 secs using 99.47% CPU
+Optimizing NNI: done in 219.976 secs using 99.48% CPU
+Optimizing NNI: done in 207.621 secs using 99.47% CPU
+Optimizing NNI: done in 185.433 secs using 99.47% CPU
+Iteration 310 / LogL: -860022.171 / Time: 19h:10m:24s (5h:35m:4s left)
+Optimizing NNI: done in 214.073 secs using 99.46% CPU
+Optimizing NNI: done in 240.702 secs using 99.44% CPU
+Optimizing NNI: done in 238.834 secs using 99.45% CPU
+Optimizing NNI: done in 228.114 secs using 99.45% CPU
+Optimizing NNI: done in 255.734 secs using 99.45% CPU
+Optimizing NNI: done in 212.59 secs using 99.47% CPU
+Optimizing NNI: done in 205.529 secs using 99.49% CPU
+Optimizing NNI: done in 226.18 secs using 99.48% CPU
+Optimizing NNI: done in 235.01 secs using 99.46% CPU
+Optimizing NNI: done in 211.655 secs using 99.51% CPU
+Iteration 320 / LogL: -859939.335 / Time: 19h:48m:33s (4h:58m:4s left)
+Optimizing NNI: done in 211.557 secs using 99.46% CPU
+Optimizing NNI: done in 205.549 secs using 99.46% CPU
+Optimizing NNI: done in 184.079 secs using 99.46% CPU
+Optimizing NNI: done in 224.567 secs using 99.47% CPU
+Optimizing NNI: done in 207.124 secs using 99.47% CPU
+Optimizing NNI: done in 185.633 secs using 99.49% CPU
+Optimizing NNI: done in 219.072 secs using 99.53% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 327: -859936.572
+Optimizing NNI: done in 210.808 secs using 99.47% CPU
+Optimizing NNI: done in 190.882 secs using 99.46% CPU
+Optimizing NNI: done in 179.427 secs using 99.46% CPU
+Iteration 330 / LogL: -860079.164 / Time: 20h:23m:47s (6h:0m:48s left)
+Optimizing NNI: done in 226.879 secs using 99.48% CPU
+Optimizing NNI: done in 256.409 secs using 99.45% CPU
+Optimizing NNI: done in 231.816 secs using 99.45% CPU
+Optimizing NNI: done in 171.924 secs using 99.51% CPU
+Optimizing NNI: done in 186.186 secs using 99.49% CPU
+Optimizing NNI: done in 219.504 secs using 99.45% CPU
+Optimizing NNI: done in 204.021 secs using 99.48% CPU
+Optimizing NNI: done in 197.776 secs using 99.47% CPU
+Optimizing NNI: done in 231.147 secs using 99.45% CPU
+Optimizing NNI: done in 218.25 secs using 99.46% CPU
+Iteration 340 / LogL: -859949.151 / Time: 20h:59m:51s (5h:23m:19s left)
+Optimizing NNI: done in 239.023 secs using 99.44% CPU
+Optimizing NNI: done in 238.321 secs using 99.46% CPU
+Optimizing NNI: done in 215.333 secs using 99.44% CPU
+Optimizing NNI: done in 224.04 secs using 99.46% CPU
+Optimizing NNI: done in 224.314 secs using 99.44% CPU
+Optimizing NNI: done in 217.936 secs using 99.44% CPU
+Optimizing NNI: done in 211.054 secs using 99.44% CPU
+Optimizing NNI: done in 229.847 secs using 99.46% CPU
+Optimizing NNI: done in 205.788 secs using 99.52% CPU
+Optimizing NNI: done in 184.08 secs using 99.49% CPU
+Iteration 350 / LogL: -859968.847 / Time: 21h:36m:40s (4h:46m:5s left)
+Log-likelihood cutoff on original alignment: -860194.967
+Optimizing NNI: done in 192.875 secs using 99.48% CPU
+Optimizing NNI: done in 217.609 secs using 99.58% CPU
+Optimizing NNI: done in 209.096 secs using 99.48% CPU
+Optimizing NNI: done in 212.96 secs using 99.5% CPU
+Optimizing NNI: done in 207.52 secs using 99.48% CPU
+Optimizing NNI: done in 204.796 secs using 99.57% CPU
+Optimizing NNI: done in 205.87 secs using 99.48% CPU
+Optimizing NNI: done in 221.336 secs using 99.46% CPU
+Optimizing NNI: done in 204.452 secs using 99.43% CPU
+Optimizing NNI: done in 231.352 secs using 99.42% CPU
+Iteration 360 / LogL: -859944.451 / Time: 22h:12m:13s (4h:8m:38s left)
+Optimizing NNI: done in 224.827 secs using 99.45% CPU
+Optimizing NNI: done in 216.263 secs using 99.45% CPU
+Optimizing NNI: done in 227.406 secs using 99.46% CPU
+Optimizing NNI: done in 231.94 secs using 99.42% CPU
+Optimizing NNI: done in 238.067 secs using 99.43% CPU
+Optimizing NNI: done in 234.683 secs using 99.44% CPU
+Optimizing NNI: done in 248.252 secs using 99.43% CPU
+Optimizing NNI: done in 220.147 secs using 99.41% CPU
+Optimizing NNI: done in 227.076 secs using 99.44% CPU
+Optimizing NNI: done in 240.802 secs using 99.41% CPU
+Iteration 370 / LogL: -859953.130 / Time: 22h:51m:3s (3h:31m:47s left)
+Optimizing NNI: done in 219.88 secs using 99.45% CPU
+Optimizing NNI: done in 204.329 secs using 99.48% CPU
+Optimizing NNI: done in 213.288 secs using 99.51% CPU
+Optimizing NNI: done in 214.215 secs using 99.48% CPU
+Optimizing NNI: done in 199.055 secs using 99.49% CPU
+Optimizing NNI: done in 195.465 secs using 99.57% CPU
+Optimizing NNI: done in 224.001 secs using 99.47% CPU
+Optimizing NNI: done in 188.062 secs using 99.49% CPU
+Optimizing NNI: done in 177.98 secs using 99.48% CPU
+Optimizing NNI: done in 186.813 secs using 99.47% CPU
+Iteration 380 / LogL: -859995.859 / Time: 23h:25m:6s (2h:54m:14s left)
+Optimizing NNI: done in 185.075 secs using 99.51% CPU
+Optimizing NNI: done in 214.086 secs using 99.53% CPU
+Optimizing NNI: done in 202.603 secs using 99.49% CPU
+Optimizing NNI: done in 168.361 secs using 99.57% CPU
+Optimizing NNI: done in 197.038 secs using 99.51% CPU
+Optimizing NNI: done in 191.864 secs using 99.52% CPU
+Optimizing NNI: done in 185.838 secs using 99.49% CPU
+Optimizing NNI: done in 224.51 secs using 99.47% CPU
+Optimizing NNI: done in 227.73 secs using 99.51% CPU
+Optimizing NNI: done in 192.564 secs using 99.48% CPU
+Iteration 390 / LogL: -859975.356 / Time: 23h:58m:34s (2h:16m:49s left)
+Optimizing NNI: done in 200.384 secs using 99.5% CPU
+Optimizing NNI: done in 211.166 secs using 99.45% CPU
+Optimizing NNI: done in 220.497 secs using 99.44% CPU
+Optimizing NNI: done in 238.965 secs using 99.46% CPU
+Optimizing NNI: done in 212.262 secs using 99.44% CPU
+Optimizing NNI: done in 233.991 secs using 99.43% CPU
+Optimizing NNI: done in 203.707 secs using 99.41% CPU
+Optimizing NNI: done in 205.496 secs using 99.43% CPU
+Optimizing NNI: done in 233.147 secs using 99.45% CPU
+Optimizing NNI: done in 231.161 secs using 99.4% CPU
+Iteration 400 / LogL: -859993.057 / Time: 24h:35m:25s (1h:39m:50s left)
+Log-likelihood cutoff on original alignment: -860194.967
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.996
+Optimizing NNI: done in 218.912 secs using 99.41% CPU
+Optimizing NNI: done in 210.667 secs using 99.41% CPU
+Optimizing NNI: done in 243.002 secs using 99.43% CPU
+Optimizing NNI: done in 223.603 secs using 99.41% CPU
+Optimizing NNI: done in 232.035 secs using 99.42% CPU
+Optimizing NNI: done in 236.823 secs using 99.42% CPU
+Optimizing NNI: done in 214.883 secs using 99.41% CPU
+Optimizing NNI: done in 229.296 secs using 99.42% CPU
+Optimizing NNI: done in 209.657 secs using 99.41% CPU
+Optimizing NNI: done in 202.092 secs using 99.42% CPU
+Iteration 410 / LogL: -859980.929 / Time: 25h:12m:52s (5h:32m:54s left)
+Optimizing NNI: done in 222.243 secs using 99.41% CPU
+Optimizing NNI: done in 203.544 secs using 99.47% CPU
+Optimizing NNI: done in 187.635 secs using 99.6% CPU
+Optimizing NNI: done in 188.738 secs using 99.61% CPU
+Optimizing NNI: done in 199.264 secs using 99.47% CPU
+Optimizing NNI: done in 206.835 secs using 99.45% CPU
+Optimizing NNI: done in 231.127 secs using 99.55% CPU
+Optimizing NNI: done in 221.024 secs using 99.56% CPU
+Optimizing NNI: done in 187.522 secs using 99.54% CPU
+Optimizing NNI: done in 189.726 secs using 99.54% CPU
+Iteration 420 / LogL: -860030.757 / Time: 25h:47m:9s (4h:55m:24s left)
+Optimizing NNI: done in 189.657 secs using 99.61% CPU
+Optimizing NNI: done in 181.347 secs using 99.57% CPU
+Optimizing NNI: done in 184.483 secs using 99.57% CPU
+Optimizing NNI: done in 198.991 secs using 99.57% CPU
+Optimizing NNI: done in 179.809 secs using 99.55% CPU
+Optimizing NNI: done in 171.872 secs using 99.52% CPU
+Optimizing NNI: done in 179 secs using 99.59% CPU
+Optimizing NNI: done in 175.416 secs using 99.53% CPU
+TREE SEARCH COMPLETED AFTER 428 ITERATIONS / Time: 26h:11m:44s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -859936.572
+Optimal log-likelihood: -859936.565
+Site proportion and rates:  (0.011,0.134) (0.019,0.259) (0.044,0.384) (0.064,0.521) (0.142,0.639) (0.166,0.812) (0.185,1.008) (0.189,1.250) (0.125,1.517) (0.055,1.908)
+Parameters optimization took 1 rounds (34.468 sec)
+BEST SCORE FOUND : -859936.565
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+Alternative NNI shows better log-likelihood -859936.504 > -859936.565
+Alternative NNI shows better log-likelihood -859936.521 > -859936.565
+Alternative NNI shows better log-likelihood -859936.308 > -859936.565
+45.170 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file analysis_and_temp_files/03_starfish/YRsuperfamRefs_plus_ours_aligned.phyl.splits.nex
+Total tree length: 552.883
+
+Total number of iterations: 428
+CPU time used for tree search: 93100.566 sec (25h:51m:40s)
+Wall-clock time used for tree search: 93605.872 sec (26h:0m:5s)
+Total CPU time used: 93881.611 sec (26h:4m:41s)
+Total wall-clock time used: 94391.015 sec (26h:13m:11s)
+
+Computing bootstrap consensus tree...
+Reading input file analysis_and_temp_files/03_starfish/YRsuperfamRefs_plus_ours_aligned.phyl.splits.nex...
+1227 taxa and 4018 splits.
+Consensus tree written to analysis_and_temp_files/03_starfish/YRsuperfamRefs_plus_ours_aligned.phyl.contree
+Reading input trees file analysis_and_temp_files/03_starfish/YRsuperfamRefs_plus_ours_aligned.phyl.contree
+Log-likelihood of consensus tree: -859924.967
+
+Analysis results written to: 
+  IQ-TREE report:                analysis_and_temp_files/03_starfish/YRsuperfamRefs_plus_ours_aligned.phyl.iqtree
+  Maximum-likelihood tree:       analysis_and_temp_files/03_starfish/YRsuperfamRefs_plus_ours_aligned.phyl.treefile
+  Likelihood distances:          analysis_and_temp_files/03_starfish/YRsuperfamRefs_plus_ours_aligned.phyl.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          analysis_and_temp_files/03_starfish/YRsuperfamRefs_plus_ours_aligned.phyl.splits.nex
+  Consensus tree:                analysis_and_temp_files/03_starfish/YRsuperfamRefs_plus_ours_aligned.phyl.contree
+  Screen log file:               analysis_and_temp_files/03_starfish/YRsuperfamRefs_plus_ours_aligned.phyl.log
+
+Date and Time: Sat Jun 28 05:02:04 2025

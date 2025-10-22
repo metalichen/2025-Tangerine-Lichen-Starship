@@ -1,0 +1,4 @@
+#elementID	elementCaptainID	elementContigID	elementBegin	elementEnd	elementLength	elementStrand	emptySiteID	emptyContigID	emptyBegin	emptyEnd	emptyLength	emptyStrand	emptySiteSeq	quality	warnings
+OZ2100_s00003	OZ2100_tyr4	OZ2100_35	343880	361790	17911	-	scaffold_site001	scaffold_4	1106074	1108028	1955	-	.	ref	 *empty site > 40 bp
+OZ2100_s00001	OZ2100_002162-T1	OZ2100_30	304726	406787	102062	+	XcGTX0491_site001	XcGTX0491_4	1852373	1852376	4	+	gcgg	ref	.
+scaffold_s00008	scaffold_008752-T1	scaffold_12	662355	747238	84884	-	XcGTX0491_site001	XcGTX0491_4	1852373	1852376	4	+	ccgc	ref	.

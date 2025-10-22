@@ -1,0 +1,1 @@
+manyxanthoria	/tsl/scratch/gol22pin/02_long_read_assemblies/analysis_and_temp_files/13_starship_clean/many_xanthorias_tyr.filt_intersect.consolidated.gff

@@ -1,0 +1,4 @@
+#elementID	familyID	navisHapID	contigID	captainID	elementBegin	elementEnd	elementLength	strand	boundaryType	emptySiteID	emptyContig	emptyBegin	emptyEnd	emptySeq	upDR	downDR	DRedit	upTIR	downTIR	TIRedit	nestedInside	containNested
+OZ2100_s00001	clade1	navis0002-hap0001	OZ2100_30	OZ2100_002162-T1	304726	406787	102062	+	insert	XcGTX0491_site001	XcGTX0491_4	1852373	1852376	gcgg	.	.	.	.	.	.	.	.
+OZ2100_s00003	clade2	navis0009-hap0002	OZ2100_35	OZ2100_tyr4	343880	361790	17911	-	insert	scaffold_site001	scaffold_4	1106074	1108028	.	.	.	.	.	.	.	.	.
+scaffold_s00008	clade1	navis0002-hap0001	scaffold_12	scaffold_008752-T1	662355	747238	84884	-	insert	XcGTX0491_site001	XcGTX0491_4	1852373	1852376	gcgg	.	.	.	.	.	.	.	.

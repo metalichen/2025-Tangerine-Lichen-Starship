@@ -1,0 +1,3 @@
+#regionID	elementGroupID	refElementID	refSiteID	otherElementIDs
+region0001	navis0002-hap0001	OZ2100_s00001	.	scaffold_s00008,
+region0002	navis0006-hap0002	OZ2100_s00003	scaffold_site001	

@@ -1,0 +1,81 @@
+OZ2100_30	MetaEuk	mRNA	305825	307015	298	+	.	Target_ID=grascr1_687;Name=OZ2100_tyr1	.	.	.	-1	-1	.	.	.	.	0
+OZ2100_32	MetaEuk	mRNA	1910251	1912801	652	-	.	Target_ID=umbpus1_107339;Name=OZ2100_tyr2	.	.	.	-1	-1	.	.	.	.	0
+OZ2100_35	MetaEuk	mRNA	359121	359324	40	-	.	Target_ID=monfru2_RAL66735.1;Name=OZ2100_tyr3	.	.	.	-1	-1	.	.	.	.	0
+OZ2100_35	MetaEuk	mRNA	359761	360277	75	-	.	Target_ID=psesp.15_tyr9392;Name=OZ2100_tyr4	.	.	.	-1	-1	.	.	.	.	0
+OZ2100_43	MetaEuk	mRNA	931278	932679	202	-	.	Target_ID=exospi1_9399;Name=OZ2100_tyr5	.	.	.	-1	-1	.	.	.	.	0
+XcGTX0491_2	MetaEuk	mRNA	2632559	2633446	189	+	.	Target_ID=aurpul1_15872;Name=XcGTX0491_tyr6	XcGTX0491_2	funannotate	mRNA	2632064	2634028	.	+	.	Name=XANCAGTX0491_002172-T1;Parent=XANCAGTX0491_002172;product=hypothetical protein;Ontology_term=GO:0003677;Dbxref=InterPro:IPR021842,InterPro:IPR011010,PFAM:PF11917;	888
+XcGTX0491_12	MetaEuk	mRNA	1478908	1481335	780	-	.	Target_ID=crydep1_ODN97795.1;Name=XcGTX0491_tyr7	XcGTX0491_12	funannotate	mRNA	1478302	1481425	.	-	.	Name=XANCAGTX0491_008785-T1;Parent=XANCAGTX0491_008785;product=hypothetical protein;Dbxref=InterPro:IPR021842,PFAM:PF11917;note=EggNog:ENOG503NYRP,COG:S;	2428
+XcGTX0491_12	MetaEuk	mRNA	23500	23784	42	+	.	Target_ID=tolpar1_tyr10469;Name=XcGTX0491_tyr8	.	.	.	-1	-1	.	.	.	.	0
+XcGTX0491_15	MetaEuk	mRNA	853712	856255	644	+	.	Target_ID=umbpus1_107339;Name=XcGTX0491_tyr9	XcGTX0491_15	funannotate	mRNA	853712	856417	.	+	.	Name=XANCAGTX0491_009866-T1;Parent=XANCAGTX0491_009866;product=hypothetical protein;Dbxref=InterPro:IPR021842,PFAM:PF11917;	2544
+XpGTX0501_3	MetaEuk	mRNA	6660	7805	274	+	.	Target_ID=grascr1_687;Name=XpGTX0501_tyr10	.	.	.	-1	-1	.	.	.	.	0
+XpGTX0501_4	MetaEuk	mRNA	1205340	1208010	607	-	.	Target_ID=umbpus1_107339;Name=XpGTX0501_tyr11	.	.	.	-1	-1	.	.	.	.	0
+XpGTX0501_5	MetaEuk	mRNA	1670285	1672933	448	-	.	Target_ID=hetspe1_CAF9942110.1;Name=XpGTX0501_tyr12	.	.	.	-1	-1	.	.	.	.	0
+XpGTX0501_37	MetaEuk	mRNA	760	1759	226	+	.	Target_ID=cypeur1_114146;Name=XpGTX0501_tyr13	.	.	.	-1	-1	.	.	.	.	0
+XpGTX0501_31	MetaEuk	mRNA	125644	126848	221	+	.	Target_ID=dibbae1_5584_5585;Name=XpGTX0501_tyr14	.	.	.	-1	-1	.	.	.	.	0
+XpGTX0501_12	MetaEuk	mRNA	129424	131974	652	+	.	Target_ID=umbpus1_107339;Name=XpGTX0501_tyr15	.	.	.	-1	-1	.	.	.	.	0
+XpGTX0501_39	MetaEuk	mRNA	70667	72714	571	-	.	Target_ID=hetspe1_CAF9942110.1;Name=XpGTX0501_tyr16	.	.	.	-1	-1	.	.	.	.	0
+scaffold_4	MetaEuk	mRNA	1310219	1310743	71	-	.	Target_ID=bacgig1_KAG8531634.1;Name=scaffold_tyr17	.	.	.	-1	-1	.	.	.	.	0
+scaffold_5	MetaEuk	mRNA	2024608	2027212	651	-	.	Target_ID=umbpus1_107339;Name=scaffold_tyr18	.	.	.	-1	-1	.	.	.	.	0
+scaffold_8	MetaEuk	mRNA	1503178	1505738	581	-	.	Target_ID=exospi1_9399;Name=scaffold_tyr19	.	.	.	-1	-1	.	.	.	.	0
+scaffold_12	MetaEuk	mRNA	744949	746139	298	-	.	Target_ID=grascr1_687;Name=scaffold_tyr20	.	.	.	-1	-1	.	.	.	.	0
+OZ2100_30	MetaEuk	mRNA	305825	307015	298	+	.	Target_ID=grascr1_687;Name=OZ2100_tyr1	.	.	.	-1	-1	.	.	.	.	0
+OZ2100_32	MetaEuk	mRNA	1910251	1912801	652	-	.	Target_ID=umbpus1_107339;Name=OZ2100_tyr2	.	.	.	-1	-1	.	.	.	.	0
+OZ2100_35	MetaEuk	mRNA	359121	359324	40	-	.	Target_ID=monfru2_RAL66735.1;Name=OZ2100_tyr3	.	.	.	-1	-1	.	.	.	.	0
+OZ2100_35	MetaEuk	mRNA	359761	360277	75	-	.	Target_ID=psesp.15_tyr9392;Name=OZ2100_tyr4	.	.	.	-1	-1	.	.	.	.	0
+OZ2100_43	MetaEuk	mRNA	931278	932679	202	-	.	Target_ID=exospi1_9399;Name=OZ2100_tyr5	.	.	.	-1	-1	.	.	.	.	0
+XcGTX0491_2	MetaEuk	mRNA	2632559	2633446	189	+	.	Target_ID=aurpul1_15872;Name=XcGTX0491_tyr6	.	.	.	-1	-1	.	.	.	.	0
+XcGTX0491_12	MetaEuk	mRNA	1478908	1481335	780	-	.	Target_ID=crydep1_ODN97795.1;Name=XcGTX0491_tyr7	.	.	.	-1	-1	.	.	.	.	0
+XcGTX0491_12	MetaEuk	mRNA	23500	23784	42	+	.	Target_ID=tolpar1_tyr10469;Name=XcGTX0491_tyr8	.	.	.	-1	-1	.	.	.	.	0
+XcGTX0491_15	MetaEuk	mRNA	853712	856255	644	+	.	Target_ID=umbpus1_107339;Name=XcGTX0491_tyr9	.	.	.	-1	-1	.	.	.	.	0
+XpGTX0501_3	MetaEuk	mRNA	6660	7805	274	+	.	Target_ID=grascr1_687;Name=XpGTX0501_tyr10	XpGTX0501_3	funannotate	mRNA	6803	8423	.	+	.	Name=XANPAGTX0501_001716-T1;Parent=XANPAGTX0501_001716;product=hypothetical protein;Ontology_term=GO:0015074,GO:0006310,GO:0003677;Dbxref=InterPro:IPR013762,InterPro:IPR011010,InterPro:IPR021842,PFAM:PF11917;	1003
+XpGTX0501_4	MetaEuk	mRNA	1205340	1208010	607	-	.	Target_ID=umbpus1_107339;Name=XpGTX0501_tyr11	XpGTX0501_4	funannotate	mRNA	1205202	1206284	.	-	.	Name=XANPAGTX0501_002936-T1;Parent=XANPAGTX0501_002936;product=hypothetical protein;Dbxref=InterPro:IPR021842;	945
+XpGTX0501_4	MetaEuk	mRNA	1205340	1208010	607	-	.	Target_ID=umbpus1_107339;Name=XpGTX0501_tyr11	XpGTX0501_4	funannotate	mRNA	1206315	1208010	.	-	.	Name=XANPAGTX0501_002937-T1;Parent=XANPAGTX0501_002937;product=hypothetical protein;Dbxref=InterPro:IPR021842;	1696
+XpGTX0501_5	MetaEuk	mRNA	1670285	1672933	448	-	.	Target_ID=hetspe1_CAF9942110.1;Name=XpGTX0501_tyr12	.	.	.	-1	-1	.	.	.	.	0
+XpGTX0501_37	MetaEuk	mRNA	760	1759	226	+	.	Target_ID=cypeur1_114146;Name=XpGTX0501_tyr13	XpGTX0501_37	funannotate	mRNA	756	1882	.	+	.	Name=XANPAGTX0501_010485-T1;Parent=XANPAGTX0501_010485;product=hypothetical protein;Dbxref=InterPro:IPR021842,PFAM:PF11917;note=EggNog:ENOG503P2C0;	1000
+XpGTX0501_31	MetaEuk	mRNA	125644	126848	221	+	.	Target_ID=dibbae1_5584_5585;Name=XpGTX0501_tyr14	XpGTX0501_31	funannotate	mRNA	125844	127635	.	+	.	Name=XANPAGTX0501_010272-T1;Parent=XANPAGTX0501_010272;product=hypothetical protein;Ontology_term=GO:0015074,GO:0006310,GO:0003677;Dbxref=InterPro:IPR013762,InterPro:IPR011010,InterPro:IPR021842,PFAM:PF11917;	1005
+XpGTX0501_12	MetaEuk	mRNA	129424	131974	652	+	.	Target_ID=umbpus1_107339;Name=XpGTX0501_tyr15	XpGTX0501_12	funannotate	mRNA	129424	132136	.	+	.	Name=XANPAGTX0501_007307-T1;Parent=XANPAGTX0501_007307;product=hypothetical protein;Dbxref=InterPro:IPR021842,PFAM:PF11917;	2551
+XpGTX0501_39	MetaEuk	mRNA	70667	72714	571	-	.	Target_ID=hetspe1_CAF9942110.1;Name=XpGTX0501_tyr16	XpGTX0501_39	funannotate	mRNA	72583	72866	.	-	.	Name=XANPAGTX0501_010572-T1;Parent=XANPAGTX0501_010572;product=hypothetical protein;	132
+scaffold_4	MetaEuk	mRNA	1310219	1310743	71	-	.	Target_ID=bacgig1_KAG8531634.1;Name=scaffold_tyr17	.	.	.	-1	-1	.	.	.	.	0
+scaffold_5	MetaEuk	mRNA	2024608	2027212	651	-	.	Target_ID=umbpus1_107339;Name=scaffold_tyr18	.	.	.	-1	-1	.	.	.	.	0
+scaffold_8	MetaEuk	mRNA	1503178	1505738	581	-	.	Target_ID=exospi1_9399;Name=scaffold_tyr19	.	.	.	-1	-1	.	.	.	.	0
+scaffold_12	MetaEuk	mRNA	744949	746139	298	-	.	Target_ID=grascr1_687;Name=scaffold_tyr20	.	.	.	-1	-1	.	.	.	.	0
+OZ2100_30	MetaEuk	mRNA	305825	307015	298	+	.	Target_ID=grascr1_687;Name=OZ2100_tyr1	OZ2100_30	funannotate	mRNA	306501	307018	.	+	.	Name=XANPAOZ2100_002162-T1;Parent=XANPAOZ2100_002162;product=hypothetical protein;Dbxref=InterPro:IPR021842;	515
+OZ2100_32	MetaEuk	mRNA	1910251	1912801	652	-	.	Target_ID=umbpus1_107339;Name=OZ2100_tyr2	OZ2100_32	funannotate	mRNA	1910089	1912801	.	-	.	Name=XANPAOZ2100_003971-T1;Parent=XANPAOZ2100_003971;product=hypothetical protein;Dbxref=PFAM:PF11917,InterPro:IPR021842;	2551
+OZ2100_35	MetaEuk	mRNA	359121	359324	40	-	.	Target_ID=monfru2_RAL66735.1;Name=OZ2100_tyr3	.	.	.	-1	-1	.	.	.	.	0
+OZ2100_35	MetaEuk	mRNA	359761	360277	75	-	.	Target_ID=psesp.15_tyr9392;Name=OZ2100_tyr4	.	.	.	-1	-1	.	.	.	.	0
+OZ2100_43	MetaEuk	mRNA	931278	932679	202	-	.	Target_ID=exospi1_9399;Name=OZ2100_tyr5	OZ2100_43	funannotate	mRNA	931482	931895	.	-	.	Name=XANPAOZ2100_008954-T1;Parent=XANPAOZ2100_008954;product=hypothetical protein;	414
+XcGTX0491_2	MetaEuk	mRNA	2632559	2633446	189	+	.	Target_ID=aurpul1_15872;Name=XcGTX0491_tyr6	.	.	.	-1	-1	.	.	.	.	0
+XcGTX0491_12	MetaEuk	mRNA	1478908	1481335	780	-	.	Target_ID=crydep1_ODN97795.1;Name=XcGTX0491_tyr7	.	.	.	-1	-1	.	.	.	.	0
+XcGTX0491_12	MetaEuk	mRNA	23500	23784	42	+	.	Target_ID=tolpar1_tyr10469;Name=XcGTX0491_tyr8	.	.	.	-1	-1	.	.	.	.	0
+XcGTX0491_15	MetaEuk	mRNA	853712	856255	644	+	.	Target_ID=umbpus1_107339;Name=XcGTX0491_tyr9	.	.	.	-1	-1	.	.	.	.	0
+XpGTX0501_3	MetaEuk	mRNA	6660	7805	274	+	.	Target_ID=grascr1_687;Name=XpGTX0501_tyr10	.	.	.	-1	-1	.	.	.	.	0
+XpGTX0501_4	MetaEuk	mRNA	1205340	1208010	607	-	.	Target_ID=umbpus1_107339;Name=XpGTX0501_tyr11	.	.	.	-1	-1	.	.	.	.	0
+XpGTX0501_5	MetaEuk	mRNA	1670285	1672933	448	-	.	Target_ID=hetspe1_CAF9942110.1;Name=XpGTX0501_tyr12	.	.	.	-1	-1	.	.	.	.	0
+XpGTX0501_37	MetaEuk	mRNA	760	1759	226	+	.	Target_ID=cypeur1_114146;Name=XpGTX0501_tyr13	.	.	.	-1	-1	.	.	.	.	0
+XpGTX0501_31	MetaEuk	mRNA	125644	126848	221	+	.	Target_ID=dibbae1_5584_5585;Name=XpGTX0501_tyr14	.	.	.	-1	-1	.	.	.	.	0
+XpGTX0501_12	MetaEuk	mRNA	129424	131974	652	+	.	Target_ID=umbpus1_107339;Name=XpGTX0501_tyr15	.	.	.	-1	-1	.	.	.	.	0
+XpGTX0501_39	MetaEuk	mRNA	70667	72714	571	-	.	Target_ID=hetspe1_CAF9942110.1;Name=XpGTX0501_tyr16	.	.	.	-1	-1	.	.	.	.	0
+scaffold_4	MetaEuk	mRNA	1310219	1310743	71	-	.	Target_ID=bacgig1_KAG8531634.1;Name=scaffold_tyr17	.	.	.	-1	-1	.	.	.	.	0
+scaffold_5	MetaEuk	mRNA	2024608	2027212	651	-	.	Target_ID=umbpus1_107339;Name=scaffold_tyr18	.	.	.	-1	-1	.	.	.	.	0
+scaffold_8	MetaEuk	mRNA	1503178	1505738	581	-	.	Target_ID=exospi1_9399;Name=scaffold_tyr19	.	.	.	-1	-1	.	.	.	.	0
+scaffold_12	MetaEuk	mRNA	744949	746139	298	-	.	Target_ID=grascr1_687;Name=scaffold_tyr20	.	.	.	-1	-1	.	.	.	.	0
+OZ2100_30	MetaEuk	mRNA	305825	307015	298	+	.	Target_ID=grascr1_687;Name=OZ2100_tyr1	.	.	.	-1	-1	.	.	.	.	0
+OZ2100_32	MetaEuk	mRNA	1910251	1912801	652	-	.	Target_ID=umbpus1_107339;Name=OZ2100_tyr2	.	.	.	-1	-1	.	.	.	.	0
+OZ2100_35	MetaEuk	mRNA	359121	359324	40	-	.	Target_ID=monfru2_RAL66735.1;Name=OZ2100_tyr3	.	.	.	-1	-1	.	.	.	.	0
+OZ2100_35	MetaEuk	mRNA	359761	360277	75	-	.	Target_ID=psesp.15_tyr9392;Name=OZ2100_tyr4	.	.	.	-1	-1	.	.	.	.	0
+OZ2100_43	MetaEuk	mRNA	931278	932679	202	-	.	Target_ID=exospi1_9399;Name=OZ2100_tyr5	.	.	.	-1	-1	.	.	.	.	0
+XcGTX0491_2	MetaEuk	mRNA	2632559	2633446	189	+	.	Target_ID=aurpul1_15872;Name=XcGTX0491_tyr6	.	.	.	-1	-1	.	.	.	.	0
+XcGTX0491_12	MetaEuk	mRNA	1478908	1481335	780	-	.	Target_ID=crydep1_ODN97795.1;Name=XcGTX0491_tyr7	.	.	.	-1	-1	.	.	.	.	0
+XcGTX0491_12	MetaEuk	mRNA	23500	23784	42	+	.	Target_ID=tolpar1_tyr10469;Name=XcGTX0491_tyr8	.	.	.	-1	-1	.	.	.	.	0
+XcGTX0491_15	MetaEuk	mRNA	853712	856255	644	+	.	Target_ID=umbpus1_107339;Name=XcGTX0491_tyr9	.	.	.	-1	-1	.	.	.	.	0
+XpGTX0501_3	MetaEuk	mRNA	6660	7805	274	+	.	Target_ID=grascr1_687;Name=XpGTX0501_tyr10	.	.	.	-1	-1	.	.	.	.	0
+XpGTX0501_4	MetaEuk	mRNA	1205340	1208010	607	-	.	Target_ID=umbpus1_107339;Name=XpGTX0501_tyr11	.	.	.	-1	-1	.	.	.	.	0
+XpGTX0501_5	MetaEuk	mRNA	1670285	1672933	448	-	.	Target_ID=hetspe1_CAF9942110.1;Name=XpGTX0501_tyr12	.	.	.	-1	-1	.	.	.	.	0
+XpGTX0501_37	MetaEuk	mRNA	760	1759	226	+	.	Target_ID=cypeur1_114146;Name=XpGTX0501_tyr13	.	.	.	-1	-1	.	.	.	.	0
+XpGTX0501_31	MetaEuk	mRNA	125644	126848	221	+	.	Target_ID=dibbae1_5584_5585;Name=XpGTX0501_tyr14	.	.	.	-1	-1	.	.	.	.	0
+XpGTX0501_12	MetaEuk	mRNA	129424	131974	652	+	.	Target_ID=umbpus1_107339;Name=XpGTX0501_tyr15	.	.	.	-1	-1	.	.	.	.	0
+XpGTX0501_39	MetaEuk	mRNA	70667	72714	571	-	.	Target_ID=hetspe1_CAF9942110.1;Name=XpGTX0501_tyr16	.	.	.	-1	-1	.	.	.	.	0
+scaffold_4	MetaEuk	mRNA	1310219	1310743	71	-	.	Target_ID=bacgig1_KAG8531634.1;Name=scaffold_tyr17	.	.	.	-1	-1	.	.	.	.	0
+scaffold_5	MetaEuk	mRNA	2024608	2027212	651	-	.	Target_ID=umbpus1_107339;Name=scaffold_tyr18	scaffold_5	funannotate	mRNA	2024446	2027212	.	-	.	Name=XANPARI20_005633-T1;Parent=XANPARI20_005633;product=hypothetical protein;Dbxref=PFAM:PF11917,InterPro:IPR021842;	2605
+scaffold_8	MetaEuk	mRNA	1503178	1505738	581	-	.	Target_ID=exospi1_9399;Name=scaffold_tyr19	scaffold_8	funannotate	mRNA	1502467	1505738	.	-	.	Name=XANPARI20_007362-T1;Parent=XANPARI20_007362;product=hypothetical protein;Dbxref=PFAM:PF11917,InterPro:IPR021842;note=EggNog:ENOG503P2C0;	2561
+scaffold_12	MetaEuk	mRNA	744949	746139	298	-	.	Target_ID=grascr1_687;Name=scaffold_tyr20	scaffold_12	funannotate	mRNA	744946	745726	.	-	.	Name=XANPARI20_008752-T1;Parent=XANPARI20_008752;product=hypothetical protein;Ontology_term=GO:0015074,GO:0006310,GO:0003677;Dbxref=InterPro:IPR021842,InterPro:IPR013762,InterPro:IPR011010,PFAM:PF11917,InterPro:IPR002104;	778

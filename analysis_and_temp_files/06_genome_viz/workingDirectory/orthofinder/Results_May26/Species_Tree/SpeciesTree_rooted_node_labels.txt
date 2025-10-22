@@ -1,0 +1,1 @@
+((Xanthoria_parietina_SAMEA111342678:0.038206,Xanthoria_parietina_SAMEA115359166:0.0242012)N1:0.0237073,(Xanthoria_calcicola_GTX0491:0.0836894,Xanthoria_parietina_GTX0501:0.0319524)N2:0.0237073)N0;

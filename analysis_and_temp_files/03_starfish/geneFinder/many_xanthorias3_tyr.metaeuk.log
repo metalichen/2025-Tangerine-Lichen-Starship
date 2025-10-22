@@ -1,0 +1,404 @@
+easy-predict analysis_and_temp_files/13_starship_clean/genomes/Xanthoria_parietina_SAMEA111342678.scaffolds.fa /opt/conda/envs/starfish/db/YRsuperfamRefs.faa analysis_and_temp_files/13_starship_clean/geneFinder/metaeukData/GCA964656405 analysis_and_temp_files/13_starship_clean/geneFinder --local-tmp analysis_and_temp_files/13_starship_clean/geneFinder --threads 10 --remove-tmp-files 1 -v 3 -s 7.5 -e 0.0001 --max-intron 2000 --max-seqs 300 --metaeuk-eval 0.001 --exhaustive-search 1 --metaeuk-tcov 0.25 --allow-deletion 1 --protein 1 --disk-space-limit 100G --compressed 1 
+
+MMseqs Version:                                             	6.a5d39d9
+Substitution matrix                                         	aa:blosum62.out,nucl:nucleotide.out
+Add backtrace                                               	false
+Alignment mode                                              	2
+Alignment mode                                              	0
+Allow wrapped scoring                                       	false
+E-value threshold                                           	0.0001
+Seq. id. threshold                                          	0
+Min alignment length                                        	0
+Seq. id. mode                                               	0
+Alternative alignments                                      	0
+Coverage threshold                                          	0
+Coverage mode                                               	0
+Max sequence length                                         	65535
+Compositional bias                                          	1
+Compositional bias                                          	1
+Max reject                                                  	2147483647
+Max accept                                                  	2147483647
+Include identical seq. id.                                  	false
+Preload mode                                                	0
+Pseudo count a                                              	substitution:1.100,context:1.400
+Pseudo count b                                              	substitution:4.100,context:5.800
+Score bias                                                  	0
+Realign hits                                                	false
+Realign score bias                                          	-0.2
+Realign max seqs                                            	2147483647
+Correlation score weight                                    	0
+Gap open cost                                               	aa:11,nucl:5
+Gap extension cost                                          	aa:1,nucl:2
+Zdrop                                                       	40
+Threads                                                     	10
+Compressed                                                  	1
+Verbosity                                                   	3
+Seed substitution matrix                                    	aa:VTML80.out,nucl:nucleotide.out
+Sensitivity                                                 	7.5
+k-mer length                                                	0
+k-score                                                     	seq:2147483647,prof:2147483647
+Alphabet size                                               	aa:21,nucl:5
+Max results per query                                       	300
+Split database                                              	0
+Split mode                                                  	2
+Split memory limit                                          	0
+Diagonal scoring                                            	true
+Exact k-mer matching                                        	0
+Mask residues                                               	1
+Mask residues probability                                   	0.9
+Mask lower case residues                                    	0
+Minimum diagonal score                                      	15
+Spaced k-mers                                               	1
+Spaced k-mer pattern                                        	
+Local temporary path                                        	analysis_and_temp_files/13_starship_clean/geneFinder
+Rescore mode                                                	0
+Remove hits by seq. id. and coverage                        	false
+Sort results                                                	0
+Mask profile                                                	1
+Profile E-value threshold                                   	0.001
+Global sequence weighting                                   	false
+Allow deletions                                             	true
+Filter MSA                                                  	1
+Use filter only at N seqs                                   	0
+Maximum seq. id. threshold                                  	0.9
+Minimum seq. id.                                            	0.0
+Minimum score per column                                    	-20
+Minimum coverage                                            	0
+Select N most diverse seqs                                  	1000
+Pseudo count mode                                           	0
+Gap pseudo count                                            	10
+Min codons in orf                                           	15
+Max codons in length                                        	32734
+Max orf gaps                                                	2147483647
+Contig start mode                                           	2
+Contig end mode                                             	2
+Orf start mode                                              	1
+Forward frames                                              	1,2,3
+Reverse frames                                              	1,2,3
+Translation table                                           	1
+Translate orf                                               	0
+Use all table starts                                        	false
+Offset of numeric ids                                       	0
+Create lookup                                               	0
+Add orf stop                                                	false
+Overlap between sequences                                   	0
+Sequence split mode                                         	1
+Header split mode                                           	0
+Chain overlapping alignments                                	0
+Merge query                                                 	1
+Search type                                                 	0
+Search iterations                                           	1
+Start sensitivity                                           	4
+Search steps                                                	1
+Exhaustive search mode                                      	true
+Filter results during exhaustive search                     	0
+Strand selection                                            	1
+LCA search mode                                             	false
+Disk space limit                                            	100G
+MPI runner                                                  	
+Force restart with latest tmp                               	false
+Remove temporary files                                      	true
+maximal combined evalue of an optimal set                   	0.001
+minimal length ratio between combined optimal set and target	0.25
+Maximal intron length                                       	2000
+Minimal intron length                                       	15
+Minimal exon length aa                                      	11
+Maximal overlap of exons                                    	10
+Maximal number of exon sets                                 	1
+Gap open penalty                                            	-1
+Gap extend penalty                                          	-1
+allow same-strand overlaps                                  	0
+translate codons to AAs                                     	1
+write target key instead of accession                       	0
+write fragment contig coords                                	0
+Reverse AA Fragments                                        	0
+
+createdb analysis_and_temp_files/13_starship_clean/genomes/Xanthoria_parietina_SAMEA111342678.scaffolds.fa analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/contigs --dbtype 2 --compressed 1 -v 3 
+
+Converting sequences
+[
+Time for merging to contigs_h: 0h 0m 1s 400ms
+Time for merging to contigs: 0h 0m 1s 518ms
+Database type: Nucleotide
+Time for processing: 0h 0m 7s 861ms
+createdb /opt/conda/envs/starfish/db/YRsuperfamRefs.faa analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/targets --dbtype 1 --compressed 1 -v 3 
+
+Converting sequences
+[
+Time for merging to targets_h: 0h 0m 1s 475ms
+Time for merging to targets: 0h 0m 1s 89ms
+Database type: Aminoacid
+Time for processing: 0h 0m 7s 534ms
+Create directory analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/tmp_predict
+predictexons analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/contigs analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/targets analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/MetaEuk_calls analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/tmp_predict --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 0 --alignment-mode 2 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.0001 --min-seq-id 0 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --threads 10 --compressed 1 -v 3 --seed-sub-mat 'aa:VTML80.out,nucl:nucleotide.out' -s 7.5 -k 0 --k-score seq:2147483647,prof:2147483647 --alph-size aa:21,nucl:5 --max-seqs 300 --split 0 --split-mode 2 --split-memory-limit 0 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-prob 0.9 --mask-lower-case 0 --min-ungapped-score 15 --spaced-kmer-mode 1 --local-tmp analysis_and_temp_files/13_starship_clean/geneFinder --rescore-mode 0 --filter-hits 0 --sort-results 0 --mask-profile 1 --e-profile 0.001 --wg 0 --allow-deletion 1 --filter-msa 1 --filter-min-enable 0 --max-seq-id 0.9 --qid '0.0' --qsc -20 --cov 0 --diff 1000 --pseudo-cnt-mode 0 --gap-pc 10 --min-length 15 --max-length 32734 --max-gaps 2147483647 --contig-start-mode 2 --contig-end-mode 2 --orf-start-mode 1 --forward-frames 1,2,3 --reverse-frames 1,2,3 --translation-table 1 --translate 0 --use-all-table-starts 0 --id-offset 0 --create-lookup 0 --add-orf-stop 0 --sequence-overlap 0 --sequence-split-mode 1 --headers-split-mode 0 --chain-alignments 0 --merge-query 1 --search-type 0 --num-iterations 1 --start-sens 4 --sens-steps 1 --exhaustive-search 1 --exhaustive-search-filter 0 --strand 1 --lca-search 0 --disk-space-limit 100G --force-reuse 0 --remove-tmp-files 1 --metaeuk-eval 0.001 --metaeuk-tcov 0.25 --max-intron 2000 --min-intron 15 --min-exon-aa 11 --max-overlap 10 --max-exon-sets 1 --set-gap-open -1 --set-gap-extend -1 --reverse-fragments 0 
+
+extractorfs /tsl/scratch/gol22pin/02_long_read_assemblies/analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/contigs /tsl/scratch/gol22pin/02_long_read_assemblies/analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/tmp_predict/18307294041328011916/nucl_6f --min-length 15 --max-length 32734 --max-gaps 2147483647 --contig-start-mode 2 --contig-end-mode 2 --orf-start-mode 1 --forward-frames 1,2,3 --reverse-frames 1,2,3 --translation-table 1 --translate 0 --use-all-table-starts 0 --id-offset 0 --create-lookup 0 --threads 10 --compressed 1 -v 3 
+
+[=================================================================] 17 0s 691ms
+Time for merging to nucl_6f_h: 0h 0m 2s 18ms
+Time for merging to nucl_6f: 0h 0m 2s 808ms
+Time for processing: 0h 0m 11s 92ms
+translatenucs /tsl/scratch/gol22pin/02_long_read_assemblies/analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/tmp_predict/18307294041328011916/nucl_6f /tsl/scratch/gol22pin/02_long_read_assemblies/analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/tmp_predict/18307294041328011916/aa_6f --translation-table 1 --add-orf-stop 0 -v 3 --compressed 1 --threads 10 
+
+[=================================================================] 1.13M 0s 889ms
+Time for merging to aa_6f: 0h 0m 2s 629ms
+Time for processing: 0h 0m 5s 345ms
+Create directory /tsl/scratch/gol22pin/02_long_read_assemblies/analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/tmp_predict/18307294041328011916/tmp_search
+search /tsl/scratch/gol22pin/02_long_read_assemblies/analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/tmp_predict/18307294041328011916/aa_6f /tsl/scratch/gol22pin/02_long_read_assemblies/analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/targets /tsl/scratch/gol22pin/02_long_read_assemblies/analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/tmp_predict/18307294041328011916/search_res /tsl/scratch/gol22pin/02_long_read_assemblies/analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/tmp_predict/18307294041328011916/tmp_search --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 0 --alignment-mode 2 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.0001 --min-seq-id 0 --min-aln-len 11 --seq-id-mode 0 --alt-ali 0 -c 0 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --threads 10 --compressed 1 -v 3 --seed-sub-mat 'aa:VTML80.out,nucl:nucleotide.out' -s 7.5 -k 0 --k-score seq:2147483647,prof:2147483647 --alph-size aa:21,nucl:5 --max-seqs 300 --split 0 --split-mode 2 --split-memory-limit 0 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-prob 0.9 --mask-lower-case 0 --min-ungapped-score 15 --spaced-kmer-mode 1 --local-tmp analysis_and_temp_files/13_starship_clean/geneFinder --rescore-mode 0 --filter-hits 0 --sort-results 0 --mask-profile 1 --e-profile 0.001 --wg 0 --allow-deletion 1 --filter-msa 1 --filter-min-enable 0 --max-seq-id 0.9 --qid '0.0' --qsc -20 --cov 0 --diff 1000 --pseudo-cnt-mode 0 --gap-pc 10 --min-length 15 --max-length 32734 --max-gaps 2147483647 --contig-start-mode 2 --contig-end-mode 2 --orf-start-mode 1 --forward-frames 1,2,3 --reverse-frames 1,2,3 --translation-table 1 --translate 0 --use-all-table-starts 0 --id-offset 0 --create-lookup 0 --add-orf-stop 0 --sequence-overlap 0 --sequence-split-mode 1 --headers-split-mode 0 --chain-alignments 0 --merge-query 1 --search-type 0 --num-iterations 1 --start-sens 4 --sens-steps 1 --exhaustive-search 1 --exhaustive-search-filter 0 --strand 1 --lca-search 0 --disk-space-limit 100G --force-reuse 0 --remove-tmp-files 1 
+
+prefilter /tsl/scratch/gol22pin/02_long_read_assemblies/analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/tmp_predict/18307294041328011916/tmp_search/7797300767758021131/profileDB /tsl/scratch/gol22pin/02_long_read_assemblies/analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/tmp_predict/18307294041328011916/aa_6f /tsl/scratch/gol22pin/02_long_read_assemblies/analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/tmp_predict/18307294041328011916/tmp_search/7797300767758021131/pref --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --seed-sub-mat 'aa:VTML80.out,nucl:nucleotide.out' -s 7.5 -k 0 --k-score seq:2147483647,prof:2147483647 --alph-size aa:21,nucl:5 --max-seq-len 65535 --max-seqs 1133575 --split 0 --split-mode 2 --split-memory-limit 0 -c 0 --cov-mode 0 --comp-bias-corr 1 --comp-bias-corr-scale 1 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-prob 0.9 --mask-lower-case 0 --min-ungapped-score 15 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --local-tmp analysis_and_temp_files/13_starship_clean/geneFinder --threads 10 --compressed 1 -v 3 
+
+Query database size: 1222 type: Aminoacid
+Estimated memory consumption: 1G
+Target database size: 1133575 type: Aminoacid
+Index table k-mer threshold: 96 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 1.13M 1s 36ms
+Index table: Masked residues: 442167
+Index table: fill
+[=================================================================] 1.13M 1s 246ms
+Index statistics
+Entries:          40557176
+DB size:          720 MB
+Avg k-mer size:   0.633706
+Top 10 k-mers
+    APDISI	487
+    SSSSSS	404
+    RVISSR	332
+    KKKTAT	323
+    LRRITL	316
+    VSLSYR	314
+    KSGSIV	313
+    LIRSYY	306
+    IFFRSY	296
+    IFSSSV	288
+Time for index table init: 0h 0m 2s 783ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 96
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 1222
+Target db start 1 to 1133575
+[=================================================================] 1.22K 6s 614ms
+
+1899.853846 k-mers per position
+664531 DB matches per sequence
+5 overflows
+0 queries produce too many hits (truncated result)
+10099 sequences passed prefiltering per query sequence
+9308 median result list length
+0 sequences with 0 size result lists
+Time for merging to pref: 0h 0m 0s 128ms
+Time for processing: 0h 0m 12s 231ms
+result2stats /tsl/scratch/gol22pin/02_long_read_assemblies/analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/tmp_predict/18307294041328011916/tmp_search/7797300767758021131/profileDB /tsl/scratch/gol22pin/02_long_read_assemblies/analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/tmp_predict/18307294041328011916/aa_6f /tsl/scratch/gol22pin/02_long_read_assemblies/analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/tmp_predict/18307294041328011916/tmp_search/7797300767758021131/pref /tsl/scratch/gol22pin/02_long_read_assemblies/analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/tmp_predict/18307294041328011916/tmp_search/7797300767758021131/pref_count.tsv --stat linecount --tsv --threads 10 --compressed 1 -v 3 
+
+[=================================================================] 1.22K 0s 202ms
+Time for merging to pref_count.tsv: 0h 0m 0s 153ms
+Time for processing: 0h 0m 0s 768ms
+align /tsl/scratch/gol22pin/02_long_read_assemblies/analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/tmp_predict/18307294041328011916/tmp_search/7797300767758021131/profileDB /tsl/scratch/gol22pin/02_long_read_assemblies/analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/tmp_predict/18307294041328011916/aa_6f /tsl/scratch/gol22pin/02_long_read_assemblies/analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/tmp_predict/18307294041328011916/tmp_search/7797300767758021131/pref /tsl/scratch/gol22pin/02_long_read_assemblies/analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/tmp_predict/18307294041328011916/tmp_search/7797300767758021131/aln --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 0 --alignment-mode 2 --alignment-output-mode 1 --wrapped-scoring 0 -e 0.0927639 --min-seq-id 0 --min-aln-len 11 --seq-id-mode 0 --alt-ali 0 -c 0 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --threads 10 --compressed 1 -v 3 
+
+Compute score and coverage
+Query database size: 1222 type: Aminoacid
+Target database size: 1133575 type: Aminoacid
+Calculation of alignments
+[=================================================================] 1.22K 15s 868ms
+Time for merging to aln: 0h 0m 0s 60ms
+12341698 alignments calculated
+2664 sequence pairs passed the thresholds (0.000216 of overall calculated)
+2.180033 hits per query sequence
+Time for processing: 0h 0m 16s 739ms
+rmdb /tsl/scratch/gol22pin/02_long_read_assemblies/analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/tmp_predict/18307294041328011916/tmp_search/7797300767758021131/pref -v 3 
+
+Time for processing: 0h 0m 0s 289ms
+mvdb /tsl/scratch/gol22pin/02_long_read_assemblies/analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/tmp_predict/18307294041328011916/tmp_search/7797300767758021131/aln /tsl/scratch/gol22pin/02_long_read_assemblies/analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/tmp_predict/18307294041328011916/tmp_search/7797300767758021131/aln_merged -v 3 
+
+Time for processing: 0h 0m 0s 134ms
+align /tsl/scratch/gol22pin/02_long_read_assemblies/analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/targets /tsl/scratch/gol22pin/02_long_read_assemblies/analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/tmp_predict/18307294041328011916/aa_6f /tsl/scratch/gol22pin/02_long_read_assemblies/analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/tmp_predict/18307294041328011916/tmp_search/7797300767758021131/aln_merged /tsl/scratch/gol22pin/02_long_read_assemblies/analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/tmp_predict/18307294041328011916/tmp_search/7797300767758021131/aln --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 0 --alignment-mode 2 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.0927639 --min-seq-id 0 --min-aln-len 11 --seq-id-mode 0 --alt-ali 0 -c 0 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --threads 10 --compressed 1 -v 3 
+
+Compute score and coverage
+Query database size: 1222 type: Aminoacid
+Target database size: 1133575 type: Aminoacid
+Calculation of alignments
+[=================================================================] 1.22K 0s 101ms
+Time for merging to aln: 0h 0m 0s 44ms
+2664 alignments calculated
+2664 sequence pairs passed the thresholds (1.000000 of overall calculated)
+2.180033 hits per query sequence
+Time for processing: 0h 0m 0s 653ms
+rmdb /tsl/scratch/gol22pin/02_long_read_assemblies/analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/tmp_predict/18307294041328011916/tmp_search/7797300767758021131/aln_merged -v 3 
+
+Time for processing: 0h 0m 0s 22ms
+swapresults /tsl/scratch/gol22pin/02_long_read_assemblies/analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/targets /tsl/scratch/gol22pin/02_long_read_assemblies/analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/tmp_predict/18307294041328011916/aa_6f /tsl/scratch/gol22pin/02_long_read_assemblies/analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/tmp_predict/18307294041328011916/tmp_search/7797300767758021131/aln /tsl/scratch/gol22pin/02_long_read_assemblies/analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/tmp_predict/18307294041328011916/search_res --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -e 1.79769e+308 --split-memory-limit 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --threads 10 --compressed 1 --db-load-mode 0 -v 3 
+
+Computing offsets.
+[=================================================================] 1.22K 0s 24ms
+
+Reading results.
+[=================================================================] 1.22K 0s 23ms
+
+Output database: /tsl/scratch/gol22pin/02_long_read_assemblies/analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/tmp_predict/18307294041328011916/search_res
+[=================================================================] 1.13M 0s 609ms
+
+Time for merging to search_res: 0h 0m 1s 61ms
+Time for processing: 0h 0m 2s 243ms
+rmdb /tsl/scratch/gol22pin/02_long_read_assemblies/analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/tmp_predict/18307294041328011916/tmp_search/7797300767758021131/aln_merged -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /tsl/scratch/gol22pin/02_long_read_assemblies/analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/tmp_predict/18307294041328011916/tmp_search/7797300767758021131/profileDB -v 3 
+
+Time for processing: 0h 0m 0s 100ms
+resultspercontig /tsl/scratch/gol22pin/02_long_read_assemblies/analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/contigs /tsl/scratch/gol22pin/02_long_read_assemblies/analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/tmp_predict/18307294041328011916/nucl_6f /tsl/scratch/gol22pin/02_long_read_assemblies/analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/tmp_predict/18307294041328011916/search_res /tsl/scratch/gol22pin/02_long_read_assemblies/analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/tmp_predict/18307294041328011916/search_res_by_contig --threads 10 --compressed 1 -v 3 
+
+Computing ORF lookup
+Computing contig offsets
+Computing contig lookup
+Time for contig lookup: 0h 0m 0s 108ms
+[=================================================================] 17 0s 143ms
+Time for merging to search_res_by_contig: 0h 0m 0s 87ms
+Time for processing: 0h 0m 1s 35ms
+collectoptimalset /tsl/scratch/gol22pin/02_long_read_assemblies/analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/tmp_predict/18307294041328011916/search_res_by_contig /tsl/scratch/gol22pin/02_long_read_assemblies/analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/targets /tsl/scratch/gol22pin/02_long_read_assemblies/analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/tmp_predict/18307294041328011916/dp_predictions --metaeuk-eval 0.001 --metaeuk-tcov 0.25 --max-intron 2000 --min-intron 15 --min-exon-aa 11 --max-overlap 10 --max-exon-sets 1 --set-gap-open -1 --set-gap-extend -1 --score-bias 0 --threads 10 --compressed 1 -v 3 
+
+[=================================================================] 17 0s 14ms
+Time for merging to dp_predictions: 0h 0m 0s 47ms
+Time for processing: 0h 0m 0s 127ms
+mvdb /tsl/scratch/gol22pin/02_long_read_assemblies/analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/tmp_predict/18307294041328011916/dp_predictions analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/MetaEuk_calls 
+
+Time for processing: 0h 0m 0s 29ms
+Removing temporary files from /tsl/scratch/gol22pin/02_long_read_assemblies/analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/tmp_predict/18307294041328011916
+rm: descend into write-protected directory '/tsl/scratch/gol22pin/02_long_read_assemblies/analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/tmp_predict/18307294041328011916/tmp_search'? reduceredundancy analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/MetaEuk_calls analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/MetaEuk_preds analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/MetaEuk_preds_clust --overlap 0 --threads 10 --compressed 1 -v 3 
+
+[=================================================================] 17 0s 271ms
+Time for merging to MetaEuk_preds_clust: 0h 0m 0s 135ms
+Time for merging to MetaEuk_preds: 0h 0m 0s 195ms
+Time for processing: 0h 0m 1s 115ms
+unitesetstofasta analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/contigs analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/targets analysis_and_temp_files/13_starship_clean/geneFinder/5673655255416819300/MetaEuk_preds analysis_and_temp_files/13_starship_clean/geneFinder/metaeukData/GCA964656405 --protein 1 --translation-table 1 --target-key 0 --write-frag-coords 0 --max-seq-len 65535 --threads 10 -v 3 
+
+[=================================================================] 17 0s 74ms
+Time for merging to GCA964656405.fas: 0h 0m 1s 376ms
+Time for merging to GCA964656405.codon.fas: 0h 0m 1s 479ms
+Time for merging to GCA964656405.headersMap.tsv: 0h 0m 1s 282ms
+Time for merging to GCA964656405.gff: 0h 0m 0s 904ms
+Time for processing: 0h 0m 9s 195ms
+easy-predict analysis_and_temp_files/13_starship_clean/genomes/Xanthoria_calcicola_GTX0491.scaffolds.fa /opt/conda/envs/starfish/db/YRsuperfamRefs.faa analysis_and_temp_files/13_starship_clean/geneFinder/metaeukData/GTX0491 analysis_and_temp_files/13_starship_clean/geneFinder --local-tmp analysis_and_temp_files/13_starship_clean/geneFinder --threads 10 --remove-tmp-files 1 -v 3 -s 7.5 -e 0.0001 --max-intron 2000 --max-seqs 300 --metaeuk-eval 0.001 --exhaustive-search 1 --metaeuk-tcov 0.25 --allow-deletion 1 --protein 1 --disk-space-limit 100G --compressed 1 
+
+MMseqs Version:                                             	6.a5d39d9
+Substitution matrix                                         	aa:blosum62.out,nucl:nucleotide.out
+Add backtrace                                               	false
+Alignment mode                                              	2
+Alignment mode                                              	0
+Allow wrapped scoring                                       	false
+E-value threshold                                           	0.0001
+Seq. id. threshold                                          	0
+Min alignment length                                        	0
+Seq. id. mode                                               	0
+Alternative alignments                                      	0
+Coverage threshold                                          	0
+Coverage mode                                               	0
+Max sequence length                                         	65535
+Compositional bias                                          	1
+Compositional bias                                          	1
+Max reject                                                  	2147483647
+Max accept                                                  	2147483647
+Include identical seq. id.                                  	false
+Preload mode                                                	0
+Pseudo count a                                              	substitution:1.100,context:1.400
+Pseudo count b                                              	substitution:4.100,context:5.800
+Score bias                                                  	0
+Realign hits                                                	false
+Realign score bias                                          	-0.2
+Realign max seqs                                            	2147483647
+Correlation score weight                                    	0
+Gap open cost                                               	aa:11,nucl:5
+Gap extension cost                                          	aa:1,nucl:2
+Zdrop                                                       	40
+Threads                                                     	10
+Compressed                                                  	1
+Verbosity                                                   	3
+Seed substitution matrix                                    	aa:VTML80.out,nucl:nucleotide.out
+Sensitivity                                                 	7.5
+k-mer length                                                	0
+k-score                                                     	seq:2147483647,prof:2147483647
+Alphabet size                                               	aa:21,nucl:5
+Max results per query                                       	300
+Split database                                              	0
+Split mode                                                  	2
+Split memory limit                                          	0
+Diagonal scoring                                            	true
+Exact k-mer matching                                        	0
+Mask residues                                               	1
+Mask residues probability                                   	0.9
+Mask lower case residues                                    	0
+Minimum diagonal score                                      	15
+Spaced k-mers                                               	1
+Spaced k-mer pattern                                        	
+Local temporary path                                        	analysis_and_temp_files/13_starship_clean/geneFinder
+Rescore mode                                                	0
+Remove hits by seq. id. and coverage                        	false
+Sort results                                                	0
+Mask profile                                                	1
+Profile E-value threshold                                   	0.001
+Global sequence weighting                                   	false
+Allow deletions                                             	true
+Filter MSA                                                  	1
+Use filter only at N seqs                                   	0
+Maximum seq. id. threshold                                  	0.9
+Minimum seq. id.                                            	0.0
+Minimum score per column                                    	-20
+Minimum coverage                                            	0
+Select N most diverse seqs                                  	1000
+Pseudo count mode                                           	0
+Gap pseudo count                                            	10
+Min codons in orf                                           	15
+Max codons in length                                        	32734
+Max orf gaps                                                	2147483647
+Contig start mode                                           	2
+Contig end mode                                             	2
+Orf start mode                                              	1
+Forward frames                                              	1,2,3
+Reverse frames                                              	1,2,3
+Translation table                                           	1
+Translate orf                                               	0
+Use all table starts                                        	false
+Offset of numeric ids                                       	0
+Create lookup                                               	0
+Add orf stop                                                	false
+Overlap between sequences                                   	0
+Sequence split mode                                         	1
+Header split mode                                           	0
+Chain overlapping alignments                                	0
+Merge query                                                 	1
+Search type                                                 	0
+Search iterations                                           	1
+Start sensitivity                                           	4
+Search steps                                                	1
+Exhaustive search mode                                      	true
+Filter results during exhaustive search                     	0
+Strand selection                                            	1
+LCA search mode                                             	false
+Disk space limit                                            	100G
+MPI runner                                                  	
+Force restart with latest tmp                               	false
+Remove temporary files                                      	true
+maximal combined evalue of an optimal set                   	0.001
+minimal length ratio between combined optimal set and target	0.25
+Maximal intron length                                       	2000
+Minimal intron length                                       	15
+Minimal exon length aa                                      	11
+Maximal overlap of exons                                    	10
+Maximal number of exon sets                                 	1
+Gap open penalty                                            	-1
+Gap extend penalty                                          	-1
+allow same-strand overlaps                                  	0
+translate codons to AAs                                     	1
+write target key instead of accession                       	0
+write fragment contig coords                                	0
+Reverse AA Fragments                                        	0
+
+createdb analysis_and_temp_files/13_starship_clean/genomes/Xanthoria_calcicola_GTX0491.scaffolds.fa analysis_and_temp_files/13_starship_clean/geneFinder/16811001383506437247/contigs --dbtype 2 --compressed 1 -v 3 
+
+Converting sequences
+[
+Time for merging to contigs_h: 0h 0m 2s 426ms
+Time for merging to contigs: 0h 0m 2s 558ms
+Database type: Nucleotide
+Time for processing: 0h 0m 17s 921ms

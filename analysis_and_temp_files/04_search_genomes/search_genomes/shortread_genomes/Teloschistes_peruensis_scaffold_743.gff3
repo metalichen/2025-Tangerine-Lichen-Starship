@@ -1,0 +1,11 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region JALAHW010000743.1 1 2175
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2903223
+JALAHW010000743.1	Genbank	region	1	2175	.	+	.	ID=JALAHW010000743.1:1..2175;Dbxref=taxon:2903223;collection-date=2015-01-20;country=Peru: Ica%2C Lomas de Amara;environmental-sample=true;gbkey=Src;isolate=LIQ70TSP;isolation-source=lichen thallus;metagenome-source=lichen metagenome;metagenomic=true;mol_type=genomic DNA;nat-host=lichen
+JALAHW010000743.1	Genbank	gene	535	1679	.	-	.	ID=gene-L6R37_008439;Name=L6R37_008439;end_range=1679,.;gbkey=Gene;gene_biotype=protein_coding;locus_tag=L6R37_008439;partial=true
+JALAHW010000743.1	Genbank	mRNA	535	1679	.	-	.	ID=rna-L6R37_007556-T1;Parent=gene-L6R37_008439;end_range=1679,.;gbkey=mRNA;locus_tag=L6R37_008439;orig_protein_id=gnl|WGS:JALAHW|L6R37_007556-T1.cds;orig_transcript_id=gnl|WGS:JALAHW|L6R37_007556-T1;partial=true;product=hypothetical protein
+JALAHW010000743.1	Genbank	exon	535	1679	.	-	.	ID=exon-L6R37_007556-T1-1;Parent=rna-L6R37_007556-T1;end_range=1679,.;gbkey=mRNA;locus_tag=L6R37_008439;orig_protein_id=gnl|WGS:JALAHW|L6R37_007556-T1.cds;orig_transcript_id=gnl|WGS:JALAHW|L6R37_007556-T1;partial=true;product=hypothetical protein
+JALAHW010000743.1	Genbank	CDS	535	1679	.	-	2	ID=cds-KAI4086156.1;Parent=rna-L6R37_007556-T1;Dbxref=NCBI_GP:KAI4086156.1;Name=KAI4086156.1;end_range=1679,.;gbkey=CDS;locus_tag=L6R37_008439;orig_transcript_id=gnl|WGS:JALAHW|L6R37_007556-T1;partial=true;product=hypothetical protein;protein_id=KAI4086156.1
+

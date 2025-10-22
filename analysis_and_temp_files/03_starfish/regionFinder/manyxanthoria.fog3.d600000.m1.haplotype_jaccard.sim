@@ -1,0 +1,7 @@
+#queryRegion	targetRegion	queryHaplotype	targetHaplotype	jaccardSim
+region0002	region0002	OZ2100_s00003	OZ2100_s00003	1
+region0002	region0002	OZ2100_s00003	scaffold_4	1
+region0002	region0002	scaffold_4	scaffold_4	1
+region0001	region0001	scaffold_s00008	scaffold_s00008	1
+region0001	region0001	scaffold_s00008	OZ2100_s00001	1
+region0001	region0001	OZ2100_s00001	OZ2100_s00001	1

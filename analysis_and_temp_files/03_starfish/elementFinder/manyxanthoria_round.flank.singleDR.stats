@@ -1,0 +1,3 @@
+#contigID	captainID	capStrand	patternID	elementLength	upDR	upDRbegin	upDRend	downDR	downDRbegin	downDRend	upTIR	upTIRbegin	upTIRend	downTIR	downTIRbegin	downTIRend
+OZ2100_30	OZ2100_002162-T1	+	XcGTX0491_4.rev1	102068	ccgcc	304723	304727	ccgc	406787	406790	tccaaatgga	304741	304750	tccacttatgga	406748	406759
+scaffold_12	scaffold_008752-T1	-	XcGTX0491_4.rev1	84891	cccgc	747238	747242	ccgc	662352	662355	.	.	.	.	.	.

@@ -1,0 +1,108 @@
+﻿ID,Species,Outgroup,Taxonomy,Source,Protein annotation,Reference
+SAMEA115359166,Xanthoria parietina Ellen,N,Ascomycota; Lecanoromycetes; Teloschistales,This paper,This paper,
+GTX0491,Xanthoria calcicola,N,Ascomycota; Lecanoromycetes; Teloschistales,This paper,This paper,
+SAMEA111342678,Xanthoria parietina ASG,N,Ascomycota; Lecanoromycetes; Teloschistales,NCBI,This paper,
+GTX0501,Xanthoria parietina,N,Ascomycota; Lecanoromycetes; Teloschistales,NCBI,Tagirdzhanova et al. Curr Biol. 2025,Tagirdzhanova et al. Curr Biol. 2025
+SacceM3707,Saccharomyces cerevisiae,Y,Ascomycota; Saccaromycetes; Saccharomycetales,JGI,JGI,Brown et al. Genome Announc. 2013
+Ascim1,Ascobolus immersus,N,Ascomycota; Pezizomycetes; Pezizales,JGI,JGI,Murat et al. Nat Ecol Evol. 2018
+Morco1,Morchella importuna,N,Ascomycota; Pezizomycetes; Pezizales,JGI,JGI,Murat et al. Nat Ecol Evol. 2018
+Neucr,Neurospora crassa trp3,N,Ascomycota; Sordariomycetes; Sordariales,JGI,JGI,Baker et al. Genome Announc. 2015 
+Podan3,Podospora anserina,N,Ascomycota; Sordariomycetes; Sordariales,JGI,JGI,Espagne et al. Genome Biol. 2008
+Fusgr1,Fusarium graminearum,N,Ascomycota; Sordariomycetes; Hypocreales,JGI,JGI,Cuomo et al. Science. 2007
+Aurpu,Aureobasidium pullulans var. melanogenum,N,Ascomycota; Dothideomycetes; Botryosphaeriales,JGI,JGI,Gostincar et al. BMC Genomics. 2014
+Altal1,Alternaria alternata,N,Ascomycota; Dothideomycetes; Pleosporales,JGI,JGI,Zeiner et al. PLoS One. 2016
+Claba1,Cladophialophora bantiana CBS 173.52,N,Ascomycota; Eurotiomycetes; Chaetothyriales,JGI,JGI,Teixeira et al. Stud Mycol. 2017
+Capcor1,Capronia coronata,N,Ascomycota; Eurotiomycetes; Chaetothyriales,JGI,JGI,Teixeira et al. Stud Mycol. 2017
+Exoaq1,Exophiala aquamarina,N,Ascomycota; Eurotiomycetes; Chaetothyriales,JGI,JGI,Teixeira et al. Stud Mycol. 2017
+JAPDRQ01,Knufia sp. JES_112,N,Ascomycota; Eurotiomycetes; Chaetothyriales,NCBI,NCBI,"Kurbessoian,T. and Stajich,J.E."
+Fonmu1,Fonsecaea multimorphosa,N,Ascomycota; Eurotiomycetes; Chaetothyriales,JGI,JGI,Teixeira et al. Stud Mycol. 2017
+AOBU01,Cyphellophora europaea,N,Ascomycota; Eurotiomycetes; Chaetothyriales,NCBI,NCBI,Broad Institute
+Phach1,Phaeomoniella chlamydospora,N,Ascomycota; Eurotiomycetes; Phaeomoniellales,JGI,JGI,Morales-Cruz et al. BMC Genomics. 2015
+EndpusZ1,Endocarpon pusillum,N,Ascomycota; Eurotiomycetes; Verrucariales,JGI,JGI,Wang et al. BMC Genomics. 2014
+Aspni,Aspergillus niger CBS 513.88,N,Ascomycota; Eurotiomycetes; Eurotiales,JGI,JGI,Pel et al. Nat Biotechnol. 2007
+Penexp1,Penicillium expansum,N,Ascomycota; Eurotiomycetes; Eurotiales,JGI,JGI,Ballester et al. Mol Plant Microbe Interact. 2015
+Cocpo1,Coccidioides posadasii,N,Ascomycota; Eurotiomycetes; Onygenales,JGI,JGI,Sharpton et al. Genome Research.  2009
+JAPETR01,Chrysothrix sp. TS-e1954,N,Ascomycota; Arthoniomycetes; Arthoniales,NCBI,NCBI,Diaz Escandon et al. Curr. Biol. 2022
+JAPETI01,Alyxoria varia,N,Ascomycota; Arthoniomycetes; Arthoniales,NCBI,NCBI,Diaz Escandon et al. Curr. Biol. 2022
+Sclsc1,Sclerotinia sclerotiorum,N,Ascomycota; Leotiomycetes; Helotiales,JGI,JGI,Amselem et al. PLoS Genet. 2011
+PseVKM4520,Pseudogymnoascus sp. VKM F-4520,N,Ascomycota; Leotiomycetes; Thelebolales,JGI,JGI,Leushkin et al. BMC Genomics. 2015
+Erypu1,Erysiphe pulchra,N,Ascomycota; Leotiomycetes; Erysiphales,JGI,JGI,Wadl et al. Plant Dis. 2019 
+Artol1,Arthrobotrys oligospora,N,Ascomycota; Orbiliomycetes; Orbiliales,JGI,JGI,Yang et al.  PLoS Pathog. 7 e1002179 (2011)
+Monha1,Monacrosporium haptotylum,N,Ascomycota; Orbiliomycetes; Orbiliales,JGI,JGI,Meerupati et al. PLoS Genet. 9 e1003909 (2013)
+JAPETW01,Lichina confinis,N,Ascomycota; Lichinomycetes; Lichinales,NCBI,NCBI,Diaz Escandon et al. Curr. Biol. 2022
+JAPETP01,Candelina mexicana,N,Ascomycota; Lichinomycetes; Candelariales,NCBI,NCBI,Diaz Escandon et al. Curr. Biol. 2022
+JAPETN01,Candelaria pacifica,N,Ascomycota; Lichinomycetes; Candelariales,NCBI,NCBI,Diaz Escandon et al. Curr. Biol. 2022
+JAPEUD01,Sarea resinae,N,Ascomycota; Lichinomycetes; Sareales,NCBI,NCBI,Diaz Escandon et al. Curr. Biol. 2022
+JAPEUF01,Thelocarpon impressellum,N,Ascomycota; Lichinomycetes; Thelocarpales,NCBI,NCBI,Diaz Escandon et al. Curr. Biol. 2022
+CAJPDR01,Alectoria fallacina,N,Ascomycota; Lecanoromycetes; Lecanorales,NCBI,NCBI,Tagirdzhanova et al. Mol Ecol. 2021
+Clagr3,Cladonia grayi,N,Ascomycota; Lecanoromycetes; Lecanorales,JGI,JGI,"Armaleo et al. BMC Genomics, 2019"
+JALAHW01,Teloschistes peruensis,N,Ascomycota; Lecanoromycetes; Teloschistales,NCBI,NCBI,Llewellyn et al. Genome Biol Evol. 2023
+JALAII01,Xanthoria aureola,N,Ascomycota; Lecanoromycetes; Teloschistales,NCBI,NCBI,Llewellyn et al. Genome Biol Evol. 2023
+JALAIK01,Xanthoria steineri,N,Ascomycota; Lecanoromycetes; Teloschistales,NCBI,NCBI,Llewellyn et al. Genome Biol Evol. 2023
+JALAIA01,Xanthoria mediterranea,N,Ascomycota; Lecanoromycetes; Teloschistales,NCBI,NCBI,Llewellyn et al. Genome Biol Evol. 2023
+JALAIP01,Caloplaca aegaea,N,Ascomycota; Lecanoromycetes; Teloschistales,NCBI,NCBI,Llewellyn et al. Genome Biol Evol. 2023
+Grascr1,Graphis scripta,N,Ascomycota; Lecanoromycetes; Ostropales,JGI,JGI,McDonald et al. BMC Genomics. 2013
+Umbpus1,Lassalia pustulata,N,Ascomycota; Lecanoromycetes; Umbilicariales,JGI,JGI,Dal Grande et al. Lichenologist. 2018
+Acastr1,Acarospora strigata,N,Ascomycota; Lecanoromycetes; Acarosporales,JGI,JGI,McDonald et al. BMC Genomics. 2013
+Dibbae1,Dibaeis baeomyces,N,Ascomycota; Lecanoromycetes; Pertusariales,JGI,JGI,McDonald et al. BMC Genomics. 2013
+Cenge3,Cenococcum geophilum,N,Ascomycota; Dothideomycetes; Gloniales,JGI,JGI,Kuo et al. Nat Comun. 2016
+JAXLPM01,Exophiala xenobiotica,N,Ascomycota; Eurotiomycetes; Chaetothyriales,NCBI,NCBI,Coleine et al. Fungal Diversity. 2024
+JAPCWZ01,Apiospora arundinis,N,Ascomycota; Sordariomycetes; Amphisphaeriales,NCBI,NCBI,Sorensen et al. IMA fungus. 2024
+JAQOWY01,Colletotrichum chrysophilum,N,Ascomycota; Sordariomycetes; Glomerellales,NCBI,NCBI,Amaral Carneiro et al. Journal of Plant Pathology. 2023
+NCTX01,Epicoccum nigrum,N,Ascomycota; Dothideomycetes; Pleosporales,NCBI,NCBI,Fokin et al. Genome Announcements. 2017
+JOWA01,Scedosporium apiospermum,N,Ascomycota; Sordariomycetes; Microascales,NCBI,NCBI,Vandeputte et al. Genome announcements. 2014
+JAKUDF01,Eutypa lata,N,Ascomycota; Sordariomycetes; Xylariales,NCBI,NCBI,Onetto et al. PLoS genetics. 2022
+CAWUON01,Sporothrix epigloea,N,Ascomycota; Sordariomycetes; Ophiostomatales,NCBI,NCBI,Allen et al. GBE. 2025
+JAPDRN01,Knufia peltigerae,N,Ascomycota; Eurotiomycetes; Chaetothyriales,NCBI,NCBI,"Kurbessoian,T. and Stajich,J.E."
+JAPETQ01,Chaenotheca gracillima,N,Ascomycota; Lichinomycetes; Coniocybales,NCBI,NCBI,Diaz Escandon et al. Curr. Biol. 2022
+JAJKKQ01,Hypoxylon rubiginosum,N,Ascomycota; Sordariomycetes; Xylariales,NCBI,NCBI,Franco et al. New Phytologist. 2022
+APIU01,Stachybotrys chartarum,N,Ascomycota; Sordariomycetes; Hypocreales,NCBI,NCBI,Semeiks et al. BMC Genomics. 2014
+JAFKAH01,Verticillium longisporum,N,Ascomycota; Sordariomycetes; Glomerellales,NCBI,NCBI,Harting et al. Molecular Plant Pathology. 2021
+JBHFEH01,Lepraria finkii,N,Ascomycota; Lecanoromycetes; Lecanorales,NCBI,NCBI,Doellman et al. BMC genomics. 2024
+JAPETU01,Geoglossum simile,N,Ascomycota; Lichinomycetes; Geoglossales,NCBI,NCBI,Diaz Escandon et al. Curr. Biol. 2022
+JAAEIX01,Viridothelium virens,N,Ascomycota; Dothideomycetes; Trypetheliales,NCBI,NCBI,Haridas et al. Stud. Mycol. 2020
+LGTZ01,Blastomyces percursus,N,Ascomycota; Eurotiomycetes; Onygenales,NCBI,NCBI,Dukik et al. Mycoses. 2017
+JBBIWK01,Lipomyces starkeyi,N,Ascomycota; Lipomycetes; Lipomycetales,NCBI,NCBI,Czajka et al. Front Bioeng Biotechnol. 2024
+JACCEH01,Tuber indicum,N,Ascomycota; Pezizomycetes; Pezizales,NCBI,NCBI,Morin et al. Microbiology Resource Announcements. 2021
+LHQR01,Penicillium griseofulvum,N,Ascomycota; Eurotiomycetes; Eurotiales,NCBI,NCBI,Banani et al. BMC Genomics. 2016
+JALDZD01,Icmadophila ericetorum,N,Ascomycota; Lecanoromycetes; Pertusariales,NCBI,NCBI,Resl et al. Nat. Comun. 2022
+JALDZE01,Lambiella insularis,N,Ascomycota; Lecanoromycetes; Baeomycetales,NCBI,NCBI,Resl et al. Nat. Comun. 2022
+JAAEJJ01,Mytilinidion resinicola,N,Ascomycota; Dothideomycetes; Mytilinidiales,NCBI,NCBI,Haridas et al. Stud. Mycol. 2020
+RWIE02,Talaromyces pinophilus,N,Ascomycota; Eurotiomycetes; Eurotiales,NCBI,NCBI,Adlakha et al.
+GCA_017310585,Histoplasma capsulatum,N,Ascomycota; Eurotiomycetes; Onygenales,NCBI,NCBI,Voorhies et al. MBio 13. 2022
+JALDZQ01,Stictis urceolata,N,Ascomycota; Lecanoromycetes; Ostropales,NCBI,NCBI,Resl et al. Nat. Comun. 2022
+JAKWBI02,Zalerion maritima,N,Ascomycota; Sordariomycetes; Lulworthiales,NCBI,NCBI,Paço et al. Microbiology Resource Announcements. 2023
+CAJPDS01,Heterodermia speciosa,N,Ascomycota; Lecanoromycetes; Caliciales,NCBI,NCBI,Tagirdzhanova et al. Mol Ecol. 2021
+CAJPDT01,Imshaugia aleurites,N,Ascomycota; Lecanoromycetes; Lecanorales,NCBI,NCBI,Tagirdzhanova et al. Mol Ecol. 2021
+JALDZH01,Lobaria immixta,N,Ascomycota; Lecanoromycetes; Peltigerales,NCBI,NCBI,Resl et al. Nat. Comun. 2022
+JALDZG01,Lignoscripta atroalba,N,Ascomycota; Lecanoromycetes; Trapeliales,NCBI,NCBI,Resl et al. Nat. Comun. 2022
+JALDZS01,Toensbergia leucococca,N,Ascomycota; Lecanoromycetes; Rhizocarpales,NCBI,NCBI,Resl et al. Nat. Comun. 2022
+JALDZL01,Pseudocyphellaria aurata,N,Ascomycota; Lecanoromycetes; Peltigerales,NCBI,NCBI,Resl et al. Nat. Comun. 2022
+JALDZU01,Varicellaria rhodocarp,N,Ascomycota; Lecanoromycetes; Pertusariales,NCBI,NCBI,Resl et al. Nat. Comun. 2022
+JALDZI01,Loxospora ochrophaea,N,Ascomycota; Lecanoromycetes; Sarrameanales,NCBI,NCBI,Resl et al. Nat. Comun. 2022
+JALDZC01,Hypocenomyce scalaris,N,Ascomycota; Lecanoromycetes; Umbilicariales,NCBI,NCBI,Resl et al. Nat. Comun. 2022
+JALEAC01,Xylographa vitiligo,N,Ascomycota; Lecanoromycetes; Baeomycetales,NCBI,NCBI,Resl et al. Nat. Comun. 2022
+PDLN01,Coleophoma crateriformis,N,Ascomycota; Leotiomycetes; Helotiales,NCBI,NCBI,Wingfield et al. IMA Fungus. 2018
+SDJM01,Elsinoe fawcettii,N,Ascomycota; Dothideomycetes; Myriangiales,NCBI,NCBI,Jeffress et al. PLoS ONE. 2020
+JALDZR01,Thelotrema lepadinum,N,Ascomycota; Lecanoromycetes; Ostropales,NCBI,NCBI,Resl et al. Nat. Comun. 2022
+JAPEUE01,Sclerophora amabilis,N,Ascomycota; Lichinomycetes; Coniocybales,NCBI,NCBI,Diaz Escandon et al. Curr. Biol. 2022
+AYEN01,Aureobasidium melanogenum,N,Ascomycota; Dothideomycetes; Dothideales,NCBI,NCBI,Gostin et al. BMC Genomics. 2014
+QGMK01,Lachnellula suecica,N,Ascomycota; Leotiomycetes; Helotiales,NCBI,NCBI,Giroux et al. Phytopathology. 2020
+GCA_000227075,Botrytis cinerea,N,Ascomycota; Leotiomycetes; Helotiales,NCBI,NCBI,Amselem et al. PLoS genetics. 2011
+JAPEVC01,Gnomoniopsis sp. IMI 355080,N,Ascomycota; Sordariomycetes; Diaporthales,NCBI,NCBI,Hill et al. GBE. 2023
+JACCJB01,Letharia lupina,N,Ascomycota; Lecanoromycetes; Lecanorales,NCBI,NCBI,McKenzie et al. Genomics. 2020
+ABKH02,Paracoccidioides lutzii,N,Ascomycota; Eurotiomycetes; Onygenales,NCBI,NCBI,Desjardins et al. PLoS Genet. 2011
+PDNA01,Polytolypa hystricis,N,Ascomycota; Eurotiomycetes; Onygenales,NCBI,NCBI,Muñoz et al. Scientific reports. 2018.
+JAIBSO01,Aspergillus fumigatus,N,Ascomycota; Eurotiomycetes; Eurotiales,NCBI,NCBI,Barber et al. Nature microbiology. 2021
+NPHW01,Elaphomyces granulatus,N,Ascomycota; Eurotiomycetes; Eurotiales,NCBI,NCBI,Quandt et al. Environ. Microbiol. 2015
+JAVRRQ01,Oleoguttula sp. CCFEE 6159,N,Ascomycota; Dothideomycetes; Mycosphaerellales,NCBI,NCBI,Coleine et al. Fungal Diversity. 2024
+JAROPH01,Paecilomyces variotii,N,Ascomycota; Eurotiomycetes; Eurotiales,NCBI,NCBI,Van Den Brule et al.
+VIFY01,Monascus purpureus,N,Ascomycota; Eurotiomycetes; Eurotiales,NCBI,NCBI,"Geng,C. and Zhang,Y"
+JAJNNR01,Daldinia caldariorum,N,Ascomycota; Sordariomycetes; Xylariales,NCBI,NCBI,Franco et al. New Phytologist. 2022
+SKBQ01,Thyridium curvatum,N,Ascomycota; Sordariomycetes; Thyridiales,NCBI,NCBI,Varaljay et al. Microbiology Resource Announcements. 2019
+LFRF01,Tolypocladium ophioglossoides,N,Ascomycota; Sordariomycetes; Hypocreales,NCBI,NCBI,Quandt et al.  BMC Genomics. 2015
+JASJSX01,Parachaetomium inaequale,N,Ascomycota; Sordariomycetes; Sordariales,NCBI,NCBI,Hensen et al. Mol Phylogenet Evol. 2023
+AACU03,Pyricularia oryzae,N,Ascomycota; Sordariomycetes; Magnaporthales,NCBI,NCBI,Dean et al. Nature. 2005
+coassembly_bin_64,Chaetothyriales,N,Ascomycota; Eurotiomycetes; Chaetothyriales,NCBI,Tagirdzhanova et al. Curr Biol. 2025,Tagirdzhanova et al. Curr Biol. 2025
+coassembly_bin_76,Chaetothyriales,N,Ascomycota; Eurotiomycetes; Chaetothyriales,NCBI,Tagirdzhanova et al. Curr Biol. 2025,Tagirdzhanova et al. Curr Biol. 2025
+GTX0466_bin_15,Chaetothyriales,N,Ascomycota; Eurotiomycetes; Chaetothyriales,NCBI,Tagirdzhanova et al. Curr Biol. 2025,Tagirdzhanova et al. Curr Biol. 2025

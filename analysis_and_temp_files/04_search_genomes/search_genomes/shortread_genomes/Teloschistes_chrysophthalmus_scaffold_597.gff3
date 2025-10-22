@@ -1,0 +1,15 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region JALAIL010000597.1 1 2534
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1445009
+JALAIL010000597.1	Genbank	region	1	2534	.	+	.	ID=JALAIL010000597.1:1..2534;Dbxref=taxon:1445009;collection-date=2019-04-02;country=Spain: La Mata (Catalunya);environmental-sample=true;gbkey=Src;isolate=LIQ78TCHR-2;isolation-source=lichen thallus;metagenome-source=lichen metagenome;metagenomic=true;mol_type=genomic DNA;nat-host=lichen
+JALAIL010000597.1	Genbank	gene	29	925	.	+	.	ID=gene-LQ350_008699;Name=LQ350_008699;gbkey=Gene;gene_biotype=protein_coding;locus_tag=LQ350_008699;partial=true;start_range=.,29
+JALAIL010000597.1	Genbank	mRNA	29	925	.	+	.	ID=rna-LQ350_006977-T1;Parent=gene-LQ350_008699;gbkey=mRNA;locus_tag=LQ350_008699;orig_protein_id=gnl|WGS:JALAIL|LQ350_006977-T1.cds;orig_transcript_id=gnl|WGS:JALAIL|LQ350_006977-T1;partial=true;product=hypothetical protein;start_range=.,29
+JALAIL010000597.1	Genbank	exon	29	925	.	+	.	ID=exon-LQ350_006977-T1-1;Parent=rna-LQ350_006977-T1;gbkey=mRNA;locus_tag=LQ350_008699;orig_protein_id=gnl|WGS:JALAIL|LQ350_006977-T1.cds;orig_transcript_id=gnl|WGS:JALAIL|LQ350_006977-T1;partial=true;product=hypothetical protein;start_range=.,29
+JALAIL010000597.1	Genbank	CDS	29	925	.	+	0	ID=cds-KAI4192102.1;Parent=rna-LQ350_006977-T1;Dbxref=NCBI_GP:KAI4192102.1;Name=KAI4192102.1;gbkey=CDS;locus_tag=LQ350_008699;orig_transcript_id=gnl|WGS:JALAIL|LQ350_006977-T1;partial=true;product=hypothetical protein;protein_id=KAI4192102.1;start_range=.,29
+JALAIL010000597.1	Genbank	gene	1926	2375	.	-	.	ID=gene-LQ350_008700;Name=LQ350_008700;end_range=2375,.;gbkey=Gene;gene_biotype=protein_coding;locus_tag=LQ350_008700;partial=true
+JALAIL010000597.1	Genbank	mRNA	1926	2375	.	-	.	ID=rna-LQ350_006978-T1;Parent=gene-LQ350_008700;end_range=2375,.;gbkey=mRNA;locus_tag=LQ350_008700;orig_protein_id=gnl|WGS:JALAIL|LQ350_006978-T1.cds;orig_transcript_id=gnl|WGS:JALAIL|LQ350_006978-T1;partial=true;product=hypothetical protein
+JALAIL010000597.1	Genbank	exon	1926	2375	.	-	.	ID=exon-LQ350_006978-T1-1;Parent=rna-LQ350_006978-T1;end_range=2375,.;gbkey=mRNA;locus_tag=LQ350_008700;orig_protein_id=gnl|WGS:JALAIL|LQ350_006978-T1.cds;orig_transcript_id=gnl|WGS:JALAIL|LQ350_006978-T1;partial=true;product=hypothetical protein
+JALAIL010000597.1	Genbank	CDS	1926	2375	.	-	0	ID=cds-KAI4192103.1;Parent=rna-LQ350_006978-T1;Dbxref=NCBI_GP:KAI4192103.1;Name=KAI4192103.1;end_range=2375,.;gbkey=CDS;locus_tag=LQ350_008700;orig_transcript_id=gnl|WGS:JALAIL|LQ350_006978-T1;partial=true;product=hypothetical protein;protein_id=KAI4192103.1
+

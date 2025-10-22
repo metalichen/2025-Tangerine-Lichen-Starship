@@ -1,0 +1,4 @@
+0: Xanthoria_calcicola_GTX0491.fa
+1: Xanthoria_parietina_GTX0501.fa
+2: Xanthoria_parietina_SAMEA111342678.fa
+3: Xanthoria_parietina_SAMEA115359166.fa

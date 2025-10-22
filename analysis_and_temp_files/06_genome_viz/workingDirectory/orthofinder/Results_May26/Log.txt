@@ -1,0 +1,14 @@
+2025-05-26 12:53:33 : Started OrthoFinder version 2.5.4
+Command Line: /opt/anaconda_orthofinder/bin/orthofinder -f analysis_and_temp_files/06_align/workingDirectory/tmp -t 4 -a 1 -X -o analysis_and_temp_files/06_align/workingDirectory/orthofinder
+
+WorkingDirectory_Base: analysis_and_temp_files/06_align/workingDirectory/orthofinder/Results_May26/WorkingDirectory/
+
+Species used: 
+0: Xanthoria_calcicola_GTX0491.fa
+1: Xanthoria_parietina_GTX0501.fa
+2: Xanthoria_parietina_SAMEA111342678.fa
+3: Xanthoria_parietina_SAMEA115359166.fa
+
+FN_Orthogroups: analysis_and_temp_files/06_align/workingDirectory/orthofinder/Results_May26/WorkingDirectory/clusters_OrthoFinder_I1.5.txt_id_pairs.txt
+WorkingDirectory_Trees: analysis_and_temp_files/06_align/workingDirectory/orthofinder/Results_May26/WorkingDirectory/
+2025-05-26 13:08:19 : OrthoFinder run completed
