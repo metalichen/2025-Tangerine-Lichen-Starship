@@ -1,0 +1,10 @@
+[Sat Feb  7 23:01:36 2026] executing command: starfish annotate --noCheck --separator _ --assembly ome2assembly.txt --tempdir temp --outdir lichens_temp --prefix lichens.tyr -p YRsuperfams.p1-512.hmm -P YRsuperfamRefs.faa --idtag tyr --targetFeat mRNA --threads 24
+Key parameters:
+metaeuk        -v 3 -s 7.5 -e 0.0001 --max-intron 2000 --max-seqs 300 --metaeuk-eval 0.001 --exhaustive-search 1 --metaeuk-tcov 0.25 --allow-deletion 1 --protein 1 --disk-space-limit 100G --compressed 1
+hmmsearch      --max -E 0.001
+
+[Sat Feb  7 23:01:37 2026] running metaeuk easy-predict for 1 assemblies..
+[Sun Feb  8 04:05:25 2026] running hmmsearch on metaeuk annotations..
+[Sun Feb  8 04:07:56 2026] filtering metaeuk annotations based on hmmsearch results..
+[Sun Feb  8 04:07:58 2026] found 4128 new tyr genes and 0 tyr genes that overlap with 0 existing genes
+[Sun Feb  8 04:07:58 2026] done
