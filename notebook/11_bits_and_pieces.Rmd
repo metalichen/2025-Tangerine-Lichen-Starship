@@ -1,0 +1,192 @@
+---
+title: "11_bits_and_pieces"
+author: "Gulnara Tagridzhanova"
+date: "04/04/2026"
+output: 
+  html_document:
+    code_folding: hide
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+library(tidyverse)
+library(kableExtra)
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+**Summary:** small things that came up in revisions, too small to warrant their own report, too disjointed to make it worthwhile integrting them in existing reports
+
+
+## 1. Non-Tangerine tyrRs in Xanthoria genomes
+* Got this suggestion: "im curious about these other YRs: are orthologous YRs located at the same genomic locus in different genomes? How many are located near the ends of contigs? I think this information will help readers understand why only 2/20 YRs were found associated with a full-length Starship. How likely is it that more interesting starships will be found in Xanthoria if you sequence more genomes?"
+* Let's see what I can find without burying myself completely
+
+### Non-Tangerine YRs from Xanthoria in likely HGT clades
+* Only sequence from (any) Xanthoria is xanthoria.aureola.1_tyr4090 in Clade C
+
+### Position of YRs in the assemblies
+* To visualize where they are, need to do make a bed file intersecting the YR bed with the whole genome bed files with windows of 10,000 bp (the latter was preppred in `02_annotate`)
+```{r,eval=F}
+#load bedtools v2.31.0
+source package b0ed0698-358b-4c9b-9d21-603ea8d6e478
+
+#let's remake bed files with windows of 10,000 bp, because the existing ones are made with the contig names that will not be consistent with the YR file
+bedtools makewindows -g  analysis_and_temp_files/03_starfish/genomes/Xanthoria_parietina_GTX0501.scaffolds.fa.fai   -w 10000 > analysis_and_temp_files/11_bits_and_pieces/GTX0501.bed
+
+bedtools makewindows -g  analysis_and_temp_files/03_starfish/genomes/Xanthoria_calcicola_GTX0491.scaffolds.fa.fai   -w 10000 > analysis_and_temp_files/11_bits_and_pieces/GTX0491.bed
+
+bedtools makewindows -g  analysis_and_temp_files/03_starfish/genomes/Xanthoria_parietina_SAMEA111342678.scaffolds.fa.fai  -w 10000 > analysis_and_temp_files/11_bits_and_pieces/ASG.bed
+
+bedtools makewindows -g  analysis_and_temp_files/03_starfish/genomes/Xanthoria_parietina_XpEllen.scaffolds.fa.fai  -w 10000 > analysis_and_temp_files/11_bits_and_pieces/XpEllen.bed
+
+##GTX0501
+bedtools coverage -a analysis_and_temp_files/11_bits_and_pieces/GTX0501.bed -b analysis_and_temp_files/03_starfish/geneFinder/manyxanthoria.tyr.bed > analysis_and_temp_files/11_bits_and_pieces/GTX0501_tyr_bedtools.txt
+
+##GTX0491
+bedtools coverage -a  analysis_and_temp_files/11_bits_and_pieces/GTX0491.bed -b analysis_and_temp_files/03_starfish/geneFinder/manyxanthoria.tyr.bed > analysis_and_temp_files/11_bits_and_pieces/GTX0491_tyr_bedtools.txt
+
+#XpEllen
+bedtools coverage -a analysis_and_temp_files/11_bits_and_pieces/XpEllen.bed -b analysis_and_temp_files/03_starfish/geneFinder/manyxanthoria.tyr.bed > analysis_and_temp_files/11_bits_and_pieces/XpEllen_tyr_bedtools.txt
+
+#ASG
+bedtools coverage -a analysis_and_temp_files/11_bits_and_pieces/ASG.bed -b analysis_and_temp_files/03_starfish/geneFinder/manyxanthoria.tyr.bed > analysis_and_temp_files/11_bits_and_pieces/ASG_tyr_bedtools.txt
+```
+
+* Now let's visualize them one-by-one. GTX501 does show that most are close to a contig end
+```{r,message=FALSE,warning=FALSE}
+plot_tyr<-function(file){
+  bed_tyr<-read.delim2(file,header=F)[,c(1,2,7)]
+colnames(bed_tyr)<-c("contig","window_start","tyr")
+bed_tyr$tyr<-as.numeric(bed_tyr$tyr)
+bed_tyr<-bed_tyr %>% mutate(tyr_binary=if_else(tyr>0,1,0))
+
+ggplot(bed_tyr,aes(y=fct_reorder(contig,window_start),x=window_start))+
+    geom_tile(aes(height=0.1),fill="black")+
+  geom_tile(aes(fill=tyr_binary,alpha=tyr_binary))+
+  xlab("")+ylab("")+
+  scale_alpha_continuous(range=c(0,1))+
+  scale_fill_gradient(low="#f0f0f0",high="#6402bf")+
+   scale_x_continuous(breaks = c(0,1000000,2000000,3000000,4000000),
+                     labels = c("0","1 Mbp","2 Mbp","3 Mbp","4 Mbp"))+
+  theme_minimal()+
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())}
+
+plot_tyr("../analysis_and_temp_files/11_bits_and_pieces/GTX0501_tyr_bedtools.txt")
+```
+
+* GTX491 has fewer just in general, although all the contigs that contain captains have telomeric repeats on both ends
+```{r,message=FALSE,warning=FALSE}
+plot_tyr("../analysis_and_temp_files/11_bits_and_pieces/GTX0491_tyr_bedtools.txt")
+```
+
+* ASG has two captains side-by-side on contig 35
+```{r,message=FALSE,warning=FALSE}
+
+plot_tyr("../analysis_and_temp_files/11_bits_and_pieces/ASG_tyr_bedtools.txt")
+```
+
+* XpEllen has two on captian on the end of contig 8
+```{r,message=FALSE,warning=FALSE}
+
+plot_tyr("../analysis_and_temp_files/11_bits_and_pieces/XpEllen_tyr_bedtools.txt")
+```
+
+* The captains from the same navis: are they in the same position in the genomes?
+  * In addition to Tangerine (navis0002), only two more naves are represented in >1 genome, navis0001 and navis0003
+  * navis0001, phoenixFam: on all three X.parietina the placement is consistent (scaffold_5 in XpEllen, OZ2100_32 in ASG, and XpGTX0501_12 are all in the same block. GTX501 has two sequences in this navis, and the second is in XpGTX0501_4. is this again duplication caused by fragmentation?). However, in X.calcicola the sequence is not at XcGTX0491_5, as would be expected, but at XcGTX0491_15. 
+  * navis0003, galacticaFam: a bit all over the place. It's in all three X.parietina but is missing in X.calcicola. It's on the very end of contigs in two genomes (XpGTX0501_37 and scaffold_8), and not far from end on OZ2100_43. XpGTX0501_37 and scaffold_8 form an ortho block 50-60 kb, based on 17 genes. But OZ2100_43 is matching with scaffold_1!
+  * navis0004 has two sequences, but both are only in GTX0501. This is probably another case on Starship related assembly break and consequent gene duplication, same as we saw with Tangerine
+  * navis0005-10 have one sequence each
+  * sequences from navis0008 and navis0009 sit next to each other on one contig. They both are within the third element that Starfish found, OZ2100_s00003. This element was deemed false positive, since it had an empty site >40bp, was only 17 kb, and lacked auxillary genes
+
+* Summing up, we have two naves (navis0001 and navis0003) present in multiple genomes which have inconsistent placement, and 7 naves (navis0004-10) that are present in one genome each only. Of the latter set, only two (navis0008 and navis0009) are associated with an element
+
+### Do they have any auxillary genes in the vicinity?
+* Let's examine gene models 100 kb up and down stream of all YRs. Will again use bedtools to get the list of genes
+```{r,eval=F}
+#convert gff3 file that contains all genome annotations to bed
+source package /tsl/software/testing/bin/bedops-2.4.28
+gff2bed < analysis_and_temp_files/03_starfish/manyxanthorias.gff3  > analysis_and_temp_files/11_bits_and_pieces/manyxanthorias.bed
+
+#intersect with window
+bedtools window -a analysis_and_temp_files/03_starfish/geneFinder/manyxanthoria.tyr.bed -b analysis_and_temp_files/11_bits_and_pieces/manyxanthorias.bed  -w 100000 > analysis_and_temp_files/11_bits_and_pieces/manyxanthoria.tyr.vicinity.bed
+```
+
+* Let's load the genes and check their annotations. Will need to check that the genes in the direction faced by the captain (so |-tyr-> |-gene1-> <-gene2-| )
+```{r,message=F}
+#get the list
+list<-read.delim("../analysis_and_temp_files/11_bits_and_pieces/manyxanthoria.tyr.vicinity.bed",header=F) %>%
+  filter(V16=="gene") 
+list<-list %>% mutate(TranscriptID = str_replace(V18,"Name=","")) %>% 
+  mutate(TranscriptID = sub(";.*", "", TranscriptID)) %>%
+  select(V4,TranscriptID,V9,V10,V11)
+colnames(list) <- c("tyrID","TranscriptID","Sequence","Gene_Start","Gene_End")
+list$tyrID <- str_replace(list$tyrID,"OZ2100","XANPAOZ2100")
+list$tyrID <- str_replace(list$tyrID,"scaffold","XANPARI20")
+list$TranscriptID <- str_replace(list$TranscriptID,"XANPAEllen","XANPARI20")
+list$tyrID <- str_replace(list$tyrID,"XcGTX0491","XANCAGTX0491")
+list$tyrID <- str_replace(list$tyrID,"XpGTX0501","XANPAGTX0501")
+
+
+#get annotations for InterPro
+ann_GTX0501 <- read.delim("../analysis_and_temp_files/03_starfish/ann/Xanthoria_parietina_GTX0501.annotations.txt")
+ann_GTX0491 <- read.delim("../analysis_and_temp_files/03_starfish/ann/Xanthoria_calcicola_GTX0491.annotations.txt") %>% mutate(TranscriptID = str_replace(TranscriptID,"FUN","XANCAGTX0491"))
+ann_ASG <-read.delim("../analysis_and_temp_files/03_starfish/ann/Xanthoria_parietina_SAMEA111342678.annotations.txt") %>% mutate(TranscriptID = str_replace(TranscriptID,"FUN","XANPAOZ2100"))
+ann_XEL <-read.delim("../analysis_and_temp_files/03_starfish/ann/Xanthoria_parietina_SAMEA115359166.annotations.txt") %>% mutate(TranscriptID = str_replace(TranscriptID,"FUN","XANPARI20"))
+
+ann<-rbind(ann_GTX0501, ann_GTX0491 ,ann_ASG,ann_XEL) %>% 
+  select(TranscriptID,InterPro)
+
+#get info on the YRs and naves
+tyr <- read.delim("../results/captains.txt") %>% dplyr::rename(tyr_Start=Start,tyr_End=End)  %>% 
+  select(geneID, navis,family_hit,tyr_Start,tyr_End,Strand)
+
+
+#combine all together
+vicinity<- list %>% left_join(tyr,by=c("tyrID"="geneID")) %>%
+  mutate(TranscriptID = paste0(TranscriptID,"-T1")) %>%
+  left_join(ann) 
+
+#remove all genes in the wrong position compared to the captain
+vicinity <- vicinity %>% filter((Strand=="+" & Gene_Start>tyr_Start) | (Strand=="-" & Gene_Start<tyr_Start))
+
+#calculate the distance between the gene and the YR (shortest distance between ends of each gene)
+vicinity <- vicinity %>% mutate(Distance1 = abs(Gene_Start-tyr_Start),
+                                Distance2 = abs(Gene_Start-tyr_End),
+                                Distance3 = abs(Gene_Start-tyr_Start),
+                                Distance4 = abs(Gene_End-tyr_End)) %>%
+  mutate(Distance = pmap(across(starts_with("Distance")),min)) %>%
+  select(TranscriptID,Sequence,Gene_Start,Gene_End,tyrID,navis,family_hit,tyr_Start,tyr_End,Distance,InterPro)
+vicinity$Distance <- vicinity$Distance %>% as.integer
+#save
+write.table(vicinity,"../analysis_and_temp_files/11_bits_and_pieces/genes_in_vicinity_tyr.txt",sep="\t",quote = F, row.names = F)
+```
+
+* Do any of them have auxillary gene annotations?
+  * screened InterPro annotations
+  * to identify NLRs, selected proteins that have either NACHT or NB-Arc domain and one of the three repeat domains (Ankyrin, WD40, or TPR)
+```{r,message=F}
+
+vicinity_filter<-vicinity %>% mutate(Auxillary_type = case_when(grepl("IPR022198",InterPro) ~ "DUF3723",
+      grepl("IPR002641",InterPro) ~ "Patatin-like phospholipase",
+  grepl("IPR007111",InterPro) & (grepl("IPR002110",InterPro) | grepl("IPR001680",InterPro) | grepl("IPR019734",InterPro)) ~ "NLR", 
+  grepl("IPR002182",InterPro) & (grepl("IPR002110",InterPro) | grepl("IPR001680",InterPro) | grepl("IPR019734",InterPro)) ~ "NLR",
+     grepl("IPR013121",InterPro) ~ "Ferric reductase",
+  T ~ "")) %>% filter(Auxillary_type != "") %>%
+  select(TranscriptID,Sequence,Gene_Start,Gene_End,Auxillary_type,tyrID,navis,family_hit,tyr_Start,tyr_End,Distance,InterPro) %>%
+  arrange(navis) 
+
+
+write.table(vicinity_filter,"../analysis_and_temp_files/11_bits_and_pieces/auxillary_genes_in_vicinity_tyr.txt",sep="\t",quote = F, row.names = F)
+
+vicinity_filter %>% kable(format = "html", col.names = colnames(vicinity_filter)) %>% 
+  kable_styling() %>%
+  kableExtra::scroll_box(width = "100%", height = "300px")
+
+
+```
+
+* Incorporated these results in the supplementary table listing all tyrRs from Xanthoria
+
+
+

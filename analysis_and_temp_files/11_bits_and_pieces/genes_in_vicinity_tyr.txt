@@ -1,0 +1,448 @@
+TranscriptID	Sequence	Gene_Start	Gene_End	tyrID	navis	family_hit	tyr_Start	tyr_End	Distance	InterPro
+XANPAOZ2100_002162-T1	OZ2100_30	306500	307018	XANPAOZ2100_002162-T1	navis0002	clade1	305825	307015	3	IPR021842 Protein of unknown function DUF3435
+XANPAOZ2100_002163-T1	OZ2100_30	361238	362028	XANPAOZ2100_002162-T1	navis0002	clade1	305825	307015	54223	
+XANPAOZ2100_002164-T1	OZ2100_30	362107	363397	XANPAOZ2100_002162-T1	navis0002	clade1	305825	307015	55092	IPR022198 Protein of unknown function DUF3723
+XANPAOZ2100_002165-T1	OZ2100_30	363597	365731	XANPAOZ2100_002162-T1	navis0002	clade1	305825	307015	56582	IPR002641 Patatin-like phospholipase domain;IPR016035 Acyl transferase/acyl hydrolase/lysophospholipase
+XANPAOZ2100_002166-T1	OZ2100_30	369244	370049	XANPAOZ2100_002162-T1	navis0002	clade1	305825	307015	62229	IPR013216 Methyltransferase type 11;IPR029063 S-adenosyl-L-methionine-dependent methyltransferase superfamily
+XANPAOZ2100_002167-T1	OZ2100_30	370398	376212	XANPAOZ2100_002162-T1	navis0002	clade1	305825	307015	63383	IPR002110 Ankyrin repeat;IPR007111 NACHT nucleoside triphosphatase;IPR027417 P-loop containing nucleoside triphosphate hydrolase;IPR036770 Ankyrin repeat-containing domain superfamily
+XANPAOZ2100_002168-T1	OZ2100_30	406900	409865	XANPAOZ2100_002162-T1	navis0002	clade1	305825	307015	99885	IPR003593 AAA+ ATPase domain;IPR003959 ATPase, AAA-type, core;IPR027417 P-loop containing nucleoside triphosphate hydrolase
+XANPAOZ2100_003942-T1	OZ2100_32	1838538	1839537	XANPAOZ2100_003971-T1	navis0001	phoenixFam	1910251	1912801	71713	IPR001865 Ribosomal protein S2;IPR005707 Ribosomal protein S2, eukaryotic/archaeal;IPR018130 Ribosomal protein S2, conserved site;IPR023591 Ribosomal protein S2, flavodoxin-like domain superfamily;IPR027498 Ribosomal protein S2, eukaryotic;IPR032281 40S ribosomal protein SA, C-terminal domain
+XANPAOZ2100_003943-T1	OZ2100_32	1839803	1840857	XANPAOZ2100_003971-T1	navis0001	phoenixFam	1910251	1912801	70448	IPR000589 Ribosomal protein S15;IPR005290 Ribosomal protein S15, bacterial-type;IPR009068 S15/NS1, RNA-binding
+XANPAOZ2100_003944-T1	OZ2100_32	1841390	1845053	XANPAOZ2100_003971-T1	navis0001	phoenixFam	1910251	1912801	67748	
+XANPAOZ2100_003945-T1	OZ2100_32	1846277	1847048	XANPAOZ2100_003971-T1	navis0001	phoenixFam	1910251	1912801	63974	
+XANPAOZ2100_003946-T1	OZ2100_32	1847196	1849229	XANPAOZ2100_003971-T1	navis0001	phoenixFam	1910251	1912801	63055	IPR000629 ATP-dependent RNA helicase DEAD-box, conserved site;IPR001650 Helicase, C-terminal;IPR011545 DEAD/DEAH box helicase domain;IPR014001 Helicase superfamily 1/2, ATP-binding domain;IPR014014 RNA helicase, DEAD-box type, Q motif;IPR025313 Domain of unknown function DUF4217;IPR027417 P-loop containing nucleoside triphosphate hydrolase
+XANPAOZ2100_003947-T1	OZ2100_32	1849959	1851048	XANPAOZ2100_003971-T1	navis0001	phoenixFam	1910251	1912801	60292	IPR037997 CTP-dependent diacylglycerol kinase 1-like
+XANPAOZ2100_003949-T1	OZ2100_32	1853024	1854874	XANPAOZ2100_003971-T1	navis0001	phoenixFam	1910251	1912801	57227	IPR006084 XPG/Rad2 endonuclease;IPR006085 XPG, N-terminal;IPR006086 XPG-I domain;IPR029060 PIN-like domain superfamily;IPR036279 5'-3' exonuclease, C-terminal domain superfamily;IPR037316 Yen1, H3TH domain;IPR041177 Holliday junction resolvase Gen1, C-terminal domain
+XANPAOZ2100_003950-T1	OZ2100_32	1855698	1856292	XANPAOZ2100_003971-T1	navis0001	phoenixFam	1910251	1912801	54553	
+XANPAOZ2100_003951-T1	OZ2100_32	1856862	1857763	XANPAOZ2100_003971-T1	navis0001	phoenixFam	1910251	1912801	53389	
+XANPAOZ2100_003952-T1	OZ2100_32	1858215	1860143	XANPAOZ2100_003971-T1	navis0001	phoenixFam	1910251	1912801	52036	
+XANPAOZ2100_003953-T1	OZ2100_32	1860670	1861449	XANPAOZ2100_003971-T1	navis0001	phoenixFam	1910251	1912801	49581	
+XANPAOZ2100_003954-T1	OZ2100_32	1862008	1863509	XANPAOZ2100_003971-T1	navis0001	phoenixFam	1910251	1912801	48243	IPR002125 Cytidine and deoxycytidylate deaminase domain;IPR016193 Cytidine deaminase-like
+XANPAOZ2100_003955-T1	OZ2100_32	1866747	1867230	XANPAOZ2100_003971-T1	navis0001	phoenixFam	1910251	1912801	43504	IPR005829 Sugar transporter, conserved site;IPR011701 Major facilitator superfamily;IPR020846 Major facilitator superfamily domain;IPR036259 MFS transporter superfamily
+XANPAOZ2100_003957-T1	OZ2100_32	1873387	1874507	XANPAOZ2100_003971-T1	navis0001	phoenixFam	1910251	1912801	36864	IPR011009 Protein kinase-like domain superfamily;IPR016477 Fructosamine/Ketosamine-3-kinase
+XANPAOZ2100_003958-T1	OZ2100_32	1874939	1875444	XANPAOZ2100_003971-T1	navis0001	phoenixFam	1910251	1912801	35312	IPR001806 Small GTPase;IPR003578 Small GTPase Rho;IPR027417 P-loop containing nucleoside triphosphate hydrolase
+XANPAOZ2100_003959-T1	OZ2100_32	1875686	1877462	XANPAOZ2100_003971-T1	navis0001	phoenixFam	1910251	1912801	34565	IPR001406 Pseudouridine synthase I, TruA;IPR020094 Pseudouridine synthase TruA/RsuA/RluB/E/F, N-terminal;IPR020095 Pseudouridine synthase I, TruA, C-terminal;IPR020097 Pseudouridine synthase I, TruA, alpha/beta domain;IPR020103 Pseudouridine synthase, catalytic domain superfamily
+XANPAOZ2100_003960-T1	OZ2100_32	1877634	1878255	XANPAOZ2100_003971-T1	navis0001	phoenixFam	1910251	1912801	32617	IPR005574 RNA polymerase subunit Rpb4/RPC9;IPR010997 HRDC-like superfamily;IPR038324 Rpb4/RPC9 superfamily;IPR038846 DNA-directed RNA polymerase III subunit RPC9
+XANPAOZ2100_003961-T1	OZ2100_32	1878602	1880987	XANPAOZ2100_003971-T1	navis0001	phoenixFam	1910251	1912801	31649	IPR002687 Nop domain;IPR012976 NOSIC;IPR036070 Nop domain superfamily;IPR042239 Nop, C-terminal domain;IPR045056 Nucleolar protein Nop56/Nop58
+XANPAOZ2100_003962-T1	OZ2100_32	1881275	1882528	XANPAOZ2100_003971-T1	navis0001	phoenixFam	1910251	1912801	28976	IPR002843 ATPase, V0 complex, c/d subunit;IPR016727 ATPase, V0 complex, subunit d;IPR035067 V-type ATPase subunit C/d;IPR036079 V-type ATP synthase subunit c/d subunit superfamily;IPR044911 V-type ATP synthase c/d subunit, domain 3 superfamily
+XANPAOZ2100_003964-T1	OZ2100_32	1884920	1886530	XANPAOZ2100_003971-T1	navis0001	phoenixFam	1910251	1912801	25331	IPR003959 ATPase, AAA-type, core;IPR027417 P-loop containing nucleoside triphosphate hydrolase
+XANPAOZ2100_003965-T1	OZ2100_32	1887973	1890230	XANPAOZ2100_003971-T1	navis0001	phoenixFam	1910251	1912801	22278	IPR002293 Amino acid/polyamine transporter I
+XANPAOZ2100_003966-T1	OZ2100_32	1891858	1892716	XANPAOZ2100_003971-T1	navis0001	phoenixFam	1910251	1912801	18393	
+XANPAOZ2100_003967-T1	OZ2100_32	1892719	1893280	XANPAOZ2100_003971-T1	navis0001	phoenixFam	1910251	1912801	17532	
+XANPAOZ2100_003969-T1	OZ2100_32	1906325	1906904	XANPAOZ2100_003971-T1	navis0001	phoenixFam	1910251	1912801	3926	IPR027417 P-loop containing nucleoside triphosphate hydrolase;IPR040976 Fungal-type protein kinase
+XANPAOZ2100_003970-T1	OZ2100_32	1907051	1907652	XANPAOZ2100_003971-T1	navis0001	phoenixFam	1910251	1912801	3200	
+XANPAOZ2100_003971-T1	OZ2100_32	1910088	1912801	XANPAOZ2100_003971-T1	navis0001	phoenixFam	1910251	1912801	0	IPR021842 Protein of unknown function DUF3435
+XANPAOZ2100_003948-T1	OZ2100_32	1851181	1852834	XANPAOZ2100_003971-T1	navis0001	phoenixFam	1910251	1912801	59070	IPR004000 Actin family;IPR027127 None;IPR043129 ATPase, nucleotide binding domain
+XANPAOZ2100_003956-T1	OZ2100_32	1867662	1872807	XANPAOZ2100_003971-T1	navis0001	phoenixFam	1910251	1912801	39994	IPR001680 WD40 repeat;IPR007111 NACHT nucleoside triphosphatase;IPR015943 WD40/YVTN repeat-like-containing domain superfamily;IPR027417 P-loop containing nucleoside triphosphate hydrolase;IPR029058 Alpha/Beta hydrolase fold;IPR036322 WD40-repeat-containing domain superfamily
+XANPAOZ2100_003963-T1	OZ2100_32	1883339	1884567	XANPAOZ2100_003971-T1	navis0001	phoenixFam	1910251	1912801	26912	IPR008183 Aldose 1-/Glucose-6-phosphate 1-epimerase;IPR011013 Galactose mutarotase-like domain superfamily;IPR014718 Glycoside hydrolase-type carbohydrate-binding
+XANPAOZ2100_003968-T1	OZ2100_32	1900358	1903567	XANPAOZ2100_003971-T1	navis0001	phoenixFam	1910251	1912801	9234	IPR002151 Kinesin light chain;IPR011990 Tetratricopeptide-like helical domain superfamily;IPR019734 Tetratricopeptide repeat
+XANPAOZ2100_003941-T1	OZ2100_32	1834414	1837737	XANPAOZ2100_003971-T1	navis0001	phoenixFam	1910251	1912801	75064	IPR007111 NACHT nucleoside triphosphatase;IPR027417 P-loop containing nucleoside triphosphate hydrolase
+XANPAOZ2100_005252-T1	OZ2100_35	265314	267499	XANPAOZ2100_tyr3	navis0008	moyaFam	359121	359324	91825	IPR001128 Cytochrome P450;IPR002401 Cytochrome P450, E-class, group I;IPR017972 Cytochrome P450, conserved site;IPR036396 Cytochrome P450 superfamily
+XANPAOZ2100_005253-T1	OZ2100_35	268296	268992	XANPAOZ2100_tyr3	navis0008	moyaFam	359121	359324	90332	IPR004045 Glutathione S-transferase, N-terminal;IPR036249 Thioredoxin-like superfamily
+XANPAOZ2100_005254-T1	OZ2100_35	269973	274390	XANPAOZ2100_tyr3	navis0008	moyaFam	359121	359324	84934	IPR002293 Amino acid/polyamine transporter I
+XANPAOZ2100_005255-T1	OZ2100_35	280387	281827	XANPAOZ2100_tyr3	navis0008	moyaFam	359121	359324	77497	IPR013057 Amino acid transporter, transmembrane domain
+XANPAOZ2100_005256-T1	OZ2100_35	282785	284106	XANPAOZ2100_tyr3	navis0008	moyaFam	359121	359324	75218	IPR012912 Plasmid pRiA4b, Orf3;IPR024047 MM3350-like superfamily
+XANPAOZ2100_005257-T1	OZ2100_35	285138	285672	XANPAOZ2100_tyr3	navis0008	moyaFam	359121	359324	73652	
+XANPAOZ2100_005258-T1	OZ2100_35	287496	290175	XANPAOZ2100_tyr3	navis0008	moyaFam	359121	359324	69149	IPR004095 TGS;IPR004396 Ribosome-binding ATPase YchF/Obg-like ATPase 1;IPR006073 GTP binding domain;IPR008580 PPPDE peptidase domain;IPR012675 Beta-grasp domain superfamily;IPR012676 TGS-like;IPR013029 YchF, C-terminal domain;IPR023192 TGS-like domain superfamily;IPR027417 P-loop containing nucleoside triphosphate hydrolase;IPR031167 OBG-type guanine nucleotide-binding (G) domain;IPR041706 YchF, N-terminal;IPR042266 PPPDE peptidase domain superfamily
+XANPAOZ2100_005259-T1	OZ2100_35	290873	292062	XANPAOZ2100_tyr3	navis0008	moyaFam	359121	359324	67262	IPR011032 GroES-like superfamily;IPR020843 Polyketide synthase, enoylreductase domain;IPR036291 NAD(P)-binding domain superfamily
+XANPAOZ2100_005260-T1	OZ2100_35	292363	293336	XANPAOZ2100_tyr3	navis0008	moyaFam	359121	359324	65988	IPR003604 Matrin/U1-C-like, C2H2-type zinc finger;IPR013085 U1-C, C2H2-type zinc finger;IPR036236 Zinc finger C2H2 superfamily;IPR040023 WW domain-binding protein 4
+XANPAOZ2100_005261-T1	OZ2100_35	293827	294668	XANPAOZ2100_tyr3	navis0008	moyaFam	359121	359324	64656	IPR019331 FAM192A/Fyv6, N-terminal;IPR039845 PSME3-interacting protein
+XANPAOZ2100_005262-T1	OZ2100_35	295202	297206	XANPAOZ2100_tyr3	navis0008	moyaFam	359121	359324	62118	
+XANPAOZ2100_005263-T1	OZ2100_35	298518	299887	XANPAOZ2100_tyr3	navis0008	moyaFam	359121	359324	59437	IPR001107 Band 7 domain;IPR001972 Stomatin/HflK family;IPR032435 Band 7, C-terminal extension;IPR036013 Band 7/SPFH domain superfamily
+XANPAOZ2100_005264-T1	OZ2100_35	300552	302061	XANPAOZ2100_tyr3	navis0008	moyaFam	359121	359324	57263	IPR002685 Glycosyl transferase, family 15;IPR029044 Nucleotide-diphospho-sugar transferases
+XANPAOZ2100_005265-T1	OZ2100_35	302433	305397	XANPAOZ2100_tyr3	navis0008	moyaFam	359121	359324	53927	IPR001680 WD40 repeat;IPR011047 Quinoprotein alcohol dehydrogenase-like superfamily;IPR011494 Protein HIRA-like, C-terminal;IPR015943 WD40/YVTN repeat-like-containing domain superfamily;IPR019015 HIRA B motif;IPR031120 WD repeat HIR1-like;IPR036322 WD40-repeat-containing domain superfamily
+XANPAOZ2100_005266-T1	OZ2100_35	305415	305822	XANPAOZ2100_tyr3	navis0008	moyaFam	359121	359324	53502	IPR001680 WD40 repeat;IPR015943 WD40/YVTN repeat-like-containing domain superfamily;IPR031120 WD repeat HIR1-like;IPR036322 WD40-repeat-containing domain superfamily
+XANPAOZ2100_005267-T1	OZ2100_35	306451	307297	XANPAOZ2100_tyr3	navis0008	moyaFam	359121	359324	52027	IPR001971 Ribosomal protein S11;IPR036967 Ribosomal protein S11 superfamily
+XANPAOZ2100_005268-T1	OZ2100_35	307560	309266	XANPAOZ2100_tyr3	navis0008	moyaFam	359121	359324	50058	IPR007379 Tim44-like domain;IPR032710 NTF2-like domain superfamily;IPR039544 Tim44-like
+XANPAOZ2100_005270-T1	OZ2100_35	314815	315939	XANPAOZ2100_tyr3	navis0008	moyaFam	359121	359324	43385	IPR000704 Casein kinase II, regulatory subunit;IPR016149 Casein kinase II, regulatory subunit, N-terminal;IPR035991 Casein kinase II subunit beta-like
+XANPAOZ2100_005271-T1	OZ2100_35	317074	317426	XANPAOZ2100_tyr3	navis0008	moyaFam	359121	359324	41898	
+XANPAOZ2100_005272-T1	OZ2100_35	317773	321045	XANPAOZ2100_tyr3	navis0008	moyaFam	359121	359324	38279	IPR009771 Ribosome control protein 1;IPR011047 Quinoprotein alcohol dehydrogenase-like superfamily;IPR015943 WD40/YVTN repeat-like-containing domain superfamily;IPR040096 RAB6A-GEF complex partner protein 1
+XANPAOZ2100_005273-T1	OZ2100_35	322010	323243	XANPAOZ2100_tyr3	navis0008	moyaFam	359121	359324	36081	IPR013087 Zinc finger C2H2-type;IPR036236 Zinc finger C2H2 superfamily
+XANPAOZ2100_005274-T1	OZ2100_35	325239	325794	XANPAOZ2100_tyr3	navis0008	moyaFam	359121	359324	33530	IPR003807 Domain of unknown function DUF202
+XANPAOZ2100_005275-T1	OZ2100_35	326112	326909	XANPAOZ2100_tyr3	navis0008	moyaFam	359121	359324	32415	IPR002478 PUA domain;IPR004521 Uncharacterised domain CHP00451;IPR015947 PUA-like superfamily;IPR016437 MCT-1/Tma20;IPR041366 Pre-PUA domain
+XANPAOZ2100_005276-T1	OZ2100_35	328564	329200	XANPAOZ2100_tyr3	navis0008	moyaFam	359121	359324	30124	IPR036908 RlpA-like domain superfamily
+XANPAOZ2100_005277-T1	OZ2100_35	331818	336162	XANPAOZ2100_tyr3	navis0008	moyaFam	359121	359324	23162	IPR016024 Armadillo-type fold;IPR026829 None;IPR032691 Mon2/Sec7/BIG1-like, HUS domain;IPR032817 Mon2, C-terminal
+XANPAOZ2100_005278-T1	OZ2100_35	339739	341246	XANPAOZ2100_tyr3	navis0008	moyaFam	359121	359324	18078	IPR001128 Cytochrome P450;IPR002401 Cytochrome P450, E-class, group I;IPR017972 Cytochrome P450, conserved site;IPR036396 Cytochrome P450 superfamily
+XANPAOZ2100_005279-T1	OZ2100_35	341489	343386	XANPAOZ2100_tyr3	navis0008	moyaFam	359121	359324	15938	IPR000572 Oxidoreductase, molybdopterin-binding domain;IPR001199 Cytochrome b5-like heme/steroid binding domain;IPR005066 Moybdenum cofactor oxidoreductase, dimerisation;IPR008335 Eukaryotic molybdopterin oxidoreductase;IPR014756 Immunoglobulin E-set;IPR036374 Oxidoreductase, molybdopterin-binding domain superfamily;IPR036400 Cytochrome b5-like heme/steroid binding domain superfamily
+XANPAOZ2100_005269-T1	OZ2100_35	310301	313922	XANPAOZ2100_tyr3	navis0008	moyaFam	359121	359324	45402	IPR002110 Ankyrin repeat;IPR003123 VPS9 domain;IPR036770 Ankyrin repeat-containing domain superfamily;IPR036871 PX domain superfamily;IPR037191 VPS9 domain superfamily
+XANPAOZ2100_005251-T1	OZ2100_35	261674	263997	XANPAOZ2100_tyr3	navis0008	moyaFam	359121	359324	95327	
+XANPAOZ2100_005252-T1	OZ2100_35	265314	267499	XANPAOZ2100_tyr4	navis0009	clade2	359761	360277	92778	IPR001128 Cytochrome P450;IPR002401 Cytochrome P450, E-class, group I;IPR017972 Cytochrome P450, conserved site;IPR036396 Cytochrome P450 superfamily
+XANPAOZ2100_005253-T1	OZ2100_35	268296	268992	XANPAOZ2100_tyr4	navis0009	clade2	359761	360277	91285	IPR004045 Glutathione S-transferase, N-terminal;IPR036249 Thioredoxin-like superfamily
+XANPAOZ2100_005254-T1	OZ2100_35	269973	274390	XANPAOZ2100_tyr4	navis0009	clade2	359761	360277	85887	IPR002293 Amino acid/polyamine transporter I
+XANPAOZ2100_005255-T1	OZ2100_35	280387	281827	XANPAOZ2100_tyr4	navis0009	clade2	359761	360277	78450	IPR013057 Amino acid transporter, transmembrane domain
+XANPAOZ2100_005256-T1	OZ2100_35	282785	284106	XANPAOZ2100_tyr4	navis0009	clade2	359761	360277	76171	IPR012912 Plasmid pRiA4b, Orf3;IPR024047 MM3350-like superfamily
+XANPAOZ2100_005257-T1	OZ2100_35	285138	285672	XANPAOZ2100_tyr4	navis0009	clade2	359761	360277	74605	
+XANPAOZ2100_005258-T1	OZ2100_35	287496	290175	XANPAOZ2100_tyr4	navis0009	clade2	359761	360277	70102	IPR004095 TGS;IPR004396 Ribosome-binding ATPase YchF/Obg-like ATPase 1;IPR006073 GTP binding domain;IPR008580 PPPDE peptidase domain;IPR012675 Beta-grasp domain superfamily;IPR012676 TGS-like;IPR013029 YchF, C-terminal domain;IPR023192 TGS-like domain superfamily;IPR027417 P-loop containing nucleoside triphosphate hydrolase;IPR031167 OBG-type guanine nucleotide-binding (G) domain;IPR041706 YchF, N-terminal;IPR042266 PPPDE peptidase domain superfamily
+XANPAOZ2100_005259-T1	OZ2100_35	290873	292062	XANPAOZ2100_tyr4	navis0009	clade2	359761	360277	68215	IPR011032 GroES-like superfamily;IPR020843 Polyketide synthase, enoylreductase domain;IPR036291 NAD(P)-binding domain superfamily
+XANPAOZ2100_005260-T1	OZ2100_35	292363	293336	XANPAOZ2100_tyr4	navis0009	clade2	359761	360277	66941	IPR003604 Matrin/U1-C-like, C2H2-type zinc finger;IPR013085 U1-C, C2H2-type zinc finger;IPR036236 Zinc finger C2H2 superfamily;IPR040023 WW domain-binding protein 4
+XANPAOZ2100_005261-T1	OZ2100_35	293827	294668	XANPAOZ2100_tyr4	navis0009	clade2	359761	360277	65609	IPR019331 FAM192A/Fyv6, N-terminal;IPR039845 PSME3-interacting protein
+XANPAOZ2100_005262-T1	OZ2100_35	295202	297206	XANPAOZ2100_tyr4	navis0009	clade2	359761	360277	63071	
+XANPAOZ2100_005263-T1	OZ2100_35	298518	299887	XANPAOZ2100_tyr4	navis0009	clade2	359761	360277	60390	IPR001107 Band 7 domain;IPR001972 Stomatin/HflK family;IPR032435 Band 7, C-terminal extension;IPR036013 Band 7/SPFH domain superfamily
+XANPAOZ2100_005264-T1	OZ2100_35	300552	302061	XANPAOZ2100_tyr4	navis0009	clade2	359761	360277	58216	IPR002685 Glycosyl transferase, family 15;IPR029044 Nucleotide-diphospho-sugar transferases
+XANPAOZ2100_005265-T1	OZ2100_35	302433	305397	XANPAOZ2100_tyr4	navis0009	clade2	359761	360277	54880	IPR001680 WD40 repeat;IPR011047 Quinoprotein alcohol dehydrogenase-like superfamily;IPR011494 Protein HIRA-like, C-terminal;IPR015943 WD40/YVTN repeat-like-containing domain superfamily;IPR019015 HIRA B motif;IPR031120 WD repeat HIR1-like;IPR036322 WD40-repeat-containing domain superfamily
+XANPAOZ2100_005266-T1	OZ2100_35	305415	305822	XANPAOZ2100_tyr4	navis0009	clade2	359761	360277	54346	IPR001680 WD40 repeat;IPR015943 WD40/YVTN repeat-like-containing domain superfamily;IPR031120 WD repeat HIR1-like;IPR036322 WD40-repeat-containing domain superfamily
+XANPAOZ2100_005267-T1	OZ2100_35	306451	307297	XANPAOZ2100_tyr4	navis0009	clade2	359761	360277	52980	IPR001971 Ribosomal protein S11;IPR036967 Ribosomal protein S11 superfamily
+XANPAOZ2100_005268-T1	OZ2100_35	307560	309266	XANPAOZ2100_tyr4	navis0009	clade2	359761	360277	51011	IPR007379 Tim44-like domain;IPR032710 NTF2-like domain superfamily;IPR039544 Tim44-like
+XANPAOZ2100_005270-T1	OZ2100_35	314815	315939	XANPAOZ2100_tyr4	navis0009	clade2	359761	360277	44338	IPR000704 Casein kinase II, regulatory subunit;IPR016149 Casein kinase II, regulatory subunit, N-terminal;IPR035991 Casein kinase II subunit beta-like
+XANPAOZ2100_005271-T1	OZ2100_35	317074	317426	XANPAOZ2100_tyr4	navis0009	clade2	359761	360277	42687	
+XANPAOZ2100_005272-T1	OZ2100_35	317773	321045	XANPAOZ2100_tyr4	navis0009	clade2	359761	360277	39232	IPR009771 Ribosome control protein 1;IPR011047 Quinoprotein alcohol dehydrogenase-like superfamily;IPR015943 WD40/YVTN repeat-like-containing domain superfamily;IPR040096 RAB6A-GEF complex partner protein 1
+XANPAOZ2100_005273-T1	OZ2100_35	322010	323243	XANPAOZ2100_tyr4	navis0009	clade2	359761	360277	37034	IPR013087 Zinc finger C2H2-type;IPR036236 Zinc finger C2H2 superfamily
+XANPAOZ2100_005274-T1	OZ2100_35	325239	325794	XANPAOZ2100_tyr4	navis0009	clade2	359761	360277	34483	IPR003807 Domain of unknown function DUF202
+XANPAOZ2100_005275-T1	OZ2100_35	326112	326909	XANPAOZ2100_tyr4	navis0009	clade2	359761	360277	33368	IPR002478 PUA domain;IPR004521 Uncharacterised domain CHP00451;IPR015947 PUA-like superfamily;IPR016437 MCT-1/Tma20;IPR041366 Pre-PUA domain
+XANPAOZ2100_005276-T1	OZ2100_35	328564	329200	XANPAOZ2100_tyr4	navis0009	clade2	359761	360277	31077	IPR036908 RlpA-like domain superfamily
+XANPAOZ2100_005277-T1	OZ2100_35	331818	336162	XANPAOZ2100_tyr4	navis0009	clade2	359761	360277	24115	IPR016024 Armadillo-type fold;IPR026829 None;IPR032691 Mon2/Sec7/BIG1-like, HUS domain;IPR032817 Mon2, C-terminal
+XANPAOZ2100_005278-T1	OZ2100_35	339739	341246	XANPAOZ2100_tyr4	navis0009	clade2	359761	360277	19031	IPR001128 Cytochrome P450;IPR002401 Cytochrome P450, E-class, group I;IPR017972 Cytochrome P450, conserved site;IPR036396 Cytochrome P450 superfamily
+XANPAOZ2100_005279-T1	OZ2100_35	341489	343386	XANPAOZ2100_tyr4	navis0009	clade2	359761	360277	16891	IPR000572 Oxidoreductase, molybdopterin-binding domain;IPR001199 Cytochrome b5-like heme/steroid binding domain;IPR005066 Moybdenum cofactor oxidoreductase, dimerisation;IPR008335 Eukaryotic molybdopterin oxidoreductase;IPR014756 Immunoglobulin E-set;IPR036374 Oxidoreductase, molybdopterin-binding domain superfamily;IPR036400 Cytochrome b5-like heme/steroid binding domain superfamily
+XANPAOZ2100_005280-T1	OZ2100_35	359390	359658	XANPAOZ2100_tyr4	navis0009	clade2	359761	360277	371	
+XANPAOZ2100_005269-T1	OZ2100_35	310301	313922	XANPAOZ2100_tyr4	navis0009	clade2	359761	360277	46355	IPR002110 Ankyrin repeat;IPR003123 VPS9 domain;IPR036770 Ankyrin repeat-containing domain superfamily;IPR036871 PX domain superfamily;IPR037191 VPS9 domain superfamily
+XANPAOZ2100_005251-T1	OZ2100_35	261674	263997	XANPAOZ2100_tyr4	navis0009	clade2	359761	360277	96280	
+XANPAOZ2100_008949-T1	OZ2100_43	830949	833479	XANPAOZ2100_008954-T1	navis0003	galacticaFam	931278	932679	99200	
+XANPAOZ2100_008950-T1	OZ2100_43	833877	834769	XANPAOZ2100_008954-T1	navis0003	galacticaFam	931278	932679	97401	
+XANPAOZ2100_008951-T1	OZ2100_43	836940	837314	XANPAOZ2100_008954-T1	navis0003	galacticaFam	931278	932679	94338	
+XANPAOZ2100_008952-T1	OZ2100_43	927886	928594	XANPAOZ2100_008954-T1	navis0003	galacticaFam	931278	932679	3392	
+XANPAOZ2100_008953-T1	OZ2100_43	928697	929549	XANPAOZ2100_008954-T1	navis0003	galacticaFam	931278	932679	2581	
+XANPARI20_004476-T1	scaffold_4	1211618	1212201	XANPARI20_tyr17	navis0007	phoenixFam	1310219	1310743	98542	IPR001765 Carbonic anhydrase;IPR036874 Carbonic anhydrase superfamily
+XANPARI20_004477-T1	scaffold_4	1212831	1213713	XANPARI20_tyr17	navis0007	phoenixFam	1310219	1310743	97030	IPR001841 Zinc finger, RING-type;IPR013083 Zinc finger, RING/FYVE/PHD-type
+XANPARI20_004478-T1	scaffold_4	1216347	1221234	XANPARI20_tyr17	navis0007	phoenixFam	1310219	1310743	89509	
+XANPARI20_004479-T1	scaffold_4	1224981	1226532	XANPARI20_tyr17	navis0007	phoenixFam	1310219	1310743	84211	
+XANPARI20_004480-T1	scaffold_4	1230458	1231052	XANPARI20_tyr17	navis0007	phoenixFam	1310219	1310743	79691	
+XANPARI20_004481-T1	scaffold_4	1231529	1232075	XANPARI20_tyr17	navis0007	phoenixFam	1310219	1310743	78668	IPR000210 BTB/POZ domain;IPR011333 SKP1/BTB/POZ domain superfamily
+XANPARI20_004482-T1	scaffold_4	1233668	1234859	XANPARI20_tyr17	navis0007	phoenixFam	1310219	1310743	75884	
+XANPARI20_004483-T1	scaffold_4	1235644	1236184	XANPARI20_tyr17	navis0007	phoenixFam	1310219	1310743	74559	IPR010730 Heterokaryon incompatibility
+XANPARI20_004484-T1	scaffold_4	1236685	1237234	XANPARI20_tyr17	navis0007	phoenixFam	1310219	1310743	73509	
+XANPARI20_004486-T1	scaffold_4	1269096	1270861	XANPARI20_tyr17	navis0007	phoenixFam	1310219	1310743	39882	
+XANPARI20_004487-T1	scaffold_4	1272070	1272487	XANPARI20_tyr17	navis0007	phoenixFam	1310219	1310743	38149	
+XANPARI20_004488-T1	scaffold_4	1274075	1275048	XANPARI20_tyr17	navis0007	phoenixFam	1310219	1310743	35695	
+XANPARI20_004489-T1	scaffold_4	1285268	1287983	XANPARI20_tyr17	navis0007	phoenixFam	1310219	1310743	22760	IPR004712 Na+/H+ antiporter, fungi;IPR006153 Cation/H+ exchanger;IPR013928 Alkali metal cation/H+ antiporter Nha1, C-terminal
+XANPARI20_004490-T1	scaffold_4	1291160	1291801	XANPARI20_tyr17	navis0007	phoenixFam	1310219	1310743	18942	
+XANPARI20_004492-T1	scaffold_4	1294821	1295946	XANPARI20_tyr17	navis0007	phoenixFam	1310219	1310743	14797	
+XANPARI20_004493-T1	scaffold_4	1296144	1296469	XANPARI20_tyr17	navis0007	phoenixFam	1310219	1310743	14075	
+XANPARI20_004494-T1	scaffold_4	1301424	1301916	XANPARI20_tyr17	navis0007	phoenixFam	1310219	1310743	8795	
+XANPARI20_004495-T1	scaffold_4	1302043	1302303	XANPARI20_tyr17	navis0007	phoenixFam	1310219	1310743	8176	
+XANPARI20_004496-T1	scaffold_4	1305440	1306081	XANPARI20_tyr17	navis0007	phoenixFam	1310219	1310743	4662	
+XANPARI20_004485-T1	scaffold_4	1261412	1262082	XANPARI20_tyr17	navis0007	phoenixFam	1310219	1310743	48661	
+XANPARI20_004491-T1	scaffold_4	1293891	1294791	XANPARI20_tyr17	navis0007	phoenixFam	1310219	1310743	15952	
+XANPARI20_005596-T1	scaffold_5	1924155	1931735	XANPARI20_005633-T1	navis0001	phoenixFam	2024608	2027212	95477	IPR001227 Acyl transferase domain superfamily;IPR006162 Phosphopantetheine attachment site;IPR009081 Phosphopantetheine binding ACP domain;IPR011032 GroES-like superfamily;IPR013149 Alcohol dehydrogenase-like, C-terminal;IPR013968 Polyketide synthase, ketoreductase domain;IPR014030 Beta-ketoacyl synthase, N-terminal;IPR014031 Beta-ketoacyl synthase, C-terminal;IPR014043 Acyl transferase;IPR016035 Acyl transferase/acyl hydrolase/lysophospholipase;IPR016036 Malonyl-CoA ACP transacylase, ACP-binding;IPR016039 Thiolase-like;IPR018201 Beta-ketoacyl synthase, active site;IPR020806 Polyketide synthase, phosphopantetheine-binding domain;IPR020807 Polyketide synthase, dehydratase domain;IPR020841 Polyketide synthase, beta-ketoacyl synthase domain;IPR020843 Polyketide synthase, enoylreductase domain;IPR032821 Polyketide synthase, C-terminal extension;IPR036291 NAD(P)-binding domain superfamily;IPR036736 ACP-like superfamily;IPR042104 Polyketide synthase, dehydratase domain superfamily
+XANPARI20_005597-T1	scaffold_5	1933473	1935789	XANPARI20_005633-T1	navis0001	phoenixFam	2024608	2027212	91135	
+XANPARI20_005598-T1	scaffold_5	1938713	1939160	XANPARI20_005633-T1	navis0001	phoenixFam	2024608	2027212	85895	
+XANPARI20_005599-T1	scaffold_5	1940187	1940939	XANPARI20_005633-T1	navis0001	phoenixFam	2024608	2027212	84421	
+XANPARI20_005600-T1	scaffold_5	1943056	1943719	XANPARI20_005633-T1	navis0001	phoenixFam	2024608	2027212	81552	
+XANPARI20_005601-T1	scaffold_5	1943747	1945128	XANPARI20_005633-T1	navis0001	phoenixFam	2024608	2027212	80861	
+XANPARI20_005602-T1	scaffold_5	1946314	1947109	XANPARI20_005633-T1	navis0001	phoenixFam	2024608	2027212	78294	
+XANPARI20_005604-T1	scaffold_5	1952915	1953913	XANPARI20_005633-T1	navis0001	phoenixFam	2024608	2027212	71693	IPR001865 Ribosomal protein S2;IPR005707 Ribosomal protein S2, eukaryotic/archaeal;IPR018130 Ribosomal protein S2, conserved site;IPR023591 Ribosomal protein S2, flavodoxin-like domain superfamily;IPR027498 Ribosomal protein S2, eukaryotic;IPR032281 40S ribosomal protein SA, C-terminal domain
+XANPARI20_005605-T1	scaffold_5	1954179	1955233	XANPARI20_005633-T1	navis0001	phoenixFam	2024608	2027212	70429	IPR000589 Ribosomal protein S15;IPR005290 Ribosomal protein S15, bacterial-type;IPR009068 S15/NS1, RNA-binding
+XANPARI20_005606-T1	scaffold_5	1955766	1959255	XANPARI20_005633-T1	navis0001	phoenixFam	2024608	2027212	67957	
+XANPARI20_005607-T1	scaffold_5	1961528	1963561	XANPARI20_005633-T1	navis0001	phoenixFam	2024608	2027212	63080	IPR000629 ATP-dependent RNA helicase DEAD-box, conserved site;IPR001650 Helicase, C-terminal;IPR011545 DEAD/DEAH box helicase domain;IPR014001 Helicase superfamily 1/2, ATP-binding domain;IPR014014 RNA helicase, DEAD-box type, Q motif;IPR025313 Domain of unknown function DUF4217;IPR027417 P-loop containing nucleoside triphosphate hydrolase
+XANPARI20_005608-T1	scaffold_5	1964291	1965380	XANPARI20_005633-T1	navis0001	phoenixFam	2024608	2027212	60317	IPR037997 CTP-dependent diacylglycerol kinase 1-like
+XANPARI20_005610-T1	scaffold_5	1967355	1969205	XANPARI20_005633-T1	navis0001	phoenixFam	2024608	2027212	57253	IPR006084 XPG/Rad2 endonuclease;IPR006085 XPG, N-terminal;IPR006086 XPG-I domain;IPR029060 PIN-like domain superfamily;IPR036279 5'-3' exonuclease, C-terminal domain superfamily;IPR037316 Yen1, H3TH domain;IPR041177 Holliday junction resolvase Gen1, C-terminal domain
+XANPARI20_005611-T1	scaffold_5	1970029	1970623	XANPARI20_005633-T1	navis0001	phoenixFam	2024608	2027212	54579	
+XANPARI20_005612-T1	scaffold_5	1971399	1972083	XANPARI20_005633-T1	navis0001	phoenixFam	2024608	2027212	53209	
+XANPARI20_005613-T1	scaffold_5	1972535	1974463	XANPARI20_005633-T1	navis0001	phoenixFam	2024608	2027212	52073	
+XANPARI20_005614-T1	scaffold_5	1974989	1975768	XANPARI20_005633-T1	navis0001	phoenixFam	2024608	2027212	49619	
+XANPARI20_005615-T1	scaffold_5	1976328	1977826	XANPARI20_005633-T1	navis0001	phoenixFam	2024608	2027212	48280	IPR002125 Cytidine and deoxycytidylate deaminase domain;IPR016193 Cytidine deaminase-like
+XANPARI20_005616-T1	scaffold_5	1979676	1980867	XANPARI20_005633-T1	navis0001	phoenixFam	2024608	2027212	44932	IPR011701 Major facilitator superfamily;IPR036259 MFS transporter superfamily
+XANPARI20_005617-T1	scaffold_5	1981042	1981525	XANPARI20_005633-T1	navis0001	phoenixFam	2024608	2027212	43566	IPR005829 Sugar transporter, conserved site;IPR011701 Major facilitator superfamily;IPR020846 Major facilitator superfamily domain;IPR036259 MFS transporter superfamily
+XANPARI20_005619-T1	scaffold_5	1987682	1988802	XANPARI20_005633-T1	navis0001	phoenixFam	2024608	2027212	36926	IPR011009 Protein kinase-like domain superfamily;IPR016477 Fructosamine/Ketosamine-3-kinase
+XANPARI20_005620-T1	scaffold_5	1989058	1989739	XANPARI20_005633-T1	navis0001	phoenixFam	2024608	2027212	35550	IPR001806 Small GTPase;IPR003578 Small GTPase Rho;IPR027417 P-loop containing nucleoside triphosphate hydrolase
+XANPARI20_005621-T1	scaffold_5	1989981	1991757	XANPARI20_005633-T1	navis0001	phoenixFam	2024608	2027212	34627	IPR001406 Pseudouridine synthase I, TruA;IPR020094 Pseudouridine synthase TruA/RsuA/RluB/E/F, N-terminal;IPR020095 Pseudouridine synthase I, TruA, C-terminal;IPR020097 Pseudouridine synthase I, TruA, alpha/beta domain;IPR020103 Pseudouridine synthase, catalytic domain superfamily
+XANPARI20_005622-T1	scaffold_5	1991931	1992557	XANPARI20_005633-T1	navis0001	phoenixFam	2024608	2027212	32677	IPR005574 RNA polymerase subunit Rpb4/RPC9;IPR010997 HRDC-like superfamily;IPR038324 Rpb4/RPC9 superfamily;IPR038846 DNA-directed RNA polymerase III subunit RPC9
+XANPARI20_005623-T1	scaffold_5	1992910	1995295	XANPARI20_005633-T1	navis0001	phoenixFam	2024608	2027212	31698	IPR002687 Nop domain;IPR012976 NOSIC;IPR036070 Nop domain superfamily;IPR042239 Nop, C-terminal domain;IPR045056 Nucleolar protein Nop56/Nop58
+XANPARI20_005624-T1	scaffold_5	1995583	1996836	XANPARI20_005633-T1	navis0001	phoenixFam	2024608	2027212	29025	IPR002843 ATPase, V0 complex, c/d subunit;IPR016727 ATPase, V0 complex, subunit d;IPR035067 V-type ATPase subunit C/d;IPR036079 V-type ATP synthase subunit c/d subunit superfamily;IPR044911 V-type ATP synthase c/d subunit, domain 3 superfamily
+XANPARI20_005625-T1	scaffold_5	1997622	1998842	XANPARI20_005633-T1	navis0001	phoenixFam	2024608	2027212	26986	IPR008183 Aldose 1-/Glucose-6-phosphate 1-epimerase;IPR011013 Galactose mutarotase-like domain superfamily;IPR014718 Glycoside hydrolase-type carbohydrate-binding
+XANPARI20_005626-T1	scaffold_5	1999196	2000806	XANPARI20_005633-T1	navis0001	phoenixFam	2024608	2027212	25412	IPR003959 ATPase, AAA-type, core;IPR027417 P-loop containing nucleoside triphosphate hydrolase
+XANPARI20_005627-T1	scaffold_5	2002249	2004505	XANPARI20_005633-T1	navis0001	phoenixFam	2024608	2027212	22359	IPR002293 Amino acid/polyamine transporter I
+XANPARI20_005628-T1	scaffold_5	2006133	2006589	XANPARI20_005633-T1	navis0001	phoenixFam	2024608	2027212	18475	
+XANPARI20_005629-T1	scaffold_5	2006994	2007555	XANPARI20_005633-T1	navis0001	phoenixFam	2024608	2027212	17614	
+XANPARI20_005631-T1	scaffold_5	2020611	2021187	XANPARI20_005633-T1	navis0001	phoenixFam	2024608	2027212	3997	IPR040976 Fungal-type protein kinase
+XANPARI20_005632-T1	scaffold_5	2021614	2022227	XANPARI20_005633-T1	navis0001	phoenixFam	2024608	2027212	2994	
+XANPARI20_005633-T1	scaffold_5	2024445	2027212	XANPARI20_005633-T1	navis0001	phoenixFam	2024608	2027212	0	IPR021842 Protein of unknown function DUF3435
+XANPARI20_005603-T1	scaffold_5	1948794	1952036	XANPARI20_005633-T1	navis0001	phoenixFam	2024608	2027212	75176	IPR007111 NACHT nucleoside triphosphatase;IPR027417 P-loop containing nucleoside triphosphate hydrolase
+XANPARI20_005618-T1	scaffold_5	1981957	1987294	XANPARI20_005633-T1	navis0001	phoenixFam	2024608	2027212	39918	IPR001680 WD40 repeat;IPR007111 NACHT nucleoside triphosphatase;IPR015943 WD40/YVTN repeat-like-containing domain superfamily;IPR027417 P-loop containing nucleoside triphosphate hydrolase;IPR029058 Alpha/Beta hydrolase fold;IPR036322 WD40-repeat-containing domain superfamily
+XANPARI20_005630-T1	scaffold_5	2014633	2017543	XANPARI20_005633-T1	navis0001	phoenixFam	2024608	2027212	9669	IPR002151 Kinesin light chain;IPR011990 Tetratricopeptide-like helical domain superfamily;IPR019734 Tetratricopeptide repeat
+XANPARI20_005609-T1	scaffold_5	1965512	1967165	XANPARI20_005633-T1	navis0001	phoenixFam	2024608	2027212	59096	IPR004000 Actin family;IPR027127 None;IPR043129 ATPase, nucleotide binding domain
+XANPARI20_007333-T1	scaffold_8	1402584	1404789	XANPARI20_007362-T1	navis0003	galacticaFam	1503178	1505738	100594	IPR000172 Glucose-methanol-choline oxidoreductase, N-terminal;IPR007867 Glucose-methanol-choline oxidoreductase, C-terminal;IPR012132 Glucose-methanol-choline oxidoreductase;IPR036188 FAD/NAD(P)-binding domain superfamily
+XANPARI20_007335-T1	scaffold_8	1413594	1414846	XANPARI20_007362-T1	navis0003	galacticaFam	1503178	1505738	89584	IPR001077 O-methyltransferase domain;IPR016461 O-methyltransferase COMT-type;IPR029063 S-adenosyl-L-methionine-dependent methyltransferase superfamily;IPR036388 Winged helix-like DNA-binding domain superfamily;IPR036390 Winged helix DNA-binding domain superfamily
+XANPARI20_007336-T1	scaffold_8	1417375	1418947	XANPARI20_007362-T1	navis0003	galacticaFam	1503178	1505738	85803	IPR013700 Aflatoxin regulatory protein
+XANPARI20_007338-T1	scaffold_8	1426082	1429226	XANPARI20_007362-T1	navis0003	galacticaFam	1503178	1505738	76512	IPR000172 Glucose-methanol-choline oxidoreductase, N-terminal;IPR002328 Alcohol dehydrogenase, zinc-type, conserved site;IPR007867 Glucose-methanol-choline oxidoreductase, C-terminal;IPR011032 GroES-like superfamily;IPR012132 Glucose-methanol-choline oxidoreductase;IPR013149 Alcohol dehydrogenase-like, C-terminal;IPR013154 Alcohol dehydrogenase-like, N-terminal;IPR020843 Polyketide synthase, enoylreductase domain;IPR036188 FAD/NAD(P)-binding domain superfamily;IPR036291 NAD(P)-binding domain superfamily
+XANPARI20_007339-T1	scaffold_8	1429574	1431362	XANPARI20_007362-T1	navis0003	galacticaFam	1503178	1505738	73604	IPR011701 Major facilitator superfamily;IPR020846 Major facilitator superfamily domain;IPR036259 MFS transporter superfamily
+XANPARI20_007340-T1	scaffold_8	1432346	1434722	XANPARI20_007362-T1	navis0003	galacticaFam	1503178	1505738	70832	IPR001138 Zn(2)Cys(6) fungal-type DNA-binding domain;IPR007219 Transcription factor domain, fungi;IPR036864 Zn(2)-C6 fungal-type DNA-binding domain superfamily
+XANPARI20_007341-T1	scaffold_8	1436037	1437340	XANPARI20_007362-T1	navis0003	galacticaFam	1503178	1505738	67141	
+XANPARI20_007342-T1	scaffold_8	1438048	1438644	XANPARI20_007362-T1	navis0003	galacticaFam	1503178	1505738	65130	IPR023210 NADP-dependent oxidoreductase domain;IPR036812 NADP-dependent oxidoreductase domain superfamily
+XANPARI20_007343-T1	scaffold_8	1439278	1440561	XANPARI20_007362-T1	navis0003	galacticaFam	1503178	1505738	63900	IPR001384 Peptidase M35, deuterolysin;IPR024079 Metallopeptidase, catalytic domain superfamily;IPR029463 Lysine-specific metallo-endopeptidase
+XANPARI20_007344-T1	scaffold_8	1450868	1451258	XANPARI20_007362-T1	navis0003	galacticaFam	1503178	1505738	52310	
+XANPARI20_007345-T1	scaffold_8	1451295	1453187	XANPARI20_007362-T1	navis0003	galacticaFam	1503178	1505738	51883	IPR011990 Tetratricopeptide-like helical domain superfamily;IPR045153 Est1/Ebs1-like
+XANPARI20_007346-T1	scaffold_8	1454431	1454895	XANPARI20_007362-T1	navis0003	galacticaFam	1503178	1505738	48747	
+XANPARI20_007347-T1	scaffold_8	1456467	1457247	XANPARI20_007362-T1	navis0003	galacticaFam	1503178	1505738	46711	
+XANPARI20_007348-T1	scaffold_8	1460383	1463191	XANPARI20_007362-T1	navis0003	galacticaFam	1503178	1505738	42547	IPR002151 Kinesin light chain;IPR011990 Tetratricopeptide-like helical domain superfamily;IPR027417 P-loop containing nucleoside triphosphate hydrolase
+XANPARI20_007349-T1	scaffold_8	1463447	1464332	XANPARI20_007362-T1	navis0003	galacticaFam	1503178	1505738	39731	IPR031348 Fungal N-terminal domain of STAND protein
+XANPARI20_007350-T1	scaffold_8	1469712	1470394	XANPARI20_007362-T1	navis0003	galacticaFam	1503178	1505738	33466	
+XANPARI20_007351-T1	scaffold_8	1471396	1472698	XANPARI20_007362-T1	navis0003	galacticaFam	1503178	1505738	31782	
+XANPARI20_007352-T1	scaffold_8	1474869	1475559	XANPARI20_007362-T1	navis0003	galacticaFam	1503178	1505738	28309	
+XANPARI20_007353-T1	scaffold_8	1475694	1476304	XANPARI20_007362-T1	navis0003	galacticaFam	1503178	1505738	27484	IPR011009 Protein kinase-like domain superfamily
+XANPARI20_007354-T1	scaffold_8	1480531	1481692	XANPARI20_007362-T1	navis0003	galacticaFam	1503178	1505738	22647	
+XANPARI20_007355-T1	scaffold_8	1482031	1484060	XANPARI20_007362-T1	navis0003	galacticaFam	1503178	1505738	21147	IPR000253 Forkhead-associated (FHA) domain;IPR000719 Protein kinase domain;IPR008271 Serine/threonine-protein kinase, active site;IPR008984 SMAD/FHA domain superfamily;IPR011009 Protein kinase-like domain superfamily
+XANPARI20_007356-T1	scaffold_8	1485566	1487656	XANPARI20_007362-T1	navis0003	galacticaFam	1503178	1505738	17612	IPR002641 Patatin-like phospholipase domain;IPR016035 Acyl transferase/acyl hydrolase/lysophospholipase
+XANPARI20_007357-T1	scaffold_8	1487932	1490493	XANPARI20_007362-T1	navis0003	galacticaFam	1503178	1505738	15245	IPR022198 Protein of unknown function DUF3723
+XANPARI20_007359-T1	scaffold_8	1492710	1493344	XANPARI20_007362-T1	navis0003	galacticaFam	1503178	1505738	10468	
+XANPARI20_007360-T1	scaffold_8	1494788	1495598	XANPARI20_007362-T1	navis0003	galacticaFam	1503178	1505738	8390	
+XANPARI20_007361-T1	scaffold_8	1495919	1498639	XANPARI20_007362-T1	navis0003	galacticaFam	1503178	1505738	7099	
+XANPARI20_007362-T1	scaffold_8	1502466	1505738	XANPARI20_007362-T1	navis0003	galacticaFam	1503178	1505738	0	IPR021842 Protein of unknown function DUF3435
+XANPARI20_007334-T1	scaffold_8	1405290	1412374	XANPARI20_007362-T1	navis0003	galacticaFam	1503178	1505738	93364	IPR001227 Acyl transferase domain superfamily;IPR006162 Phosphopantetheine attachment site;IPR009081 Phosphopantetheine binding ACP domain;IPR013120 Fatty acyl-coenzyme A reductase, NAD-binding domain;IPR014030 Beta-ketoacyl synthase, N-terminal;IPR014031 Beta-ketoacyl synthase, C-terminal;IPR014043 Acyl transferase;IPR016035 Acyl transferase/acyl hydrolase/lysophospholipase;IPR016036 Malonyl-CoA ACP transacylase, ACP-binding;IPR016039 Thiolase-like;IPR018201 Beta-ketoacyl synthase, active site;IPR020806 Polyketide synthase, phosphopantetheine-binding domain;IPR020807 Polyketide synthase, dehydratase domain;IPR020841 Polyketide synthase, beta-ketoacyl synthase domain;IPR030918 Polyketide product template domain;IPR032088 Starter unit:ACP transacylase;IPR036291 NAD(P)-binding domain superfamily;IPR036736 ACP-like superfamily;IPR042104 Polyketide synthase, dehydratase domain superfamily
+XANPARI20_007337-T1	scaffold_8	1425251	1425572	XANPARI20_007362-T1	navis0003	galacticaFam	1503178	1505738	77927	
+XANPARI20_007358-T1	scaffold_8	1490540	1491283	XANPARI20_007362-T1	navis0003	galacticaFam	1503178	1505738	12638	
+XANPARI20_008741-T1	scaffold_12	649346	651839	XANPARI20_008752-T1	navis0002	clade1	744949	746139	94300	
+XANPARI20_008743-T1	scaffold_12	657752	658955	XANPARI20_008752-T1	navis0002	clade1	744949	746139	87184	IPR001130 3'-5' ssDNA/RNA exonuclease TatD-like;IPR032466 Metal-dependent hydrolase
+XANPARI20_008744-T1	scaffold_12	659276	662241	XANPARI20_008752-T1	navis0002	clade1	744949	746139	83898	IPR003593 AAA+ ATPase domain;IPR003959 ATPase, AAA-type, core;IPR027417 P-loop containing nucleoside triphosphate hydrolase
+XANPARI20_008745-T1	scaffold_12	678923	680403	XANPARI20_008752-T1	navis0002	clade1	744949	746139	65736	IPR002110 Ankyrin repeat;IPR036770 Ankyrin repeat-containing domain superfamily
+XANPARI20_008747-T1	scaffold_12	693127	693932	XANPARI20_008752-T1	navis0002	clade1	744949	746139	51822	IPR013216 Methyltransferase type 11;IPR029063 S-adenosyl-L-methionine-dependent methyltransferase superfamily
+XANPARI20_008748-T1	scaffold_12	697445	699579	XANPARI20_008752-T1	navis0002	clade1	744949	746139	46560	IPR002641 Patatin-like phospholipase domain;IPR016035 Acyl transferase/acyl hydrolase/lysophospholipase
+XANPARI20_008749-T1	scaffold_12	701094	702351	XANPARI20_008752-T1	navis0002	clade1	744949	746139	43788	IPR022198 Protein of unknown function DUF3723
+XANPARI20_008750-T1	scaffold_12	702430	703970	XANPARI20_008752-T1	navis0002	clade1	744949	746139	42169	
+XANPARI20_008752-T1	scaffold_12	744945	745726	XANPARI20_008752-T1	navis0002	clade1	744949	746139	4	IPR002104 Integrase, catalytic domain;IPR011010 DNA breaking-rejoining enzyme, catalytic core;IPR013762 Integrase-like, catalytic domain superfamily;IPR021842 Protein of unknown function DUF3435
+XANPARI20_008746-T1	scaffold_12	686545	692778	XANPARI20_008752-T1	navis0002	clade1	744949	746139	53361	IPR002110 Ankyrin repeat;IPR007111 NACHT nucleoside triphosphatase;IPR027417 P-loop containing nucleoside triphosphate hydrolase;IPR036770 Ankyrin repeat-containing domain superfamily
+XANPARI20_008751-T1	scaffold_12	704328	704922	XANPARI20_008752-T1	navis0002	clade1	744949	746139	40621	
+XANPARI20_008742-T1	scaffold_12	654139	655811	XANPARI20_008752-T1	navis0002	clade1	744949	746139	90328	IPR000073 Alpha/beta hydrolase fold-1;IPR029058 Alpha/Beta hydrolase fold
+XANCAGTX0491_002173-T1	XcGTX0491_2	2634211	2636209	XANCAGTX0491_002172-T1	navis0010	clade3	2632559	2633446	765	IPR013087 Zinc finger C2H2-type
+XANCAGTX0491_002174-T1	XcGTX0491_2	2636293	2636918	XANCAGTX0491_002172-T1	navis0010	clade3	2632559	2633446	2847	
+XANCAGTX0491_002175-T1	XcGTX0491_2	2637860	2638949	XANCAGTX0491_002172-T1	navis0010	clade3	2632559	2633446	4414	IPR027417 P-loop containing nucleoside triphosphate hydrolase
+XANCAGTX0491_002176-T1	XcGTX0491_2	2675406	2677137	XANCAGTX0491_002172-T1	navis0010	clade3	2632559	2633446	41960	IPR003137 PA domain;IPR007484 Peptidase M28;IPR041756 Peptidase M28, SGAP-like
+XANCAGTX0491_002177-T1	XcGTX0491_2	2678075	2679240	XANCAGTX0491_002172-T1	navis0010	clade3	2632559	2633446	44629	IPR001509 NAD-dependent epimerase/dehydratase;IPR036291 NAD(P)-binding domain superfamily
+XANCAGTX0491_002178-T1	XcGTX0491_2	2679426	2680486	XANCAGTX0491_002172-T1	navis0010	clade3	2632559	2633446	45980	IPR018959 Domain of unknown function DUF1989;IPR028896 Aminomethyltransferase-like
+XANCAGTX0491_002179-T1	XcGTX0491_2	2681006	2683230	XANCAGTX0491_002172-T1	navis0010	clade3	2632559	2633446	47560	IPR002293 Amino acid/polyamine transporter I;IPR004840 Amino acid permease, conserved site;IPR004841 Amino acid permease/ SLC12A domain
+XANCAGTX0491_002181-T1	XcGTX0491_2	2691619	2692682	XANCAGTX0491_002172-T1	navis0010	clade3	2632559	2633446	58173	IPR029208 Cytochrome c oxidase assembly protein COX14
+XANCAGTX0491_002182-T1	XcGTX0491_2	2696504	2697777	XANCAGTX0491_002172-T1	navis0010	clade3	2632559	2633446	63058	
+XANCAGTX0491_002183-T1	XcGTX0491_2	2699927	2700785	XANCAGTX0491_002172-T1	navis0010	clade3	2632559	2633446	66481	IPR018858 Protein of unknown function DUF2458
+XANCAGTX0491_002184-T1	XcGTX0491_2	2701468	2703159	XANCAGTX0491_002172-T1	navis0010	clade3	2632559	2633446	68022	
+XANCAGTX0491_002185-T1	XcGTX0491_2	2704381	2707759	XANCAGTX0491_002172-T1	navis0010	clade3	2632559	2633446	70935	IPR002110 Ankyrin repeat;IPR007111 NACHT nucleoside triphosphatase;IPR020683 Domain of unknown function DUF3447;IPR027417 P-loop containing nucleoside triphosphate hydrolase;IPR036770 Ankyrin repeat-containing domain superfamily
+XANCAGTX0491_002186-T1	XcGTX0491_2	2709312	2710038	XANCAGTX0491_002172-T1	navis0010	clade3	2632559	2633446	75866	
+XANCAGTX0491_002187-T1	XcGTX0491_2	2713694	2714294	XANCAGTX0491_002172-T1	navis0010	clade3	2632559	2633446	80248	
+XANCAGTX0491_002188-T1	XcGTX0491_2	2715525	2716113	XANCAGTX0491_002172-T1	navis0010	clade3	2632559	2633446	82079	
+XANCAGTX0491_002189-T1	XcGTX0491_2	2717920	2718877	XANCAGTX0491_002172-T1	navis0010	clade3	2632559	2633446	84474	
+XANCAGTX0491_002190-T1	XcGTX0491_2	2721584	2722412	XANCAGTX0491_002172-T1	navis0010	clade3	2632559	2633446	88138	IPR002068 Alpha crystallin/Hsp20 domain;IPR008978 HSP20-like chaperone
+XANCAGTX0491_002191-T1	XcGTX0491_2	2723513	2724800	XANCAGTX0491_002172-T1	navis0010	clade3	2632559	2633446	90067	IPR023210 NADP-dependent oxidoreductase domain;IPR036812 NADP-dependent oxidoreductase domain superfamily
+XANCAGTX0491_002192-T1	XcGTX0491_2	2725522	2727285	XANCAGTX0491_002172-T1	navis0010	clade3	2632559	2633446	92076	
+XANCAGTX0491_002193-T1	XcGTX0491_2	2727497	2729798	XANCAGTX0491_002172-T1	navis0010	clade3	2632559	2633446	94051	IPR001958 Tetracycline resistance protein TetA/multidrug resistance protein MdtG;IPR011701 Major facilitator superfamily;IPR020846 Major facilitator superfamily domain;IPR036259 MFS transporter superfamily
+XANCAGTX0491_002180-T1	XcGTX0491_2	2683706	2691183	XANCAGTX0491_002172-T1	navis0010	clade3	2632559	2633446	50260	IPR000403 Phosphatidylinositol 3-/4-kinase, catalytic domain;IPR003151 PIK-related kinase, FAT;IPR003152 FATC domain;IPR009076 FKBP12-rapamycin binding domain;IPR011009 Protein kinase-like domain superfamily;IPR011989 Armadillo-like helical;IPR014009 PIK-related kinase;IPR016024 Armadillo-type fold;IPR018936 Phosphatidylinositol 3/4-kinase, conserved site;IPR024585 Domain of unknown function DUF3385, target of rapamycin protein;IPR036738 FKBP12-rapamycin binding domain superfamily;IPR036940 Phosphatidylinositol 3-/4-kinase, catalytic domain superfamily
+XANCAGTX0491_008385-T1	XcGTX0491_12	29228	30964	XANCAGTX0491_tyr8	navis0005	arwingFam	23500	23784	5444	
+XANCAGTX0491_008386-T1	XcGTX0491_12	57736	58414	XANCAGTX0491_tyr8	navis0005	arwingFam	23500	23784	33952	
+XANCAGTX0491_008387-T1	XcGTX0491_12	62042	63881	XANCAGTX0491_tyr8	navis0005	arwingFam	23500	23784	38258	
+XANCAGTX0491_008388-T1	XcGTX0491_12	68965	72488	XANCAGTX0491_tyr8	navis0005	arwingFam	23500	23784	45181	
+XANCAGTX0491_008389-T1	XcGTX0491_12	73408	74517	XANCAGTX0491_tyr8	navis0005	arwingFam	23500	23784	49624	
+XANCAGTX0491_008390-T1	XcGTX0491_12	75664	76267	XANCAGTX0491_tyr8	navis0005	arwingFam	23500	23784	51880	IPR001765 Carbonic anhydrase;IPR036874 Carbonic anhydrase superfamily
+XANCAGTX0491_008391-T1	XcGTX0491_12	79191	80156	XANCAGTX0491_tyr8	navis0005	arwingFam	23500	23784	55407	IPR007568 RTA-like protein
+XANCAGTX0491_008392-T1	XcGTX0491_12	88559	90089	XANCAGTX0491_tyr8	navis0005	arwingFam	23500	23784	64775	
+XANCAGTX0491_008393-T1	XcGTX0491_12	97650	97791	XANCAGTX0491_tyr8	navis0005	arwingFam	23500	23784	73866	
+XANCAGTX0491_008394-T1	XcGTX0491_12	99829	100059	XANCAGTX0491_tyr8	navis0005	arwingFam	23500	23784	76045	
+XANCAGTX0491_008395-T1	XcGTX0491_12	101200	102511	XANCAGTX0491_tyr8	navis0005	arwingFam	23500	23784	77416	IPR001128 Cytochrome P450;IPR036396 Cytochrome P450 superfamily
+XANCAGTX0491_008396-T1	XcGTX0491_12	105155	105950	XANCAGTX0491_tyr8	navis0005	arwingFam	23500	23784	81371	IPR002347 Short-chain dehydrogenase/reductase SDR;IPR036291 NAD(P)-binding domain superfamily
+XANCAGTX0491_008397-T1	XcGTX0491_12	106510	107332	XANCAGTX0491_tyr8	navis0005	arwingFam	23500	23784	82726	IPR036396 Cytochrome P450 superfamily
+XANCAGTX0491_008398-T1	XcGTX0491_12	107433	108033	XANCAGTX0491_tyr8	navis0005	arwingFam	23500	23784	83649	IPR001128 Cytochrome P450;IPR002403 Cytochrome P450, E-class, group IV;IPR017972 Cytochrome P450, conserved site;IPR036396 Cytochrome P450 superfamily
+XANCAGTX0491_008399-T1	XcGTX0491_12	108760	110219	XANCAGTX0491_tyr8	navis0005	arwingFam	23500	23784	84976	IPR001958 Tetracycline resistance protein TetA/multidrug resistance protein MdtG;IPR011701 Major facilitator superfamily;IPR020846 Major facilitator superfamily domain;IPR036259 MFS transporter superfamily
+XANCAGTX0491_008400-T1	XcGTX0491_12	111065	113255	XANCAGTX0491_tyr8	navis0005	arwingFam	23500	23784	87281	IPR001138 Zn(2)Cys(6) fungal-type DNA-binding domain;IPR007219 Transcription factor domain, fungi;IPR036864 Zn(2)-C6 fungal-type DNA-binding domain superfamily
+XANCAGTX0491_008401-T1	XcGTX0491_12	113677	114338	XANCAGTX0491_tyr8	navis0005	arwingFam	23500	23784	89893	
+XANCAGTX0491_008402-T1	XcGTX0491_12	118034	118751	XANCAGTX0491_tyr8	navis0005	arwingFam	23500	23784	94250	
+XANCAGTX0491_008403-T1	XcGTX0491_12	119679	121061	XANCAGTX0491_tyr8	navis0005	arwingFam	23500	23784	95895	IPR014030 Beta-ketoacyl synthase, N-terminal;IPR014031 Beta-ketoacyl synthase, C-terminal;IPR016039 Thiolase-like;IPR018201 Beta-ketoacyl synthase, active site;IPR020841 Polyketide synthase, beta-ketoacyl synthase domain
+XANCAGTX0491_008404-T1	XcGTX0491_12	122529	129537	XANCAGTX0491_tyr8	navis0005	arwingFam	23500	23784	98745	IPR000873 AMP-dependent synthetase/ligase domain;IPR001242 Condensation domain;IPR009081 Phosphopantetheine binding ACP domain;IPR013968 Polyketide synthase, ketoreductase domain;IPR020807 Polyketide synthase, dehydratase domain;IPR023213 Chloramphenicol acetyltransferase-like domain superfamily;IPR036291 NAD(P)-binding domain superfamily;IPR036736 ACP-like superfamily;IPR042099 ANL, N-terminal domain;IPR042104 Polyketide synthase, dehydratase domain superfamily
+XANCAGTX0491_008752-T1	XcGTX0491_12	1377676	1378975	XANCAGTX0491_008785-T1	navis0006	phoenixFam	1478908	1481335	101232	IPR002995 Surfeit locus 4
+XANCAGTX0491_008753-T1	XcGTX0491_12	1384999	1386433	XANCAGTX0491_008785-T1	navis0006	phoenixFam	1478908	1481335	93909	
+XANCAGTX0491_008754-T1	XcGTX0491_12	1387283	1388031	XANCAGTX0491_008785-T1	navis0006	phoenixFam	1478908	1481335	91625	
+XANCAGTX0491_008755-T1	XcGTX0491_12	1389344	1390626	XANCAGTX0491_008785-T1	navis0006	phoenixFam	1478908	1481335	89564	
+XANCAGTX0491_008757-T1	XcGTX0491_12	1396957	1398596	XANCAGTX0491_008785-T1	navis0006	phoenixFam	1478908	1481335	81951	IPR012476 mRNA export factor GLE1-like;IPR038506 GLE1-like superfamily
+XANCAGTX0491_008758-T1	XcGTX0491_12	1398997	1399449	XANCAGTX0491_008785-T1	navis0006	phoenixFam	1478908	1481335	79911	IPR001910 Inosine/uridine-preferring nucleoside hydrolase domain;IPR036452 Ribonucleoside hydrolase-like
+XANCAGTX0491_008759-T1	XcGTX0491_12	1399480	1399867	XANCAGTX0491_008785-T1	navis0006	phoenixFam	1478908	1481335	79428	
+XANCAGTX0491_008760-T1	XcGTX0491_12	1399896	1400583	XANCAGTX0491_008785-T1	navis0006	phoenixFam	1478908	1481335	79012	IPR001910 Inosine/uridine-preferring nucleoside hydrolase domain;IPR036452 Ribonucleoside hydrolase-like
+XANCAGTX0491_008761-T1	XcGTX0491_12	1401295	1402291	XANCAGTX0491_008785-T1	navis0006	phoenixFam	1478908	1481335	77613	IPR006710 Glycoside hydrolase, family 43;IPR023296 Glycosyl hydrolase, five-bladed beta-propellor domain superfamily
+XANCAGTX0491_008762-T1	XcGTX0491_12	1403885	1405155	XANCAGTX0491_008785-T1	navis0006	phoenixFam	1478908	1481335	75023	
+XANCAGTX0491_008763-T1	XcGTX0491_12	1405729	1408041	XANCAGTX0491_008785-T1	navis0006	phoenixFam	1478908	1481335	73179	
+XANCAGTX0491_008764-T1	XcGTX0491_12	1409314	1409841	XANCAGTX0491_008785-T1	navis0006	phoenixFam	1478908	1481335	69594	
+XANCAGTX0491_008765-T1	XcGTX0491_12	1412623	1412891	XANCAGTX0491_008785-T1	navis0006	phoenixFam	1478908	1481335	66285	
+XANCAGTX0491_008766-T1	XcGTX0491_12	1413453	1414653	XANCAGTX0491_008785-T1	navis0006	phoenixFam	1478908	1481335	65455	IPR024079 Metallopeptidase, catalytic domain superfamily
+XANCAGTX0491_008767-T1	XcGTX0491_12	1415441	1416392	XANCAGTX0491_008785-T1	navis0006	phoenixFam	1478908	1481335	63467	
+XANCAGTX0491_008768-T1	XcGTX0491_12	1419534	1421559	XANCAGTX0491_008785-T1	navis0006	phoenixFam	1478908	1481335	59374	IPR000719 Protein kinase domain;IPR008271 Serine/threonine-protein kinase, active site;IPR011009 Protein kinase-like domain superfamily
+XANCAGTX0491_008769-T1	XcGTX0491_12	1423151	1423406	XANCAGTX0491_008785-T1	navis0006	phoenixFam	1478908	1481335	55757	
+XANCAGTX0491_008770-T1	XcGTX0491_12	1423475	1424400	XANCAGTX0491_008785-T1	navis0006	phoenixFam	1478908	1481335	55433	
+XANCAGTX0491_008771-T1	XcGTX0491_12	1425499	1427155	XANCAGTX0491_008785-T1	navis0006	phoenixFam	1478908	1481335	53409	IPR000719 Protein kinase domain;IPR008271 Serine/threonine-protein kinase, active site;IPR011009 Protein kinase-like domain superfamily
+XANCAGTX0491_008772-T1	XcGTX0491_12	1429732	1430734	XANCAGTX0491_008785-T1	navis0006	phoenixFam	1478908	1481335	49176	
+XANCAGTX0491_008773-T1	XcGTX0491_12	1430794	1432775	XANCAGTX0491_008785-T1	navis0006	phoenixFam	1478908	1481335	48114	IPR012358 Endopolyphosphatase, Ppn1p-related;IPR029052 Metallo-dependent phosphatase-like;IPR041805 Acid sphingomyelinase/endopolyphosphatase, metallophosphatase domain
+XANCAGTX0491_008774-T1	XcGTX0491_12	1433386	1433674	XANCAGTX0491_008785-T1	navis0006	phoenixFam	1478908	1481335	45522	
+XANCAGTX0491_008776-T1	XcGTX0491_12	1442403	1443929	XANCAGTX0491_008785-T1	navis0006	phoenixFam	1478908	1481335	36505	IPR002110 Ankyrin repeat;IPR011009 Protein kinase-like domain superfamily;IPR016477 Fructosamine/Ketosamine-3-kinase;IPR020683 Domain of unknown function DUF3447;IPR036770 Ankyrin repeat-containing domain superfamily
+XANCAGTX0491_008777-T1	XcGTX0491_12	1458939	1459969	XANCAGTX0491_008785-T1	navis0006	phoenixFam	1478908	1481335	19969	IPR008217 Ccc1 family
+XANCAGTX0491_008778-T1	XcGTX0491_12	1460331	1461465	XANCAGTX0491_008785-T1	navis0006	phoenixFam	1478908	1481335	18577	IPR004579 ERCC1/RAD10/SWI10 family;IPR010994 RuvA domain 2-like;IPR011335 Restriction endonuclease type II-like
+XANCAGTX0491_008779-T1	XcGTX0491_12	1462511	1464990	XANCAGTX0491_008785-T1	navis0006	phoenixFam	1478908	1481335	16345	IPR043129 ATPase, nucleotide binding domain
+XANCAGTX0491_008780-T1	XcGTX0491_12	1465431	1466748	XANCAGTX0491_008785-T1	navis0006	phoenixFam	1478908	1481335	13477	
+XANCAGTX0491_008781-T1	XcGTX0491_12	1467733	1468281	XANCAGTX0491_008785-T1	navis0006	phoenixFam	1478908	1481335	11175	
+XANCAGTX0491_008782-T1	XcGTX0491_12	1471719	1473933	XANCAGTX0491_008785-T1	navis0006	phoenixFam	1478908	1481335	7189	IPR000253 Forkhead-associated (FHA) domain;IPR000719 Protein kinase domain;IPR008271 Serine/threonine-protein kinase, active site;IPR008984 SMAD/FHA domain superfamily;IPR011009 Protein kinase-like domain superfamily;IPR017441 Protein kinase, ATP binding site
+XANCAGTX0491_008784-T1	XcGTX0491_12	1476631	1477048	XANCAGTX0491_008785-T1	navis0006	phoenixFam	1478908	1481335	2277	
+XANCAGTX0491_008785-T1	XcGTX0491_12	1478301	1481425	XANCAGTX0491_008785-T1	navis0006	phoenixFam	1478908	1481335	90	IPR021842 Protein of unknown function DUF3435
+XANCAGTX0491_008756-T1	XcGTX0491_12	1391215	1395939	XANCAGTX0491_008785-T1	navis0006	phoenixFam	1478908	1481335	85396	IPR001900 Ribonuclease II/R;IPR012340 Nucleic acid-binding, OB-fold;IPR041093 DIS3-like exonuclease 2, C-terminal;IPR041505 Dis3-like cold-shock domain 2
+XANCAGTX0491_008783-T1	XcGTX0491_12	1474366	1475831	XANCAGTX0491_008785-T1	navis0006	phoenixFam	1478908	1481335	4542	
+XANCAGTX0491_008775-T1	XcGTX0491_12	1435179	1441849	XANCAGTX0491_008785-T1	navis0006	phoenixFam	1478908	1481335	39486	IPR002889 Carbohydrate-binding WSC;IPR011047 Quinoprotein alcohol dehydrogenase-like superfamily
+XANCAGTX0491_009867-T1	XcGTX0491_15	856650	858019	XANCAGTX0491_009866-T1	navis0001	phoenixFam	853712	856255	395	IPR000210 BTB/POZ domain;IPR011333 SKP1/BTB/POZ domain superfamily
+XANCAGTX0491_009868-T1	XcGTX0491_15	861643	862867	XANCAGTX0491_009866-T1	navis0001	phoenixFam	853712	856255	5388	
+XANCAGTX0491_009869-T1	XcGTX0491_15	872941	873460	XANCAGTX0491_009866-T1	navis0001	phoenixFam	853712	856255	16686	
+XANCAGTX0491_009870-T1	XcGTX0491_15	878200	878649	XANCAGTX0491_009866-T1	navis0001	phoenixFam	853712	856255	21945	IPR002893 Zinc finger, MYND-type
+XANCAGTX0491_009872-T1	XcGTX0491_15	886712	888394	XANCAGTX0491_009866-T1	navis0001	phoenixFam	853712	856255	30457	IPR011990 Tetratricopeptide-like helical domain superfamily
+XANCAGTX0491_009873-T1	XcGTX0491_15	890628	893129	XANCAGTX0491_009866-T1	navis0001	phoenixFam	853712	856255	34373	IPR003593 AAA+ ATPase domain;IPR003959 ATPase, AAA-type, core;IPR027417 P-loop containing nucleoside triphosphate hydrolase
+XANCAGTX0491_009874-T1	XcGTX0491_15	893617	894034	XANCAGTX0491_009866-T1	navis0001	phoenixFam	853712	856255	37362	
+XANCAGTX0491_009875-T1	XcGTX0491_15	908792	908935	XANCAGTX0491_009866-T1	navis0001	phoenixFam	853712	856255	52537	
+XANCAGTX0491_009876-T1	XcGTX0491_15	952078	955392	XANCAGTX0491_009866-T1	navis0001	phoenixFam	853712	856255	95823	IPR002300 Aminoacyl-tRNA synthetase, class Ia;IPR002303 Valine-tRNA ligase;IPR009008 Valyl/Leucyl/Isoleucyl-tRNA synthetase, editing domain;IPR009080 Aminoacyl-tRNA synthetase, class Ia, anticodon-binding;IPR013155 Methionyl/Valyl/Leucyl/Isoleucyl-tRNA synthetase, anticodon-binding;IPR014729 Rossmann-like alpha/beta/alpha sandwich fold;IPR033705 Valyl tRNA synthetase, anticodon-binding domain
+XANCAGTX0491_009871-T1	XcGTX0491_15	883923	885669	XANCAGTX0491_009866-T1	navis0001	phoenixFam	853712	856255	27668	
+XANPAGTX0501_001716-T1	XpGTX0501_3	6802	8423	XANPAGTX0501_001716-T1	navis0002	clade1	6660	7805	142	IPR011010 DNA breaking-rejoining enzyme, catalytic core;IPR013762 Integrase-like, catalytic domain superfamily;IPR021842 Protein of unknown function DUF3435
+XANPAGTX0501_001717-T1	XpGTX0501_3	46308	46697	XANPAGTX0501_001716-T1	navis0002	clade1	6660	7805	38503	
+XANPAGTX0501_001718-T1	XpGTX0501_3	47055	47545	XANPAGTX0501_001716-T1	navis0002	clade1	6660	7805	39250	
+XANPAGTX0501_001719-T1	XpGTX0501_3	47805	48595	XANPAGTX0501_001716-T1	navis0002	clade1	6660	7805	40000	
+XANPAGTX0501_001721-T1	XpGTX0501_3	50164	52793	XANPAGTX0501_001716-T1	navis0002	clade1	6660	7805	42359	IPR001841 Zinc finger, RING-type;IPR002641 Patatin-like phospholipase domain;IPR016035 Acyl transferase/acyl hydrolase/lysophospholipase;IPR017907 Zinc finger, RING-type, conserved site
+XANPAGTX0501_001722-T1	XpGTX0501_3	53006	53381	XANPAGTX0501_001716-T1	navis0002	clade1	6660	7805	45201	
+XANPAGTX0501_001723-T1	XpGTX0501_3	55811	56616	XANPAGTX0501_001716-T1	navis0002	clade1	6660	7805	48006	IPR013216 Methyltransferase type 11;IPR029063 S-adenosyl-L-methionine-dependent methyltransferase superfamily
+XANPAGTX0501_001724-T1	XpGTX0501_3	56965	60805	XANPAGTX0501_001716-T1	navis0002	clade1	6660	7805	49160	IPR002110 Ankyrin repeat;IPR007111 NACHT nucleoside triphosphatase;IPR020683 Domain of unknown function DUF3447;IPR027417 P-loop containing nucleoside triphosphate hydrolase;IPR036770 Ankyrin repeat-containing domain superfamily
+XANPAGTX0501_001725-T1	XpGTX0501_3	61723	62779	XANPAGTX0501_001716-T1	navis0002	clade1	6660	7805	53918	
+XANPAGTX0501_001726-T1	XpGTX0501_3	73433	73812	XANPAGTX0501_001716-T1	navis0002	clade1	6660	7805	65628	
+XANPAGTX0501_001727-T1	XpGTX0501_3	75167	76047	XANPAGTX0501_001716-T1	navis0002	clade1	6660	7805	67362	
+XANPAGTX0501_001728-T1	XpGTX0501_3	76065	76559	XANPAGTX0501_001716-T1	navis0002	clade1	6660	7805	68260	IPR002110 Ankyrin repeat;IPR020683 Domain of unknown function DUF3447;IPR036770 Ankyrin repeat-containing domain superfamily
+XANPAGTX0501_001729-T1	XpGTX0501_3	77716	78184	XANPAGTX0501_001716-T1	navis0002	clade1	6660	7805	69911	
+XANPAGTX0501_001730-T1	XpGTX0501_3	103753	104149	XANPAGTX0501_001716-T1	navis0002	clade1	6660	7805	95948	
+XANPAGTX0501_001731-T1	XpGTX0501_3	105479	110620	XANPAGTX0501_001716-T1	navis0002	clade1	6660	7805	97674	IPR003593 AAA+ ATPase domain;IPR003959 ATPase, AAA-type, core;IPR027417 P-loop containing nucleoside triphosphate hydrolase
+XANPAGTX0501_001720-T1	XpGTX0501_3	47349	49964	XANPAGTX0501_001716-T1	navis0002	clade1	6660	7805	39544	IPR022198 Protein of unknown function DUF3723
+XANPAGTX0501_002910-T1	XpGTX0501_4	1104249	1105479	XANPAGTX0501_002936-T1	navis0001	phoenixFam	1205340	1208010	101091	IPR002921 Fungal lipase-like domain;IPR029058 Alpha/Beta hydrolase fold
+XANPAGTX0501_002911-T1	XpGTX0501_4	1106193	1107445	XANPAGTX0501_002936-T1	navis0001	phoenixFam	1205340	1208010	99147	IPR011234 Fumarylacetoacetase-like, C-terminal;IPR036663 Fumarylacetoacetase-like, C-terminal domain superfamily
+XANPAGTX0501_002912-T1	XpGTX0501_4	1107596	1108497	XANPAGTX0501_002936-T1	navis0001	phoenixFam	1205340	1208010	97744	IPR001353 Proteasome, subunit alpha/beta;IPR016050 Proteasome beta-type subunit, conserved site;IPR016295 Proteasome subunit beta 4;IPR023333 Proteasome B-type subunit;IPR029055 Nucleophile aminohydrolases, N-terminal
+XANPAGTX0501_002913-T1	XpGTX0501_4	1108530	1110005	XANPAGTX0501_002936-T1	navis0001	phoenixFam	1205340	1208010	96810	IPR012479 SAP30-binding protein
+XANPAGTX0501_002914-T1	XpGTX0501_4	1110467	1111311	XANPAGTX0501_002936-T1	navis0001	phoenixFam	1205340	1208010	94873	IPR001353 Proteasome, subunit alpha/beta;IPR023333 Proteasome B-type subunit;IPR029055 Nucleophile aminohydrolases, N-terminal
+XANPAGTX0501_002915-T1	XpGTX0501_4	1111538	1112517	XANPAGTX0501_002936-T1	navis0001	phoenixFam	1205340	1208010	93802	IPR004087 K Homology domain;IPR036612 K Homology domain, type 1 superfamily;IPR041174 Krr1, KH1 domain
+XANPAGTX0501_002917-T1	XpGTX0501_4	1115482	1116933	XANPAGTX0501_002936-T1	navis0001	phoenixFam	1205340	1208010	89858	IPR022617 Rad60/SUMO-like domain;IPR029071 Ubiquitin-like domain superfamily
+XANPAGTX0501_002918-T1	XpGTX0501_4	1117528	1117889	XANPAGTX0501_002936-T1	navis0001	phoenixFam	1205340	1208010	87812	IPR001163 Sm domain, eukaryotic/archaea-type;IPR010920 LSM domain superfamily;IPR016487 Sm-like protein Lsm6/SmF
+XANPAGTX0501_002919-T1	XpGTX0501_4	1117971	1119068	XANPAGTX0501_002936-T1	navis0001	phoenixFam	1205340	1208010	87369	IPR013216 Methyltransferase type 11;IPR029063 S-adenosyl-L-methionine-dependent methyltransferase superfamily
+XANPAGTX0501_002920-T1	XpGTX0501_4	1119350	1119845	XANPAGTX0501_002936-T1	navis0001	phoenixFam	1205340	1208010	85990	IPR005651 Trm112-like
+XANPAGTX0501_002921-T1	XpGTX0501_4	1120240	1124249	XANPAGTX0501_002936-T1	navis0001	phoenixFam	1205340	1208010	83761	IPR001214 SET domain;IPR003616 Post-SET domain;IPR012677 Nucleotide-binding alpha-beta plait domain superfamily;IPR017111 Histone-lysine N-methyltransferase Set1, fungi;IPR024636 Histone lysine methyltransferase SET associated;IPR024657 COMPASS complex Set1 subunit, N-SET domain;IPR035979 RNA-binding domain superfamily
+XANPAGTX0501_002922-T1	XpGTX0501_4	1125961	1128340	XANPAGTX0501_002936-T1	navis0001	phoenixFam	1205340	1208010	79379	IPR001347 SIS domain;IPR017932 Glutamine amidotransferase type 2 domain;IPR029055 Nucleophile aminohydrolases, N-terminal;IPR035466 GlmS/AgaS, SIS domain 1;IPR035490 GlmS/FrlB, SIS domain 2
+XANPAGTX0501_002923-T1	XpGTX0501_4	1128780	1129560	XANPAGTX0501_002936-T1	navis0001	phoenixFam	1205340	1208010	76560	IPR002180 Lumazine/riboflavin synthase;IPR034964 Lumazine synthase;IPR036467 Lumazine/riboflavin synthase superfamily
+XANPAGTX0501_002925-T1	XpGTX0501_4	1131589	1132360	XANPAGTX0501_002936-T1	navis0001	phoenixFam	1205340	1208010	73751	
+XANPAGTX0501_002926-T1	XpGTX0501_4	1133220	1135340	XANPAGTX0501_002936-T1	navis0001	phoenixFam	1205340	1208010	72120	IPR004434 Isocitrate dehydrogenase NAD-dependent;IPR019818 Isocitrate/isopropylmalate dehydrogenase, conserved site;IPR024084 Isopropylmalate dehydrogenase-like domain
+XANPAGTX0501_002927-T1	XpGTX0501_4	1135340	1136519	XANPAGTX0501_002936-T1	navis0001	phoenixFam	1205340	1208010	70000	IPR013216 Methyltransferase type 11;IPR022238 18S rRNA (guanine(1575)-N(7))-methyltransferase Bud23, C-terminal;IPR029063 S-adenosyl-L-methionine-dependent methyltransferase superfamily
+XANPAGTX0501_002928-T1	XpGTX0501_4	1136697	1138332	XANPAGTX0501_002936-T1	navis0001	phoenixFam	1205340	1208010	68643	IPR007277 Svp26/Tex261
+XANPAGTX0501_002929-T1	XpGTX0501_4	1138656	1140504	XANPAGTX0501_002936-T1	navis0001	phoenixFam	1205340	1208010	66684	IPR008979 Galactose-binding-like domain superfamily;IPR010400 PITH domain;IPR013766 Thioredoxin domain;IPR017937 Thioredoxin, conserved site;IPR036249 Thioredoxin-like superfamily;IPR037047 PITH domain superfamily
+XANPAGTX0501_002930-T1	XpGTX0501_4	1142151	1145850	XANPAGTX0501_002936-T1	navis0001	phoenixFam	1205340	1208010	62160	IPR000008 C2 domain;IPR031468 Synaptotagmin-like mitochondrial-lipid-binding domain;IPR035892 C2 domain superfamily
+XANPAGTX0501_002932-T1	XpGTX0501_4	1147522	1148498	XANPAGTX0501_002936-T1	navis0001	phoenixFam	1205340	1208010	57818	IPR013248 Secretory component protein Psh3/Shr3
+XANPAGTX0501_002933-T1	XpGTX0501_4	1185207	1186522	XANPAGTX0501_002936-T1	navis0001	phoenixFam	1205340	1208010	20133	
+XANPAGTX0501_002934-T1	XpGTX0501_4	1189575	1190352	XANPAGTX0501_002936-T1	navis0001	phoenixFam	1205340	1208010	15765	
+XANPAGTX0501_002935-T1	XpGTX0501_4	1190722	1194646	XANPAGTX0501_002936-T1	navis0001	phoenixFam	1205340	1208010	13364	IPR011990 Tetratricopeptide-like helical domain superfamily;IPR024983 CHAT domain
+XANPAGTX0501_002936-T1	XpGTX0501_4	1205201	1206284	XANPAGTX0501_002936-T1	navis0001	phoenixFam	1205340	1208010	139	IPR021842 Protein of unknown function DUF3435
+XANPAGTX0501_002916-T1	XpGTX0501_4	1112817	1115069	XANPAGTX0501_002936-T1	navis0001	phoenixFam	1205340	1208010	92523	IPR012571 Mitochondrial distribution and morphology protein family 31/32, fungi
+XANPAGTX0501_002924-T1	XpGTX0501_4	1128575	1130896	XANPAGTX0501_002936-T1	navis0001	phoenixFam	1205340	1208010	76765	IPR000426 Proteasome alpha-subunit, N-terminal domain;IPR001353 Proteasome, subunit alpha/beta;IPR023332 Proteasome alpha-type subunit;IPR029055 Nucleophile aminohydrolases, N-terminal
+XANPAGTX0501_002931-T1	XpGTX0501_4	1146247	1147078	XANPAGTX0501_002936-T1	navis0001	phoenixFam	1205340	1208010	59093	
+XANPAGTX0501_003812-T1	XpGTX0501_5	1564919	1570673	XANPAGTX0501_tyr12	navis0004	prometheusFam	1670285	1672933	102260	IPR000719 Protein kinase domain;IPR008271 Serine/threonine-protein kinase, active site;IPR011009 Protein kinase-like domain superfamily;IPR017441 Protein kinase, ATP binding site
+XANPAGTX0501_003813-T1	XpGTX0501_5	1571535	1572651	XANPAGTX0501_tyr12	navis0004	prometheusFam	1670285	1672933	98750	IPR002575 Aminoglycoside phosphotransferase;IPR011009 Protein kinase-like domain superfamily
+XANPAGTX0501_003814-T1	XpGTX0501_5	1573654	1574957	XANPAGTX0501_tyr12	navis0004	prometheusFam	1670285	1672933	96631	IPR004114 THUMP domain;IPR040183 THUMP domain-containing protein 1-like
+XANPAGTX0501_003815-T1	XpGTX0501_5	1575355	1576303	XANPAGTX0501_tyr12	navis0004	prometheusFam	1670285	1672933	94930	
+XANPAGTX0501_003816-T1	XpGTX0501_5	1577445	1578838	XANPAGTX0501_tyr12	navis0004	prometheusFam	1670285	1672933	92840	IPR007320 Programmed cell death protein 2, C-terminal
+XANPAGTX0501_003817-T1	XpGTX0501_5	1579098	1580288	XANPAGTX0501_tyr12	navis0004	prometheusFam	1670285	1672933	91187	IPR000717 Proteasome component (PCI) domain;IPR009374 Eukaryotic translation initiation factor 3 subunit K;IPR016020 Translation initiation factor 3, subunit 12, N-terminal, eukaryotic;IPR016024 Armadillo-type fold;IPR033464 CSN8/PSMD8/EIF3K;IPR036390 Winged helix DNA-binding domain superfamily
+XANPAGTX0501_003818-T1	XpGTX0501_5	1580901	1582189	XANPAGTX0501_tyr12	navis0004	prometheusFam	1670285	1672933	89384	IPR037520 Folliculin/SMCR8, longin domain;IPR037521 Folliculin/SMCR8, tripartite DENN domain
+XANPAGTX0501_003819-T1	XpGTX0501_5	1583298	1587382	XANPAGTX0501_tyr12	navis0004	prometheusFam	1670285	1672933	85551	IPR000178 Translation initiation factor IF-2, bacterial-like;IPR000795 Translational (tr)-type GTP-binding domain;IPR001876 Zinc finger, RanBP2-type;IPR005225 Small GTP-binding protein domain;IPR006847 Translation initiation factor IF-2, N-terminal;IPR009000 Translation protein, beta-barrel domain superfamily;IPR023115 Translation initiation factor IF- 2, domain 3;IPR027417 P-loop containing nucleoside triphosphate hydrolase;IPR036925 Translation initiation factor IF-2, domain 3 superfamily
+XANPAGTX0501_003820-T1	XpGTX0501_5	1587847	1588649	XANPAGTX0501_tyr12	navis0004	prometheusFam	1670285	1672933	82438	
+XANPAGTX0501_003821-T1	XpGTX0501_5	1590410	1591232	XANPAGTX0501_tyr12	navis0004	prometheusFam	1670285	1672933	79875	
+XANPAGTX0501_003822-T1	XpGTX0501_5	1591493	1592362	XANPAGTX0501_tyr12	navis0004	prometheusFam	1670285	1672933	78792	IPR006328 L-2-Haloacid dehalogenase;IPR006439 HAD hydrolase, subfamily IA;IPR023198 Phosphoglycolate phosphatase-like, domain 2;IPR023214 HAD superfamily;IPR036412 HAD-like superfamily;IPR041492 Haloacid dehalogenase-like hydrolase
+XANPAGTX0501_003823-T1	XpGTX0501_5	1595222	1595802	XANPAGTX0501_tyr12	navis0004	prometheusFam	1670285	1672933	75063	
+XANPAGTX0501_003824-T1	XpGTX0501_5	1596190	1598099	XANPAGTX0501_tyr12	navis0004	prometheusFam	1670285	1672933	74095	IPR000182 GNAT domain;IPR015416 Zinc finger, H2C2-type, histone UAS binding;IPR016181 Acyl-CoA N-acyltransferase
+XANPAGTX0501_003825-T1	XpGTX0501_5	1600175	1601546	XANPAGTX0501_tyr12	navis0004	prometheusFam	1670285	1672933	70110	IPR007751 Domain of unknown function DUF676, lipase-like;IPR029058 Alpha/Beta hydrolase fold
+XANPAGTX0501_003826-T1	XpGTX0501_5	1601629	1605364	XANPAGTX0501_tyr12	navis0004	prometheusFam	1670285	1672933	67569	IPR002182 NB-ARC;IPR027417 P-loop containing nucleoside triphosphate hydrolase
+XANPAGTX0501_003827-T1	XpGTX0501_5	1605991	1606216	XANPAGTX0501_tyr12	navis0004	prometheusFam	1670285	1672933	64294	
+XANPAGTX0501_003828-T1	XpGTX0501_5	1607039	1608254	XANPAGTX0501_tyr12	navis0004	prometheusFam	1670285	1672933	63246	IPR019380 Casein kinase substrate, phosphoprotein PP28
+XANPAGTX0501_003829-T1	XpGTX0501_5	1608633	1609683	XANPAGTX0501_tyr12	navis0004	prometheusFam	1670285	1672933	61652	IPR000253 Forkhead-associated (FHA) domain;IPR008984 SMAD/FHA domain superfamily
+XANPAGTX0501_003830-T1	XpGTX0501_5	1609938	1611186	XANPAGTX0501_tyr12	navis0004	prometheusFam	1670285	1672933	60347	IPR007881 UNC-50
+XANPAGTX0501_003831-T1	XpGTX0501_5	1612211	1617161	XANPAGTX0501_tyr12	navis0004	prometheusFam	1670285	1672933	55772	IPR000904 Sec7 domain;IPR011993 PH-like domain superfamily;IPR023394 Sec7, C-terminal domain superfamily;IPR035999 Sec7 domain superfamily;IPR041681 Pleckstrin homology domain 9
+XANPAGTX0501_003832-T1	XpGTX0501_5	1617794	1617956	XANPAGTX0501_tyr12	navis0004	prometheusFam	1670285	1672933	52491	
+XANPAGTX0501_003833-T1	XpGTX0501_5	1619253	1621725	XANPAGTX0501_tyr12	navis0004	prometheusFam	1670285	1672933	51032	IPR012000 Thiamine pyrophosphate enzyme, central domain;IPR012001 Thiamine pyrophosphate enzyme, N-terminal TPP-binding domain;IPR029035 DHS-like NAD/FAD-binding domain superfamily;IPR029061 Thiamin diphosphate-binding fold
+XANPAGTX0501_003834-T1	XpGTX0501_5	1622047	1622648	XANPAGTX0501_tyr12	navis0004	prometheusFam	1670285	1672933	48238	IPR006175 YjgF/YER057c/UK114 family;IPR035959 RutC-like superfamily
+XANPAGTX0501_007308-T1	XpGTX0501_12	134572	135173	XANPAGTX0501_007307-T1	navis0001	phoenixFam	129424	131974	2598	
+XANPAGTX0501_007309-T1	XpGTX0501_12	135320	135899	XANPAGTX0501_007307-T1	navis0001	phoenixFam	129424	131974	3346	IPR040976 Fungal-type protein kinase
+XANPAGTX0501_007310-T1	XpGTX0501_12	138868	141992	XANPAGTX0501_007307-T1	navis0001	phoenixFam	129424	131974	6894	IPR002151 Kinesin light chain;IPR011990 Tetratricopeptide-like helical domain superfamily;IPR013026 None;IPR019734 Tetratricopeptide repeat
+XANPAGTX0501_007311-T1	XpGTX0501_12	146439	146891	XANPAGTX0501_007307-T1	navis0001	phoenixFam	129424	131974	14465	IPR027417 P-loop containing nucleoside triphosphate hydrolase;IPR041664 Orc1-like, AAA ATPase domain
+XANPAGTX0501_007312-T1	XpGTX0501_12	149272	149899	XANPAGTX0501_007307-T1	navis0001	phoenixFam	129424	131974	17298	
+XANPAGTX0501_007313-T1	XpGTX0501_12	150058	150514	XANPAGTX0501_007307-T1	navis0001	phoenixFam	129424	131974	18084	
+XANPAGTX0501_007314-T1	XpGTX0501_12	152008	154734	XANPAGTX0501_007307-T1	navis0001	phoenixFam	129424	131974	20034	IPR002293 Amino acid/polyamine transporter I
+XANPAGTX0501_007315-T1	XpGTX0501_12	155886	157472	XANPAGTX0501_007307-T1	navis0001	phoenixFam	129424	131974	23912	IPR003959 ATPase, AAA-type, core;IPR027417 P-loop containing nucleoside triphosphate hydrolase
+XANPAGTX0501_007316-T1	XpGTX0501_12	157826	159056	XANPAGTX0501_007307-T1	navis0001	phoenixFam	129424	131974	25852	IPR008183 Aldose 1-/Glucose-6-phosphate 1-epimerase;IPR011013 Galactose mutarotase-like domain superfamily;IPR014718 Glycoside hydrolase-type carbohydrate-binding
+XANPAGTX0501_007317-T1	XpGTX0501_12	159864	161117	XANPAGTX0501_007307-T1	navis0001	phoenixFam	129424	131974	27890	IPR002843 ATPase, V0 complex, c/d subunit;IPR016727 ATPase, V0 complex, subunit d;IPR035067 V-type ATPase subunit C/d;IPR036079 V-type ATP synthase subunit c/d subunit superfamily
+XANPAGTX0501_007319-T1	XpGTX0501_12	164974	166750	XANPAGTX0501_007307-T1	navis0001	phoenixFam	129424	131974	33000	IPR001406 Pseudouridine synthase I, TruA;IPR020095 Pseudouridine synthase I, TruA, C-terminal;IPR020097 Pseudouridine synthase I, TruA, alpha/beta domain;IPR020103 Pseudouridine synthase, catalytic domain superfamily
+XANPAGTX0501_007320-T1	XpGTX0501_12	166992	167673	XANPAGTX0501_007307-T1	navis0001	phoenixFam	129424	131974	35018	IPR001806 Small GTPase;IPR027417 P-loop containing nucleoside triphosphate hydrolase
+XANPAGTX0501_007321-T1	XpGTX0501_12	167838	169049	XANPAGTX0501_007307-T1	navis0001	phoenixFam	129424	131974	35864	IPR011009 Protein kinase-like domain superfamily;IPR016477 Fructosamine/Ketosamine-3-kinase
+XANPAGTX0501_007322-T1	XpGTX0501_12	169727	174774	XANPAGTX0501_007307-T1	navis0001	phoenixFam	129424	131974	37753	IPR001680 WD40 repeat;IPR007111 NACHT nucleoside triphosphatase;IPR015943 WD40/YVTN repeat-like-containing domain superfamily;IPR027417 P-loop containing nucleoside triphosphate hydrolase;IPR029058 Alpha/Beta hydrolase fold;IPR036322 WD40-repeat-containing domain superfamily
+XANPAGTX0501_007323-T1	XpGTX0501_12	174951	177661	XANPAGTX0501_007307-T1	navis0001	phoenixFam	129424	131974	42977	IPR005829 Sugar transporter, conserved site;IPR011701 Major facilitator superfamily;IPR020846 Major facilitator superfamily domain;IPR036259 MFS transporter superfamily
+XANPAGTX0501_007324-T1	XpGTX0501_12	177704	178448	XANPAGTX0501_007307-T1	navis0001	phoenixFam	129424	131974	45730	
+XANPAGTX0501_007326-T1	XpGTX0501_12	180963	181742	XANPAGTX0501_007307-T1	navis0001	phoenixFam	129424	131974	48989	
+XANPAGTX0501_007327-T1	XpGTX0501_12	182271	182973	XANPAGTX0501_007307-T1	navis0001	phoenixFam	129424	131974	50297	
+XANPAGTX0501_007328-T1	XpGTX0501_12	183131	184199	XANPAGTX0501_007307-T1	navis0001	phoenixFam	129424	131974	51157	
+XANPAGTX0501_007329-T1	XpGTX0501_12	186378	186735	XANPAGTX0501_007307-T1	navis0001	phoenixFam	129424	131974	54404	
+XANPAGTX0501_007330-T1	XpGTX0501_12	187048	189445	XANPAGTX0501_007307-T1	navis0001	phoenixFam	129424	131974	55074	IPR006084 XPG/Rad2 endonuclease;IPR006085 XPG, N-terminal;IPR006086 XPG-I domain;IPR029060 PIN-like domain superfamily;IPR036279 5'-3' exonuclease, C-terminal domain superfamily;IPR037316 Yen1, H3TH domain;IPR041177 Holliday junction resolvase Gen1, C-terminal domain
+XANPAGTX0501_007331-T1	XpGTX0501_12	189573	191320	XANPAGTX0501_007307-T1	navis0001	phoenixFam	129424	131974	57599	IPR004000 Actin family;IPR043129 ATPase, nucleotide binding domain
+XANPAGTX0501_007332-T1	XpGTX0501_12	191400	192489	XANPAGTX0501_007307-T1	navis0001	phoenixFam	129424	131974	59426	
+XANPAGTX0501_007333-T1	XpGTX0501_12	193217	195247	XANPAGTX0501_007307-T1	navis0001	phoenixFam	129424	131974	61243	IPR000629 ATP-dependent RNA helicase DEAD-box, conserved site;IPR001650 Helicase, C-terminal;IPR011545 DEAD/DEAH box helicase domain;IPR014001 Helicase superfamily 1/2, ATP-binding domain;IPR014014 RNA helicase, DEAD-box type, Q motif;IPR025313 Domain of unknown function DUF4217;IPR027417 P-loop containing nucleoside triphosphate hydrolase
+XANPAGTX0501_007334-T1	XpGTX0501_12	197259	201177	XANPAGTX0501_007307-T1	navis0001	phoenixFam	129424	131974	65285	
+XANPAGTX0501_007335-T1	XpGTX0501_12	201197	202725	XANPAGTX0501_007307-T1	navis0001	phoenixFam	129424	131974	69223	IPR000589 Ribosomal protein S15;IPR009068 S15/NS1, RNA-binding
+XANPAGTX0501_007336-T1	XpGTX0501_12	202859	204485	XANPAGTX0501_007307-T1	navis0001	phoenixFam	129424	131974	70885	IPR001865 Ribosomal protein S2;IPR005707 Ribosomal protein S2, eukaryotic/archaeal;IPR018130 Ribosomal protein S2, conserved site;IPR023591 Ribosomal protein S2, flavodoxin-like domain superfamily;IPR027498 Ribosomal protein S2, eukaryotic;IPR032281 40S ribosomal protein SA, C-terminal domain
+XANPAGTX0501_007337-T1	XpGTX0501_12	206471	207056	XANPAGTX0501_007307-T1	navis0001	phoenixFam	129424	131974	74497	
+XANPAGTX0501_007338-T1	XpGTX0501_12	207132	208077	XANPAGTX0501_007307-T1	navis0001	phoenixFam	129424	131974	75158	
+XANPAGTX0501_007339-T1	XpGTX0501_12	210267	210573	XANPAGTX0501_007307-T1	navis0001	phoenixFam	129424	131974	78293	
+XANPAGTX0501_007340-T1	XpGTX0501_12	211776	212247	XANPAGTX0501_007307-T1	navis0001	phoenixFam	129424	131974	79802	
+XANPAGTX0501_007342-T1	XpGTX0501_12	215431	216930	XANPAGTX0501_007307-T1	navis0001	phoenixFam	129424	131974	83457	
+XANPAGTX0501_007343-T1	XpGTX0501_12	217817	218237	XANPAGTX0501_007307-T1	navis0001	phoenixFam	129424	131974	85843	
+XANPAGTX0501_007344-T1	XpGTX0501_12	221253	222141	XANPAGTX0501_007307-T1	navis0001	phoenixFam	129424	131974	89279	
+XANPAGTX0501_007345-T1	XpGTX0501_12	223184	223583	XANPAGTX0501_007307-T1	navis0001	phoenixFam	129424	131974	91210	
+XANPAGTX0501_007318-T1	XpGTX0501_12	161281	163965	XANPAGTX0501_007307-T1	navis0001	phoenixFam	129424	131974	29307	IPR002687 Nop domain;IPR012974 Nucleolar protein 58/56, N-terminal;IPR012976 NOSIC;IPR029012 Helix hairpin bin domain superfamily;IPR036070 Nop domain superfamily;IPR042239 Nop, C-terminal domain
+XANPAGTX0501_007325-T1	XpGTX0501_12	178905	180403	XANPAGTX0501_007307-T1	navis0001	phoenixFam	129424	131974	46931	IPR002125 Cytidine and deoxycytidylate deaminase domain;IPR016193 Cytidine deaminase-like
+XANPAGTX0501_007341-T1	XpGTX0501_12	212533	213980	XANPAGTX0501_007307-T1	navis0001	phoenixFam	129424	131974	80559	
+XANPAGTX0501_007346-T1	XpGTX0501_12	225196	233688	XANPAGTX0501_007307-T1	navis0001	phoenixFam	129424	131974	93222	IPR001227 Acyl transferase domain superfamily;IPR011032 GroES-like superfamily;IPR013149 Alcohol dehydrogenase-like, C-terminal;IPR014030 Beta-ketoacyl synthase, N-terminal;IPR014031 Beta-ketoacyl synthase, C-terminal;IPR014043 Acyl transferase;IPR016035 Acyl transferase/acyl hydrolase/lysophospholipase;IPR016036 Malonyl-CoA ACP transacylase, ACP-binding;IPR016039 Thiolase-like;IPR018201 Beta-ketoacyl synthase, active site;IPR020801 None;IPR020807 Polyketide synthase, dehydratase domain;IPR020841 Polyketide synthase, beta-ketoacyl synthase domain;IPR020843 Polyketide synthase, enoylreductase domain;IPR032821 Polyketide synthase, C-terminal extension;IPR036291 NAD(P)-binding domain superfamily;IPR042104 Polyketide synthase, dehydratase domain superfamily
+XANPAGTX0501_010272-T1	XpGTX0501_31	125843	127635	XANPAGTX0501_010272-T1	navis0002	clade1	125644	126848	199	IPR011010 DNA breaking-rejoining enzyme, catalytic core;IPR013762 Integrase-like, catalytic domain superfamily;IPR021842 Protein of unknown function DUF3435
+XANPAGTX0501_010486-T1	XpGTX0501_37	3674	5671	XANPAGTX0501_010485-T1	navis0003	galacticaFam	760	1759	1915	
+XANPAGTX0501_010487-T1	XpGTX0501_37	8540	9775	XANPAGTX0501_010485-T1	navis0003	galacticaFam	760	1759	6781	IPR027417 P-loop containing nucleoside triphosphate hydrolase
+XANPAGTX0501_010488-T1	XpGTX0501_37	12823	14755	XANPAGTX0501_010485-T1	navis0003	galacticaFam	760	1759	11064	
+XANPAGTX0501_010489-T1	XpGTX0501_37	15264	15543	XANPAGTX0501_010485-T1	navis0003	galacticaFam	760	1759	13505	
+XANPAGTX0501_010491-T1	XpGTX0501_37	18118	18752	XANPAGTX0501_010485-T1	navis0003	galacticaFam	760	1759	16359	
+XANPAGTX0501_010492-T1	XpGTX0501_37	19256	19816	XANPAGTX0501_010485-T1	navis0003	galacticaFam	760	1759	17497	
+XANPAGTX0501_010493-T1	XpGTX0501_37	20179	20922	XANPAGTX0501_010485-T1	navis0003	galacticaFam	760	1759	18420	
+XANPAGTX0501_010494-T1	XpGTX0501_37	21484	21673	XANPAGTX0501_010485-T1	navis0003	galacticaFam	760	1759	19725	
+XANPAGTX0501_010495-T1	XpGTX0501_37	23807	25897	XANPAGTX0501_010485-T1	navis0003	galacticaFam	760	1759	22048	IPR002641 Patatin-like phospholipase domain;IPR016035 Acyl transferase/acyl hydrolase/lysophospholipase
+XANPAGTX0501_010496-T1	XpGTX0501_37	27389	29432	XANPAGTX0501_010485-T1	navis0003	galacticaFam	760	1759	25630	IPR000253 Forkhead-associated (FHA) domain;IPR000719 Protein kinase domain;IPR008271 Serine/threonine-protein kinase, active site;IPR008984 SMAD/FHA domain superfamily;IPR011009 Protein kinase-like domain superfamily
+XANPAGTX0501_010497-T1	XpGTX0501_37	30200	30827	XANPAGTX0501_010485-T1	navis0003	galacticaFam	760	1759	28441	
+XANPAGTX0501_010499-T1	XpGTX0501_37	34549	35790	XANPAGTX0501_010485-T1	navis0003	galacticaFam	760	1759	32790	IPR011009 Protein kinase-like domain superfamily
+XANPAGTX0501_010500-T1	XpGTX0501_37	35904	36594	XANPAGTX0501_010485-T1	navis0003	galacticaFam	760	1759	34145	
+XANPAGTX0501_010501-T1	XpGTX0501_37	37217	38510	XANPAGTX0501_010485-T1	navis0003	galacticaFam	760	1759	35458	
+XANPAGTX0501_010502-T1	XpGTX0501_37	38765	40067	XANPAGTX0501_010485-T1	navis0003	galacticaFam	760	1759	37006	
+XANPAGTX0501_010503-T1	XpGTX0501_37	40594	42106	XANPAGTX0501_010485-T1	navis0003	galacticaFam	760	1759	38835	
+XANPAGTX0501_010504-T1	XpGTX0501_37	42340	46727	XANPAGTX0501_010485-T1	navis0003	galacticaFam	760	1759	40581	IPR013112 FAD-binding 8;IPR013121 Ferric reductase, NAD binding domain;IPR017927 FAD-binding domain, ferredoxin reductase-type;IPR017938 Riboflavin synthase-like beta-barrel;IPR039261 Ferredoxin-NADP reductase (FNR), nucleotide-binding domain
+XANPAGTX0501_010505-T1	XpGTX0501_37	47131	48142	XANPAGTX0501_010485-T1	navis0003	galacticaFam	760	1759	45372	IPR031348 Fungal N-terminal domain of STAND protein
+XANPAGTX0501_010507-T1	XpGTX0501_37	53546	54221	XANPAGTX0501_010485-T1	navis0003	galacticaFam	760	1759	51787	
+XANPAGTX0501_010508-T1	XpGTX0501_37	55989	56385	XANPAGTX0501_010485-T1	navis0003	galacticaFam	760	1759	54230	
+XANPAGTX0501_010509-T1	XpGTX0501_37	57809	59521	XANPAGTX0501_010485-T1	navis0003	galacticaFam	760	1759	56050	IPR011990 Tetratricopeptide-like helical domain superfamily
+XANPAGTX0501_010510-T1	XpGTX0501_37	60204	60567	XANPAGTX0501_010485-T1	navis0003	galacticaFam	760	1759	58445	
+XANPAGTX0501_010511-T1	XpGTX0501_37	64299	64557	XANPAGTX0501_010485-T1	navis0003	galacticaFam	760	1759	62540	
+XANPAGTX0501_010513-T1	XpGTX0501_37	68621	71661	XANPAGTX0501_010485-T1	navis0003	galacticaFam	760	1759	66862	IPR001680 WD40 repeat;IPR011990 Tetratricopeptide-like helical domain superfamily;IPR015943 WD40/YVTN repeat-like-containing domain superfamily;IPR017986 None;IPR019775 WD40 repeat, conserved site;IPR020472 G-protein beta WD-40 repeat;IPR036322 WD40-repeat-containing domain superfamily;IPR036815 14-3-3 domain superfamily
+XANPAGTX0501_010514-T1	XpGTX0501_37	73327	73401	XANPAGTX0501_010485-T1	navis0003	galacticaFam	760	1759	71568	
+XANPAGTX0501_010515-T1	XpGTX0501_37	73868	75214	XANPAGTX0501_010485-T1	navis0003	galacticaFam	760	1759	72109	
+XANPAGTX0501_010516-T1	XpGTX0501_37	78145	78337	XANPAGTX0501_010485-T1	navis0003	galacticaFam	760	1759	76386	
+XANPAGTX0501_010517-T1	XpGTX0501_37	78583	80533	XANPAGTX0501_010485-T1	navis0003	galacticaFam	760	1759	76824	
+XANPAGTX0501_010518-T1	XpGTX0501_37	82272	82764	XANPAGTX0501_010485-T1	navis0003	galacticaFam	760	1759	80513	
+XANPAGTX0501_010519-T1	XpGTX0501_37	82847	83735	XANPAGTX0501_010485-T1	navis0003	galacticaFam	760	1759	81088	
+XANPAGTX0501_010520-T1	XpGTX0501_37	83749	84001	XANPAGTX0501_010485-T1	navis0003	galacticaFam	760	1759	81990	
+XANPAGTX0501_010521-T1	XpGTX0501_37	84233	84977	XANPAGTX0501_010485-T1	navis0003	galacticaFam	760	1759	82474	
+XANPAGTX0501_010522-T1	XpGTX0501_37	85129	85417	XANPAGTX0501_010485-T1	navis0003	galacticaFam	760	1759	83370	
+XANPAGTX0501_010523-T1	XpGTX0501_37	86857	87358	XANPAGTX0501_010485-T1	navis0003	galacticaFam	760	1759	85098	
+XANPAGTX0501_010524-T1	XpGTX0501_37	91286	93170	XANPAGTX0501_010485-T1	navis0003	galacticaFam	760	1759	89527	IPR027417 P-loop containing nucleoside triphosphate hydrolase;IPR041679 DNA2/NAM7 helicase-like, C-terminal
+XANPAGTX0501_010525-T1	XpGTX0501_37	93252	94104	XANPAGTX0501_010485-T1	navis0003	galacticaFam	760	1759	91493	
+XANPAGTX0501_010526-T1	XpGTX0501_37	94765	97655	XANPAGTX0501_010485-T1	navis0003	galacticaFam	760	1759	93006	IPR027417 P-loop containing nucleoside triphosphate hydrolase;IPR041679 DNA2/NAM7 helicase-like, C-terminal
+XANPAGTX0501_010528-T1	XpGTX0501_37	101636	102068	XANPAGTX0501_010485-T1	navis0003	galacticaFam	760	1759	99877	
+XANPAGTX0501_010490-T1	XpGTX0501_37	15864	16674	XANPAGTX0501_010485-T1	navis0003	galacticaFam	760	1759	14105	
+XANPAGTX0501_010498-T1	XpGTX0501_37	31669	33566	XANPAGTX0501_010485-T1	navis0003	galacticaFam	760	1759	29910	IPR003864 CSC1/OSCA1-like, 7TM region
+XANPAGTX0501_010506-T1	XpGTX0501_37	48184	52142	XANPAGTX0501_010485-T1	navis0003	galacticaFam	760	1759	46425	IPR011990 Tetratricopeptide-like helical domain superfamily;IPR027417 P-loop containing nucleoside triphosphate hydrolase
+XANPAGTX0501_010512-T1	XpGTX0501_37	64597	66760	XANPAGTX0501_010485-T1	navis0003	galacticaFam	760	1759	62838	
+XANPAGTX0501_010527-T1	XpGTX0501_37	98212	100555	XANPAGTX0501_010485-T1	navis0003	galacticaFam	760	1759	96453	
+XANPAGTX0501_010562-T1	XpGTX0501_39	2159	3582	XANPAGTX0501_010572-T1	navis0004	prometheusFam	70667	72714	68508	IPR001077 O-methyltransferase domain;IPR016461 O-methyltransferase COMT-type;IPR029063 S-adenosyl-L-methionine-dependent methyltransferase superfamily;IPR036388 Winged helix-like DNA-binding domain superfamily;IPR036390 Winged helix DNA-binding domain superfamily
+XANPAGTX0501_010563-T1	XpGTX0501_39	4021	4348	XANPAGTX0501_010572-T1	navis0004	prometheusFam	70667	72714	66646	
+XANPAGTX0501_010564-T1	XpGTX0501_39	4700	5758	XANPAGTX0501_010572-T1	navis0004	prometheusFam	70667	72714	65967	IPR011701 Major facilitator superfamily;IPR036259 MFS transporter superfamily
+XANPAGTX0501_010565-T1	XpGTX0501_39	6728	9916	XANPAGTX0501_010572-T1	navis0004	prometheusFam	70667	72714	62798	
+XANPAGTX0501_010566-T1	XpGTX0501_39	10191	13191	XANPAGTX0501_010572-T1	navis0004	prometheusFam	70667	72714	59523	
+XANPAGTX0501_010567-T1	XpGTX0501_39	13328	15006	XANPAGTX0501_010572-T1	navis0004	prometheusFam	70667	72714	57339	IPR036047 F-box-like domain superfamily
+XANPAGTX0501_010568-T1	XpGTX0501_39	14170	15943	XANPAGTX0501_010572-T1	navis0004	prometheusFam	70667	72714	56497	IPR010497 Epoxide hydrolase, N-terminal;IPR029058 Alpha/Beta hydrolase fold
+XANPAGTX0501_010569-T1	XpGTX0501_39	16744	17777	XANPAGTX0501_010572-T1	navis0004	prometheusFam	70667	72714	53923	IPR006175 YjgF/YER057c/UK114 family;IPR035959 RutC-like superfamily
+XANPAGTX0501_010570-T1	XpGTX0501_39	63533	65213	XANPAGTX0501_010572-T1	navis0004	prometheusFam	70667	72714	7134	IPR011990 Tetratricopeptide-like helical domain superfamily;IPR027417 P-loop containing nucleoside triphosphate hydrolase
+XANPAGTX0501_010571-T1	XpGTX0501_39	65990	66833	XANPAGTX0501_010572-T1	navis0004	prometheusFam	70667	72714	4677	IPR029498 Prion-inhibition and propagation, HeLo domain;IPR038305 HeLo domain superfamily

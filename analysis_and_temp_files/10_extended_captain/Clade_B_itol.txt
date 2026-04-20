@@ -1,0 +1,28 @@
+DATASET_COLORSTRIP
+SEPARATOR COMMA
+DATASET_LABEL,Taxonomy
+LEGEND_TITLE,Taxonomy
+LEGEND_SHAPES,1,1,1,1
+LEGEND_COLORS,#E6AB02,#1B9E77,#d1ff87,#c3f5fa
+LEGEND_LABELS,Lecanoromycetes,Chaetothyriales,other Eurotiomycetes,Arthoniomycetes
+DATA
+capepi1_1814,#1B9E77
+chaetothyriales.sp..1_tyr955,#1B9E77
+melanina.sp..2_tyr3167,#1B9E77
+dimelaena.oreina.1_tyr2942,#E6AB02
+leprocaulales.sp..1_tyr1393,#E6AB02
+porpidia.contraponenda.1_tyr415,#E6AB02
+rhizocarpon.subgeminatum.1_tyr3275,#E6AB02
+umbilicaria.crustulosa.1_tyr1022,#E6AB02
+umbilicaria.crustulosa.2_tyr2734,#E6AB02
+umbilicaria.deusta.4_tyr2123,#E6AB02
+umbilicaria.spodochroa.2_tyr2686,#E6AB02
+endocarpon.pusillum.1_tyr2645,#d1ff87
+endocarpon.pusillum.1_tyr3654,#d1ff87
+endocarpon.pusillum.1_tyr746,#d1ff87
+endocarpon.pusillum.2_tyr309,#d1ff87
+muellerella.sp..1_tyr1325,#d1ff87
+muellerella.sp..1_tyr3262,#d1ff87
+muellerella.sp..1_tyr3721,#d1ff87
+phachl1_tyr9076,#d1ff87
+penfla1_tyr8805,#ffffff

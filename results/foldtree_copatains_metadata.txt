@@ -1,0 +1,697 @@
+Captain	familyID	Source	Genome
+lambiella.insularis.1_tyr2509		Newly-annotated lichen genomes	lambiella.insularis.1
+porpidia.subsimplex.1_tyr3430		Newly-annotated lichen genomes	porpidia.subsimplex.1
+porpidia.macrocarpa.1_tyr3848		Newly-annotated lichen genomes	porpidia.macrocarpa.1
+caloplaca.sp..2_tyr2595		Newly-annotated lichen genomes	caloplaca.sp..2
+baeomycetales.sp..3_tyr2166		Newly-annotated lichen genomes	baeomycetales.sp..3
+Starship-1_Tmar-Captain	fam02	Gluck-Thaler and Vogan (2024)	
+aspsyd2_tyr2767	fam02	Gluck-Thaler and Vogan (2024)	aspsyd2
+aspgla1_OJJ83717.1	fam02	Gluck-Thaler and Vogan (2024)	aspgla1
+Starship-1_Afel-Captain	fam02	Gluck-Thaler and Vogan (2024)	
+Starship-1_Afum-Captain	fam02	Gluck-Thaler and Vogan (2024)	
+HEPHAESTUS_Pvar-Captain	fam02	Gluck-Thaler and Vogan (2024)	
+talver1_KUL81284.1	fam02	Gluck-Thaler and Vogan (2024)	talver1
+acarospora.strigata.1_tyr1148		Newly-annotated lichen genomes	acarospora.strigata.1
+blader3_11177	fam02	Gluck-Thaler and Vogan (2024)	blader3
+xanthoria.parietina.3_tyr2694		Newly-annotated lichen genomes	xanthoria.parietina.3
+usnea.strigosa.1_tyr808		Newly-annotated lichen genomes	usnea.strigosa.1
+aspnig10_tyr2036	fam02	Gluck-Thaler and Vogan (2024)	aspnig10
+solorina.crocea.1_tyr1894		Newly-annotated lichen genomes	solorina.crocea.1
+peltigera.extenuata.1_tyr2566		Newly-annotated lichen genomes	peltigera.extenuata.1
+solorina.crocea.1_tyr2911		Newly-annotated lichen genomes	solorina.crocea.1
+gluame1_KAH0542861.1	clade01	Gluck-Thaler and Vogan (2024)	gluame1
+sticta.sp..1_tyr2883		Newly-annotated lichen genomes	sticta.sp..1
+cladonia.sp..7_tyr4047		Newly-annotated lichen genomes	cladonia.sp..7
+usnea.hakonensis.1_tyr3170		Newly-annotated lichen genomes	usnea.hakonensis.1
+gyalolechia.sp..2_tyr1533		Newly-annotated lichen genomes	gyalolechia.sp..2
+imsale1_tyr7676	fam05	Gluck-Thaler and Vogan (2024)	imsale1
+grascr1_10188	fam05	Gluck-Thaler and Vogan (2024)	grascr1
+sticta.canariensis.1_tyr4091		Newly-annotated lichen genomes	sticta.canariensis.1
+protoblastenia.rupestris.2_tyr3826		Newly-annotated lichen genomes	protoblastenia.rupestris.2
+lecanora.subimmergens.1_tyr4145		Newly-annotated lichen genomes	lecanora.subimmergens.1
+lecanora.markjohnstonii.1_tyr1576		Newly-annotated lichen genomes	lecanora.markjohnstonii.1
+biatora.pontica.1_tyr2094		Newly-annotated lichen genomes	biatora.pontica.1
+calogaya.arnoldii.1_tyr2951		Newly-annotated lichen genomes	calogaya.arnoldii.1
+porpidia.macrocarpa.1_tyr578		Newly-annotated lichen genomes	porpidia.macrocarpa.1
+lecidea.sp..1_tyr968		Newly-annotated lichen genomes	lecidea.sp..1
+lecanoromycetes.sp..3_tyr122		Newly-annotated lichen genomes	lecanoromycetes.sp..3
+cladonia.sp..9_tyr1278		Newly-annotated lichen genomes	cladonia.sp..9
+usnea.ceratina.2_tyr4164		Newly-annotated lichen genomes	usnea.ceratina.2
+diploschistes.diacapsis.1_tyr1448		Newly-annotated lichen genomes	diploschistes.diacapsis.1
+parmeliaceae.sp..20_tyr1063		Newly-annotated lichen genomes	parmeliaceae.sp..20
+parmotrema.stuppeum.1_tyr3760		Newly-annotated lichen genomes	parmotrema.stuppeum.1
+cladonia.rangiferina.2_tyr2351		Newly-annotated lichen genomes	cladonia.rangiferina.2
+protoblastenia.rupestris.1_tyr3520		Newly-annotated lichen genomes	protoblastenia.rupestris.1
+exoxen1_tyr5127	fam05	Gluck-Thaler and Vogan (2024)	exoxen1
+talrug1_tyr10331	fam05	Gluck-Thaler and Vogan (2024)	talrug1
+talpin1_KAF3392106.1	fam05	Gluck-Thaler and Vogan (2024)	talpin1
+umbilicaria.hispanica.4_tyr1397		Newly-annotated lichen genomes	umbilicaria.hispanica.4
+umbilicaria.deusta.1_tyr131		Newly-annotated lichen genomes	umbilicaria.deusta.1
+coniocarpon.cinnabarinum.2_tyr169		Newly-annotated lichen genomes	coniocarpon.cinnabarinum.2
+hiscap4_tyr7429	fam05	Gluck-Thaler and Vogan (2024)	hiscap4
+emmcre2_KKZ61489.1	fam05	Gluck-Thaler and Vogan (2024)	emmcre2
+asppho1_RDK41021.1	fam05	Gluck-Thaler and Vogan (2024)	asppho1
+aspory7_tyr2325	fam05	Gluck-Thaler and Vogan (2024)	aspory7
+triton1_5425	fam05	Gluck-Thaler and Vogan (2024)	triton1
+aspasp7_tyr613	fam05	Gluck-Thaler and Vogan (2024)	aspasp7
+talsti1_5901	fam05	Gluck-Thaler and Vogan (2024)	talsti1
+talatr1_4403	fam05	Gluck-Thaler and Vogan (2024)	talatr1
+fussp.6_KAF5007163.1	fam05	Gluck-Thaler and Vogan (2024)	fussp.6
+aspuda6_tyr3047	fam05	Gluck-Thaler and Vogan (2024)	aspuda6
+aspara2_tyr470	fam05	Gluck-Thaler and Vogan (2024)	aspara2
+paeniv1_62125	fam05	Gluck-Thaler and Vogan (2024)	paeniv1
+penroq1_3856	fam05	Gluck-Thaler and Vogan (2024)	penroq1
+aspflo1_tyr1229	fam05	Gluck-Thaler and Vogan (2024)	aspflo1
+aspber2_KAE8379024.1	fam05	Gluck-Thaler and Vogan (2024)	aspber2
+elagra2_2112	fam05	Gluck-Thaler and Vogan (2024)	elagra2
+aspasp2_tyr555	fam05	Gluck-Thaler and Vogan (2024)	aspasp2
+asppar5_tyr2394	fam05	Gluck-Thaler and Vogan (2024)	asppar5
+aspnom1_155723	fam05	Gluck-Thaler and Vogan (2024)	aspnom1
+aspter9_tyr2936	fam05	Gluck-Thaler and Vogan (2024)	aspter9
+emmcre2_KKZ60871.1	fam05	Gluck-Thaler and Vogan (2024)	emmcre2
+blaper1_9954	fam05	Gluck-Thaler and Vogan (2024)	blaper1
+blaper1_2381	fam05	Gluck-Thaler and Vogan (2024)	blaper1
+hiscap1_tyr7335	fam05	Gluck-Thaler and Vogan (2024)	hiscap1
+aspnid4_tyr2028	fam05	Gluck-Thaler and Vogan (2024)	aspnid4
+aspscl6_tyr2635	fam05	Gluck-Thaler and Vogan (2024)	aspscl6
+Starship-2_Afla-Captain	fam05	Gluck-Thaler and Vogan (2024)	
+pensp.11_PCG88942.1	fam05	Gluck-Thaler and Vogan (2024)	pensp.11
+lenflu1_KAF2676861.1	fam05	Gluck-Thaler and Vogan (2024)	lenflu1
+cocmiy1_41658	fam05	Gluck-Thaler and Vogan (2024)	cocmiy1
+pyrtri5_tyr9846	fam05	Gluck-Thaler and Vogan (2024)	pyrtri5
+ascrab1_tyr338	fam05	Gluck-Thaler and Vogan (2024)	ascrab1
+bipmay1_ENH98990.1	fam05	Gluck-Thaler and Vogan (2024)	bipmay1
+pennor1_tyr8865	fam05	Gluck-Thaler and Vogan (2024)	pennor1
+psesp.16_tyr9418	fam05	Gluck-Thaler and Vogan (2024)	psesp.16
+bimnov1_tyr3321	fam05	Gluck-Thaler and Vogan (2024)	bimnov1
+cengeo1_tyr3835	fam05	Gluck-Thaler and Vogan (2024)	cengeo1
+mytres1_384697	fam05	Gluck-Thaler and Vogan (2024)	mytres1
+mytres1_491224	fam05	Gluck-Thaler and Vogan (2024)	mytres1
+peltigera.leucophlebia.1_tyr4120		Newly-annotated lichen genomes	peltigera.leucophlebia.1
+calmar1_577054	fam05	Gluck-Thaler and Vogan (2024)	calmar1
+trihir1_KAH0563021.1	fam05	Gluck-Thaler and Vogan (2024)	trihir1
+phisco1_133811	fam05	Gluck-Thaler and Vogan (2024)	phisco1
+calmar1_178488	fam05	Gluck-Thaler and Vogan (2024)	calmar1
+rhysec1_tyr10006	fam05	Gluck-Thaler and Vogan (2024)	rhysec1
+baeomycetales.sp..2_tyr1857		Newly-annotated lichen genomes	baeomycetales.sp..2
+acemac1_707798	fam05	Gluck-Thaler and Vogan (2024)	acemac1
+icmadophila.ericetorum.1_tyr4177		Newly-annotated lichen genomes	icmadophila.ericetorum.1
+rhysec1_tyr10005	fam05	Gluck-Thaler and Vogan (2024)	rhysec1
+lacari1_TVY13717.1	fam05	Gluck-Thaler and Vogan (2024)	lacari1
+umbilicaria.spodochroa.2_tyr828		Newly-annotated lichen genomes	umbilicaria.spodochroa.2
+lachya1_TVY25215.1	fam05	Gluck-Thaler and Vogan (2024)	lachya1
+bipmay2_EMD88483.1	fam05	Gluck-Thaler and Vogan (2024)	bipmay2
+zoprhi1_tyr11022	fam05	Gluck-Thaler and Vogan (2024)	zoprhi1
+zoprhi1_KAF2184210.1	fam05	Gluck-Thaler and Vogan (2024)	zoprhi1
+hypocenomyce.scalaris.2_tyr2723		Newly-annotated lichen genomes	hypocenomyce.scalaris.2
+fuscopannaria.leucosticta.1_tyr170		Newly-annotated lichen genomes	fuscopannaria.leucosticta.1
+flavoplaca.sp..1_tyr2392		Newly-annotated lichen genomes	flavoplaca.sp..1
+treper1_542511	fam05	Gluck-Thaler and Vogan (2024)	treper1
+fuspro7_tyr6510	fam05	Gluck-Thaler and Vogan (2024)	fuspro7
+fussp.5_KAF5611984.1	fam05	Gluck-Thaler and Vogan (2024)	fussp.5
+fustup1_tyr6815	fam05	Gluck-Thaler and Vogan (2024)	fustup1
+fusfus29_tyr5699	fam05	Gluck-Thaler and Vogan (2024)	fusfus29
+fususs4_tyr6846	fam05	Gluck-Thaler and Vogan (2024)	fususs4
+fusequ4_tyr5487	fam05	Gluck-Thaler and Vogan (2024)	fusequ4
+fusfus65_tyr5881	fam05	Gluck-Thaler and Vogan (2024)	fusfus65
+Starship-1_Foxy_Fo5176-Captain	fam05	Gluck-Thaler and Vogan (2024)	
+dacmac1_659788	fam05	Gluck-Thaler and Vogan (2024)	dacmac1
+fusequ5_tyr5495	fam05	Gluck-Thaler and Vogan (2024)	fusequ5
+mictri1_425164	fam05	Gluck-Thaler and Vogan (2024)	mictri1
+toloph1_1610	fam05	Gluck-Thaler and Vogan (2024)	toloph1
+porpidia.macrocarpa.1_tyr2028		Newly-annotated lichen genomes	porpidia.macrocarpa.1
+hirrho1_KAH0961187.1	fam05	Gluck-Thaler and Vogan (2024)	hirrho1
+colcam1_tyr4276	fam05	Gluck-Thaler and Vogan (2024)	colcam1
+xylsp.18_tyr10859	fam05	Gluck-Thaler and Vogan (2024)	xylsp.18
+funsp.2_GAW15977.1	fam05	Gluck-Thaler and Vogan (2024)	funsp.2
+xyllon1_530278	fam05	Gluck-Thaler and Vogan (2024)	xyllon1
+xylsp.11_322789	fam05	Gluck-Thaler and Vogan (2024)	xylsp.11
+xylcub1_494674	fam05	Gluck-Thaler and Vogan (2024)	xylcub1
+xylsp.15_432324	fam05	Gluck-Thaler and Vogan (2024)	xylsp.15
+diaamp1_10693	fam05	Gluck-Thaler and Vogan (2024)	diaamp1
+xylpal1_601133	fam05	Gluck-Thaler and Vogan (2024)	xylpal1
+xylsp.2_355315	fam05	Gluck-Thaler and Vogan (2024)	xylsp.2
+elagra2_tyr4808	fam05	Gluck-Thaler and Vogan (2024)	elagra2
+aspter9_tyr2940	fam05	Gluck-Thaler and Vogan (2024)	aspter9
+parbra2_EEH47566.2	fam05	Gluck-Thaler and Vogan (2024)	parbra2
+asplat5_tyr1682	fam05	Gluck-Thaler and Vogan (2024)	asplat5
+pesfic1_tyr9064	fam05	Gluck-Thaler and Vogan (2024)	pesfic1
+talmar2_KFX47975.1	fam05	Gluck-Thaler and Vogan (2024)	talmar2
+penbra1_tyr8704	fam05	Gluck-Thaler and Vogan (2024)	penbra1
+aspqua1_tyr2555	fam05	Gluck-Thaler and Vogan (2024)	aspqua1
+aspasp12_tyr525	fam05	Gluck-Thaler and Vogan (2024)	aspasp12
+asplep2_tyr1824	fam05	Gluck-Thaler and Vogan (2024)	asplep2
+aspfla13_tyr1195	fam05	Gluck-Thaler and Vogan (2024)	aspfla13
+penrub1_CAP94151.1	fam05	Gluck-Thaler and Vogan (2024)	penrub1
+penroq1_4089	fam05	Gluck-Thaler and Vogan (2024)	penroq1
+penoxa1_6225	fam05	Gluck-Thaler and Vogan (2024)	penoxa1
+lasallia.pustulata.7_tyr482		Newly-annotated lichen genomes	lasallia.pustulata.7
+lasallia.pustulata.1_tyr3965		Newly-annotated lichen genomes	lasallia.pustulata.1
+rutsp.1_PQE27284.1	fam05	Gluck-Thaler and Vogan (2024)	rutsp.1
+emmcre2_KKZ61922.1	fam05	Gluck-Thaler and Vogan (2024)	emmcre2
+blader5_EQL32851.1	fam05	Gluck-Thaler and Vogan (2024)	blader5
+polhys1_6343	fam05	Gluck-Thaler and Vogan (2024)	polhys1
+parbra1_2719	fam05	Gluck-Thaler and Vogan (2024)	parbra1
+parbra2_EEH48327.2	fam05	Gluck-Thaler and Vogan (2024)	parbra2
+emepas2_OJD10625.1	fam05	Gluck-Thaler and Vogan (2024)	emepas2
+botdot1_290492	fam05	Gluck-Thaler and Vogan (2024)	botdot1
+lasthe1_tyr7811	fam05	Gluck-Thaler and Vogan (2024)	lasthe1
+teloschistes.exilis.3_tyr927		Newly-annotated lichen genomes	teloschistes.exilis.3
+teloschistes.exilis.1_tyr1399		Newly-annotated lichen genomes	teloschistes.exilis.1
+protoblastenia.rupestris.2_tyr1319		Newly-annotated lichen genomes	protoblastenia.rupestris.2
+teloschistes.chrysophthalmus.1_tyr372		Newly-annotated lichen genomes	teloschistes.chrysophthalmus.1
+phaeophyscia.rubropulchra.1_tyr3009		Newly-annotated lichen genomes	phaeophyscia.rubropulchra.1
+dirinaria.frostii.1_tyr148		Newly-annotated lichen genomes	dirinaria.frostii.1
+lepraria.finkii.1_tyr3231		Newly-annotated lichen genomes	lepraria.finkii.1
+parmotrema.hypotropum.1_tyr2695		Newly-annotated lichen genomes	parmotrema.hypotropum.1
+rhizocarpon.geographicum.1_tyr1672		Newly-annotated lichen genomes	rhizocarpon.geographicum.1
+massalongia.carnosa.1_tyr897		Newly-annotated lichen genomes	massalongia.carnosa.1
+porina.heterospora.1_tyr1986		Newly-annotated lichen genomes	porina.heterospora.1
+psehyp1_505659	fam05	Gluck-Thaler and Vogan (2024)	psehyp1
+teratosphaeriaceae.sp..1_tyr2580		Newly-annotated lichen genomes	teratosphaeriaceae.sp..1
+arthoniomycete.sp..2_tyr4012		Newly-annotated lichen genomes	arthoniomycete.sp..2
+cerber1_tyr3938	fam05	Gluck-Thaler and Vogan (2024)	cerber1
+xylographa.bjoerkii.1_tyr2039		Newly-annotated lichen genomes	xylographa.bjoerkii.1
+teratosphaeriaceae.sp..1_tyr4056		Newly-annotated lichen genomes	teratosphaeriaceae.sp..1
+frisim1_TKA68777.1	fam05	Gluck-Thaler and Vogan (2024)	frisim1
+zascel1_tyr10949	fam05	Gluck-Thaler and Vogan (2024)	zascel1
+stereocaulon.virgatum.1_tyr1769		Newly-annotated lichen genomes	stereocaulon.virgatum.1
+teloschistes.peruensis.1_tyr1355		Newly-annotated lichen genomes	teloschistes.peruensis.1
+rhizocarpon.geographicum.1_tyr223		Newly-annotated lichen genomes	rhizocarpon.geographicum.1
+gyalolechia.ehrenbergii.1_tyr1703		Newly-annotated lichen genomes	gyalolechia.ehrenbergii.1
+phaeophyscia.hispidula.1_tyr2662		Newly-annotated lichen genomes	phaeophyscia.hispidula.1
+ramalina.thrausta.1_tyr185		Newly-annotated lichen genomes	ramalina.thrausta.1
+asptan1_tyr2879	fam05	Gluck-Thaler and Vogan (2024)	asptan1
+aspwen1_OJJ29631.1	fam05	Gluck-Thaler and Vogan (2024)	aspwen1
+aspory7_tyr2327	fam05	Gluck-Thaler and Vogan (2024)	aspory7
+aspasp7_tyr614	fam05	Gluck-Thaler and Vogan (2024)	aspasp7
+talcel1_GAM41794.1	fam05	Gluck-Thaler and Vogan (2024)	talcel1
+stictis.urceolata.1_tyr1910		Newly-annotated lichen genomes	stictis.urceolata.1
+umbilicaria.crustulosa.1_tyr1105		Newly-annotated lichen genomes	umbilicaria.crustulosa.1
+muellerella.sp..1_tyr1789		Newly-annotated lichen genomes	muellerella.sp..1
+endocarpon.pusillum.2_tyr2476		Newly-annotated lichen genomes	endocarpon.pusillum.2
+melanina.sp..2_tyr248		Newly-annotated lichen genomes	melanina.sp..2
+melanohalea.halei.1_tyr1352		Newly-annotated lichen genomes	melanohalea.halei.1
+parmeliaceae.sp..18_tyr3517		Newly-annotated lichen genomes	parmeliaceae.sp..18
+usnochroma.carphineum.1_tyr2888		Newly-annotated lichen genomes	usnochroma.carphineum.1
+lecanorales.sp..2_tyr388		Newly-annotated lichen genomes	lecanorales.sp..2
+xanthoparmelia.tasmanica.1_tyr1678		Newly-annotated lichen genomes	xanthoparmelia.tasmanica.1
+lobaria.pulmonaria.1_tyr474		Newly-annotated lichen genomes	lobaria.pulmonaria.1
+pertusaria.ostiolata.1_tyr3886		Newly-annotated lichen genomes	pertusaria.ostiolata.1
+ramalina.siliquosa.1_tyr3421		Newly-annotated lichen genomes	ramalina.siliquosa.1
+lepra.amara.1_tyr2907		Newly-annotated lichen genomes	lepra.amara.1
+baeomycetales.sp..2_tyr2485		Newly-annotated lichen genomes	baeomycetales.sp..2
+pertusaria.andersoniae.1_tyr225		Newly-annotated lichen genomes	pertusaria.andersoniae.1
+lecanorales.sp..2_tyr529		Newly-annotated lichen genomes	lecanorales.sp..2
+lecanora.hybocarpa.1_tyr1670		Newly-annotated lichen genomes	lecanora.hybocarpa.1
+xanthoria.parietina.3_tyr4037		Newly-annotated lichen genomes	xanthoria.parietina.3
+flavoplaca.navasiana.2_tyr1859		Newly-annotated lichen genomes	flavoplaca.navasiana.2
+xanthoparmelia.verrucella.1_tyr1823		Newly-annotated lichen genomes	xanthoparmelia.verrucella.1
+variospora.velana.1_tyr718		Newly-annotated lichen genomes	variospora.velana.1
+botryolepraria.lesdainii.1_tyr3146		Newly-annotated lichen genomes	botryolepraria.lesdainii.1
+xylographa.vitiligo.3_tyr1675		Newly-annotated lichen genomes	xylographa.vitiligo.3
+lecanorales.sp..5_tyr2453		Newly-annotated lichen genomes	lecanorales.sp..5
+heterodermia.langdoniana.1_tyr1258		Newly-annotated lichen genomes	heterodermia.langdoniana.1
+leucodermia.leucomelos.1_tyr2768		Newly-annotated lichen genomes	leucodermia.leucomelos.1
+heterodermia.sp..1_tyr3905		Newly-annotated lichen genomes	heterodermia.sp..1
+loekoesia.sp..1_tyr2499		Newly-annotated lichen genomes	loekoesia.sp..1
+zwackhia.viridis.1_tyr2925		Newly-annotated lichen genomes	zwackhia.viridis.1
+umbilicaria.polyphylla.4_tyr1573		Newly-annotated lichen genomes	umbilicaria.polyphylla.4
+lecanoromycetidae.sp..1_tyr127		Newly-annotated lichen genomes	lecanoromycetidae.sp..1
+icmadophila.ericetorum.1_tyr3762		Newly-annotated lichen genomes	icmadophila.ericetorum.1
+icmadophila.ericetorum.1_tyr3161		Newly-annotated lichen genomes	icmadophila.ericetorum.1
+umbilicaria.phaea.2_tyr434		Newly-annotated lichen genomes	umbilicaria.phaea.2
+umbilicaria.phaea.3_tyr1623		Newly-annotated lichen genomes	umbilicaria.phaea.3
+dibaeis.baeomyces.1_tyr557		Newly-annotated lichen genomes	dibaeis.baeomyces.1
+flavoplaca.marina.2_tyr642		Newly-annotated lichen genomes	flavoplaca.marina.2
+teratosphaeriaceae.sp..1_tyr1571		Newly-annotated lichen genomes	teratosphaeriaceae.sp..1
+xylographa.bjoerkii.1_tyr2510		Newly-annotated lichen genomes	xylographa.bjoerkii.1
+xylographa.soralifera.1_tyr654		Newly-annotated lichen genomes	xylographa.soralifera.1
+ptychographa.xylographoides.1_tyr1363		Newly-annotated lichen genomes	ptychographa.xylographoides.1
+xanthoria.parietina.3_tyr2910		Newly-annotated lichen genomes	xanthoria.parietina.3
+xanthoria.parietina.3_tyr1370		Newly-annotated lichen genomes	xanthoria.parietina.3
+umbilicaria.phaea.3_tyr2049		Newly-annotated lichen genomes	umbilicaria.phaea.3
+lecanora.masana.1_tyr3081		Newly-annotated lichen genomes	lecanora.masana.1
+cladonia.sp..1_tyr781		Newly-annotated lichen genomes	cladonia.sp..1
+cladonia.sp..11_tyr794		Newly-annotated lichen genomes	cladonia.sp..11
+leprocaulon.nicholsiae.1_tyr3065		Newly-annotated lichen genomes	leprocaulon.nicholsiae.1
+umbilicaria.muhlenbergii.1_tyr4001		Newly-annotated lichen genomes	umbilicaria.muhlenbergii.1
+umbilicaria.americana.1_tyr1621		Newly-annotated lichen genomes	umbilicaria.americana.1
+umbilicaria.spodochroa.3_tyr4111		Newly-annotated lichen genomes	umbilicaria.spodochroa.3
+umbilicaria.crustulosa.2_tyr632		Newly-annotated lichen genomes	umbilicaria.crustulosa.2
+umbilicaria.spodochroa.4_tyr384		Newly-annotated lichen genomes	umbilicaria.spodochroa.4
+umbilicaria.phaea.1_tyr3806		Newly-annotated lichen genomes	umbilicaria.phaea.1
+umbilicaria.crustulosa.3_tyr1110		Newly-annotated lichen genomes	umbilicaria.crustulosa.3
+baeomycetales.sp..2_tyr423		Newly-annotated lichen genomes	baeomycetales.sp..2
+pertusaria.propinqua.1_tyr292		Newly-annotated lichen genomes	pertusaria.propinqua.1
+calogaya.arnoldii.1_tyr823		Newly-annotated lichen genomes	calogaya.arnoldii.1
+pertusaria.epixantha.1_tyr2831		Newly-annotated lichen genomes	pertusaria.epixantha.1
+heterodermia.sp..3_tyr1517		Newly-annotated lichen genomes	heterodermia.sp..3
+physciaceae.sp..4_tyr3794		Newly-annotated lichen genomes	physciaceae.sp..4
+dibaeis.sorediata.1_tyr503		Newly-annotated lichen genomes	dibaeis.sorediata.1
+vulpicida.juniperinus.1_tyr1524		Newly-annotated lichen genomes	vulpicida.juniperinus.1
+platismatia.glauca.3_tyr315		Newly-annotated lichen genomes	platismatia.glauca.3
+aspicilia.laevata.1_tyr1038		Newly-annotated lichen genomes	aspicilia.laevata.1
+xanthoria.mediterranea.1_tyr2442		Newly-annotated lichen genomes	xanthoria.mediterranea.1
+xylographa.pallens.1_tyr2912		Newly-annotated lichen genomes	xylographa.pallens.1
+umbilicaria.crustulosa.2_tyr771		Newly-annotated lichen genomes	umbilicaria.crustulosa.2
+umbilicaria.freyi.3_tyr3882		Newly-annotated lichen genomes	umbilicaria.freyi.3
+buellia.spuria.2_tyr979		Newly-annotated lichen genomes	buellia.spuria.2
+lasallia.pustulata.3_tyr1316		Newly-annotated lichen genomes	lasallia.pustulata.3
+xanthoparmelia.taractica.1_tyr2241		Newly-annotated lichen genomes	xanthoparmelia.taractica.1
+lepraria.leprolomopsis.1_tyr3692		Newly-annotated lichen genomes	lepraria.leprolomopsis.1
+umbilicaria.muhlenbergii.1_tyr4000		Newly-annotated lichen genomes	umbilicaria.muhlenbergii.1
+lecanoromycetes.sp..3_tyr4150		Newly-annotated lichen genomes	lecanoromycetes.sp..3
+physciaceae.sp..4_tyr1788		Newly-annotated lichen genomes	physciaceae.sp..4
+stereocaulon.virgatum.1_tyr2237		Newly-annotated lichen genomes	stereocaulon.virgatum.1
+imshaugia.aleurites.2_tyr1734		Newly-annotated lichen genomes	imshaugia.aleurites.2
+parmotrema.hypotropum.1_tyr1608		Newly-annotated lichen genomes	parmotrema.hypotropum.1
+lepra.amara.1_tyr1662		Newly-annotated lichen genomes	lepra.amara.1
+buellia.mamillana.1_tyr3147		Newly-annotated lichen genomes	buellia.mamillana.1
+collema.furfuraceum.1_tyr1343		Newly-annotated lichen genomes	collema.furfuraceum.1
+lobaria.pulmonaria.1_tyr2226		Newly-annotated lichen genomes	lobaria.pulmonaria.1
+lecidea.sp..1_tyr3010		Newly-annotated lichen genomes	lecidea.sp..1
+stictis.urceolata.2_tyr2769		Newly-annotated lichen genomes	stictis.urceolata.2
+dibaeis.sorediata.1_tyr947		Newly-annotated lichen genomes	dibaeis.sorediata.1
+acarospora.socialis.1_tyr3129		Newly-annotated lichen genomes	acarospora.socialis.1
+leucodecton.sp..1_tyr3879		Newly-annotated lichen genomes	leucodecton.sp..1
+buellia.spuria.2_tyr789		Newly-annotated lichen genomes	buellia.spuria.2
+lecidea.sp..1_tyr2797		Newly-annotated lichen genomes	lecidea.sp..1
+phlyctis.boliviensis.1_tyr3281		Newly-annotated lichen genomes	phlyctis.boliviensis.1
+endocarpon.pusillum.1_tyr617		Newly-annotated lichen genomes	endocarpon.pusillum.1
+porpidia.contraponenda.1_tyr2424		Newly-annotated lichen genomes	porpidia.contraponenda.1
+cornicularia.normoerica.2_tyr2093		Newly-annotated lichen genomes	cornicularia.normoerica.2
+fuscopannaria.leucosticta.1_tyr966		Newly-annotated lichen genomes	fuscopannaria.leucosticta.1
+cladonia.sp..5_tyr3258		Newly-annotated lichen genomes	cladonia.sp..5
+pyrenodesmia.sp..1_tyr594		Newly-annotated lichen genomes	pyrenodesmia.sp..1
+umbilicaria.mammulata.1_tyr624		Newly-annotated lichen genomes	umbilicaria.mammulata.1
+micareopsis.irriguata.1_tyr3669		Newly-annotated lichen genomes	micareopsis.irriguata.1
+cladonia.peziziformis.1_tyr751		Newly-annotated lichen genomes	cladonia.peziziformis.1
+umbilicaria.crustulosa.1_tyr446		Newly-annotated lichen genomes	umbilicaria.crustulosa.1
+cladonia.uncialis.3_tyr2968		Newly-annotated lichen genomes	cladonia.uncialis.3
+pilophorus.fibula.1_tyr2273		Newly-annotated lichen genomes	pilophorus.fibula.1
+umbilicaria.deusta.2_tyr762		Newly-annotated lichen genomes	umbilicaria.deusta.2
+lecidea.tessellata.1_tyr2260		Newly-annotated lichen genomes	lecidea.tessellata.1
+porpidia.subsimplex.1_tyr2619		Newly-annotated lichen genomes	porpidia.subsimplex.1
+peltigera.hydrothyria.1_tyr591		Newly-annotated lichen genomes	peltigera.hydrothyria.1
+lambiella.insularis.1_tyr2786		Newly-annotated lichen genomes	lambiella.insularis.1
+xylographa.soralifera.1_tyr502		Newly-annotated lichen genomes	xylographa.soralifera.1
+xanthoria.parietina.3_tyr4166		Newly-annotated lichen genomes	xanthoria.parietina.3
+paracladophialophora.sp..1_tyr1473		Newly-annotated lichen genomes	paracladophialophora.sp..1
+chaetothyriales.sp..1_tyr1264		Newly-annotated lichen genomes	chaetothyriales.sp..1
+xanthoria.parietina.3_tyr2100		Newly-annotated lichen genomes	xanthoria.parietina.3
+cladophialophora.sp..1_tyr1004		Newly-annotated lichen genomes	cladophialophora.sp..1
+cladophialophora.sp..1_tyr4136		Newly-annotated lichen genomes	cladophialophora.sp..1
+cladophialophora.sp..2_tyr400		Newly-annotated lichen genomes	cladophialophora.sp..2
+lambiella.insularis.1_tyr1952		Newly-annotated lichen genomes	lambiella.insularis.1
+micareopsis.irriguata.1_tyr4069		Newly-annotated lichen genomes	micareopsis.irriguata.1
+cladonia.macilenta.1_tyr1721		Newly-annotated lichen genomes	cladonia.macilenta.1
+pertusaria.obruta.1_tyr1248		Newly-annotated lichen genomes	pertusaria.obruta.1
+porpidia.albocaerulescens.1_tyr3319		Newly-annotated lichen genomes	porpidia.albocaerulescens.1
+fissurina.insidiosa.1_tyr1217		Newly-annotated lichen genomes	fissurina.insidiosa.1
+pilophorus.fibula.1_tyr3577		Newly-annotated lichen genomes	pilophorus.fibula.1
+caloplaca.ligustica.1_tyr294		Newly-annotated lichen genomes	caloplaca.ligustica.1
+pyxine.sorediata.1_tyr2651		Newly-annotated lichen genomes	pyxine.sorediata.1
+pannaria.tavaresii.1_tyr3625		Newly-annotated lichen genomes	pannaria.tavaresii.1
+kuettlingeria.erythrocarpa.1_tyr2630		Newly-annotated lichen genomes	kuettlingeria.erythrocarpa.1
+fissurina.insidiosa.1_tyr3001		Newly-annotated lichen genomes	fissurina.insidiosa.1
+flavoplaca.austrocitrina.1_tyr1793		Newly-annotated lichen genomes	flavoplaca.austrocitrina.1
+hypocenomyce.scalaris.3_tyr182		Newly-annotated lichen genomes	hypocenomyce.scalaris.3
+gyalecta.farlowii.1_tyr1838		Newly-annotated lichen genomes	gyalecta.farlowii.1
+baeomycetales.sp..2_tyr4053		Newly-annotated lichen genomes	baeomycetales.sp..2
+buellia.spuria.2_tyr29		Newly-annotated lichen genomes	buellia.spuria.2
+acanthothecis.fontana.1_tyr3737		Newly-annotated lichen genomes	acanthothecis.fontana.1
+pseudocyphellaria.aurata.1_tyr2535		Newly-annotated lichen genomes	pseudocyphellaria.aurata.1
+variospora.aurantia.1_tyr252		Newly-annotated lichen genomes	variospora.aurantia.1
+porpidia.subsimplex.1_tyr3856		Newly-annotated lichen genomes	porpidia.subsimplex.1
+pertusaria.obruta.1_tyr1756		Newly-annotated lichen genomes	pertusaria.obruta.1
+caloplaca.aegaea.1_tyr3005		Newly-annotated lichen genomes	caloplaca.aegaea.1
+dendriscocaulon.intricatulum.1_tyr934		Newly-annotated lichen genomes	dendriscocaulon.intricatulum.1
+coniocarpon.cinnabarinum.1_tyr383		Newly-annotated lichen genomes	coniocarpon.cinnabarinum.1
+arthonia.susa.1_tyr48		Newly-annotated lichen genomes	arthonia.susa.1
+arthothelium.ruanum.1_tyr3382		Newly-annotated lichen genomes	arthothelium.ruanum.1
+lecidea.sp..1_tyr3029		Newly-annotated lichen genomes	lecidea.sp..1
+variospora.velana.1_tyr1969		Newly-annotated lichen genomes	variospora.velana.1
+leprocaulales.sp..1_tyr100		Newly-annotated lichen genomes	leprocaulales.sp..1
+xanthoria.parietina.2_tyr4027		Newly-annotated lichen genomes	xanthoria.parietina.2
+dermiscellum.oulocheilum.1_tyr3978		Newly-annotated lichen genomes	dermiscellum.oulocheilum.1
+mycoblastus.sanguinarius.1_tyr3252		Newly-annotated lichen genomes	mycoblastus.sanguinarius.1
+umbilicaria.hispanica.2_tyr338		Newly-annotated lichen genomes	umbilicaria.hispanica.2
+mycoblastus.sanguinarius.2_tyr1893		Newly-annotated lichen genomes	mycoblastus.sanguinarius.2
+protoblastenia.rupestris.2_tyr3986		Newly-annotated lichen genomes	protoblastenia.rupestris.2
+lecanora.oreinoides.1_tyr2196		Newly-annotated lichen genomes	lecanora.oreinoides.1
+lepraria.neglecta.1_tyr2664		Newly-annotated lichen genomes	lepraria.neglecta.1
+mycoblastus.sanguinarius.2_tyr3955		Newly-annotated lichen genomes	mycoblastus.sanguinarius.2
+chaetothyriales.sp..1_tyr953		Newly-annotated lichen genomes	chaetothyriales.sp..1
+gyalolechia.fulgens.1_tyr1661		Newly-annotated lichen genomes	gyalolechia.fulgens.1
+gyalolechia.sp..2_tyr1934		Newly-annotated lichen genomes	gyalolechia.sp..2
+cetrelia.chicitae.1_tyr2618		Newly-annotated lichen genomes	cetrelia.chicitae.1
+variospora.aurantia.1_tyr838		Newly-annotated lichen genomes	variospora.aurantia.1
+umbilicaria.hispanica.3_tyr2281		Newly-annotated lichen genomes	umbilicaria.hispanica.3
+umbilicaria.spodochroa.1_tyr3402		Newly-annotated lichen genomes	umbilicaria.spodochroa.1
+xanthoria.parietina.3_tyr2404		Newly-annotated lichen genomes	xanthoria.parietina.3
+dermiscellum.oulocheilum.1_tyr302		Newly-annotated lichen genomes	dermiscellum.oulocheilum.1
+cladophialophora.sp..1_tyr3153		Newly-annotated lichen genomes	cladophialophora.sp..1
+lecidea.sp..1_tyr1765		Newly-annotated lichen genomes	lecidea.sp..1
+umbilicaria.vellea.1_tyr1155		Newly-annotated lichen genomes	umbilicaria.vellea.1
+umbilicaria.polyphylla.1_tyr3046		Newly-annotated lichen genomes	umbilicaria.polyphylla.1
+umbilicaria.freyi.1_tyr1075		Newly-annotated lichen genomes	umbilicaria.freyi.1
+umbilicaria.polyphylla.4_tyr437		Newly-annotated lichen genomes	umbilicaria.polyphylla.4
+umbilicaria.polyphylla.1_tyr3044		Newly-annotated lichen genomes	umbilicaria.polyphylla.1
+umbilicaria.spodochroa.2_tyr2687		Newly-annotated lichen genomes	umbilicaria.spodochroa.2
+parmotrema.rampoddense.1_tyr1744		Newly-annotated lichen genomes	parmotrema.rampoddense.1
+mycoblastus.sanguinarius.2_tyr2714		Newly-annotated lichen genomes	mycoblastus.sanguinarius.2
+leucodermia.appalachiensis.1_tyr1199		Newly-annotated lichen genomes	leucodermia.appalachiensis.1
+melanelia.culbersonii.1_tyr1605		Newly-annotated lichen genomes	melanelia.culbersonii.1
+lecanora.strobilina.1_tyr2168		Newly-annotated lichen genomes	lecanora.strobilina.1
+umbilicaria.crustulosa.1_tyr445		Newly-annotated lichen genomes	umbilicaria.crustulosa.1
+cladonia.sp..8_tyr3200		Newly-annotated lichen genomes	cladonia.sp..8
+stereocaulon.dactylophyllum.1_tyr3962		Newly-annotated lichen genomes	stereocaulon.dactylophyllum.1
+cladonia.strepsilis.1_tyr4046		Newly-annotated lichen genomes	cladonia.strepsilis.1
+puttea.exsequens.1_tyr868		Newly-annotated lichen genomes	puttea.exsequens.1
+caloplaca.sp..2_tyr1916		Newly-annotated lichen genomes	caloplaca.sp..2
+cladonia.kurokawae.1_tyr1067		Newly-annotated lichen genomes	cladonia.kurokawae.1
+parmotrema.rampoddense.1_tyr589		Newly-annotated lichen genomes	parmotrema.rampoddense.1
+stictis.urceolata.2_tyr2530		Newly-annotated lichen genomes	stictis.urceolata.2
+porpidia.macrocarpa.1_tyr313		Newly-annotated lichen genomes	porpidia.macrocarpa.1
+bacidia.gigantensis.1_tyr2857		Newly-annotated lichen genomes	bacidia.gigantensis.1
+usnea.ceratina.2_tyr3511		Newly-annotated lichen genomes	usnea.ceratina.2
+micareopsis.irriguata.1_tyr1350		Newly-annotated lichen genomes	micareopsis.irriguata.1
+gomphillus.americanus.1_tyr3818		Newly-annotated lichen genomes	gomphillus.americanus.1
+umbilicaria.muhlenbergii.1_tyr4002		Newly-annotated lichen genomes	umbilicaria.muhlenbergii.1
+phlyctis.petraea.1_tyr677		Newly-annotated lichen genomes	phlyctis.petraea.1
+pectenia.cyanoloma.1_tyr365		Newly-annotated lichen genomes	pectenia.cyanoloma.1
+xanthoria.parietina.3_tyr2487		Newly-annotated lichen genomes	xanthoria.parietina.3
+phlyctis.speirea.1_tyr496		Newly-annotated lichen genomes	phlyctis.speirea.1
+stictis.urceolata.1_tyr3647		Newly-annotated lichen genomes	stictis.urceolata.1
+gyalolechia.sp..1_tyr1287		Newly-annotated lichen genomes	gyalolechia.sp..1
+gyalolechia.sp..2_tyr2980		Newly-annotated lichen genomes	gyalolechia.sp..2
+xanthoria.steineri.1_tyr3649		Newly-annotated lichen genomes	xanthoria.steineri.1
+calogaya.arnoldii.1_tyr3150		Newly-annotated lichen genomes	calogaya.arnoldii.1
+teloschistes.exilis.3_tyr1430		Newly-annotated lichen genomes	teloschistes.exilis.3
+teloschistes.exilis.2_tyr3635		Newly-annotated lichen genomes	teloschistes.exilis.2
+letharia.lupina.1_tyr4140		Newly-annotated lichen genomes	letharia.lupina.1
+letharia.vulpina.1_tyr3504		Newly-annotated lichen genomes	letharia.vulpina.1
+agyrium.rufum.1_tyr1892		Newly-annotated lichen genomes	agyrium.rufum.1
+dibaeis.baeomyces.1_tyr240		Newly-annotated lichen genomes	dibaeis.baeomyces.1
+teratosphaeriaceae.sp..1_tyr521		Newly-annotated lichen genomes	teratosphaeriaceae.sp..1
+mycosphaerellales.sp..1_tyr2340		Newly-annotated lichen genomes	mycosphaerellales.sp..1
+diploschistes.diacapsis.1_tyr3119		Newly-annotated lichen genomes	diploschistes.diacapsis.1
+lecanorales.sp..3_tyr2207		Newly-annotated lichen genomes	lecanorales.sp..3
+usnea.cornuta.1_tyr715		Newly-annotated lichen genomes	usnea.cornuta.1
+teloschistes.chrysophthalmus.1_tyr1428		Newly-annotated lichen genomes	teloschistes.chrysophthalmus.1
+stereocaulon.virgatum.1_tyr769		Newly-annotated lichen genomes	stereocaulon.virgatum.1
+teloschistes.exilis.1_tyr3137		Newly-annotated lichen genomes	teloschistes.exilis.1
+lecanoromycetes.sp..5_tyr3128		Newly-annotated lichen genomes	lecanoromycetes.sp..5
+icmadophila.ericetorum.1_tyr1628		Newly-annotated lichen genomes	icmadophila.ericetorum.1
+dibbae1_5584_5585	n.d.	Gluck-Thaler and Vogan (2024)	dibbae1
+acanthothecis.fontana.1_tyr566		Newly-annotated lichen genomes	acanthothecis.fontana.1
+lambiella.insularis.1_tyr1955		Newly-annotated lichen genomes	lambiella.insularis.1
+rhizocarpon.subgeminatum.1_tyr1956		Newly-annotated lichen genomes	rhizocarpon.subgeminatum.1
+thelotrema.lepadinum.2_tyr3246		Newly-annotated lichen genomes	thelotrema.lepadinum.2
+grascr1_687	clade01	Gluck-Thaler and Vogan (2024)	grascr1
+flavoplaca.marina.2_tyr1563		Newly-annotated lichen genomes	flavoplaca.marina.2
+xanthoria.parietina.3_tyr3143		Newly-annotated lichen genomes	xanthoria.parietina.3
+XANPAGTX0501_001716-T1		Tangerine element from X. parietina	X. parietina GTX0501
+teloschistes.exilis.1_tyr919		Newly-annotated lichen genomes	teloschistes.exilis.1
+teloschistes.peruensis.1_tyr1136		Newly-annotated lichen genomes	teloschistes.peruensis.1
+teloschistes.exilis.2_tyr1488		Newly-annotated lichen genomes	teloschistes.exilis.2
+teloschistes.exilis.1_tyr2639		Newly-annotated lichen genomes	teloschistes.exilis.1
+teloschistes.exilis.3_tyr2393		Newly-annotated lichen genomes	teloschistes.exilis.3
+stictis.urceolata.1_tyr1442		Newly-annotated lichen genomes	stictis.urceolata.1
+umbpus1_103454	clade01	Gluck-Thaler and Vogan (2024)	umbpus1
+umbilicaria.iberica.2_tyr712		Newly-annotated lichen genomes	umbilicaria.iberica.2
+lasallia.pustulata.7_tyr1272		Newly-annotated lichen genomes	lasallia.pustulata.7
+porina.heterospora.1_tyr2130		Newly-annotated lichen genomes	porina.heterospora.1
+arthoniomycete.sp..1_tyr3894		Newly-annotated lichen genomes	arthoniomycete.sp..1
+arthoniomycete.sp..1_tyr3896		Newly-annotated lichen genomes	arthoniomycete.sp..1
+arthonia.rubella.1_tyr714		Newly-annotated lichen genomes	arthonia.rubella.1
+opegrapha.moroziana.1_tyr1878		Newly-annotated lichen genomes	opegrapha.moroziana.1
+cloaqu1_tyr4087	fam04	Gluck-Thaler and Vogan (2024)	cloaqu1
+polfus1_606100	fam04	Gluck-Thaler and Vogan (2024)	polfus1
+polfus1_599705	fam04	Gluck-Thaler and Vogan (2024)	polfus1
+cengeo1_542205	fam04	Gluck-Thaler and Vogan (2024)	cengeo1
+leppal1_OCK79459.1	fam04	Gluck-Thaler and Vogan (2024)	leppal1
+moncan1_RYO85021.1	fam04	Gluck-Thaler and Vogan (2024)	moncan1
+amnlig1_424037	fam04	Gluck-Thaler and Vogan (2024)	amnlig1
+pletra1_KAF2844130.1	fam04	Gluck-Thaler and Vogan (2024)	pletra1
+lizemp1_186564	fam04	Gluck-Thaler and Vogan (2024)	lizemp1
+didker1_KAF3049100.1	fam04	Gluck-Thaler and Vogan (2024)	didker1
+cladophialophora.endolichena.1_tyr8		Newly-annotated lichen genomes	cladophialophora.endolichena.1
+claban1_134700	fam04	Gluck-Thaler and Vogan (2024)	claban1
+melanina.sp..2_tyr2115		Newly-annotated lichen genomes	melanina.sp..2
+psora.testacea.1_tyr44		Newly-annotated lichen genomes	psora.testacea.1
+chrysothrix.sp..1_tyr942		Newly-annotated lichen genomes	chrysothrix.sp..1
+punctelia.appalachensis.1_tyr1715		Newly-annotated lichen genomes	punctelia.appalachensis.1
+lecanoromycetes.sp..4_tyr2353		Newly-annotated lichen genomes	lecanoromycetes.sp..4
+xanthoparmelia.tasmanica.1_tyr1273		Newly-annotated lichen genomes	xanthoparmelia.tasmanica.1
+xanthoparmelia.taractica.1_tyr3903		Newly-annotated lichen genomes	xanthoparmelia.taractica.1
+madmyc1_9294	fam04	Gluck-Thaler and Vogan (2024)	madmyc1
+stacha2_KFA51963.1	fam04	Gluck-Thaler and Vogan (2024)	stacha2
+plecuc2_353822	fam04	Gluck-Thaler and Vogan (2024)	plecuc2
+verdah2_tyr10676	fam04	Gluck-Thaler and Vogan (2024)	verdah2
+madmyc1_9889	fam04	Gluck-Thaler and Vogan (2024)	madmyc1
+neodit1_2170	fam04	Gluck-Thaler and Vogan (2024)	neodit1
+hirrho1_KAH0968669.1	fam04	Gluck-Thaler and Vogan (2024)	hirrho1
+fussub5_tyr6719	fam04	Gluck-Thaler and Vogan (2024)	fussub5
+monsp.2_RYP32009.1	fam04	Gluck-Thaler and Vogan (2024)	monsp.2
+cadmal1_KAG4411212.1	fam04	Gluck-Thaler and Vogan (2024)	cadmal1
+sclcep1_KAF7866863.1	fam04	Gluck-Thaler and Vogan (2024)	sclcep1
+sclcep1_KAF7870603.1	fam04	Gluck-Thaler and Vogan (2024)	sclcep1
+psesp.14_KFY31966.1	fam04	Gluck-Thaler and Vogan (2024)	psesp.14
+psesp.14_tyr9380	fam04	Gluck-Thaler and Vogan (2024)	psesp.14
+micbol1_109359	fam04	Gluck-Thaler and Vogan (2024)	micbol1
+helsp.4_KAE8442194.1	fam04	Gluck-Thaler and Vogan (2024)	helsp.4
+xanthoparmelia.taractica.1_tyr115		Newly-annotated lichen genomes	xanthoparmelia.taractica.1
+parmeliaceae.sp..17_tyr228		Newly-annotated lichen genomes	parmeliaceae.sp..17
+pseudephebe.minuscula.1_tyr2975		Newly-annotated lichen genomes	pseudephebe.minuscula.1
+usnea.aurantiacoatra.1_tyr2546		Newly-annotated lichen genomes	usnea.aurantiacoatra.1
+xanthoparmelia.tasmanica.1_tyr326		Newly-annotated lichen genomes	xanthoparmelia.tasmanica.1
+punctelia.appalachensis.1_tyr2301		Newly-annotated lichen genomes	punctelia.appalachensis.1
+lasallia.pustulata.1_tyr486		Newly-annotated lichen genomes	lasallia.pustulata.1
+umbilicaria.freyi.1_tyr3376		Newly-annotated lichen genomes	umbilicaria.freyi.1
+umbilicaria.vellea.1_tyr2822		Newly-annotated lichen genomes	umbilicaria.vellea.1
+umbilicaria.grisea.1_tyr989		Newly-annotated lichen genomes	umbilicaria.grisea.1
+lasallia.pustulata.3_tyr2307		Newly-annotated lichen genomes	lasallia.pustulata.3
+umbilicaria.hispanica.1_tyr1613		Newly-annotated lichen genomes	umbilicaria.hispanica.1
+umbilicaria.iberica.1_tyr4018		Newly-annotated lichen genomes	umbilicaria.iberica.1
+umbilicaria.iberica.1_tyr2561		Newly-annotated lichen genomes	umbilicaria.iberica.1
+umbilicaria.iberica.2_tyr1863		Newly-annotated lichen genomes	umbilicaria.iberica.2
+lasallia.papulosa.1_tyr3891		Newly-annotated lichen genomes	lasallia.papulosa.1
+lasallia.pustulata.7_tyr318		Newly-annotated lichen genomes	lasallia.pustulata.7
+umbilicaria.spodochroa.1_tyr820		Newly-annotated lichen genomes	umbilicaria.spodochroa.1
+umbilicaria.spodochroa.2_tyr1539		Newly-annotated lichen genomes	umbilicaria.spodochroa.2
+daccio1_otherdc0103420	fam03	Gluck-Thaler and Vogan (2024)	daccio1
+orboli2_tyr8545	fam03	Gluck-Thaler and Vogan (2024)	orboli2
+orboli2_TGJ70084.1	fam03	Gluck-Thaler and Vogan (2024)	orboli2
+coniocarpon.cinnabarinum.1_tyr1072		Newly-annotated lichen genomes	coniocarpon.cinnabarinum.1
+coniocarpon.cinnabarinum.2_tyr2144		Newly-annotated lichen genomes	coniocarpon.cinnabarinum.2
+zymtri5_SMR62249.1	fam03	Gluck-Thaler and Vogan (2024)	zymtri5
+aspfis5_tyr1178	fam03	Gluck-Thaler and Vogan (2024)	aspfis5
+aspcro1_tyr1048	fam03	Gluck-Thaler and Vogan (2024)	aspcro1
+aspind3_tyr1556	fam03	Gluck-Thaler and Vogan (2024)	aspind3
+aspgla1_OJJ87743.1	fam03	Gluck-Thaler and Vogan (2024)	aspgla1
+penfla1_2705	fam03	Gluck-Thaler and Vogan (2024)	penfla1
+emmcre2_KKZ67376.1	fam03	Gluck-Thaler and Vogan (2024)	emmcre2
+hiscap4_QSS56076.1	fam03	Gluck-Thaler and Vogan (2024)	hiscap4
+penfla1_tyr8805	fam03	Gluck-Thaler and Vogan (2024)	penfla1
+lambiella.insularis.1_tyr164		Newly-annotated lichen genomes	lambiella.insularis.1
+acarospora.sp..1_tyr498		Newly-annotated lichen genomes	acarospora.sp..1
+schaereria.dolodes.1_tyr788		Newly-annotated lichen genomes	schaereria.dolodes.1
+muellerella.sp..1_tyr1325		Newly-annotated lichen genomes	muellerella.sp..1
+lambiella.insularis.1_tyr2656		Newly-annotated lichen genomes	lambiella.insularis.1
+hetspe1_CAF9941352.1	clade01	Gluck-Thaler and Vogan (2024)	hetspe1
+polyblastidium.squamulosum.1_tyr1700		Newly-annotated lichen genomes	polyblastidium.squamulosum.1
+heterodermia.obscurata.1_tyr2316		Newly-annotated lichen genomes	heterodermia.obscurata.1
+heterodermia.speciosa.2_tyr3678		Newly-annotated lichen genomes	heterodermia.speciosa.2
+umbilicaria.spodochroa.4_tyr606		Newly-annotated lichen genomes	umbilicaria.spodochroa.4
+umbilicaria.deusta.4_tyr867		Newly-annotated lichen genomes	umbilicaria.deusta.4
+umbilicaria.hispanica.4_tyr2253		Newly-annotated lichen genomes	umbilicaria.hispanica.4
+umbilicaria.polyphylla.1_tyr3045		Newly-annotated lichen genomes	umbilicaria.polyphylla.1
+umbilicaria.iberica.2_tyr3685		Newly-annotated lichen genomes	umbilicaria.iberica.2
+umbilicaria.crustulosa.1_tyr1415		Newly-annotated lichen genomes	umbilicaria.crustulosa.1
+umbilicaria.hispanica.4_tyr3652		Newly-annotated lichen genomes	umbilicaria.hispanica.4
+umbilicaria.grisea.2_tyr2585		Newly-annotated lichen genomes	umbilicaria.grisea.2
+umbilicaria.hispanica.2_tyr2692		Newly-annotated lichen genomes	umbilicaria.hispanica.2
+trapelia.coarctata.1_tyr1301		Newly-annotated lichen genomes	trapelia.coarctata.1
+icmadophila.ericetorum.1_tyr2978		Newly-annotated lichen genomes	icmadophila.ericetorum.1
+blaper1_675	fam03	Gluck-Thaler and Vogan (2024)	blaper1
+blaper1_5882	fam03	Gluck-Thaler and Vogan (2024)	blaper1
+blaper1_6736	fam03	Gluck-Thaler and Vogan (2024)	blaper1
+parlut1_5370	fam03	Gluck-Thaler and Vogan (2024)	parlut1
+cocpos5_KMM73308.1	fam03	Gluck-Thaler and Vogan (2024)	cocpos5
+blaper1_4528	fam03	Gluck-Thaler and Vogan (2024)	blaper1
+wilmik1_113864	fam03	Gluck-Thaler and Vogan (2024)	wilmik1
+tubmag1_tyr10581	clade01	Gluck-Thaler and Vogan (2024)	tubmag1
+choven1_786032	clade01	Gluck-Thaler and Vogan (2024)	choven1
+trihyb1_897299	clade01	Gluck-Thaler and Vogan (2024)	trihyb1
+Starship-1_Mimp-Captain	clade01	Gluck-Thaler and Vogan (2024)	
+Starship-1_Ooli-Captain	clade01	Gluck-Thaler and Vogan (2024)	
+porpidia.macrocarpa.1_tyr3690		Newly-annotated lichen genomes	porpidia.macrocarpa.1
+placynthium.petersii.1_tyr3666		Newly-annotated lichen genomes	placynthium.petersii.1
+coniocarpon.cinnabarinum.2_tyr1581		Newly-annotated lichen genomes	coniocarpon.cinnabarinum.2
+icmadophila.ericetorum.1_tyr1705		Newly-annotated lichen genomes	icmadophila.ericetorum.1
+ptychographa.xylographoides.1_tyr2152		Newly-annotated lichen genomes	ptychographa.xylographoides.1
+botacl1_KAF7955521.1	fam01	Gluck-Thaler and Vogan (2024)	botacl1
+psesp.4_tyr9585	fam01	Gluck-Thaler and Vogan (2024)	psesp.4
+psedes1_tyr9258	fam01	Gluck-Thaler and Vogan (2024)	psedes1
+circinaria.calcarea.1_tyr556		Newly-annotated lichen genomes	circinaria.calcarea.1
+monfru1_KAA8565543.1	fam01	Gluck-Thaler and Vogan (2024)	monfru1
+rutsp.2_PQE09269.1	fam01	Gluck-Thaler and Vogan (2024)	rutsp.2
+sclcep1_KAF7865656.1	fam01	Gluck-Thaler and Vogan (2024)	sclcep1
+rutsp.1_PQE28656.1	fam01	Gluck-Thaler and Vogan (2024)	rutsp.1
+xylographa.soralifera.1_tyr1475		Newly-annotated lichen genomes	xylographa.soralifera.1
+phamin1_EOO01307.1	fam01	Gluck-Thaler and Vogan (2024)	phamin1
+metrob3_EFZ00634.1	fam01	Gluck-Thaler and Vogan (2024)	metrob3
+hirmin1_5623	fam01	Gluck-Thaler and Vogan (2024)	hirmin1
+metani1_5588	fam01	Gluck-Thaler and Vogan (2024)	metani1
+stachl1_3593	fam01	Gluck-Thaler and Vogan (2024)	stachl1
+peltigera.hydrothyria.1_tyr3337		Newly-annotated lichen genomes	peltigera.hydrothyria.1
+lecanora.atra.1_tyr1534		Newly-annotated lichen genomes	lecanora.atra.1
+monfru1_KAA8574662.1	fam01	Gluck-Thaler and Vogan (2024)	monfru1
+umbilicaria.spodochroa.2_tyr3569		Newly-annotated lichen genomes	umbilicaria.spodochroa.2
+solorina.crocea.1_tyr419		Newly-annotated lichen genomes	solorina.crocea.1
+acarospora.sp..1_tyr2916		Newly-annotated lichen genomes	acarospora.sp..1
+monlax1_KAB8302114.1	fam01	Gluck-Thaler and Vogan (2024)	monlax1
+scylig1_RFU28318.1	fam01	Gluck-Thaler and Vogan (2024)	scylig1
+psesp.15_KFY65136.1	fam01	Gluck-Thaler and Vogan (2024)	psesp.15
+fuscom2_tyr5400	fam01	Gluck-Thaler and Vogan (2024)	fuscom2
+fusxyl4_KAG5801712.1	fam01	Gluck-Thaler and Vogan (2024)	fusxyl4
+fusoxy42_ENH71189.1	fam01	Gluck-Thaler and Vogan (2024)	fusoxy42
+fuscir3_tyr5364	fam01	Gluck-Thaler and Vogan (2024)	fuscir3
+fusalb2_tyr5195	fam01	Gluck-Thaler and Vogan (2024)	fusalb2
+moncan1_RYO82366.1	fam01	Gluck-Thaler and Vogan (2024)	moncan1
+fusvan1_EEU40131.1	fam01	Gluck-Thaler and Vogan (2024)	fusvan1
+metgui1_4539	fam01	Gluck-Thaler and Vogan (2024)	metgui1
+coltof2_tyr4412	fam01	Gluck-Thaler and Vogan (2024)	coltof2
+kredeu2_tyr7716	fam01	Gluck-Thaler and Vogan (2024)	kredeu2
+dalgra1_438190	fam01	Gluck-Thaler and Vogan (2024)	dalgra1
+crypar1_KAF3763523.1	fam01	Gluck-Thaler and Vogan (2024)	crypar1
+spoins1_661	fam01	Gluck-Thaler and Vogan (2024)	spoins1
+dimelaena.oreina.1_tyr177		Newly-annotated lichen genomes	dimelaena.oreina.1
+anzia.colpodes.1_tyr2549		Newly-annotated lichen genomes	anzia.colpodes.1
+rusear1_1273445	fam01	Gluck-Thaler and Vogan (2024)	rusear1
+hypsp.2_644004	fam01	Gluck-Thaler and Vogan (2024)	hypsp.2
+icmadophila.ericetorum.1_tyr1831		Newly-annotated lichen genomes	icmadophila.ericetorum.1
+caloplaca.ligustica.1_tyr3435		Newly-annotated lichen genomes	caloplaca.ligustica.1
+monsp.2_RYP22820.1	fam01	Gluck-Thaler and Vogan (2024)	monsp.2
+monsp.3_RYP20312.1	fam01	Gluck-Thaler and Vogan (2024)	monsp.3
+monsp.2_RYP34851.1	fam01	Gluck-Thaler and Vogan (2024)	monsp.2
+moncan1_tyr8276	fam01	Gluck-Thaler and Vogan (2024)	moncan1
+fusbur1_tyr5341	fam01	Gluck-Thaler and Vogan (2024)	fusbur1
+spoins1_7186	fam01	Gluck-Thaler and Vogan (2024)	spoins1
+fustri4_tyr6766	fam01	Gluck-Thaler and Vogan (2024)	fustri4
+fusgad1_KAF4947046.1	fam01	Gluck-Thaler and Vogan (2024)	fusgad1
+monibe1_RYO96122.1	fam01	Gluck-Thaler and Vogan (2024)	monibe1
+triham1_3351	fam01	Gluck-Thaler and Vogan (2024)	triham1
+triaru1_7814	fam01	Gluck-Thaler and Vogan (2024)	triaru1
+valmal3_tyr10655	fam01	Gluck-Thaler and Vogan (2024)	valmal3
+mictri1_377953	fam01	Gluck-Thaler and Vogan (2024)	mictri1
+fusoxy45_KAG7413195.1	fam01	Gluck-Thaler and Vogan (2024)	fusoxy45
+fusbra1_tyr5309	fam01	Gluck-Thaler and Vogan (2024)	fusbra1
+clorhi1_VUC06060.1	fam01	Gluck-Thaler and Vogan (2024)	clorhi1
+fusfus24_tyr5659	fam01	Gluck-Thaler and Vogan (2024)	fusfus24
+dalsp.1_361367	fam01	Gluck-Thaler and Vogan (2024)	dalsp.1
+dacmac1_34260	fam01	Gluck-Thaler and Vogan (2024)	dacmac1
+colsoj1_KAF6812414.1	fam01	Gluck-Thaler and Vogan (2024)	colsoj1
+crydep1_ODN97795.1	fam01	Gluck-Thaler and Vogan (2024)	crydep1
+golmag1_tyr7146	fam01	Gluck-Thaler and Vogan (2024)	golmag1
+leclec1_6749	fam01	Gluck-Thaler and Vogan (2024)	leclec1
+mictri1_300110	fam01	Gluck-Thaler and Vogan (2024)	mictri1
+micbol1_226188	fam01	Gluck-Thaler and Vogan (2024)	micbol1
+phlyctis.petraea.1_tyr3242		Newly-annotated lichen genomes	phlyctis.petraea.1
+fissurina.insidiosa.1_tyr235		Newly-annotated lichen genomes	fissurina.insidiosa.1
+stictis.urceolata.1_tyr4160		Newly-annotated lichen genomes	stictis.urceolata.1
+pertusaria.obruta.1_tyr2294		Newly-annotated lichen genomes	pertusaria.obruta.1
+pertusaria.ostiolata.1_tyr2776		Newly-annotated lichen genomes	pertusaria.ostiolata.1
+pertusaria.propinqua.1_tyr3578		Newly-annotated lichen genomes	pertusaria.propinqua.1
+cladonia.sp..5_tyr4013		Newly-annotated lichen genomes	cladonia.sp..5
+brigantiaea.leucoxantha.2_tyr4135		Newly-annotated lichen genomes	brigantiaea.leucoxantha.2
+umbilicaria.freyi.3_tyr815		Newly-annotated lichen genomes	umbilicaria.freyi.3
+parpol1_tyr8651	fam01	Gluck-Thaler and Vogan (2024)	parpol1
+lepsp.1_739939	fam01	Gluck-Thaler and Vogan (2024)	lepsp.1
+zalvar1_689006	fam01	Gluck-Thaler and Vogan (2024)	zalvar1
+lepsp.1_674126	fam01	Gluck-Thaler and Vogan (2024)	lepsp.1
+psedes1_5938	fam01	Gluck-Thaler and Vogan (2024)	psedes1
+psesp.13_KFX93134.1	fam01	Gluck-Thaler and Vogan (2024)	psesp.13
+psesp.13_tyr9350	fam01	Gluck-Thaler and Vogan (2024)	psesp.13
+parpol1_tyr8652	fam01	Gluck-Thaler and Vogan (2024)	parpol1
+rhesp.1_195900	fam01	Gluck-Thaler and Vogan (2024)	rhesp.1
+parpol1_3559	fam01	Gluck-Thaler and Vogan (2024)	parpol1
+phisub1_tyr9118	fam01	Gluck-Thaler and Vogan (2024)	phisub1
+buellia.spuria.1_tyr2629		Newly-annotated lichen genomes	buellia.spuria.1
+buellia.spuria.2_tyr1802		Newly-annotated lichen genomes	buellia.spuria.2
+Phoenix_Mpha_mp053-Captain	fam01	Gluck-Thaler and Vogan (2024)	
+rhimac1_8905	fam01	Gluck-Thaler and Vogan (2024)	rhimac1
+chasp.7_RMZ87469.1	fam01	Gluck-Thaler and Vogan (2024)	chasp.7
+exooli1_134015	fam01	Gluck-Thaler and Vogan (2024)	exooli1
+zalvar1_685428	fam01	Gluck-Thaler and Vogan (2024)	zalvar1
+endocarpon.pusillum.2_tyr310		Newly-annotated lichen genomes	endocarpon.pusillum.2
+endocarpon.pusillum.1_tyr3655		Newly-annotated lichen genomes	endocarpon.pusillum.1
+peltigera.aphthosa.1_tyr3865		Newly-annotated lichen genomes	peltigera.aphthosa.1
+penrub2_KAF3021169.1	fam01	Gluck-Thaler and Vogan (2024)	penrub2
+aspasp2_tyr552	fam01	Gluck-Thaler and Vogan (2024)	aspasp2
+phyllopsora.corallina.1_tyr3776		Newly-annotated lichen genomes	phyllopsora.corallina.1
+neopar1_6999	fam01	Gluck-Thaler and Vogan (2024)	neopar1
+metrob3_tyr8212	fam01	Gluck-Thaler and Vogan (2024)	metrob3
+toloph1_tyr10453	fam01	Gluck-Thaler and Vogan (2024)	toloph1
+ilysp.2_681009	fam01	Gluck-Thaler and Vogan (2024)	ilysp.2
+beabas1_10225	fam01	Gluck-Thaler and Vogan (2024)	beabas1
+podcom1_tyr9194	fam01	Gluck-Thaler and Vogan (2024)	podcom1
+coniocarpon.cinnabarinum.1_tyr976		Newly-annotated lichen genomes	coniocarpon.cinnabarinum.1
+porpidia.albocaerulescens.1_tyr1306		Newly-annotated lichen genomes	porpidia.albocaerulescens.1
+botryolepraria.lesdainii.1_tyr4168		Newly-annotated lichen genomes	botryolepraria.lesdainii.1
+cetradonia.linearis.1_tyr2739		Newly-annotated lichen genomes	cetradonia.linearis.1
+xanthoria.sp..1_tyr4191		Newly-annotated lichen genomes	xanthoria.sp..1
+psora.crenata.1_tyr256		Newly-annotated lichen genomes	psora.crenata.1
+blaper1_5625	fam01	Gluck-Thaler and Vogan (2024)	blaper1
+seirophora.lacunosa.1_tyr3068		Newly-annotated lichen genomes	seirophora.lacunosa.1
+xylographa.bjoerkii.1_tyr1640		Newly-annotated lichen genomes	xylographa.bjoerkii.1
+pilophorus.fibula.1_tyr173		Newly-annotated lichen genomes	pilophorus.fibula.1
+mobergia.calculiformis.1_tyr3516		Newly-annotated lichen genomes	mobergia.calculiformis.1
+icmadophila.ericetorum.1_tyr3968		Newly-annotated lichen genomes	icmadophila.ericetorum.1
+porpidia.albocaerulescens.1_tyr3320		Newly-annotated lichen genomes	porpidia.albocaerulescens.1
+phaeophyscia.squarrosa.1_tyr3355		Newly-annotated lichen genomes	phaeophyscia.squarrosa.1
+lecanora.subimmergens.1_tyr3478		Newly-annotated lichen genomes	lecanora.subimmergens.1
+umbilicaria.subpolyphylla.1_tyr3558		Newly-annotated lichen genomes	umbilicaria.subpolyphylla.1
+placynthium.petersii.1_tyr162		Newly-annotated lichen genomes	placynthium.petersii.1
+rinodina.dolichospora.1_tyr1995		Newly-annotated lichen genomes	rinodina.dolichospora.1
+dermiscellum.oulocheilum.1_tyr1667		Newly-annotated lichen genomes	dermiscellum.oulocheilum.1
+xanthoparmelia.verrucella.1_tyr2858		Newly-annotated lichen genomes	xanthoparmelia.verrucella.1
+umbpus1_107339	fam01	Gluck-Thaler and Vogan (2024)	umbpus1
+lasallia.pustulata.7_tyr1579		Newly-annotated lichen genomes	lasallia.pustulata.7
+lasallia.pustulata.7_tyr3777		Newly-annotated lichen genomes	lasallia.pustulata.7
+umbilicaria.nylanderiana.1_tyr505		Newly-annotated lichen genomes	umbilicaria.nylanderiana.1
+bacgig1_KAG8531634.1	fam01	Gluck-Thaler and Vogan (2024)	bacgig1
+teloschistes.peruensis.1_tyr2827		Newly-annotated lichen genomes	teloschistes.peruensis.1
+leucodermia.leucomelos.1_tyr3140		Newly-annotated lichen genomes	leucodermia.leucomelos.1
+stereocaulon.dactylophyllum.1_tyr3223		Newly-annotated lichen genomes	stereocaulon.dactylophyllum.1
+phyllopsora.corallina.1_tyr703		Newly-annotated lichen genomes	phyllopsora.corallina.1
+lecidea.sp..1_tyr1019		Newly-annotated lichen genomes	lecidea.sp..1
+stereocaulon.alpinum.1_tyr67		Newly-annotated lichen genomes	stereocaulon.alpinum.1
+platismatia.glauca.3_tyr1645		Newly-annotated lichen genomes	platismatia.glauca.3
+stereocaulon.virgatum.1_tyr2063		Newly-annotated lichen genomes	stereocaulon.virgatum.1
+xylographa.parallela.1_tyr39		Newly-annotated lichen genomes	xylographa.parallela.1
+solorina.crocea.1_tyr2958		Newly-annotated lichen genomes	solorina.crocea.1
+rinodina.dolichospora.1_tyr3024		Newly-annotated lichen genomes	rinodina.dolichospora.1
+opegrapha.moroziana.1_tyr668		Newly-annotated lichen genomes	opegrapha.moroziana.1
+pertusaria.ostiolata.1_tyr2466		Newly-annotated lichen genomes	pertusaria.ostiolata.1
+umbilicaria.crustulosa.1_tyr1088		Newly-annotated lichen genomes	umbilicaria.crustulosa.1
+aspfis5_tyr1169	fam01	Gluck-Thaler and Vogan (2024)	aspfis5
+asphir2_tyr1512	fam01	Gluck-Thaler and Vogan (2024)	asphir2
+asplat1_tyr1608	fam01	Gluck-Thaler and Vogan (2024)	asplat1
+cladonia.squamosa.3_tyr3665		Newly-annotated lichen genomes	cladonia.squamosa.3
+blaper1_4705	fam01	Gluck-Thaler and Vogan (2024)	blaper1
+artunc1_KAF3492431.1	fam01	Gluck-Thaler and Vogan (2024)	artunc1
+blagil1_OAT07656.1	fam01	Gluck-Thaler and Vogan (2024)	blagil1
+parmin1_KAF9728395.1	fam01	Gluck-Thaler and Vogan (2024)	parmin1
+zoprhi1_KAF2179529.1	fam01	Gluck-Thaler and Vogan (2024)	zoprhi1
+zoprhi1_KAF2174473.1	fam01	Gluck-Thaler and Vogan (2024)	zoprhi1
+pyrtri10_PZD03750.1	fam01	Gluck-Thaler and Vogan (2024)	pyrtri10
+zwackhia.viridis.1_tyr611		Newly-annotated lichen genomes	zwackhia.viridis.1
+virvir1_581593	fam01	Gluck-Thaler and Vogan (2024)	virvir1
+friend1_TKA26544.1	clade01	Gluck-Thaler and Vogan (2024)	friend1
+teratosphaeriaceae.sp..1_tyr278		Newly-annotated lichen genomes	teratosphaeriaceae.sp..1
+zascel1_66988	clade01	Gluck-Thaler and Vogan (2024)	zascel1
+teratosphaeriaceae.sp..1_tyr2413		Newly-annotated lichen genomes	teratosphaeriaceae.sp..1
+mycosphaerellales.sp..1_tyr1726		Newly-annotated lichen genomes	mycosphaerellales.sp..1

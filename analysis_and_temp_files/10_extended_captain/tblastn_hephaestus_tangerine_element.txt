@@ -1,0 +1,81 @@
+TBLASTN 2.10.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: User specified sequence set (Input:
+data/data_shared_with_gluck-thaler_lab/Tangerine_elements.fna).
+           2 sequences; 186,946 total letters
+
+
+
+Query= HEPHAESTUS_Pvar-Captain
+
+Length=896
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+scaffold_s00008|-|Xanthoria parietina isolate glXanPari20             41.2       2e-05
+OZ2100_s00001|+|Xanthoria parietina isolate glXanPari1                41.2       2e-05
+
+
+> scaffold_s00008|-|Xanthoria parietina isolate glXanPari20
+Length=84884
+
+ Score = 41.2 bits (95),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 27/117 (23%), Positives = 54/117 (46%), Gaps = 0/117 (0%)
+ Frame = +2
+
+Query  379   GHYNFRRWAANEVNRNFTSQERQRVLGQSGDAVFERHYQSQFIGRDLQHVVLLRPPQEGL  438
+              H + R+ A   ++   +  +  ++LG      F++HYQS  +  D+Q   L    +  +
+Sbjct  1736  SHLDIRKEANVSLDAGVSQPQLLQILGHRKIETFQKHYQSTDMVVDVQATFLGFTSKSDI  1915
+
+Query  439   LRVAGSMLRKRDPLAPSELTDTLKRAICRHPEMLALKREKRELMAEMRSLAGTVKNA  495
+             ++  G +  ++DP  P  LT   K      PE+  L+R++  L   +R+    +K+ 
+Sbjct  1916  IKEIGKLCLRQDPNLPRSLTIDQKLQARNQPELQQLERQRNVLTQGLRAHFAKLKDG  2086
+
+
+> OZ2100_s00001|+|Xanthoria parietina isolate glXanPari1
+Length=102062
+
+ Score = 41.2 bits (95),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 27/117 (23%), Positives = 54/117 (46%), Gaps = 0/117 (0%)
+ Frame = +2
+
+Query  379   GHYNFRRWAANEVNRNFTSQERQRVLGQSGDAVFERHYQSQFIGRDLQHVVLLRPPQEGL  438
+              H + R+ A   ++   +  +  ++LG      F++HYQS  +  D+Q   L    +  +
+Sbjct  1736  SHLDIRKEANVSLDAGVSQPQLLQILGHRKIETFQKHYQSTDMVVDVQATFLGFTSKSDI  1915
+
+Query  439   LRVAGSMLRKRDPLAPSELTDTLKRAICRHPEMLALKREKRELMAEMRSLAGTVKNA  495
+             ++  G +  ++DP  P  LT   K      PE+  L+R++  L   +R+    +K+ 
+Sbjct  1916  IKEIGKLCLRQDPNLPRSLTIDQKLQARNQPELQQLERQRNVLTQGLRAHFAKLKDG  2086
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.136    0.422    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 51165087
+
+
+  Database: User specified sequence set (Input:
+data/data_shared_with_gluck-thaler_lab/Tangerine_elements.fna).
+    Posted date:  Unknown
+  Number of letters in database: 186,946
+  Number of sequences in database:  2
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 13
+Window for multiple hits: 40
