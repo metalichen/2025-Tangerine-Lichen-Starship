@@ -1,0 +1,381 @@
+IQ-TREE version 3.0.1 for Linux x86 64-bit built May  5 2025
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    nbrown43-4839155.0-e2464.chtc.wisc.edu (AVX2, FMA3, 251 GB RAM)
+Command: iqtree3 -s /staging/groups/gluckthaler_group/noah/Lichens/Tangerine_Manuscript/HGT/Clade_A_Plus_Outgroup_trimmed.mafft.clipkit -B 1000 -m MFP --alrt 1000 -nt 10 -st AA -pre Clade_A.phylo -mem 10G
+Seed:    395972 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sun Apr  5 22:04:46 2026
+Kernel:  AVX+FMA - 10 threads (64 CPU cores detected)
+
+Reading alignment file /staging/groups/gluckthaler_group/noah/Lichens/Tangerine_Manuscript/HGT/Clade_A_Plus_Outgroup_trimmed.mafft.clipkit ... Fasta format detected
+Reading fasta file: done in 0.000477269 secs using 63.28% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.000412486 secs using 695.3% CPU
+Alignment has 53 sequences with 408 columns, 406 distinct patterns
+381 parsimony-informative, 0 singleton sites, 27 constant sites
+                                       Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 2.52174e-05 secs using 95.17% CPU
+   1  cladophialophora.endolichena.1_tyr5      8.33%    passed     96.40%
+   2  cladophialophora.endolichena.1_tyr7      8.09%    passed     94.19%
+   3  endocarpon.pusillum.2_tyr109            12.75%    passed     99.85%
+   4  endocarpon.pusillum.3_tyr187            28.92%    passed     56.95%
+   5  dermiscellum.oulocheilum.1_tyr302       40.69%    passed     98.77%
+   6  endocarpon.pusillum.2_tyr350             9.07%    passed     99.44%
+   7  melanina.sp..2_tyr361                   37.50%    passed     78.29%
+   8  cladophialophora.sp..2_tyr403            3.19%    passed     99.56%
+   9  melanina.sp..1_tyr579                   39.22%    passed     99.43%
+  10  melanina.sp..2_tyr580                   37.50%    passed     78.29%
+  11  pseudosagedia.isidiata.1_tyr707         27.94%    passed     78.48%
+  12  chaetothyriales.sp..1_tyr954            30.88%    passed     86.33%
+  13  cladophialophora.endolichena.1_tyr969    8.09%    passed     97.96%
+  14  endocarpon.pusillum.3_tyr1094           40.20%    passed     71.76%
+  15  sticta.canariensis.1_tyr1098            16.42%    passed     97.75%
+  16  umbilicaria.spodochroa.3_tyr1175        20.34%    passed     97.51%
+  17  endocarpon.pusillum.2_tyr1208           10.78%    passed     99.94%
+  18  botryolepraria.lesdainii.1_tyr1357      42.65%    passed     95.19%
+  19  gyalecta.farlowii.1_tyr1367              9.56%    passed     80.32%
+  20  muellerella.sp..1_tyr1791                6.13%    passed     98.52%
+  21  endocarpon.pusillum.2_tyr1874           22.06%    passed     99.85%
+  22  gyalolechia.sp..2_tyr1934               34.07%    passed     93.08%
+  23  lambiella.insularis.1_tyr2208            2.70%    passed     99.77%
+  24  lambiella.insularis.1_tyr2292           25.00%    passed     98.55%
+  25  umbilicaria.spodochroa.4_tyr2480         7.60%    passed     98.21%
+  26  melanina.sp..2_tyr2558                   9.31%    passed     73.64%
+  27  umbilicaria.grisea.2_tyr2582             7.60%    passed     97.90%
+  28  gypsoplaca.macrophylla.1_tyr2626        12.01%    passed     99.47%
+  29  umbilicaria.mammulata.1_tyr2778         19.85%    passed     83.14%
+  30  umbilicaria.polyphylla.2_tyr2880        37.75%    passed     78.27%
+  31  umbilicaria.grisea.3_tyr2971             7.60%    passed     96.39%
+  32  rhizocarpon.geographicum.1_tyr3008      28.43%    passed     73.13%
+  33  cladophialophora.sp..1_tyr3153          31.86%    passed      8.90%
+  34  umbilicaria.grisea.1_tyr3321             7.60%    passed     96.39%
+  35  umbilicaria.spodochroa.1_tyr3402        20.34%    passed     97.51%
+  36  phlyctis.petraea.1_tyr3429              19.61%    passed     95.49%
+  37  chaetothyriales.sp..1_tyr3637           11.52%    passed     99.53%
+  38  umbilicaria.freyi.1_tyr3723             20.10%    passed     46.62%
+  39  cladophialophora.sp..2_tyr3779          11.76%    passed     95.65%
+  40  cladophialophora.sp..2_tyr3780          32.11%    passed     99.80%
+  41  melanina.sp..2_tyr4104                  37.50%    passed     78.29%
+  42  beabas1_10106                           16.67%    failed      2.71%
+  43  chasp.7_tyr3993                         21.81%    passed     67.87%
+  44  cypeur1_114146                          19.61%    passed     98.67%
+  45  colnym1_1013311                         53.92%    passed      5.63%
+  46  clapsa1_10577                            8.58%    passed     99.90%
+  47  clapsa1_9549                             7.60%    passed     99.14%
+  48  elagra1_tyr4783                         25.49%    passed     99.25%
+  49  elagra2_tyr4830                         25.49%    passed     99.25%
+  50  exospi1_9399                             8.58%    passed     88.49%
+  51  phachl1_5955                            17.65%    passed     43.77%
+  52  phachl1_4316                            13.24%    passed     66.53%
+  53  rhimac1_11078                            7.11%    passed     98.69%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                   20.20%  1 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: melanina.sp..2_tyr580 is identical to melanina.sp..2_tyr361 but kept for subsequent analysis
+NOTE: umbilicaria.spodochroa.1_tyr3402 is identical to umbilicaria.spodochroa.3_tyr1175 but kept for subsequent analysis
+NOTE: umbilicaria.grisea.1_tyr3321 is identical to umbilicaria.grisea.3_tyr2971 but kept for subsequent analysis
+NOTE: elagra2_tyr4830 is identical to elagra1_tyr4783 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.000167646 secs using 66.21% CPU
+Identifying sites to remove: done in 0.000348797 secs using 2587% CPU
+NOTE: 1 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: melanina.sp..2_tyr4104 (identical to melanina.sp..2_tyr361) is ignored but added at the end
+Alignment was printed to Clade_A.phylo.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to Clade_A.phylo.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.009 seconds
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Optimizing NNI: done in 0.221767 secs using 990.8% CPU
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -15144.663
+Optimal log-likelihood: -15144.557
+Proportion of invariable sites: 0.034
+Gamma shape alpha: 2.181
+Parameters optimization took 1 rounds (0.047 sec)
+Time for fast ML tree search: 0.451 seconds
+
+NOTE: ModelFinder requires 36 MB RAM!
+ModelFinder will test up to 1232 protein models (sample size: 408 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            15469.983    101 31141.966    31209.299    31547.104
+  2  LG+I          15387.174    102 30978.348    31047.240    31387.497
+  3  LG+G4         15159.007    102 30522.014    30590.906    30931.164
+  4  LG+I+G4       15144.564    103 30495.127    30565.601    30908.288
+  5  LG+R2         15200.474    103 30606.947    30677.421    31020.108
+  6  LG+R3         15158.275    105 30526.549    30600.258    30947.732
+  7  LG+R4         15155.781    107 30525.561    30602.601    30954.767
+ 14  LG+I+R2       15168.021    104 30544.042    30616.121    30961.214
+ 15  LG+I+R3       15142.113    106 30496.226    30571.588    30921.420
+ 16  LG+I+R4       15142.000    108 30500.001    30578.743    30933.217
+ 26  LG+F+I+G4     15128.691    122 30501.381    30606.687    30990.756
+ 48  WAG+I+G4      15121.737    103 30449.473    30519.947    30862.634
+ 70  WAG+F+I+G4    15088.239    122 30420.478    30525.784    30909.853
+ 92  JTT+I+G4      15060.169    103 30326.337    30396.811    30739.498
+114  JTT+F+I+G4    15048.106    122 30340.212    30445.517    30829.587
+136  Q.PFAM+I+G4   15128.090    103 30462.180    30532.654    30875.341
+158  Q.PFAM+F+I+G4 15111.683    122 30467.366    30572.672    30956.741
+180  Q.BIRD+I+G4   15198.920    103 30603.840    30674.313    31017.000
+202  Q.BIRD+F+I+G4 15192.767    122 30629.534    30734.839    31118.908
+224  Q.MAMMAL+I+G4 15134.626    103 30475.252    30545.726    30888.412
+246  Q.MAMMAL+F+I+G4 15117.285    122 30478.570    30583.875    30967.944
+268  Q.INSECT+I+G4 15194.444    103 30594.888    30665.361    31008.048
+290  Q.INSECT+F+I+G4 15150.846    122 30545.692    30650.997    31035.066
+312  Q.PLANT+I+G4  15126.237    103 30458.473    30528.947    30871.634
+334  Q.PLANT+F+I+G4 15102.997    122 30449.994    30555.299    30939.368
+356  Q.YEAST+I+G4  15260.207    103 30726.414    30796.888    31139.575
+378  Q.YEAST+F+I+G4 15165.002    122 30574.005    30679.310    31063.379
+400  JTTDCMUT+I+G4 15060.180    103 30326.360    30396.834    30739.521
+422  JTTDCMUT+F+I+G4 15049.994    122 30343.987    30449.292    30833.362
+444  DCMUT+I+G4    15359.988    103 30925.976    30996.450    31339.137
+466  DCMUT+F+I+G4  15292.273    122 30828.546    30933.851    31317.920
+488  VT+I+G4       15138.480    103 30482.959    30553.433    30896.120
+510  VT+F+I+G4     15120.310    122 30484.619    30589.925    30973.994
+532  PMB+I+G4      15305.526    103 30817.052    30887.526    31230.213
+554  PMB+F+I+G4    15293.692    122 30831.383    30936.688    31320.758
+576  BLOSUM62+I+G4 15316.413    103 30838.827    30909.300    31251.987
+598  BLOSUM62+F+I+G4 15297.076    122 30838.151    30943.457    31327.526
+620  DAYHOFF+I+G4  15358.772    103 30923.544    30994.018    31336.704
+642  DAYHOFF+F+I+G4 15291.387    122 30826.775    30932.080    31316.149
+664  MTREV+I+G4    16000.942    103 32207.883    32278.357    32621.044
+686  MTREV+F+I+G4  15309.811    122 30863.622    30968.927    31352.997
+708  MTART+I+G4    16528.589    103 33263.178    33333.652    33676.339
+730  MTART+F+I+G4  15791.242    122 31826.485    31931.790    32315.859
+752  MTZOA+I+G4    15995.083    103 32196.167    32266.640    32609.327
+774  MTZOA+F+I+G4  15473.574    122 31191.147    31296.452    31680.522
+796  MTMET+I+G4    15979.478    103 32164.955    32235.429    32578.116
+818  MTMET+F+I+G4  15276.293    122 30796.586    30901.891    31285.960
+840  MTVER+I+G4    16025.415    103 32256.830    32327.304    32669.991
+862  MTVER+F+I+G4  15383.646    122 31011.292    31116.597    31500.667
+884  MTINV+I+G4    16146.126    103 32498.253    32568.727    32911.413
+906  MTINV+F+I+G4  15247.696    122 30739.393    30844.698    31228.767
+928  MTMAM+I+G4    16303.370    103 32812.741    32883.215    33225.901
+950  MTMAM+F+I+G4  15611.958    122 31467.917    31573.222    31957.291
+972  FLAVI+I+G4    15602.532    103 31411.065    31481.539    31824.225
+994  FLAVI+F+I+G4  15555.573    122 31355.145    31460.450    31844.520
+1016  HIVB+I+G4     15238.535    103 30683.070    30753.544    31096.230
+1038  HIVB+F+I+G4   15251.533    122 30747.067    30852.372    31236.441
+1060  HIVW+I+G4     15752.019    103 31710.038    31780.511    32123.198
+1082  HIVW+F+I+G4   15518.857    122 31281.714    31387.020    31771.089
+1104  FLU+I+G4      15366.334    103 30938.668    31009.141    31351.828
+1126  FLU+F+I+G4    15279.105    122 30802.210    30907.515    31291.585
+1148  RTREV+I+G4    15309.248    103 30824.496    30894.970    31237.657
+1170  RTREV+F+I+G4  15233.211    122 30710.422    30815.727    31199.797
+1192  CPREV+I+G4    15152.079    103 30510.158    30580.632    30923.318
+1214  CPREV+F+I+G4  15137.903    122 30519.806    30625.111    31009.180
+Akaike Information Criterion:           JTT+I+G4
+Corrected Akaike Information Criterion: JTT+I+G4
+Bayesian Information Criterion:         JTT+I+G4
+Best-fit model: JTT+I+G4 chosen according to BIC
+
+All model information printed to Clade_A.phylo.model.gz
+CPU time for ModelFinder: 128.364 seconds (0h:2m:8s)
+Wall-clock time for ModelFinder: 12.981 seconds (0h:0m:12s)
+Generating 1000 samples for ultrafast bootstrap (seed: 395972)...
+
+NOTE: 15 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 2.182 / Estimate: 0.032, 2.402 / LogL: -15060.167
+Init pinv, alpha: 0.007, 2.182 / Estimate: 0.032, 2.402 / LogL: -15060.166
+Init pinv, alpha: 0.015, 2.182 / Estimate: 0.032, 2.398 / LogL: -15060.167
+Init pinv, alpha: 0.022, 2.182 / Estimate: 0.033, 2.400 / LogL: -15060.166
+Init pinv, alpha: 0.029, 2.182 / Estimate: 0.033, 2.393 / LogL: -15060.172
+Init pinv, alpha: 0.037, 2.182 / Estimate: 0.033, 2.406 / LogL: -15060.166
+Init pinv, alpha: 0.044, 2.182 / Estimate: 0.033, 2.406 / LogL: -15060.166
+Init pinv, alpha: 0.051, 2.182 / Estimate: 0.033, 2.406 / LogL: -15060.166
+Init pinv, alpha: 0.059, 2.182 / Estimate: 0.033, 2.405 / LogL: -15060.166
+Init pinv, alpha: 0.066, 2.182 / Estimate: 0.033, 2.406 / LogL: -15060.167
+Optimal pinv,alpha: 0.033, 2.406 / LogL: -15060.166
+
+Parameters optimization took 1.741 sec
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0236546 secs using 1008% CPU
+Computing ML distances took 0.023737 sec (of wall-clock time) 0.238414 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000127951 secs using 666.7% CPU
+Constructing RapidNJ tree: done in 0.000283294 secs using 456.8% CPU
+Computing RapidNJ tree took 0.000476 sec (of wall-clock time) 0.002247 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -15113.285
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.890 second
+Computing log-likelihood of 98 initial trees ... 1.928 seconds
+Current best score: -15060.166
+
+Do NNI search on 20 best initial trees
+Optimizing NNI: done in 0.100237 secs using 982.9% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -15060.165
+Optimizing NNI: done in 0.287342 secs using 989.7% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -15051.868
+Optimizing NNI: done in 0.31272 secs using 990.4% CPU
+Optimizing NNI: done in 0.309737 secs using 985.9% CPU
+Optimizing NNI: done in 0.308826 secs using 981.6% CPU
+Optimizing NNI: done in 0.380912 secs using 990.8% CPU
+Optimizing NNI: done in 0.330244 secs using 988.2% CPU
+Optimizing NNI: done in 0.330951 secs using 990.1% CPU
+Optimizing NNI: done in 0.323188 secs using 988.4% CPU
+Optimizing NNI: done in 0.386679 secs using 990.2% CPU
+Iteration 10 / LogL: -15064.200 / Time: 0h:0m:20s
+Optimizing NNI: done in 0.368316 secs using 988.3% CPU
+Optimizing NNI: done in 0.325661 secs using 988.3% CPU
+Optimizing NNI: done in 0.336362 secs using 992.3% CPU
+Optimizing NNI: done in 0.322483 secs using 991.2% CPU
+Optimizing NNI: done in 0.330369 secs using 989.2% CPU
+Optimizing NNI: done in 0.253179 secs using 990.4% CPU
+Optimizing NNI: done in 0.345888 secs using 989.8% CPU
+Optimizing NNI: done in 0.346983 secs using 990.2% CPU
+Optimizing NNI: done in 0.446305 secs using 988.9% CPU
+Optimizing NNI: done in 0.338848 secs using 989.4% CPU
+Iteration 20 / LogL: -15064.084 / Time: 0h:0m:24s
+Finish initializing candidate tree set (16)
+Current best tree score: -15051.868 / CPU time: 9.461
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 0.306716 secs using 992% CPU
+Optimizing NNI: done in 0.427285 secs using 989.6% CPU
+Optimizing NNI: done in 0.444333 secs using 988.7% CPU
+Optimizing NNI: done in 0.576396 secs using 988.7% CPU
+Optimizing NNI: done in 0.645883 secs using 989.4% CPU
+Optimizing NNI: done in 0.417475 secs using 990.3% CPU
+Optimizing NNI: done in 0.386907 secs using 989.9% CPU
+Optimizing NNI: done in 0.452779 secs using 989.1% CPU
+Optimizing NNI: done in 0.497762 secs using 988.3% CPU
+Optimizing NNI: done in 0.443728 secs using 989.4% CPU
+Iteration 30 / LogL: -15059.371 / Time: 0h:0m:28s (0h:0m:39s left)
+Optimizing NNI: done in 0.244615 secs using 989.2% CPU
+Optimizing NNI: done in 0.536201 secs using 988.9% CPU
+Optimizing NNI: done in 0.49149 secs using 990.4% CPU
+Optimizing NNI: done in 0.554739 secs using 989.1% CPU
+Optimizing NNI: done in 0.388671 secs using 991.3% CPU
+Optimizing NNI: done in 0.347785 secs using 990.2% CPU
+Optimizing NNI: done in 0.372892 secs using 988.2% CPU
+Optimizing NNI: done in 0.562943 secs using 989.7% CPU
+Optimizing NNI: done in 0.395352 secs using 989.6% CPU
+Optimizing NNI: done in 0.415451 secs using 988.1% CPU
+Iteration 40 / LogL: -15053.873 / Time: 0h:0m:33s (0h:0m:32s left)
+Optimizing NNI: done in 0.377108 secs using 989% CPU
+Optimizing NNI: done in 0.349941 secs using 989.3% CPU
+Optimizing NNI: done in 0.400703 secs using 988.6% CPU
+Optimizing NNI: done in 0.367406 secs using 988.2% CPU
+Optimizing NNI: done in 0.464157 secs using 989.3% CPU
+Optimizing NNI: done in 0.415495 secs using 988.5% CPU
+Optimizing NNI: done in 0.422971 secs using 987.3% CPU
+Optimizing NNI: done in 0.259818 secs using 989.5% CPU
+Optimizing NNI: done in 0.387552 secs using 986.7% CPU
+Optimizing NNI: done in 0.367397 secs using 988.8% CPU
+Iteration 50 / LogL: -15052.233 / Time: 0h:0m:37s (0h:0m:25s left)
+Log-likelihood cutoff on original alignment: -15089.425
+Optimizing NNI: done in 0.590526 secs using 990.6% CPU
+Optimizing NNI: done in 0.426424 secs using 988% CPU
+Optimizing NNI: done in 0.391731 secs using 989.6% CPU
+Optimizing NNI: done in 0.596594 secs using 990.1% CPU
+Optimizing NNI: done in 0.388024 secs using 989.8% CPU
+Optimizing NNI: done in 0.358426 secs using 990.8% CPU
+Optimizing NNI: done in 0.524322 secs using 990% CPU
+Optimizing NNI: done in 0.4569 secs using 987% CPU
+Optimizing NNI: done in 0.576045 secs using 992.2% CPU
+Optimizing NNI: done in 0.389564 secs using 992.5% CPU
+Iteration 60 / LogL: -15063.415 / Time: 0h:0m:42s (0h:0m:20s left)
+Optimizing NNI: done in 0.475269 secs using 993% CPU
+Optimizing NNI: done in 0.412509 secs using 990.6% CPU
+Optimizing NNI: done in 0.468707 secs using 992.9% CPU
+Optimizing NNI: done in 0.412668 secs using 990.6% CPU
+Optimizing NNI: done in 0.41044 secs using 992.8% CPU
+Optimizing NNI: done in 0.345318 secs using 989.8% CPU
+Optimizing NNI: done in 0.419904 secs using 983.4% CPU
+Optimizing NNI: done in 0.435298 secs using 990% CPU
+Optimizing NNI: done in 0.461172 secs using 992.3% CPU
+Optimizing NNI: done in 0.478502 secs using 993% CPU
+Iteration 70 / LogL: -15051.869 / Time: 0h:0m:46s (0h:0m:15s left)
+Optimizing NNI: done in 0.39123 secs using 992.1% CPU
+Optimizing NNI: done in 0.329085 secs using 992% CPU
+Optimizing NNI: done in 0.291707 secs using 990.8% CPU
+Optimizing NNI: done in 0.252197 secs using 991.2% CPU
+Optimizing NNI: done in 0.419604 secs using 990% CPU
+Optimizing NNI: done in 0.27152 secs using 991.3% CPU
+Optimizing NNI: done in 0.285011 secs using 991.6% CPU
+UPDATE BEST LOG-LIKELIHOOD: -15051.868
+Optimizing NNI: done in 0.357921 secs using 990.5% CPU
+Optimizing NNI: done in 0.331179 secs using 991.5% CPU
+Optimizing NNI: done in 0.336704 secs using 992.4% CPU
+Iteration 80 / LogL: -15102.459 / Time: 0h:0m:49s (0h:0m:10s left)
+Optimizing NNI: done in 0.415692 secs using 989.6% CPU
+Optimizing NNI: done in 0.275586 secs using 992.2% CPU
+Optimizing NNI: done in 0.40202 secs using 988.7% CPU
+Optimizing NNI: done in 0.366365 secs using 988.7% CPU
+Optimizing NNI: done in 0.344375 secs using 992% CPU
+Optimizing NNI: done in 0.381336 secs using 990.5% CPU
+Optimizing NNI: done in 0.415121 secs using 991.1% CPU
+Optimizing NNI: done in 0.430071 secs using 989.6% CPU
+Optimizing NNI: done in 0.40235 secs using 990.5% CPU
+Optimizing NNI: done in 0.33087 secs using 991.6% CPU
+Iteration 90 / LogL: -15051.870 / Time: 0h:0m:53s (0h:0m:5s left)
+Optimizing NNI: done in 0.447055 secs using 990.5% CPU
+Optimizing NNI: done in 0.392643 secs using 992.7% CPU
+Optimizing NNI: done in 0.402834 secs using 991.6% CPU
+Optimizing NNI: done in 0.397632 secs using 992.5% CPU
+Optimizing NNI: done in 0.491744 secs using 992.6% CPU
+Optimizing NNI: done in 0.4235 secs using 989.5% CPU
+Optimizing NNI: done in 0.360636 secs using 992.5% CPU
+Optimizing NNI: done in 0.468052 secs using 991.6% CPU
+Optimizing NNI: done in 0.416784 secs using 990.4% CPU
+Optimizing NNI: done in 0.500564 secs using 992.3% CPU
+Iteration 100 / LogL: -15059.978 / Time: 0h:0m:58s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -15089.425
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.998
+Optimizing NNI: done in 0.475754 secs using 990% CPU
+Optimizing NNI: done in 0.409835 secs using 990.7% CPU
+Optimizing NNI: done in 0.497354 secs using 989.2% CPU
+TREE SEARCH COMPLETED AFTER 103 ITERATIONS / Time: 0h:0m:59s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -15051.868
+Optimal log-likelihood: -15051.867
+Proportion of invariable sites: 0.033
+Gamma shape alpha: 2.342
+Parameters optimization took 1 rounds (0.045 sec)
+BEST SCORE FOUND : -15051.867
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.118 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file Clade_A.phylo.splits.nex
+Total tree length: 14.417
+
+Total number of iterations: 103
+CPU time used for tree search: 433.120 sec (0h:7m:13s)
+Wall-clock time used for tree search: 44.761 sec (0h:0m:44s)
+Total CPU time used: 581.938 sec (0h:9m:41s)
+Total wall-clock time used: 59.889 sec (0h:0m:59s)
+
+Computing bootstrap consensus tree...
+Reading input file Clade_A.phylo.splits.nex...
+52 taxa and 332 splits.
+Consensus tree written to Clade_A.phylo.contree
+Reading input trees file Clade_A.phylo.contree
+Log-likelihood of consensus tree: -15052.249
+
+Analysis results written to: 
+  IQ-TREE report:                Clade_A.phylo.iqtree
+  Maximum-likelihood tree:       Clade_A.phylo.treefile
+  Likelihood distances:          Clade_A.phylo.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          Clade_A.phylo.splits.nex
+  Consensus tree:                Clade_A.phylo.contree
+  Screen log file:               Clade_A.phylo.log
+
+Date and Time: Sun Apr  5 22:05:46 2026

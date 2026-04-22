@@ -1,0 +1,414 @@
+IQ-TREE 3.0.1 built May  5 2025
+
+Input file name: /staging/groups/gluckthaler_group/noah/Lichens/Tangerine_Manuscript/HGT/Clade_A_Plus_Outgroup_trimmed.mafft.clipkit
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 395972
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Please also cite the following paper(s) for the feature(s) that you used:
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 53 sequences with 408 amino-acid sites
+Number of constant sites: 27 (= 6.61765% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 27 (= 6.61765% of all sites)
+Number of parsimony informative sites: 381
+Number of distinct site patterns: 406
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: JTT+I+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+JTT+I+G4         -15060.169   30326.337 +    0.503   30396.811 +    0.503   30739.498 +    0.503
+JTTDCMUT+I+G4    -15060.180   30326.360 +    0.497   30396.834 +    0.497   30739.521 +    0.497
+JTT+F+I+G4       -15048.106   30340.212 - 0.000488   30445.517 - 1.33e-11   30829.587 - 1.38e-20
+JTTDCMUT+F+I+G4  -15049.994   30343.987 - 7.39e-05   30449.292 - 2.02e-12   30833.362 - 2.09e-21
+WAG+I+G4         -15121.737   30449.473 - 9.17e-28   30519.947 - 9.18e-28   30862.634 - 9.18e-28
+Q.PLANT+I+G4     -15126.237   30458.473 - 1.02e-29   30528.947 - 1.02e-29   30871.634 - 1.02e-29
+Q.PFAM+I+G4      -15128.090   30462.180 -  1.6e-30   30532.654 -  1.6e-30   30875.341 -  1.6e-30
+Q.MAMMAL+I+G4    -15134.626   30475.252 - 2.32e-33   30545.726 - 2.32e-33   30888.412 - 2.32e-33
+VT+I+G4          -15138.480   30482.959 - 4.91e-35   30553.433 - 4.91e-35   30896.120 - 4.91e-35
+LG+I+G4          -15144.564   30495.127 - 1.12e-37   30565.601 - 1.12e-37   30908.288 - 1.12e-37
+WAG+F+I+G4       -15088.239   30420.478 - 1.81e-21   30525.784 - 4.96e-29   30909.853 - 5.12e-38
+LG+I+R3          -15142.113   30496.226 - 6.46e-38   30571.588 - 5.61e-39   30921.420 - 1.58e-40
+CPREV+I+G4       -15152.079   30510.158 -  6.1e-41   30580.632 -  6.1e-41   30923.318 -  6.1e-41
+LG+G4            -15159.007   30522.014 - 1.62e-43   30590.906 - 3.58e-43   30931.164 - 1.21e-42
+LG+I+R4          -15142.000   30500.001 - 9.79e-39   30578.743 - 1.57e-40   30933.217 - 4.32e-43
+Q.PLANT+F+I+G4   -15102.997   30449.994 - 7.07e-28   30555.299 - 1.93e-35   30939.368 -    2e-44
+LG+R3            -15158.275   30526.549 - 1.68e-44   30600.258 - 3.34e-45   30947.732 - 3.05e-46
+LG+R4            -15155.781   30525.561 - 2.76e-44   30602.601 - 1.03e-45   30954.767 - 9.04e-48
+Q.PFAM+F+I+G4    -15111.683   30467.366 - 1.19e-31   30572.672 - 3.26e-39   30956.741 - 3.37e-48
+LG+I+R2          -15168.021   30544.042 - 2.67e-48   30616.121 -  1.2e-48   30961.214 -  3.6e-49
+Q.MAMMAL+F+I+G4  -15117.285   30478.570 - 4.41e-34   30583.875 - 1.21e-41   30967.944 - 1.24e-50
+VT+F+I+G4        -15120.310   30484.619 - 2.14e-35   30589.925 - 5.85e-43   30973.994 - 6.04e-52
+LG+F+I+G4        -15128.691   30501.381 - 4.91e-39   30606.687 - 1.34e-46   30990.756 - 1.38e-55
+Q.INSECT+I+G4    -15194.444   30594.888 - 2.43e-59   30665.361 - 2.43e-59   31008.048 - 2.43e-59
+CPREV+F+I+G4     -15137.903   30519.806 -  4.9e-43   30625.111 - 1.34e-50   31009.180 - 1.38e-59
+Q.BIRD+I+G4      -15198.920   30603.840 - 2.77e-61   30674.313 - 2.77e-61   31017.000 - 2.77e-61
+LG+R2            -15200.474   30606.947 - 5.85e-62   30677.421 - 5.86e-62   31020.108 - 5.86e-62
+Q.INSECT+F+I+G4  -15150.846   30545.692 - 1.17e-48   30650.997 -  3.2e-56   31035.066 - 3.31e-65
+Q.YEAST+F+I+G4   -15165.002   30574.005 - 8.34e-55   30679.310 - 2.28e-62   31063.379 - 2.35e-71
+HIVB+I+G4        -15238.535   30683.070 - 1.73e-78   30753.544 - 1.73e-78   31096.230 - 1.73e-78
+Q.BIRD+F+I+G4    -15192.767   30629.534 - 7.29e-67   30734.839 - 1.99e-74   31118.908 - 2.06e-83
+Q.YEAST+I+G4     -15260.207   30726.414 - 6.69e-88   30796.888 -  6.7e-88   31139.575 -  6.7e-88
+RTREV+F+I+G4     -15233.211   30710.422 - 1.99e-84   30815.727 - 5.43e-92   31199.797 - 5.61e-101
+MTINV+F+I+G4     -15247.696   30739.393 - 1.02e-90   30844.698 - 2.78e-98   31228.767 - 2.87e-107
+PMB+I+G4         -15305.526   30817.052 - 1.39e-107   30887.526 - 1.39e-107   31230.213 - 1.39e-107
+HIVB+F+I+G4      -15251.533   30747.067 - 2.19e-92   30852.372 - 5.99e-100   31236.441 - 6.19e-109
+RTREV+I+G4       -15309.248   30824.496 - 3.37e-109   30894.970 - 3.37e-109   31237.657 - 3.37e-109
+BLOSUM62+I+G4    -15316.413   30838.827 - 2.6e-112   30909.300 - 2.61e-112   31251.987 - 2.61e-112
+MTMET+F+I+G4     -15276.293   30796.586 - 3.87e-103   30901.891 - 1.06e-110   31285.960 - 1.09e-119
+FLU+F+I+G4       -15279.105   30802.210 - 2.33e-104   30907.515 - 6.36e-112   31291.585 - 6.57e-121
+DAYHOFF+F+I+G4   -15291.387   30826.775 - 1.08e-109   30932.080 - 2.95e-117   31316.149 - 3.04e-126
+DCMUT+F+I+G4     -15292.273   30828.546 - 4.45e-110   30933.851 - 1.22e-117   31317.920 - 1.25e-126
+PMB+F+I+G4       -15293.692   30831.383 - 1.08e-110   30936.688 - 2.94e-118   31320.758 - 3.04e-127
+BLOSUM62+F+I+G4  -15297.076   30838.151 - 3.65e-112   30943.457 - 9.97e-120   31327.526 - 1.03e-128
+DAYHOFF+I+G4     -15358.772   30923.544 - 1.05e-130   30994.018 - 1.05e-130   31336.704 - 1.05e-130
+DCMUT+I+G4       -15359.988   30925.976 - 3.1e-131   30996.450 - 3.1e-131   31339.137 - 3.1e-131
+FLU+I+G4         -15366.334   30938.668 - 5.44e-134   31009.141 - 5.44e-134   31351.828 - 5.44e-134
+MTREV+F+I+G4     -15309.811   30863.622 - 1.07e-117   30968.927 - 2.94e-125   31352.997 - 3.03e-134
+LG+I             -15387.174   30978.348 - 1.31e-142   31047.240 - 2.9e-142   31387.497 - 9.77e-142
+MTVER+F+I+G4     -15383.646   31011.292 - 9.23e-150   31116.597 - 2.52e-157   31500.667 - 2.6e-166
+LG               -15469.983   31141.966 - 3.89e-178   31209.299 - 1.87e-177   31547.104 - 2.15e-176
+MTZOA+F+I+G4     -15473.574   31191.147 - 8.13e-189   31296.452 - 2.22e-196   31680.522 - 2.29e-205
+HIVW+F+I+G4      -15518.857   31281.714 - 1.75e-208   31387.020 - 4.79e-216   31771.089 - 4.95e-225
+FLAVI+I+G4       -15602.532   31411.065 - 1.43e-236   31481.539 - 1.43e-236   31824.225 - 1.43e-236
+FLAVI+F+I+G4     -15555.573   31355.145 - 1.99e-224   31460.450 - 5.43e-232   31844.520 - 5.61e-241
+MTMAM+F+I+G4     -15611.958   31467.917 - 6.46e-249   31573.222 - 1.77e-256   31957.291 - 1.82e-265
+HIVW+I+G4        -15752.019   31710.038 - 1.72e-301   31780.511 - 1.72e-301   32123.198 - 1.72e-301
+MTART+F+I+G4     -15791.242   31826.485 -        0   31931.790 -        0   32315.859 -        0
+MTMET+I+G4       -15979.478   32164.955 -        0   32235.429 -        0   32578.116 -        0
+MTZOA+I+G4       -15995.083   32196.167 -        0   32266.640 -        0   32609.327 -        0
+MTREV+I+G4       -16000.942   32207.883 -        0   32278.357 -        0   32621.044 -        0
+MTVER+I+G4       -16025.415   32256.830 -        0   32327.304 -        0   32669.991 -        0
+MTINV+I+G4       -16146.126   32498.253 -        0   32568.727 -        0   32911.413 -        0
+MTMAM+I+G4       -16303.370   32812.741 -        0   32883.215 -        0   33225.901 -        0
+MTART+I+G4       -16528.589   33263.178 -        0   33333.652 -        0   33676.339 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: JTT+I+G4
+
+State frequencies: (model)
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.0326
+Gamma shape alpha: 2.3417
+
+ Category  Relative_rate  Proportion
+  0         0              0.0326
+  1         0.3421         0.2419
+  2         0.7102         0.2419
+  3         1.1129         0.2419
+  4         1.9697         0.2419
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -15051.8669 (s.e. 366.0787)
+Unconstrained log-likelihood (without tree): -2449.8244
+Number of free parameters (#branches + #model parameters): 103
+Akaike information criterion (AIC) score: 30309.7338
+Corrected Akaike information criterion (AICc) score: 30380.2075
+Bayesian information criterion (BIC) score: 30722.8943
+
+Total tree length (sum of branch lengths): 14.4173
+Sum of internal branch lengths: 4.4355 (30.7651% of tree length)
+
+WARNING: 2 near-zero internal branches (<0.0025) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'cladophialophora.endolichena.1_tyr5' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++--cladophialophora.endolichena.1_tyr5
+|
+|        +--cladophialophora.endolichena.1_tyr7
+|     +--| (99.5/100)
+|     |  +--cladophialophora.endolichena.1_tyr969
+|  +--| (65.4/91)
+|  |  |                                       +**endocarpon.pusillum.2_tyr109
+|  |  |                                    +--| (75.1/99)
+|  |  |                                    |  |  +--endocarpon.pusillum.2_tyr1208
+|  |  |                                    |  +--| (76/100)
+|  |  |                                    |     +--gypsoplaca.macrophylla.1_tyr2626
+|  |  |                                 +--| (84.2/98)
+|  |  |                                 |  +--endocarpon.pusillum.2_tyr1874
+|  |  |                              +--| (99.6/100)
+|  |  |                              |  +--gyalolechia.sp..2_tyr1934
+|  |  |                           +--| (19.2/70)
+|  |  |                           |  +--sticta.canariensis.1_tyr1098
+|  |  |                        +--| (99.5/100)
+|  |  |                        |  |  +--endocarpon.pusillum.3_tyr187
+|  |  |                        |  +--| (100/100)
+|  |  |                        |     +--endocarpon.pusillum.2_tyr350
+|  |  |                     +--| (96.8/89)
+|  |  |                     |  |     +-----dermiscellum.oulocheilum.1_tyr302
+|  |  |                     |  |  +--| (54.5/82)
+|  |  |                     |  |  |  +------------endocarpon.pusillum.3_tyr1094
+|  |  |                     |  +--| (96.8/90)
+|  |  |                     |     +--cypeur1_114146
+|  |  |                  +--| (90.7/41)
+|  |  |                  |  |        +---------------pseudosagedia.isidiata.1_tyr707
+|  |  |                  |  |     +--| (88.2/60)
+|  |  |                  |  |     |  |        +--gyalecta.farlowii.1_tyr1367
+|  |  |                  |  |     |  |     +--| (34.8/89)
+|  |  |                  |  |     |  |     |  +--umbilicaria.mammulata.1_tyr2778
+|  |  |                  |  |     |  |  +--| (95.1/100)
+|  |  |                  |  |     |  |  |  +--phlyctis.petraea.1_tyr3429
+|  |  |                  |  |     |  +--| (68.6/96)
+|  |  |                  |  |     |     +--------umbilicaria.polyphylla.2_tyr2880
+|  |  |                  |  |  +--| (52.9/13)
+|  |  |                  |  |  |  +------------rhizocarpon.geographicum.1_tyr3008
+|  |  |                  |  +--| (87.2/10)
+|  |  |                  |     |              +-------------------------beabas1_10106
+|  |  |                  |     |       +------| (93.4/97)
+|  |  |                  |     |       |      +------------colnym1_1013311
+|  |  |                  |     |  +----| (97.7/65)
+|  |  |                  |     |  |    +-----------------phachl1_5955
+|  |  |                  |     +--| (92.6/31)
+|  |  |                  |        |  +-----clapsa1_10577
+|  |  |                  |        +--| (86.3/61)
+|  |  |                  |           +---------------phachl1_4316
+|  |  |               +--| (92.4/49)
+|  |  |               |  |        +--melanina.sp..1_tyr579
+|  |  |               |  |     +--| (99.9/100)
+|  |  |               |  |     |  |  +---cladophialophora.sp..2_tyr3779
+|  |  |               |  |     |  +--| (78.1/98)
+|  |  |               |  |     |     +---exospi1_9399
+|  |  |               |  |  +--| (37.6/76)
+|  |  |               |  |  |  +---muellerella.sp..1_tyr1791
+|  |  |               |  +--| (99.9/100)
+|  |  |               |     |        +--chaetothyriales.sp..1_tyr954
+|  |  |               |     |     +--| (96.9/100)
+|  |  |               |     |     |  +--chaetothyriales.sp..1_tyr3637
+|  |  |               |     |  +--| (66.5/69)
+|  |  |               |     |  |  +----botryolepraria.lesdainii.1_tyr1357
+|  |  |               |     +--| (67.2/82)
+|  |  |               |        |           +**umbilicaria.spodochroa.3_tyr1175
+|  |  |               |        |        +--| (99.4/100)
+|  |  |               |        |        |  +**umbilicaria.spodochroa.1_tyr3402
+|  |  |               |        |     +**| (0/57)
+|  |  |               |        |     |  +--umbilicaria.spodochroa.4_tyr2480
+|  |  |               |        |  +--| (100/100)
+|  |  |               |        |  |  |  +--umbilicaria.grisea.2_tyr2582
+|  |  |               |        |  |  +--| (89/98)
+|  |  |               |        |  |     |  +**umbilicaria.grisea.3_tyr2971
+|  |  |               |        |  |     +**| (0/50)
+|  |  |               |        |  |        +**umbilicaria.grisea.1_tyr3321
+|  |  |               |        +--| (78/76)
+|  |  |               |           |  +--lambiella.insularis.1_tyr2292
+|  |  |               |           +--| (99.5/100)
+|  |  |               |              +--cladophialophora.sp..2_tyr3780
+|  |  |           +---| (99.4/100)
+|  |  |           |   |                       +**melanina.sp..2_tyr361
+|  |  |           |   |                    +--| (88.2/100)
+|  |  |           |   |                    |  +**melanina.sp..2_tyr580
+|  |  |           |   +--------------------| (100/100)
+|  |  |           |                        |  +--melanina.sp..2_tyr2558
+|  |  |           |                        +--| (75.4/96)
+|  |  |           |                           +--umbilicaria.freyi.1_tyr3723
+|  |  |        +--| (99.9/100)
+|  |  |        |  |  +**elagra1_tyr4783
+|  |  |        |  +--| (99.7/100)
+|  |  |        |     +**elagra2_tyr4830
+|  |  |     +--| (94.4/98)
+|  |  |     |  +--rhimac1_11078
+|  |  |  +--| (95.9/99)
+|  |  |  |  |  +-----cladophialophora.sp..1_tyr3153
+|  |  |  |  +--| (44.2/87)
+|  |  |  |     +---clapsa1_9549
+|  |  +--| (99.8/100)
+|  |     +--chasp.7_tyr3993
++--| (99.7/100)
+|  +--cladophialophora.sp..2_tyr403
+|
++--lambiella.insularis.1_tyr2208
+
+Tree in newick format:
+
+(cladophialophora.endolichena.1_tyr5:0.0776769207,(((cladophialophora.endolichena.1_tyr7:0.0083594717,cladophialophora.endolichena.1_tyr969:0.0027204887)99.5/100:0.0567736639,(((((((((((((endocarpon.pusillum.2_tyr109:0.0000010002,(endocarpon.pusillum.2_tyr1208:0.0058986692,gypsoplaca.macrophylla.1_tyr2626:0.0241957383)76/100:0.0029236269)75.1/99:0.0029066025,endocarpon.pusillum.2_tyr1874:0.0036191085)84.2/98:0.0123224802,gyalolechia.sp..2_tyr1934:0.0964724933)99.6/100:0.0805341248,sticta.canariensis.1_tyr1098:0.1091893186)19.2/70:0.0314207012,(endocarpon.pusillum.3_tyr187:0.0916479348,endocarpon.pusillum.2_tyr350:0.0101075175)100/100:0.1151773211)99.5/100:0.1077349189,((dermiscellum.oulocheilum.1_tyr302:0.3069288279,endocarpon.pusillum.3_tyr1094:0.6249417910)54.5/82:0.1072473334,cypeur1_114146:0.1537051699)96.8/90:0.0932604604)96.8/89:0.0592012058,(((pseudosagedia.isidiata.1_tyr707:0.7849782855,(((gyalecta.farlowii.1_tyr1367:0.0042809079,umbilicaria.mammulata.1_tyr2778:0.1075887699)34.8/89:0.0025297517,phlyctis.petraea.1_tyr3429:0.0170246019)95.1/100:0.0784017895,umbilicaria.polyphylla.2_tyr2880:0.4420955631)68.6/96:0.0616541943)88.2/60:0.0659707456,rhizocarpon.geographicum.1_tyr3008:0.6263868340)52.9/13:0.0465096930,(((beabas1_10106:1.2884425844,colnym1_1013311:0.6421381857)93.4/97:0.3402965073,phachl1_5955:0.8734950955)97.7/65:0.2870809893,(clapsa1_10577:0.3033399104,phachl1_4316:0.7815967995)86.3/61:0.0781963225)92.6/31:0.0990469815)87.2/10:0.0349488806)90.7/41:0.0562383930,(((melanina.sp..1_tyr579:0.0876153495,(cladophialophora.sp..2_tyr3779:0.2106462380,exospi1_9399:0.2286976224)78.1/98:0.0256849262)99.9/100:0.1868301255,muellerella.sp..1_tyr1791:0.2056673831)37.6/76:0.0311083985,(((chaetothyriales.sp..1_tyr954:0.1329039892,chaetothyriales.sp..1_tyr3637:0.0314948875)96.9/100:0.0614089973,botryolepraria.lesdainii.1_tyr1357:0.2446263157)66.5/69:0.0231887831,((((umbilicaria.spodochroa.3_tyr1175:0.0000010002,umbilicaria.spodochroa.1_tyr3402:0.0000010002)99.4/100:0.0263594748,umbilicaria.spodochroa.4_tyr2480:0.0054295645)0/57:0.0000022760,(umbilicaria.grisea.2_tyr2582:0.0053180462,(umbilicaria.grisea.3_tyr2971:0.0000010002,umbilicaria.grisea.1_tyr3321:0.0000010002)0/50:0.0000010002)89/98:0.0052331436)100/100:0.1155023934,(lambiella.insularis.1_tyr2292:0.0763487952,cladophialophora.sp..2_tyr3780:0.1065447909)99.5/100:0.0985404125)78/76:0.0241309383)67.2/82:0.0317668932)99.9/100:0.1519354421)92.4/49:0.1037773887,((melanina.sp..2_tyr361:0.0000010002,melanina.sp..2_tyr580:0.0000010002)88.2/100:0.0395991631,(melanina.sp..2_tyr2558:0.0102647858,umbilicaria.freyi.1_tyr3723:0.0538343757)75.4/96:0.0219981490)100/100:1.0416122880)99.4/100:0.2038700761,(elagra1_tyr4783:0.0000010002,elagra2_tyr4830:0.0000010002)99.7/100:0.1702374049)99.9/100:0.1550424591,rhimac1_11078:0.1349397938)94.4/98:0.0563309586,(cladophialophora.sp..1_tyr3153:0.3217685850,clapsa1_9549:0.2191506271)44.2/87:0.0248597299)95.9/99:0.0528817928,chasp.7_tyr3993:0.1340715012)99.8/100:0.1124498278)65.4/91:0.0345559726,cladophialophora.sp..2_tyr403:0.1411049267)99.7/100:0.0524211780,lambiella.insularis.1_tyr2208:0.0083646557);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -15052.248929
+Robinson-Foulds distance between ML tree and consensus tree: 4
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--cladophialophora.endolichena.1_tyr5
+|
+|        +--cladophialophora.endolichena.1_tyr7
+|     +--| (100)
+|     |  +--cladophialophora.endolichena.1_tyr969
+|  +--| (91)
+|  |  |                                          +--endocarpon.pusillum.2_tyr109
+|  |  |                                       +--| (99)
+|  |  |                                       |  |  +--endocarpon.pusillum.2_tyr1208
+|  |  |                                       |  +--| (100)
+|  |  |                                       |     +--gypsoplaca.macrophylla.1_tyr2626
+|  |  |                                    +--| (98)
+|  |  |                                    |  +--endocarpon.pusillum.2_tyr1874
+|  |  |                                 +--| (100)
+|  |  |                                 |  +--gyalolechia.sp..2_tyr1934
+|  |  |                              +--| (70)
+|  |  |                              |  +--sticta.canariensis.1_tyr1098
+|  |  |                           +--| (100)
+|  |  |                           |  |  +--endocarpon.pusillum.3_tyr187
+|  |  |                           |  +--| (100)
+|  |  |                           |     +--endocarpon.pusillum.2_tyr350
+|  |  |                        +--| (89)
+|  |  |                        |  |     +-----dermiscellum.oulocheilum.1_tyr302
+|  |  |                        |  |  +--| (82)
+|  |  |                        |  |  |  +-----------endocarpon.pusillum.3_tyr1094
+|  |  |                        |  +--| (90)
+|  |  |                        |     +--cypeur1_114146
+|  |  |                     +--| (15)
+|  |  |                     |  +------------rhizocarpon.geographicum.1_tyr3008
+|  |  |                  +--| (41)
+|  |  |                  |  |     +---------------pseudosagedia.isidiata.1_tyr707
+|  |  |                  |  |  +--| (60)
+|  |  |                  |  |  |  |        +--gyalecta.farlowii.1_tyr1367
+|  |  |                  |  |  |  |     +--| (89)
+|  |  |                  |  |  |  |     |  +--umbilicaria.mammulata.1_tyr2778
+|  |  |                  |  |  |  |  +--| (100)
+|  |  |                  |  |  |  |  |  +--phlyctis.petraea.1_tyr3429
+|  |  |                  |  |  |  +--| (96)
+|  |  |                  |  |  |     +--------umbilicaria.polyphylla.2_tyr2880
+|  |  |                  |  +--| (30)
+|  |  |                  |     |               +-------------------------beabas1_10106
+|  |  |                  |     |        +------| (97)
+|  |  |                  |     |        |      +------------colnym1_1013311
+|  |  |                  |     |  +-----| (65)
+|  |  |                  |     |  |     +----------------phachl1_5955
+|  |  |                  |     +--| (31)
+|  |  |                  |        |  +-----clapsa1_10577
+|  |  |                  |        +--| (61)
+|  |  |                  |           +---------------phachl1_4316
+|  |  |               +--| (49)
+|  |  |               |  |        +--melanina.sp..1_tyr579
+|  |  |               |  |     +--| (100)
+|  |  |               |  |     |  |  +---cladophialophora.sp..2_tyr3779
+|  |  |               |  |     |  +--| (98)
+|  |  |               |  |     |     +---exospi1_9399
+|  |  |               |  |  +--| (76)
+|  |  |               |  |  |  +---muellerella.sp..1_tyr1791
+|  |  |               |  +--| (100)
+|  |  |               |     |        +--chaetothyriales.sp..1_tyr954
+|  |  |               |     |     +--| (100)
+|  |  |               |     |     |  +--chaetothyriales.sp..1_tyr3637
+|  |  |               |     |  +--| (69)
+|  |  |               |     |  |  +----botryolepraria.lesdainii.1_tyr1357
+|  |  |               |     +--| (82)
+|  |  |               |        |           +--umbilicaria.spodochroa.3_tyr1175
+|  |  |               |        |        +--| (100)
+|  |  |               |        |        |  +--umbilicaria.spodochroa.1_tyr3402
+|  |  |               |        |     +--| (57)
+|  |  |               |        |     |  +--umbilicaria.spodochroa.4_tyr2480
+|  |  |               |        |  +--| (100)
+|  |  |               |        |  |  |  +--umbilicaria.grisea.2_tyr2582
+|  |  |               |        |  |  +--| (98)
+|  |  |               |        |  |     |  +--umbilicaria.grisea.3_tyr2971
+|  |  |               |        |  |     +--| (50)
+|  |  |               |        |  |        +--umbilicaria.grisea.1_tyr3321
+|  |  |               |        +--| (76)
+|  |  |               |           |  +--lambiella.insularis.1_tyr2292
+|  |  |               |           +--| (100)
+|  |  |               |              +--cladophialophora.sp..2_tyr3780
+|  |  |           +---| (100)
+|  |  |           |   |                          +**melanina.sp..2_tyr361
+|  |  |           |   |                       +--|
+|  |  |           |   |                       |  +**melanina.sp..2_tyr4104
+|  |  |           |   |                    +--| (100)
+|  |  |           |   |                    |  +--melanina.sp..2_tyr580
+|  |  |           |   +--------------------| (100)
+|  |  |           |                        |  +--melanina.sp..2_tyr2558
+|  |  |           |                        +--| (96)
+|  |  |           |                           +--umbilicaria.freyi.1_tyr3723
+|  |  |        +--| (100)
+|  |  |        |  |  +--elagra1_tyr4783
+|  |  |        |  +--| (100)
+|  |  |        |     +--elagra2_tyr4830
+|  |  |     +--| (98)
+|  |  |     |  +--rhimac1_11078
+|  |  |  +--| (99)
+|  |  |  |  |  +-----cladophialophora.sp..1_tyr3153
+|  |  |  |  +--| (87)
+|  |  |  |     +---clapsa1_9549
+|  |  +--| (100)
+|  |     +--chasp.7_tyr3993
++--| (100)
+|  +--cladophialophora.sp..2_tyr403
+|
++--lambiella.insularis.1_tyr2208
+
+
+Consensus tree in newick format: 
+
+(cladophialophora.endolichena.1_tyr5:0.0777246709,(((cladophialophora.endolichena.1_tyr7:0.0083660287,cladophialophora.endolichena.1_tyr969:0.0027236655)100:0.0568548962,((((((((((((((endocarpon.pusillum.2_tyr109:0.0000021985,(endocarpon.pusillum.2_tyr1208:0.0059009849,gypsoplaca.macrophylla.1_tyr2626:0.0242072242)100:0.0029237792)99:0.0029158956,endocarpon.pusillum.2_tyr1874:0.0036168252)98:0.0124314356,gyalolechia.sp..2_tyr1934:0.0964231206)100:0.0804753057,sticta.canariensis.1_tyr1098:0.1098003078)70:0.0299504666,(endocarpon.pusillum.3_tyr187:0.0918975790,endocarpon.pusillum.2_tyr350:0.0098190606)100:0.1173715024)100:0.1089741507,((dermiscellum.oulocheilum.1_tyr302:0.3100002132,endocarpon.pusillum.3_tyr1094:0.6260689621)82:0.1021669681,cypeur1_114146:0.1555122713)90:0.0936171804)89:0.0497083218,rhizocarpon.geographicum.1_tyr3008:0.6595432377)15:0.0175234429,((pseudosagedia.isidiata.1_tyr707:0.7816849339,(((gyalecta.farlowii.1_tyr1367:0.0041801290,umbilicaria.mammulata.1_tyr2778:0.1078680140)89:0.0025802580,phlyctis.petraea.1_tyr3429:0.0170232378)100:0.0782434590,umbilicaria.polyphylla.2_tyr2880:0.4428119060)96:0.0810448043)60:0.0787767365,(((beabas1_10106:1.2941484408,colnym1_1013311:0.6475727394)97:0.3432001859,phachl1_5955:0.8695374280)65:0.2984228798,(clapsa1_10577:0.3046660523,phachl1_4316:0.7830044885)61:0.0671528549)31:0.0988923506)30:0.0419050658)41:0.0559195807,(((melanina.sp..1_tyr579:0.0871366762,(cladophialophora.sp..2_tyr3779:0.2110451860,exospi1_9399:0.2288391855)98:0.0264605932)100:0.1866458479,muellerella.sp..1_tyr1791:0.2065953339)76:0.0296487926,(((chaetothyriales.sp..1_tyr954:0.1329128011,chaetothyriales.sp..1_tyr3637:0.0314362458)100:0.0625051934,botryolepraria.lesdainii.1_tyr1357:0.2441345961)69:0.0233493151,((((umbilicaria.spodochroa.3_tyr1175:0.0000021985,umbilicaria.spodochroa.1_tyr3402:0.0000021985)100:0.0263751462,umbilicaria.spodochroa.4_tyr2480:0.0054334697)57:0.0000021985,(umbilicaria.grisea.2_tyr2582:0.0053219611,(umbilicaria.grisea.3_tyr2971:0.0000021985,umbilicaria.grisea.1_tyr3321:0.0000021985)50:0.0000021985)98:0.0052371170)100:0.1153801377,(lambiella.insularis.1_tyr2292:0.0765102168,cladophialophora.sp..2_tyr3780:0.1065054613)100:0.0988074876)76:0.0233076144)82:0.0328397427)100:0.1552268634)49:0.1025275830,(((melanina.sp..2_tyr361:0.0000000000,melanina.sp..2_tyr4104:0.0000000000):0.0000021985,melanina.sp..2_tyr580:0.0000021985)100:0.0400457732,(melanina.sp..2_tyr2558:0.0102376564,umbilicaria.freyi.1_tyr3723:0.0539270876)96:0.0215708977)100:1.0442369722)100:0.2029082851,(elagra1_tyr4783:0.0000021985,elagra2_tyr4830:0.0000021985)100:0.1696724543)100:0.1555878649,rhimac1_11078:0.1353262908)98:0.0562119535,(cladophialophora.sp..1_tyr3153:0.3218250102,clapsa1_9549:0.2196200598)87:0.0247242011)99:0.0527457253,chasp.7_tyr3993:0.1341800042)100:0.1125716490)91:0.0345571354,cladophialophora.sp..2_tyr403:0.1411941745)100:0.0524596409,lambiella.insularis.1_tyr2208:0.0083717808);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t Clade_A.phylo.treefile -m "JTT+I{0.0325977}+G4{2.34165}" --length 408
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s /staging/groups/gluckthaler_group/noah/Lichens/Tangerine_Manuscript/HGT/Clade_A_Plus_Outgroup_trimmed.mafft.clipkit --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s /staging/groups/gluckthaler_group/noah/Lichens/Tangerine_Manuscript/HGT/Clade_A_Plus_Outgroup_trimmed.mafft.clipkit --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Sun Apr  5 22:05:46 2026
+Total CPU time used: 581.938457 seconds (0h:9m:41s)
+Total wall-clock time used: 60.04023185 seconds (0h:1m:0s)
+
