@@ -1,4 +1,5 @@
-# Tangerine: a Starship-like element in the genomes of Xanthoria lichen-forming fungi 
+# Tangerine: a new family of Starships from lichen-forming fungi 
+ 
 * Description of analysis associated with Tagirdzhanova et al. 2025
 
 ## Abstract
