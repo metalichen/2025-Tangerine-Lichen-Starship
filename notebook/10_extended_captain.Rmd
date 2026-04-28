@@ -49,6 +49,21 @@ itol2 %>% filter(!(name %in% tree_old$tip.label)) %>% filter(!grepl("Crypton",na
 
 ```
 
+* Prepared table for all the captains included in the new tree
+```{r,message=F}
+gff <- read.delim2("../analysis_and_temp_files/10_extended_captain/lichens.tyr.filt.gff",header=F) %>%
+  mutate(Name = gsub(".*Name=","",V9)) %>% rename(contig = V1, Start =V4, End = V5) %>% 
+  mutate(Genome = gsub("_.*","",Name)) %>%
+  select(Name,Genome,contig, Start, End)
+YR_df<- read.delim("../data/captains/YRsuperfamRefs.txt")
+
+df <- data.frame(Name=tree$tip.label) %>% left_join(gff) %>%
+  mutate(Source = ifelse(is.na(contig),"Gluck-Thaler and Vogan (2024)","Newly-annotated lichen genomes")) %>%
+  mutate(Note=ifelse(grepl("xanthoria.sp..2_tyr633",Name),"Representative for the cluster that included Tangerine captains from X.parietina",""))  %>%
+   left_join(YR_df %>% select(geneID,familyID),by=c("Name"="geneID"))
+
+write.table(df,"../results/large_tree_captains_metadata.csv",sep=",",quote = F, row.names = F, col.names=T,na="")
+```
 
 ## 2. Tangerine clade
 * Created annotation file showing the order level taxonomy
@@ -313,7 +328,6 @@ knitr::include_graphics("../analysis_and_temp_files/10_extended_captain/alntmsco
 * Prepare list of the captains used in this analysis for the supplementary
   * Angus took the set of representative lichen-derived captains that Noah sent him, and selected those with 203–999 residues, inclusive
 ```{r}
-YR_df<- read.delim("../data/captains/YRsuperfamRefs.txt")
 foldtree_df <- data.frame("Captain"=foldtree$tip.label) %>% left_join(YR_df,by=c("Captain"="geneID")) %>%
   select(Captain,familyID) %>%
   mutate(Source = case_when(!is.na(familyID) ~ "Gluck-Thaler and Vogan (2024)",
